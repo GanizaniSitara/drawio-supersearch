@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+{% block title %}{{ diagram.diagram_name }} - DrawIO Browser{% endblock %}
+
+{% block content %}
+<div class="breadcrumb">
+    <a href="/">Home</a>
+    <span>/</span>
+    <a href="/space/{{ diagram.space_key }}">{{ diagram.space_key }}</a>
+    <span>/</span>
+    <strong>{{ diagram.diagram_name }}</strong>
+</div>
+
+<div class="diagram-detail">
+    <div class="diagram-image-container">
+        <img src="/image/{{ diagram.space_key }}/{{ diagram.diagram_name }}.png"
+             alt="{{ diagram.diagram_name }}"
+             onerror="this.parentElement.innerHTML='<p style=\'color:#999;padding:50px;\'>Preview not available</p>'">
+    </div>
+    <div class="diagram-info">
+        <h1>{{ diagram.diagram_name }}</h1>
+
+        <div class="action-buttons">
+            <a href="/download/{{ diagram.space_key }}/{{ diagram.diagram_name }}.drawio"
+               class="action-btn action-btn-primary">
+                Download .drawio
+            </a>
+            <button onclick="editLocal('{{ diagram.space_key }}', '{{ diagram.diagram_name }}')"
+                    class="action-btn action-btn-outline">
+                Edit Local
+            </button>
+            <button onclick="editWeb('{{ diagram.space_key }}', '{{ diagram.diagram_name }}')"
+                    class="action-btn action-btn-secondary">
+                Edit in Browser
+            </button>
+        </div>
+
+        <div class="info-grid">
+            <div class="info-item">
+                <label>Space</label>
+                <value><a href="/space/{{ diagram.space_key }}">{{ diagram.space_key }}</a></value>
+            </div>
+            {% if diagram.page_title %}
+            <div class="info-item">
+                <label>Confluence Page</label>
+                <value>{{ diagram.page_title }}</value>
+            </div>
+            {% endif %}
+            {% if diagram.page_id %}
+            <div class="info-item">
+                <label>Page ID</label>
+                <value>{{ diagram.page_id }}</value>
+            </div>
+            {% endif %}
+            {% if diagram.author_display %}
+            <div class="info-item">
+                <label>Author</label>
+                <value>{{ diagram.author_display }}</value>
+            </div>
+            {% endif %}
+            {% if diagram.created_date %}
+            <div class="info-item">
+                <label>Created</label>
+                <value>{{ diagram.created_date }}</value>
+            </div>
+            {% endif %}
+            {% if diagram.file_size %}
+            <div class="info-item">
+                <label>File Size</label>
+                <value>{{ (diagram.file_size / 1024)|round(1) }} KB</value>
+            </div>
+            {% endif %}
+        </div>
+
+        {% if diagram.content_text %}
+        <div style="margin-top: 30px;">
+            <label style="display:block;font-size:0.85em;color:#7f8c8d;margin-bottom:8px;">Extracted Text Content</label>
+            <div style="background:#f8f9fa;padding:15px;border-radius:6px;font-size:0.9em;max-height:200px;overflow:auto;">
+                {{ diagram.content_text[:1000] }}{% if diagram.content_text|length > 1000 %}...{% endif %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<script>
+function editLocal(spaceKey, diagramName) {
+    // Download the .drawio file for local editing
+    // User can then open it with draw.io Desktop application
+    window.location.href = '/download/' + spaceKey + '/' + encodeURIComponent(diagramName) + '.drawio';
+
+    // Show helpful message
+    setTimeout(function() {
+        alert('File downloaded. Open it with draw.io Desktop to edit.\n\n' +
+              'Download draw.io Desktop from: https://github.com/jgraph/drawio-desktop/releases');
+    }, 500);
+}
+
+function editWeb(spaceKey, diagramName) {
+    // Open diagram in app.diagrams.net (draw.io web editor)
+    // Using the embed mode which allows loading external files
+
+    var fileUrl = window.location.origin + '/download/' + spaceKey + '/' +
+                  encodeURIComponent(diagramName) + '.drawio';
+
+    // draw.io web editor URL with file parameter
+    // Note: Due to CORS, this opens a new tab where user can import the file
+    var editorUrl = 'https://app.diagrams.net/?splash=0&ui=kennedy';
+
+    // Open the editor
+    var newWindow = window.open(editorUrl, '_blank');
+
+    // Show instructions
+    alert('draw.io editor opened in new tab.\n\n' +
+          'To load your diagram:\n' +
+          '1. In draw.io, go to File > Open from > URL\n' +
+          '2. Paste this URL: ' + fileUrl + '\n\n' +
+          'Or drag the downloaded file into the editor.');
+}
+</script>
+{% endblock %}

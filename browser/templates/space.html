@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}{{ space_key }} - DrawIO Browser{% endblock %}
+
+{% block content %}
+<div class="breadcrumb">
+    <a href="/">Home</a>
+    <span>/</span>
+    <strong>{{ space_key }}</strong>
+</div>
+
+<div class="search-bar">
+    <form action="/search" method="get">
+        <input type="hidden" name="space" value="{{ space_key }}">
+        <input type="text" name="q" placeholder="Search in {{ space_key }}...">
+        <button type="submit">Search</button>
+    </form>
+</div>
+
+<h2 style="margin-bottom: 5px; color: #2c3e50;">{{ space_key }}</h2>
+<p style="color: #7f8c8d; margin-bottom: 20px;">{{ total }} diagrams</p>
+
+<div class="grid">
+    {% for d in diagrams %}
+    <div class="card">
+        <a href="/diagram/{{ d.id }}">
+            <img class="card-image" src="/image/{{ d.space_key }}/{{ d.diagram_name }}.png"
+                 alt="{{ d.diagram_name }}"
+                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%23999%22>No Preview</text></svg>'">
+        </a>
+        <div class="card-body">
+            <div class="card-title">{{ d.diagram_name }}</div>
+            <div class="card-meta">
+                {% if d.page_title %}<span>Page: {{ d.page_title }}</span>{% endif %}
+                {% if d.author_display %}<span>By: {{ d.author_display }}</span>{% endif %}
+                {% if d.created_date %}<span>{{ d.created_date }}</span>{% endif %}
+            </div>
+            <div class="card-actions">
+                <a href="/diagram/{{ d.id }}" class="btn-view">View</a>
+                <a href="/download/{{ d.space_key }}/{{ d.diagram_name }}.drawio" class="btn-download">Download</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% if total_pages > 1 %}
+<div class="pagination">
+    {% if page > 1 %}
+    <a href="?page={{ page - 1 }}">&laquo; Prev</a>
+    {% endif %}
+
+    {% for p in range(1, total_pages + 1) %}
+        {% if p == page %}
+        <span class="active">{{ p }}</span>
+        {% elif p <= 3 or p > total_pages - 2 or (p >= page - 1 and p <= page + 1) %}
+        <a href="?page={{ p }}">{{ p }}</a>
+        {% elif p == 4 or p == total_pages - 2 %}
+        <span>...</span>
+        {% endif %}
+    {% endfor %}
+
+    {% if page < total_pages %}
+    <a href="?page={{ page + 1 }}">Next &raquo;</a>
+    {% endif %}
+</div>
+{% endif %}
+{% endblock %}

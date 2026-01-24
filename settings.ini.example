@@ -1,0 +1,33 @@
+[Confluence]
+# Confluence Data Center URL
+url = https://confluence.yourcompany.com
+# Service account or user credentials
+username = your_username
+password = your_password
+# Optional: Specific spaces to extract (comma-separated)
+# Leave empty to extract ALL spaces
+spaces =
+
+[Local]
+# Directory to store extracted content
+content_directory = ./data/content
+# Database file path
+database_path = ./data/diagrams.db
+# Whoosh index directory
+index_directory = ./data/whoosh_index
+
+[Browser]
+# Web server host (0.0.0.0 for all interfaces)
+host = 127.0.0.1
+# Web server port
+port = 5000
+# Debug mode (disable in production)
+debug = false
+
+[Extractor]
+# Rate limit: requests per second
+rate_limit = 5
+# Batch size for API calls
+batch_size = 50
+# Skip spaces starting with ~ (personal spaces)
+skip_personal_spaces = true

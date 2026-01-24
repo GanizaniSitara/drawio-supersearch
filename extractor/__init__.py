@@ -1,0 +1,1 @@
+# DrawIO Browser - Extractor Module

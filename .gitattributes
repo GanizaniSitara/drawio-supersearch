@@ -1,0 +1,4 @@
+demo_data/**/*.drawio filter=lfs diff=lfs merge=lfs -text
+demo_data/**/*.png filter=lfs diff=lfs merge=lfs -text
+demo_data/**/*.json filter=lfs diff=lfs merge=lfs -text
+demo_data/**/*.db filter=lfs diff=lfs merge=lfs -text

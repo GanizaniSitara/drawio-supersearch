@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% block title %}Search - DrawIO Browser{% endblock %}
+
+{% block content %}
+<div class="breadcrumb">
+    <a href="/">Home</a>
+    <span>/</span>
+    <strong>Search</strong>
+</div>
+
+<div class="search-bar">
+    <form action="/search" method="get">
+        <input type="text" name="q" value="{{ query }}" placeholder="Search diagrams by name, content, or author...">
+        <select name="space">
+            <option value="">All Spaces</option>
+            {% for s in spaces %}
+            <option value="{{ s.space_key }}" {% if space_filter == s.space_key %}selected{% endif %}>{{ s.space_key }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Search</button>
+    </form>
+</div>
+
+{% if error %}
+<div class="alert alert-warning">{{ error }}</div>
+{% endif %}
+
+{% if query %}
+<p style="color: #7f8c8d; margin-bottom: 20px;">
+    Found {{ total }} results for "{{ query }}"
+    {% if space_filter %}in {{ space_filter }}{% endif %}
+</p>
+{% endif %}
+
+{% if results %}
+<div class="grid">
+    {% for d in results %}
+    <div class="card">
+        <a href="/diagram/{{ d.id }}">
+            <img class="card-image" src="/image/{{ d.space_key }}/{{ d.diagram_name }}.png"
+                 alt="{{ d.diagram_name }}"
+                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%23999%22>No Preview</text></svg>'">
+        </a>
+        <div class="card-body">
+            <div class="card-title">{{ d.diagram_name }}</div>
+            <div class="card-meta">
+                <span>Space: <a href="/space/{{ d.space_key }}">{{ d.space_key }}</a></span>
+                {% if d.page_title %}<span>Page: {{ d.page_title }}</span>{% endif %}
+                {% if d.author_display %}<span>By: {{ d.author_display }}</span>{% endif %}
+            </div>
+            <div class="card-actions">
+                <a href="/diagram/{{ d.id }}" class="btn-view">View</a>
+                <a href="/download/{{ d.space_key }}/{{ d.diagram_name }}.drawio" class="btn-download">Download</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% if total_pages > 1 %}
+<div class="pagination">
+    {% if page > 1 %}
+    <a href="?q={{ query }}&space={{ space_filter }}&page={{ page - 1 }}">&laquo; Prev</a>
+    {% endif %}
+
+    {% for p in range(1, total_pages + 1) %}
+        {% if p == page %}
+        <span class="active">{{ p }}</span>
+        {% elif p <= 3 or p > total_pages - 2 or (p >= page - 1 and p <= page + 1) %}
+        <a href="?q={{ query }}&space={{ space_filter }}&page={{ p }}">{{ p }}</a>
+        {% elif p == 4 or p == total_pages - 2 %}
+        <span>...</span>
+        {% endif %}
+    {% endfor %}
+
+    {% if page < total_pages %}
+    <a href="?q={{ query }}&space={{ space_filter }}&page={{ page + 1 }}">Next &raquo;</a>
+    {% endif %}
+</div>
+{% endif %}
+
+{% elif query %}
+<div class="alert alert-info">No results found for "{{ query }}"</div>
+{% else %}
+<div class="alert alert-info">Enter a search term to find diagrams</div>
+{% endif %}
+{% endblock %}

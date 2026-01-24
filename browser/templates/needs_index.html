@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Index Required - DrawIO Browser{% endblock %}
+
+{% block content %}
+<div style="text-align:center;padding:50px 20px;">
+    <h1 style="color:#2c3e50;margin-bottom:20px;">Index Required</h1>
+    <p style="color:#7f8c8d;margin-bottom:30px;max-width:600px;margin-left:auto;margin-right:auto;">
+        The diagram database needs to be built before you can browse or search.
+        This is a one-time operation that scans all diagrams and extracts text content.
+    </p>
+    <a href="/build-index" style="display:inline-block;padding:15px 40px;background:#3498db;color:white;text-decoration:none;border-radius:6px;font-size:1.1em;">
+        Build Index
+    </a>
+    <p style="color:#95a5a6;margin-top:20px;font-size:0.9em;">
+        Or run from command line: <code>python scripts/index.py</code>
+    </p>
+</div>
+{% endblock %}
