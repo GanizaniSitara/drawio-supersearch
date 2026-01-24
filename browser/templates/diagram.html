@@ -20,6 +20,13 @@
         <h1>{{ diagram.diagram_name }}</h1>
 
         <div class="action-buttons">
+            {% if confluence_url and diagram.confluence_page_url %}
+            <a href="{{ confluence_url }}{{ diagram.confluence_page_url }}"
+               target="_blank"
+               class="action-btn action-btn-confluence">
+                View in Confluence
+            </a>
+            {% endif %}
             <a href="/download/{{ diagram.space_key }}/{{ diagram.diagram_name }}.drawio"
                class="action-btn action-btn-primary">
                 Download .drawio
