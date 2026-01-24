@@ -398,16 +398,54 @@ def diagram_view(diagram_id):
         'SELECT * FROM diagrams WHERE id = ?',
         (diagram_id,)
     ).fetchone()
-    conn.close()
 
     if not diagram:
+        conn.close()
         return "Diagram not found", 404
+
+    # Get prev/next diagrams within the same space for carousel navigation
+    space_key = diagram['space_key']
+    diagram_name = diagram['diagram_name']
+
+    # Previous diagram (alphabetically before current)
+    prev_diagram = conn.execute('''
+        SELECT id FROM diagrams
+        WHERE space_key = ? AND diagram_name < ?
+        ORDER BY diagram_name DESC
+        LIMIT 1
+    ''', (space_key, diagram_name)).fetchone()
+
+    # Next diagram (alphabetically after current)
+    next_diagram = conn.execute('''
+        SELECT id FROM diagrams
+        WHERE space_key = ? AND diagram_name > ?
+        ORDER BY diagram_name ASC
+        LIMIT 1
+    ''', (space_key, diagram_name)).fetchone()
+
+    # Get position info for display (e.g., "5 of 42")
+    position = conn.execute('''
+        SELECT COUNT(*) FROM diagrams
+        WHERE space_key = ? AND diagram_name <= ?
+    ''', (space_key, diagram_name)).fetchone()[0]
+
+    total_in_space = conn.execute('''
+        SELECT COUNT(*) FROM diagrams WHERE space_key = ?
+    ''', (space_key,)).fetchone()[0]
+
+    conn.close()
 
     # Get Confluence URL for "View in Confluence" button
     settings = get_settings()
     confluence_url = settings.get('confluence_url', '')
 
-    return render_template('diagram.html', diagram=diagram, confluence_url=confluence_url)
+    return render_template('diagram.html',
+                         diagram=diagram,
+                         confluence_url=confluence_url,
+                         prev_id=prev_diagram['id'] if prev_diagram else None,
+                         next_id=next_diagram['id'] if next_diagram else None,
+                         position=position,
+                         total_in_space=total_in_space)
 
 
 @app.route('/search')

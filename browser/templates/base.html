@@ -226,10 +226,56 @@
             padding: 20px;
             text-align: center;
             border-bottom: 1px solid #eee;
+            position: relative;
         }
         .diagram-image-container img {
             max-width: 100%;
             max-height: 600px;
+        }
+
+        /* Carousel navigation */
+        .carousel-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 50px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0,0,0,0.4);
+            color: white;
+            text-decoration: none;
+            transition: background 0.2s, opacity 0.2s;
+            opacity: 0.6;
+            z-index: 10;
+        }
+        .carousel-nav:hover {
+            background: rgba(0,0,0,0.7);
+            opacity: 1;
+        }
+        .carousel-prev {
+            left: 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .carousel-next {
+            right: 0;
+            border-radius: 8px 0 0 8px;
+        }
+        .carousel-arrow {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .carousel-position {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,0,0,0.6);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 0.85em;
         }
         .diagram-info { padding: 30px; }
         .diagram-info h1 { margin-bottom: 20px; color: #2c3e50; }
