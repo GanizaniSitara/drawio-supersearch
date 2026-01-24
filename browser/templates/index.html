@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}DrawIO Browser - Browse Spaces{% endblock %}
+
+{% block content %}
+<div class="search-bar">
+    <form action="/search" method="get">
+        <input type="text" name="q" placeholder="Search diagrams by name, content, or author...">
+        <button type="submit">Search</button>
+    </form>
+</div>
+
+<div class="stats">
+    <div class="stat-box">
+        <div class="stat-value">{{ total|default(0) }}</div>
+        <div class="stat-label">Total Diagrams</div>
+    </div>
+    <div class="stat-box">
+        <div class="stat-value">{{ spaces|length }}</div>
+        <div class="stat-label">Spaces</div>
+    </div>
+</div>
+
+<h2 style="margin-bottom: 20px; color: #2c3e50;">Browse by Space</h2>
+
+<div class="space-list">
+    {% for space in spaces %}
+    <a href="/space/{{ space.space_key }}" class="space-item">
+        <div class="space-key">{{ space.space_key }}</div>
+        <div class="space-count">{{ space.count }} diagrams</div>
+    </a>
+    {% endfor %}
+</div>
+{% endblock %}

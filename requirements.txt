@@ -1,0 +1,19 @@
+# DrawIO Browser - Python Dependencies
+
+# Web framework
+Flask>=2.0.0
+
+# Full-text search
+Whoosh>=2.7.4
+
+# XML parsing (optional - falls back to xml.etree if not available)
+lxml>=4.9.0
+
+# HTTP requests for Confluence API
+requests>=2.28.0
+
+# Suppress SSL warnings
+urllib3>=1.26.0
+
+# Production WSGI server (optional)
+gunicorn>=20.1.0

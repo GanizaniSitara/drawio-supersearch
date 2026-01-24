@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}Build Index - DrawIO Browser{% endblock %}
+
+{% block content %}
+<div style="text-align:center;padding:50px 20px;">
+    <h1 style="color:#2c3e50;margin-bottom:20px;">Build Diagram Index</h1>
+    <p style="color:#7f8c8d;margin-bottom:30px;max-width:600px;margin-left:auto;margin-right:auto;">
+        This will scan all diagrams, extract metadata and text content,
+        and build the search index. This may take several minutes depending on the number of diagrams.
+    </p>
+
+    <div id="status" style="display:none;margin-bottom:30px;">
+        <div style="background:#e8f4f8;padding:20px;border-radius:8px;max-width:500px;margin:0 auto;">
+            <div id="progress-text" style="font-size:1.1em;color:#2980b9;margin-bottom:10px;">
+                Indexing...
+            </div>
+            <div style="background:#ddd;border-radius:4px;height:8px;overflow:hidden;">
+                <div id="progress-bar" style="background:#3498db;height:100%;width:0%;transition:width 0.3s;"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="result" style="display:none;margin-bottom:30px;">
+        <div class="alert alert-success" style="max-width:500px;margin:0 auto;"></div>
+    </div>
+
+    <button id="start-btn" onclick="startIndexing()"
+            style="padding:15px 40px;background:#27ae60;color:white;border:none;border-radius:6px;font-size:1.1em;cursor:pointer;">
+        Start Indexing
+    </button>
+
+    <a href="/" id="home-link" style="display:none;padding:15px 40px;background:#3498db;color:white;text-decoration:none;border-radius:6px;font-size:1.1em;">
+        Go to Home
+    </a>
+</div>
+
+<script>
+function startIndexing() {
+    document.getElementById('start-btn').style.display = 'none';
+    document.getElementById('status').style.display = 'block';
+
+    fetch('/api/build-index', {method: 'POST'})
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('status').style.display = 'none';
+            document.getElementById('result').style.display = 'block';
+
+            if (data.success) {
+                document.querySelector('#result .alert').textContent =
+                    'Successfully indexed ' + data.indexed + ' diagrams!';
+                document.getElementById('home-link').style.display = 'inline-block';
+            } else {
+                document.querySelector('#result .alert').className = 'alert alert-warning';
+                document.querySelector('#result .alert').textContent = 'Error: ' + data.error;
+                document.getElementById('start-btn').style.display = 'inline-block';
+            }
+        })
+        .catch(err => {
+            document.getElementById('status').style.display = 'none';
+            document.getElementById('result').style.display = 'block';
+            document.querySelector('#result .alert').className = 'alert alert-warning';
+            document.querySelector('#result .alert').textContent = 'Error: ' + err;
+            document.getElementById('start-btn').style.display = 'inline-block';
+        });
+}
+</script>
+{% endblock %}
