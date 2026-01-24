@@ -12,9 +12,26 @@
 
 <div class="diagram-detail">
     <div class="diagram-image-container">
+        <!-- Carousel navigation arrows -->
+        {% if prev_id %}
+        <a href="/diagram/{{ prev_id }}" class="carousel-nav carousel-prev" title="Previous diagram (Left arrow)">
+            <span class="carousel-arrow">&larr;</span>
+        </a>
+        {% endif %}
+        {% if next_id %}
+        <a href="/diagram/{{ next_id }}" class="carousel-nav carousel-next" title="Next diagram (Right arrow)">
+            <span class="carousel-arrow">&rarr;</span>
+        </a>
+        {% endif %}
+
         <img src="/image/{{ diagram.space_key }}/{{ diagram.diagram_name }}.png"
              alt="{{ diagram.diagram_name }}"
              onerror="this.parentElement.innerHTML='<p style=\'color:#999;padding:50px;\'>Preview not available</p>'">
+
+        <!-- Position indicator -->
+        {% if total_in_space > 1 %}
+        <div class="carousel-position">{{ position }} of {{ total_in_space }}</div>
+        {% endif %}
     </div>
     <div class="diagram-info">
         <h1>{{ diagram.diagram_name }}</h1>
@@ -90,6 +107,22 @@
 </div>
 
 <script>
+// Keyboard navigation for carousel
+document.addEventListener('keydown', function(e) {
+    // Don't trigger if user is typing in an input field
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+
+    if (e.key === 'ArrowLeft' || e.key === 'Left') {
+        {% if prev_id %}
+        window.location.href = '/diagram/{{ prev_id }}';
+        {% endif %}
+    } else if (e.key === 'ArrowRight' || e.key === 'Right') {
+        {% if next_id %}
+        window.location.href = '/diagram/{{ next_id }}';
+        {% endif %}
+    }
+});
+
 function editLocal(spaceKey, diagramName) {
     // Download the .drawio file for local editing
     // User can then open it with draw.io Desktop application
