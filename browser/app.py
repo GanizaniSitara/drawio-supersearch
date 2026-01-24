@@ -133,6 +133,7 @@ def init_db():
             diagram_name TEXT NOT NULL,
             page_title TEXT,
             page_id TEXT,
+            confluence_page_url TEXT,
             author TEXT,
             author_display TEXT,
             created_date TEXT,
@@ -257,14 +258,19 @@ def index_all_diagrams(progress_callback=None):
                 title = meta.get('title', '')
                 diagram_name = title.replace('.png', '') if title.endswith('.png') else title
 
-                # Extract page title from webui link
+                # Extract page title and URL from webui link
                 webui = meta.get('_links', {}).get('webui', '')
                 page_title = ''
-                if '/display/' in webui:
-                    parts = webui.split('/')
-                    if len(parts) >= 4:
-                        page_part = parts[3].split('?')[0]
-                        page_title = unquote(page_part.replace('+', ' '))
+                confluence_page_url = ''
+                if webui:
+                    # Store the path (without query params) for linking to Confluence
+                    confluence_page_url = webui.split('?')[0]
+                    # Extract page title from the path
+                    if '/display/' in webui:
+                        parts = webui.split('/')
+                        if len(parts) >= 4:
+                            page_part = parts[3].split('?')[0]
+                            page_title = unquote(page_part.replace('+', ' '))
 
                 # Extract page ID from container
                 container = meta.get('_expandable', {}).get('container', '')
@@ -294,11 +300,13 @@ def index_all_diagrams(progress_callback=None):
                 # Insert into database
                 c.execute('''
                     INSERT INTO diagrams
-                    (space_key, diagram_name, page_title, page_id, author, author_display,
-                     created_date, file_size, drawio_path, image_path, metadata_path, content_text)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                ''', (space_key, diagram_name, page_title, page_id, author, author_display,
-                      created_date, file_size, drawio_path, image_path, meta_path, content_text))
+                    (space_key, diagram_name, page_title, page_id, confluence_page_url,
+                     author, author_display, created_date, file_size, drawio_path,
+                     image_path, metadata_path, content_text)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ''', (space_key, diagram_name, page_title, page_id, confluence_page_url,
+                      author, author_display, created_date, file_size, drawio_path,
+                      image_path, meta_path, content_text))
 
                 diagram_id = c.lastrowid
 
@@ -395,7 +403,11 @@ def diagram_view(diagram_id):
     if not diagram:
         return "Diagram not found", 404
 
-    return render_template('diagram.html', diagram=diagram)
+    # Get Confluence URL for "View in Confluence" button
+    settings = get_settings()
+    confluence_url = settings.get('confluence_url', '')
+
+    return render_template('diagram.html', diagram=diagram, confluence_url=confluence_url)
 
 
 @app.route('/search')
