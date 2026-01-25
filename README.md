@@ -172,6 +172,57 @@ For keeping diagrams in sync with Confluence:
 0 2 * * * cd /path/to/drawio-supersearch && python scripts/extract.py && python scripts/index.py
 ```
 
+## Lucidchart Screenshot Tool (Migration Preview)
+
+Planning to migrate from Lucidchart to DrawIO? Use the Lucidchart screenshotter to capture your existing Lucidchart diagrams as PNG images, letting you preview the SuperSearch experience with your real data before migration.
+
+### Setup
+
+```bash
+# Playwright is optional - only needed for Lucidchart screenshots
+pip install playwright
+playwright install chromium
+```
+
+### Usage
+
+```bash
+# Screenshot Lucidchart diagrams from specific spaces
+python -m extractor.lucidchart_screenshotter --spaces MYSPACE,OTHERSPACE
+
+# Test mode - only process first 5 pages
+python -m extractor.lucidchart_screenshotter --test
+
+# Debug mode - verbose logging, saves page HTML for selector tuning
+python -m extractor.lucidchart_screenshotter --debug
+
+# Show browser window (useful for debugging auth/rendering issues)
+python -m extractor.lucidchart_screenshotter --debug --no-headless
+
+# Dry run - see what would be captured without actually doing it
+python -m extractor.lucidchart_screenshotter --dry-run
+```
+
+### How It Works
+
+1. Searches Confluence for pages containing Lucidchart macros (`macroName:lucidchart`)
+2. Opens each page in a headless browser (Playwright/Chromium)
+3. Waits for Lucidchart embeds to load
+4. Screenshots the diagram elements
+5. Saves to `content/images/<SPACE>/` with metadata
+
+The output is compatible with SuperSearch - just rebuild the index and browse your Lucidchart diagrams alongside any existing DrawIO diagrams.
+
+### Debugging
+
+Lucidchart embeds can be tricky (iframes, dynamic loading, zoom issues). Use debug mode to:
+
+- See which CSS selectors are matching
+- Inspect the raw page HTML (saved to `metadata/_debug_*.html`)
+- Watch the browser work with `--no-headless`
+
+If diagrams aren't being captured correctly, the debug HTML files will show the actual DOM structure so you can tune the selectors.
+
 ## Security Notes
 
 - Store Confluence credentials securely (consider environment variables for production)

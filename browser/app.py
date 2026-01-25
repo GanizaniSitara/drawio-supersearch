@@ -17,7 +17,7 @@ import json
 import sqlite3
 import re
 from urllib.parse import unquote
-from flask import Flask, render_template, request, jsonify, send_file, redirect, url_for
+from flask import Flask, render_template, request, jsonify, send_file, redirect, url_for, make_response
 
 from whoosh.index import create_in, open_dir, exists_in
 from whoosh.fields import Schema, TEXT, ID, STORED
@@ -343,18 +343,29 @@ def index():
     if not db_is_populated():
         return render_template('needs_index.html')
 
+    sort = request.args.get('sort', 'count')  # 'count' or 'alpha'
+
     conn = get_db()
-    spaces = conn.execute('''
-        SELECT space_key, COUNT(*) as count
-        FROM diagrams
-        GROUP BY space_key
-        ORDER BY count DESC
-    ''').fetchall()
+
+    if sort == 'alpha':
+        spaces = conn.execute('''
+            SELECT space_key, COUNT(*) as count
+            FROM diagrams
+            GROUP BY space_key
+            ORDER BY space_key ASC
+        ''').fetchall()
+    else:
+        spaces = conn.execute('''
+            SELECT space_key, COUNT(*) as count
+            FROM diagrams
+            GROUP BY space_key
+            ORDER BY count DESC
+        ''').fetchall()
 
     total = conn.execute('SELECT COUNT(*) FROM diagrams').fetchone()[0]
     conn.close()
 
-    return render_template('index.html', spaces=spaces, total=total)
+    return render_template('index.html', spaces=spaces, total=total, sort=sort)
 
 
 @app.route('/space/<space_key>')
@@ -452,16 +463,16 @@ def diagram_view(diagram_id):
 def search():
     """Search diagrams."""
     query = request.args.get('q', '').strip()
-    space_filter = request.args.get('space', '')
     page = request.args.get('page', 1, type=int)
+    group_by = request.args.get('group', '')  # 'space' to group by space
     per_page = 50
 
     if not query:
-        return render_template('search.html', results=[], query='', total=0)
+        return render_template('search.html', results=[], query='', total=0, group_by=group_by)
 
     if not index_is_populated():
         return render_template('search.html', results=[], query=query,
-                             error="Index not built. Run indexing first.")
+                             error="Index not built. Run indexing first.", group_by=group_by)
 
     try:
         ix = open_dir(get_index_dir())
@@ -476,20 +487,27 @@ def search():
 
             results = searcher.search(q, limit=1000)
 
-            filtered_ids = []
+            # Collect all result IDs with their space keys for grouping
+            result_data = []
             for hit in results:
-                if space_filter and hit['space_key'] != space_filter:
-                    continue
-                filtered_ids.append(int(hit['id']))
+                result_data.append({
+                    'id': int(hit['id']),
+                    'space_key': hit['space_key']
+                })
 
-            total = len(filtered_ids)
+            total = len(result_data)
 
-            start = (page - 1) * per_page
-            end = start + per_page
-            page_ids = filtered_ids[start:end]
+            # For grouped view, get all results (no pagination)
+            # For flat view, apply pagination
+            if group_by == 'space':
+                page_ids = [r['id'] for r in result_data]
+            else:
+                start = (page - 1) * per_page
+                end = start + per_page
+                page_ids = [r['id'] for r in result_data[start:end]]
     except Exception as e:
         return render_template('search.html', results=[], query=query,
-                             error=str(e))
+                             error=str(e), group_by=group_by)
 
     if page_ids:
         conn = get_db()
@@ -504,20 +522,32 @@ def search():
 
     total_pages = (total + per_page - 1) // per_page
 
-    conn = get_db()
-    spaces = conn.execute(
-        'SELECT DISTINCT space_key FROM diagrams ORDER BY space_key'
-    ).fetchall()
-    conn.close()
+    # Group results by space if requested
+    grouped_results = None
+    group_sort = request.args.get('sort', 'count')  # 'count' or 'alpha'
+    if group_by == 'space' and diagrams:
+        from collections import OrderedDict
+        grouped = {}
+        for d in diagrams:
+            space = d['space_key']
+            if space not in grouped:
+                grouped[space] = []
+            grouped[space].append(d)
+        # Sort by count or alphabetically
+        if group_sort == 'alpha':
+            grouped_results = OrderedDict(sorted(grouped.items(), key=lambda x: x[0]))
+        else:
+            grouped_results = OrderedDict(sorted(grouped.items(), key=lambda x: -len(x[1])))
 
     return render_template('search.html',
                          results=diagrams,
+                         grouped_results=grouped_results,
                          query=query,
-                         space_filter=space_filter,
-                         spaces=spaces,
                          total=total,
                          page=page,
-                         total_pages=total_pages)
+                         total_pages=total_pages,
+                         group_by=group_by,
+                         group_sort=group_sort)
 
 
 @app.route('/image/<space_key>/<path:filename>')
@@ -532,7 +562,7 @@ def serve_image(space_key, filename):
 
 @app.route('/download/<space_key>/<path:filename>')
 def download_drawio(space_key, filename):
-    """Download .drawio file."""
+    """Download .drawio file with CORS support for draw.io web editor."""
     settings = get_settings()
     diagrams_dir = settings['diagrams_directory']
 
@@ -542,8 +572,28 @@ def download_drawio(space_key, filename):
 
     drawio_path = os.path.join(diagrams_dir, space_key, filename)
     if os.path.exists(drawio_path):
-        return send_file(drawio_path, as_attachment=True)
+        # Read file and create response with CORS headers
+        with open(drawio_path, 'rb') as f:
+            content = f.read()
+        response = make_response(content)
+        response.headers['Content-Type'] = 'application/xml'
+        response.headers['Content-Disposition'] = f'attachment; filename="{filename}"'
+        # CORS headers for draw.io web editor
+        response.headers['Access-Control-Allow-Origin'] = '*'
+        response.headers['Access-Control-Allow-Methods'] = 'GET, OPTIONS'
+        response.headers['Access-Control-Allow-Headers'] = 'Content-Type'
+        return response
     return "File not found", 404
+
+
+@app.route('/download/<space_key>/<path:filename>', methods=['OPTIONS'])
+def download_drawio_options(space_key, filename):
+    """Handle CORS preflight for download endpoint."""
+    response = make_response()
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Methods'] = 'GET, OPTIONS'
+    response.headers['Access-Control-Allow-Headers'] = 'Content-Type'
+    return response
 
 
 @app.route('/api/stats')
