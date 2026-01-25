@@ -20,7 +20,21 @@
     </div>
 </div>
 
-<h2 style="margin-bottom: 20px; color: #2c3e50;">Browse by Space</h2>
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+    <h2 style="margin: 0; color: #2c3e50;">Browse by Space</h2>
+    <div style="display: flex; gap: 8px;">
+        <a href="/?sort=count"
+           style="padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9em;
+                  {% if sort != 'alpha' %}background: #3498db; color: white;{% else %}background: #e0e0e0; color: #333;{% endif %}">
+            By Count
+        </a>
+        <a href="/?sort=alpha"
+           style="padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9em;
+                  {% if sort == 'alpha' %}background: #3498db; color: white;{% else %}background: #e0e0e0; color: #333;{% endif %}">
+            A-Z
+        </a>
+    </div>
+</div>
 
 <div class="space-list">
     {% for space in spaces %}

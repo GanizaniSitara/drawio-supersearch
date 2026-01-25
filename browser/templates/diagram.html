@@ -136,25 +136,22 @@ function editLocal(spaceKey, diagramName) {
 }
 
 function editWeb(spaceKey, diagramName) {
-    // Open diagram in app.diagrams.net (draw.io web editor)
-    // Using the embed mode which allows loading external files
+    // Open diagram directly in app.diagrams.net (draw.io web editor)
+    // Server provides CORS headers so draw.io can fetch the file
 
     var fileUrl = window.location.origin + '/download/' + spaceKey + '/' +
                   encodeURIComponent(diagramName) + '.drawio';
 
-    // draw.io web editor URL with file parameter
-    // Note: Due to CORS, this opens a new tab where user can import the file
-    var editorUrl = 'https://app.diagrams.net/?splash=0&ui=kennedy';
+    // draw.io URL parameters:
+    // - url: diagram file URL (requires CORS headers on server)
+    // - splash=0: skip splash screen
+    // - title: set document title
+    var editorUrl = 'https://app.diagrams.net/?splash=0&title=' +
+                    encodeURIComponent(diagramName) +
+                    '&url=' + encodeURIComponent(fileUrl);
 
-    // Open the editor
-    var newWindow = window.open(editorUrl, '_blank');
-
-    // Show instructions
-    alert('draw.io editor opened in new tab.\n\n' +
-          'To load your diagram:\n' +
-          '1. In draw.io, go to File > Open from > URL\n' +
-          '2. Paste this URL: ' + fileUrl + '\n\n' +
-          'Or drag the downloaded file into the editor.');
+    // Open directly - diagram loads automatically
+    window.open(editorUrl, '_blank');
 }
 </script>
 {% endblock %}

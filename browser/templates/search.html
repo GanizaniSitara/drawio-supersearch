@@ -10,13 +10,7 @@
 
 <div class="search-bar">
     <form action="/search" method="get">
-        <input type="text" name="q" value="{{ query }}" placeholder="Search diagrams by name, content, or author...">
-        <select name="space">
-            <option value="">All Spaces</option>
-            {% for s in spaces %}
-            <option value="{{ s.space_key }}" {% if space_filter == s.space_key %}selected{% endif %}>{{ s.space_key }}</option>
-            {% endfor %}
-        </select>
+        <input type="text" name="q" value="{{ query }}" placeholder="Search diagrams by name, content, or author..." autofocus>
         <button type="submit">Search</button>
     </form>
 </div>
@@ -26,13 +20,79 @@
 {% endif %}
 
 {% if query %}
-<p style="color: #7f8c8d; margin-bottom: 20px;">
-    Found {{ total }} results for "{{ query }}"
-    {% if space_filter %}in {{ space_filter }}{% endif %}
-</p>
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+    <p style="color: #7f8c8d; margin: 0;">
+        Found {{ total }} results for "{{ query }}"
+    </p>
+    <div style="display: flex; gap: 8px;">
+        <a href="?q={{ query }}&group="
+           style="padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 0.85em;
+                  {% if group_by != 'space' %}background: #3498db; color: white;{% else %}background: #e0e0e0; color: #333;{% endif %}">
+            Flat
+        </a>
+        <a href="?q={{ query }}&group=space"
+           style="padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 0.85em;
+                  {% if group_by == 'space' %}background: #3498db; color: white;{% else %}background: #e0e0e0; color: #333;{% endif %}">
+            Group by Space
+        </a>
+    </div>
+</div>
 {% endif %}
 
-{% if results %}
+{% if grouped_results %}
+<!-- Sort toggle for grouped view -->
+<div style="display: flex; justify-content: flex-end; margin-bottom: 15px;">
+    <div style="display: flex; gap: 8px;">
+        <a href="?q={{ query }}&group=space&sort=count"
+           style="padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 0.85em;
+                  {% if group_sort != 'alpha' %}background: #3498db; color: white;{% else %}background: #e0e0e0; color: #333;{% endif %}">
+            By Count
+        </a>
+        <a href="?q={{ query }}&group=space&sort=alpha"
+           style="padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 0.85em;
+                  {% if group_sort == 'alpha' %}background: #3498db; color: white;{% else %}background: #e0e0e0; color: #333;{% endif %}">
+            A-Z
+        </a>
+    </div>
+</div>
+<!-- Grouped by Space view -->
+{% for space_key, diagrams in grouped_results.items() %}
+<div class="space-group" style="margin-bottom: 30px;">
+    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 2px solid #3498db;">
+        <h3 style="margin: 0; color: #2c3e50;">
+            <a href="/space/{{ space_key }}" style="text-decoration: none; color: inherit;">{{ space_key }}</a>
+        </h3>
+        <span style="background: #3498db; color: white; padding: 2px 10px; border-radius: 12px; font-size: 0.85em;">
+            {{ diagrams|length }} result{% if diagrams|length != 1 %}s{% endif %}
+        </span>
+    </div>
+    <div class="grid">
+        {% for d in diagrams %}
+        <div class="card">
+            <a href="/diagram/{{ d.id }}">
+                <img class="card-image" src="/image/{{ d.space_key }}/{{ d.diagram_name }}.png"
+                     alt="{{ d.diagram_name }}"
+                     onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%23999%22>No Preview</text></svg>'">
+            </a>
+            <div class="card-body">
+                <div class="card-title">{{ d.diagram_name }}</div>
+                <div class="card-meta">
+                    {% if d.created_date %}<span>{{ d.created_date }}</span>{% endif %}
+                    {% if d.author_display %}<span>{{ d.author_display }}</span>{% endif %}
+                </div>
+                <div class="card-actions">
+                    <a href="/diagram/{{ d.id }}" class="btn-view">View</a>
+                    <a href="/download/{{ d.space_key }}/{{ d.diagram_name }}.drawio" class="btn-download">Download</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}
+
+{% elif results %}
+<!-- Flat view -->
 <div class="grid">
     {% for d in results %}
     <div class="card">
@@ -44,9 +104,9 @@
         <div class="card-body">
             <div class="card-title">{{ d.diagram_name }}</div>
             <div class="card-meta">
-                <span>Space: <a href="/space/{{ d.space_key }}">{{ d.space_key }}</a></span>
-                {% if d.page_title %}<span>Page: {{ d.page_title }}</span>{% endif %}
-                {% if d.author_display %}<span>By: {{ d.author_display }}</span>{% endif %}
+                <span class="meta-space"><a href="/space/{{ d.space_key }}">{{ d.space_key }}</a></span>
+                {% if d.created_date %}<span>{{ d.created_date }}</span>{% endif %}
+                {% if d.author_display %}<span>{{ d.author_display }}</span>{% endif %}
             </div>
             <div class="card-actions">
                 <a href="/diagram/{{ d.id }}" class="btn-view">View</a>
@@ -60,21 +120,21 @@
 {% if total_pages > 1 %}
 <div class="pagination">
     {% if page > 1 %}
-    <a href="?q={{ query }}&space={{ space_filter }}&page={{ page - 1 }}">&laquo; Prev</a>
+    <a href="?q={{ query }}&page={{ page - 1 }}">&laquo; Prev</a>
     {% endif %}
 
     {% for p in range(1, total_pages + 1) %}
         {% if p == page %}
         <span class="active">{{ p }}</span>
         {% elif p <= 3 or p > total_pages - 2 or (p >= page - 1 and p <= page + 1) %}
-        <a href="?q={{ query }}&space={{ space_filter }}&page={{ p }}">{{ p }}</a>
+        <a href="?q={{ query }}&page={{ p }}">{{ p }}</a>
         {% elif p == 4 or p == total_pages - 2 %}
         <span>...</span>
         {% endif %}
     {% endfor %}
 
     {% if page < total_pages %}
-    <a href="?q={{ query }}&space={{ space_filter }}&page={{ page + 1 }}">Next &raquo;</a>
+    <a href="?q={{ query }}&page={{ page + 1 }}">Next &raquo;</a>
     {% endif %}
 </div>
 {% endif %}

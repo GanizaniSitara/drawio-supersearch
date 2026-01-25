@@ -30,9 +30,8 @@
         <div class="card-body">
             <div class="card-title">{{ d.diagram_name }}</div>
             <div class="card-meta">
-                {% if d.page_title %}<span>Page: {{ d.page_title }}</span>{% endif %}
-                {% if d.author_display %}<span>By: {{ d.author_display }}</span>{% endif %}
                 {% if d.created_date %}<span>{{ d.created_date }}</span>{% endif %}
+                {% if d.author_display %}<span>{{ d.author_display }}</span>{% endif %}
             </div>
             <div class="card-actions">
                 <a href="/diagram/{{ d.id }}" class="btn-view">View</a>
