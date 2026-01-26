@@ -100,6 +100,56 @@ class LucidchartScreenshotter:
         self._last_request_time = time.time()
         return requests.get(url, auth=self.auth, verify=False)
 
+    def _load_stopwords(self):
+        """Load stopwords from file if it exists."""
+        stopwords_path = os.path.join(os.path.dirname(__file__), 'stopwords.txt')
+        if os.path.exists(stopwords_path):
+            with open(stopwords_path, 'r', encoding='utf-8') as f:
+                return set(line.strip().lower() for line in f if line.strip() and not line.startswith('#'))
+        # Default common stopwords
+        return {
+            'a', 'an', 'and', 'are', 'as', 'at', 'be', 'by', 'for', 'from',
+            'has', 'he', 'in', 'is', 'it', 'its', 'of', 'on', 'or', 'that',
+            'the', 'to', 'was', 'were', 'will', 'with', 'this', 'but', 'they',
+            'have', 'had', 'what', 'when', 'where', 'who', 'which', 'why', 'how',
+            'all', 'each', 'every', 'both', 'few', 'more', 'most', 'other',
+            'some', 'such', 'no', 'nor', 'not', 'only', 'own', 'same', 'so',
+            'than', 'too', 'very', 'can', 'just', 'should', 'now', 'also',
+            'your', 'our', 'their', 'my', 'his', 'her', 'we', 'you', 'i', 'me',
+            'nbsp', 'amp', 'quot', 'lt', 'gt', 'br', 'div', 'span', 'class', 'id',
+            'href', 'src', 'style', 'http', 'https', 'www', 'com', 'org', 'net',
+            'page', 'content', 'confluence', 'wiki', 'display', 'spaces',
+        }
+
+    def _extract_text_from_html(self, html):
+        """Extract plain text from HTML, filtering stopwords for search indexing."""
+        if not html:
+            return ''
+
+        # Remove script and style elements
+        html = re.sub(r'<script[^>]*>.*?</script>', '', html, flags=re.DOTALL | re.IGNORECASE)
+        html = re.sub(r'<style[^>]*>.*?</style>', '', html, flags=re.DOTALL | re.IGNORECASE)
+
+        # Remove HTML tags
+        text = re.sub(r'<[^>]+>', ' ', html)
+
+        # Decode HTML entities
+        text = text.replace('&nbsp;', ' ')
+        text = text.replace('&amp;', '&')
+        text = text.replace('&lt;', '<')
+        text = text.replace('&gt;', '>')
+        text = text.replace('&quot;', '"')
+
+        # Normalize whitespace
+        text = re.sub(r'\s+', ' ', text).strip()
+
+        # Filter stopwords for better search indexing
+        stopwords = self._load_stopwords()
+        words = text.split()
+        filtered_words = [w for w in words if w.lower() not in stopwords and len(w) > 2]
+
+        return ' '.join(filtered_words)
+
     def _ensure_directories(self, space_key):
         """Create output directories for a space."""
         dirs = {
@@ -125,17 +175,18 @@ class LucidchartScreenshotter:
         start = 0
 
         # Build CQL query
+        # Note: Use 'macro' not 'macroName' for Confluence search API
         if space_key:
-            cql = f'space="{space_key}" and macroName=lucidchart and type=page'
+            cql = f'space="{space_key}" and macro=lucidchart and type=page'
         else:
-            cql = 'macroName=lucidchart and type=page'
+            cql = 'macro=lucidchart and type=page'
 
         while True:
             url = (
                 f"{self.confluence_url}/rest/api/content/search"
                 f"?cql={requests.utils.quote(cql)}"
                 f"&start={start}"
-                f"&expand=space"
+                f"&expand=space,body.view"
             )
 
             response = self._rate_limited_request(url)
@@ -156,11 +207,16 @@ class LucidchartScreenshotter:
                 if self.skip_personal and space.startswith('~'):
                     continue
 
+                # Extract body text for index hydration
+                body_html = page.get('body', {}).get('view', {}).get('value', '')
+                body_text = self._extract_text_from_html(body_html) if body_html else ''
+
                 pages.append({
                     'id': page['id'],
                     'title': page.get('title', 'Untitled'),
                     'space_key': space,
                     '_links': page.get('_links', {}),
+                    'body_text': body_text,
                 })
 
                 # Check limit
@@ -274,6 +330,8 @@ class LucidchartScreenshotter:
         page_id = page_info['id']
         page_title = page_info['title']
         space_key = page_info['space_key']
+        page_link = page_info.get('_links', {}).get('webui', '')
+        body_text = page_info.get('body_text', '')
 
         # Navigate to page
         page_url = f"{self.confluence_url}/pages/viewpage.action?pageId={page_id}"
@@ -367,6 +425,8 @@ class LucidchartScreenshotter:
                                     'space': {'key': space_key},
                                     'page_id': page_id,
                                     'page_title': page_title,
+                                    'page_link': page_link,
+                                    'body_text': body_text,
                                     'source': 'lucidchart',
                                     'selector_used': selector,
                                     'dimensions': {'width': box['width'], 'height': box['height']},
@@ -420,6 +480,8 @@ class LucidchartScreenshotter:
                                 'space': {'key': space_key},
                                 'page_id': page_id,
                                 'page_title': page_title,
+                                'page_link': page_link,
+                                'body_text': body_text,
                                 'source': 'lucidchart-fullpage',
                                 'selector_used': content_sel,
                                 '_expandable': {
