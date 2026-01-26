@@ -1,0 +1,22 @@
+{
+  "id": "12475",
+  "title": "BlazorWebAssemblyScopes.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12475"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "mrpmorris",
+    "github_repo": "blazor-university"
+  },
+  "_links": {
+    "download": "/download/CRASH/BlazorWebAssemblyScopes.png"
+  },
+  "created_date": "2024-12-22",
+  "author_display": "mrpmorris/blazor-university"
+}

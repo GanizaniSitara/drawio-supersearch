@@ -1,0 +1,22 @@
+{
+  "id": "20942",
+  "title": "ACORN_DAC_key_elements.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20942"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "awhitbeck",
+    "github_repo": "drawio"
+  },
+  "_links": {
+    "download": "/download/HINT/ACORN_DAC_key_elements.png"
+  },
+  "created_date": "2024-12-25",
+  "author_display": "awhitbeck/drawio"
+}

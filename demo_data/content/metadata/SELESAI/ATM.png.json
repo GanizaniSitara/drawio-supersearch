@@ -1,0 +1,22 @@
+{
+  "id": "9574",
+  "title": "ATM.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9574"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "AlexRogalskiy",
+    "github_repo": "Algorithms-1"
+  },
+  "_links": {
+    "download": "/download/SELESAI/ATM.png"
+  },
+  "created_date": "2025-10-06",
+  "author_display": "AlexRogalskiy/Algorithms-1"
+}

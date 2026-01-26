@@ -1,0 +1,22 @@
+{
+  "id": "1972",
+  "title": "chineserestaurant.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1972"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "think0507",
+    "github_repo": "chineserestaurant"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/chineserestaurant.png"
+  },
+  "created_date": "2024-08-22",
+  "author_display": "think0507/chineserestaurant"
+}

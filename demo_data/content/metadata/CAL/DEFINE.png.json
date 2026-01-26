@@ -1,0 +1,22 @@
+{
+  "id": "11531",
+  "title": "DEFINE.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11531"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "SEH00N",
+    "github_repo": "Eungabi"
+  },
+  "_links": {
+    "download": "/download/CAL/DEFINE.png"
+  },
+  "created_date": "2024-02-09",
+  "author_display": "SEH00N/Eungabi"
+}

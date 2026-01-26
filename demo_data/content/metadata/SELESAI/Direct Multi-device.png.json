@@ -1,0 +1,22 @@
+{
+  "id": "9671",
+  "title": "Direct Multi-device.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9671"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "kamilkhan52",
+    "github_repo": "cxl_diagrams"
+  },
+  "_links": {
+    "download": "/download/SELESAI/Direct Multi-device.png"
+  },
+  "created_date": "2025-04-10",
+  "author_display": "kamilkhan52/cxl_diagrams"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "20129",
+  "title": "asm lab1.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20129"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "Kanzu32",
+    "github_repo": "homework"
+  },
+  "_links": {
+    "download": "/download/SEITE/asm lab1.png"
+  },
+  "created_date": "2024-12-04",
+  "author_display": "Kanzu32/homework"
+}

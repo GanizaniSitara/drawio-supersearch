@@ -1,0 +1,22 @@
+{
+  "id": "21021",
+  "title": "annoucement e-r.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/21021"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "LingEnd",
+    "github_repo": "gp-board-game"
+  },
+  "_links": {
+    "download": "/download/HINT/annoucement e-r.png"
+  },
+  "created_date": "2024-03-06",
+  "author_display": "LingEnd/gp-board-game"
+}

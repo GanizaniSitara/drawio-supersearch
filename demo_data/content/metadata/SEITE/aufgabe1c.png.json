@@ -1,0 +1,22 @@
+{
+  "id": "19956",
+  "title": "aufgabe1c.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19956"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Jacques-Mock-Schindler",
+    "github_repo": "Studienleistung1"
+  },
+  "_links": {
+    "download": "/download/SEITE/aufgabe1c.png"
+  },
+  "created_date": "2025-02-05",
+  "author_display": "Jacques-Mock-Schindler/Studienleistung1"
+}

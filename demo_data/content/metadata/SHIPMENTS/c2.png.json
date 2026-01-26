@@ -1,0 +1,22 @@
+{
+  "id": "2010",
+  "title": "c2.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2010"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "IsmailSalehCode",
+    "github_repo": "UML-course-work"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/c2.png"
+  },
+  "created_date": "2024-08-04",
+  "author_display": "IsmailSalehCode/UML-course-work"
+}

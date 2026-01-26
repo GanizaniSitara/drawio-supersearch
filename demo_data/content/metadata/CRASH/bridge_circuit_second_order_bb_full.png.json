@@ -1,0 +1,22 @@
+{
+  "id": "12341",
+  "title": "bridge_circuit_second_order_bb_full.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12341"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "skgadi",
+    "github_repo": "CIT"
+  },
+  "_links": {
+    "download": "/download/CRASH/bridge_circuit_second_order_bb_full.png"
+  },
+  "created_date": "2025-09-21",
+  "author_display": "skgadi/CIT"
+}

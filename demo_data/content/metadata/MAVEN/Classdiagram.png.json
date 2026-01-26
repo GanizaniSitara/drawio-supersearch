@@ -1,0 +1,22 @@
+{
+  "id": "13623",
+  "title": "Classdiagram.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13623"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "bptlab",
+    "github_repo": "bpi-challenge-2020"
+  },
+  "_links": {
+    "download": "/download/MAVEN/Classdiagram.png"
+  },
+  "created_date": "2026-01-02",
+  "author_display": "bptlab/bpi-challenge-2020"
+}

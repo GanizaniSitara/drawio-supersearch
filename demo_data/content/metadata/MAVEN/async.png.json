@@ -1,0 +1,22 @@
+{
+  "id": "13760",
+  "title": "async.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13760"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "whoami-anoint",
+    "github_repo": "js-coding"
+  },
+  "_links": {
+    "download": "/download/MAVEN/async.png"
+  },
+  "created_date": "2025-10-05",
+  "author_display": "whoami-anoint/js-coding"
+}

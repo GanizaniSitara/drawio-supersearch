@@ -1,0 +1,22 @@
+{
+  "id": "11739",
+  "title": "ArOZ Online Subservice Architecture.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11739"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "bowwowxx",
+    "github_repo": "arozos"
+  },
+  "_links": {
+    "download": "/download/CAL/ArOZ Online Subservice Architecture.png"
+  },
+  "created_date": "2025-08-31",
+  "author_display": "bowwowxx/arozos"
+}

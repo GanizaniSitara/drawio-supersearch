@@ -1,0 +1,22 @@
+{
+  "id": "9476",
+  "title": "AuctionScreen.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9476"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "ponopono0322",
+    "github_repo": "TeamAuction"
+  },
+  "_links": {
+    "download": "/download/PAGINA/AuctionScreen.png"
+  },
+  "created_date": "2025-02-14",
+  "author_display": "ponopono0322/TeamAuction"
+}

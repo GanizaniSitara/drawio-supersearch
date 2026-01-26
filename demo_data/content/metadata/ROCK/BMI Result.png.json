@@ -1,0 +1,22 @@
+{
+  "id": "23622",
+  "title": "BMI Result.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23622"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "kkuvaldina",
+    "github_repo": "draw.io"
+  },
+  "_links": {
+    "download": "/download/ROCK/BMI Result.png"
+  },
+  "created_date": "2025-04-02",
+  "author_display": "kkuvaldina/draw.io"
+}

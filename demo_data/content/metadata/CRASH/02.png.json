@@ -1,0 +1,22 @@
+{
+  "id": "12281",
+  "title": "02.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12281"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "MaurizioSodano",
+    "github_repo": "moleculer-microservices"
+  },
+  "_links": {
+    "download": "/download/CRASH/02.png"
+  },
+  "created_date": "2024-06-26",
+  "author_display": "MaurizioSodano/moleculer-microservices"
+}

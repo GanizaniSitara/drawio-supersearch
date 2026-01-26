@@ -1,0 +1,22 @@
+{
+  "id": "20936",
+  "title": "Class.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20936"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "Symonovskyi",
+    "github_repo": "ControlMicTray"
+  },
+  "_links": {
+    "download": "/download/HINT/Class.png"
+  },
+  "created_date": "2024-03-25",
+  "author_display": "Symonovskyi/ControlMicTray"
+}

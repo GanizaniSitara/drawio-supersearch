@@ -1,0 +1,22 @@
+{
+  "id": "11537",
+  "title": "DCC3E.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11537"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "DigitalCompactCassette",
+    "github_repo": "P700"
+  },
+  "_links": {
+    "download": "/download/CAL/DCC3E.png"
+  },
+  "created_date": "2025-04-18",
+  "author_display": "DigitalCompactCassette/P700"
+}

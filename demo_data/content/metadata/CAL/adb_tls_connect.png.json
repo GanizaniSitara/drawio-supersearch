@@ -1,0 +1,22 @@
+{
+  "id": "11689",
+  "title": "adb_tls_connect.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11689"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "4o3F",
+    "github_repo": "Sonetto"
+  },
+  "_links": {
+    "download": "/download/CAL/adb_tls_connect.png"
+  },
+  "created_date": "2024-10-09",
+  "author_display": "4o3F/Sonetto"
+}

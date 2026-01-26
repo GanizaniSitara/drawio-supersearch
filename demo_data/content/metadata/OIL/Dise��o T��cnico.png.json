@@ -1,0 +1,22 @@
+{
+  "id": "20468",
+  "title": "Dise\ufffd\ufffdo T\ufffd\ufffdcnico.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20468"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Carlos-Perez-Ha",
+    "github_repo": "FoodECommerceScraper"
+  },
+  "_links": {
+    "download": "/download/OIL/Dise\ufffd\ufffdo T\ufffd\ufffdcnico.png"
+  },
+  "created_date": "2025-09-12",
+  "author_display": "Carlos-Perez-Ha/FoodECommerceScraper"
+}

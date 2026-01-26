@@ -1,0 +1,22 @@
+{
+  "id": "12533",
+  "title": "buffer_EOO.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12533"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "FedericoBustaffa",
+    "github_repo": "latex"
+  },
+  "_links": {
+    "download": "/download/CRASH/buffer_EOO.png"
+  },
+  "created_date": "2024-07-09",
+  "author_display": "FedericoBustaffa/latex"
+}

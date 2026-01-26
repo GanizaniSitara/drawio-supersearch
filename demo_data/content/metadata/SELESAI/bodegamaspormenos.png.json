@@ -1,0 +1,22 @@
+{
+  "id": "9644",
+  "title": "bodegamaspormenos.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9644"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "JMG24a",
+    "github_repo": "bodega_mas_por_menos"
+  },
+  "_links": {
+    "download": "/download/SELESAI/bodegamaspormenos.png"
+  },
+  "created_date": "2025-06-27",
+  "author_display": "JMG24a/bodega_mas_por_menos"
+}

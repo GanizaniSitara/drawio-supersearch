@@ -1,0 +1,22 @@
+{
+  "id": "9360",
+  "title": "ca.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9360"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Jeremywikim",
+    "github_repo": "Java_learning"
+  },
+  "_links": {
+    "download": "/download/PAGINA/ca.png"
+  },
+  "created_date": "2025-01-08",
+  "author_display": "Jeremywikim/Java_learning"
+}

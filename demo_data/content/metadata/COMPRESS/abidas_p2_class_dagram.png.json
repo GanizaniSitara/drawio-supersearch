@@ -1,0 +1,22 @@
+{
+  "id": "12044",
+  "title": "abidas_p2_class_dagram.png",
+  "space": {
+    "key": "COMPRESS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12044"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "VoidGravity",
+    "github_repo": "Abidas.ma"
+  },
+  "_links": {
+    "download": "/download/COMPRESS/abidas_p2_class_dagram.png"
+  },
+  "created_date": "2024-03-10",
+  "author_display": "VoidGravity/Abidas.ma"
+}

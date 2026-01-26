@@ -1,0 +1,22 @@
+{
+  "id": "13694",
+  "title": "Alghorithm4.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13694"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "UMMANCODE",
+    "github_repo": "Alghorithms4"
+  },
+  "_links": {
+    "download": "/download/MAVEN/Alghorithm4.png"
+  },
+  "created_date": "2024-12-15",
+  "author_display": "UMMANCODE/Alghorithms4"
+}

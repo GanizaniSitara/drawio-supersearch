@@ -1,0 +1,22 @@
+{
+  "id": "1959",
+  "title": "btloop.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1959"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "DungTran31",
+    "github_repo": "BTL_OOP"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/btloop.png"
+  },
+  "created_date": "2025-08-11",
+  "author_display": "DungTran31/BTL_OOP"
+}

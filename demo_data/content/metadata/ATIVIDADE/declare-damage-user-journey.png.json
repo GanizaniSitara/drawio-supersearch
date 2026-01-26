@@ -1,0 +1,22 @@
+{
+  "id": "10095",
+  "title": "declare-damage-user-journey.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10095"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "pelyhe",
+    "github_repo": "thesis"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/declare-damage-user-journey.png"
+  },
+  "created_date": "2024-08-20",
+  "author_display": "pelyhe/thesis"
+}

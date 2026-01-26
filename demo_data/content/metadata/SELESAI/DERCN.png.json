@@ -1,0 +1,22 @@
+{
+  "id": "9652",
+  "title": "DERCN.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9652"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "ICEI-PUC-Minas-PMV-ADS",
+    "github_repo": "pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-proj-sgd-gas"
+  },
+  "_links": {
+    "download": "/download/SELESAI/DERCN.png"
+  },
+  "created_date": "2024-08-06",
+  "author_display": "ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-proj-sgd-gas"
+}

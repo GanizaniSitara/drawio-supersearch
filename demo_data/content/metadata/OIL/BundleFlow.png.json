@@ -1,0 +1,22 @@
+{
+  "id": "20485",
+  "title": "BundleFlow.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20485"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "yocn",
+    "github_repo": "draw.io"
+  },
+  "_links": {
+    "download": "/download/OIL/BundleFlow.png"
+  },
+  "created_date": "2025-07-16",
+  "author_display": "yocn/draw.io"
+}

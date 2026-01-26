@@ -1,0 +1,22 @@
+{
+  "id": "9589",
+  "title": "4box.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9589"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "GruAna",
+    "github_repo": "DP"
+  },
+  "_links": {
+    "download": "/download/SELESAI/4box.png"
+  },
+  "created_date": "2024-11-13",
+  "author_display": "GruAna/DP"
+}

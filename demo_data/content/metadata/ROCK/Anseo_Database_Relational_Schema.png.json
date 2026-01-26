@@ -1,0 +1,22 @@
+{
+  "id": "24094",
+  "title": "Anseo_Database_Relational_Schema.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24094"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "djibril-coulybaly",
+    "github_repo": "Final-Year-Project"
+  },
+  "_links": {
+    "download": "/download/ROCK/Anseo_Database_Relational_Schema.png"
+  },
+  "created_date": "2024-11-23",
+  "author_display": "djibril-coulybaly/Final-Year-Project"
+}

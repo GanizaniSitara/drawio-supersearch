@@ -1,0 +1,22 @@
+{
+  "id": "20163",
+  "title": "BSThesis-DMA.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20163"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "dingiso",
+    "github_repo": "TEST_For_Everything"
+  },
+  "_links": {
+    "download": "/download/SEITE/BSThesis-DMA.png"
+  },
+  "created_date": "2024-06-27",
+  "author_display": "dingiso/TEST_For_Everything"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17789",
+  "title": "2limitedProportionalIntegralController.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17789"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "CRESYM",
+    "github_repo": "colib0.github.io"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/2limitedProportionalIntegralController.png"
+  },
+  "created_date": "2025-03-06",
+  "author_display": "CRESYM/colib0.github.io"
+}

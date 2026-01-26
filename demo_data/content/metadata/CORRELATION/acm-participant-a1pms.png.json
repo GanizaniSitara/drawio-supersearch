@@ -1,0 +1,22 @@
+{
+  "id": "17730",
+  "title": "acm-participant-a1pms.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17730"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "onap",
+    "github_repo": "policy-parent"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/acm-participant-a1pms.png"
+  },
+  "created_date": "2024-02-26",
+  "author_display": "onap/policy-parent"
+}

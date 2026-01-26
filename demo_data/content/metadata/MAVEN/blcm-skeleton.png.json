@@ -1,0 +1,22 @@
+{
+  "id": "13613",
+  "title": "blcm-skeleton.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13613"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "socialsoftware",
+    "github_repo": "microservices-simulator"
+  },
+  "_links": {
+    "download": "/download/MAVEN/blcm-skeleton.png"
+  },
+  "created_date": "2025-08-27",
+  "author_display": "socialsoftware/microservices-simulator"
+}

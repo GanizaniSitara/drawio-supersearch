@@ -1,0 +1,22 @@
+{
+  "id": "1886",
+  "title": "Chen.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1886"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "treyhamilton",
+    "github_repo": "DS6001-Practice_and_Application_of_Data_Science"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Chen.png"
+  },
+  "created_date": "2025-04-29",
+  "author_display": "treyhamilton/DS6001-Practice_and_Application_of_Data_Science"
+}

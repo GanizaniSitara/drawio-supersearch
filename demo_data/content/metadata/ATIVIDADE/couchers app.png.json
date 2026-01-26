@@ -1,0 +1,22 @@
+{
+  "id": "10283",
+  "title": "couchers app.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10283"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "Patil2099",
+    "github_repo": "couchers"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/couchers app.png"
+  },
+  "created_date": "2025-01-19",
+  "author_display": "Patil2099/couchers"
+}

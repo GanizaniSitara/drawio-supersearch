@@ -1,0 +1,22 @@
+{
+  "id": "20260",
+  "title": "DIP.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20260"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "fwqaaq",
+    "github_repo": "coding_and_nas"
+  },
+  "_links": {
+    "download": "/download/OIL/DIP.png"
+  },
+  "created_date": "2024-08-18",
+  "author_display": "fwqaaq/coding_and_nas"
+}

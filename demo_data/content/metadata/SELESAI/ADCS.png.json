@@ -1,0 +1,22 @@
+{
+  "id": "9648",
+  "title": "ADCS.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9648"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "stanford-ssi",
+    "github_repo": "sapling-systems"
+  },
+  "_links": {
+    "download": "/download/SELESAI/ADCS.png"
+  },
+  "created_date": "2024-05-01",
+  "author_display": "stanford-ssi/sapling-systems"
+}

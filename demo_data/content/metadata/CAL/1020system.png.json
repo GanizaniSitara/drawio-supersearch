@@ -1,0 +1,22 @@
+{
+  "id": "11720",
+  "title": "1020system.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11720"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "pikawika",
+    "github_repo": "VUB-BCI-thesis"
+  },
+  "_links": {
+    "download": "/download/CAL/1020system.png"
+  },
+  "created_date": "2025-10-24",
+  "author_display": "pikawika/VUB-BCI-thesis"
+}

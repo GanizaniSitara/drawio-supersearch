@@ -1,0 +1,22 @@
+{
+  "id": "11779",
+  "title": "cafe er Diagram.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11779"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "niktahajighafouri",
+    "github_repo": "cafe-project-group2"
+  },
+  "_links": {
+    "download": "/download/CAL/cafe er Diagram.png"
+  },
+  "created_date": "2024-11-15",
+  "author_display": "niktahajighafouri/cafe-project-group2"
+}

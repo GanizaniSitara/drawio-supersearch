@@ -1,0 +1,22 @@
+{
+  "id": "9384",
+  "title": "circularbuffer.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9384"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "Strooom",
+    "github_repo": "Moovr"
+  },
+  "_links": {
+    "download": "/download/PAGINA/circularbuffer.png"
+  },
+  "created_date": "2024-07-26",
+  "author_display": "Strooom/Moovr"
+}

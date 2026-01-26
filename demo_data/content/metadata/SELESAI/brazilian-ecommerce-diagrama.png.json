@@ -1,0 +1,22 @@
+{
+  "id": "9590",
+  "title": "brazilian-ecommerce-diagrama.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9590"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "ThiagoPanini",
+    "github_repo": "panini-tech-lab"
+  },
+  "_links": {
+    "download": "/download/SELESAI/brazilian-ecommerce-diagrama.png"
+  },
+  "created_date": "2026-01-05",
+  "author_display": "ThiagoPanini/panini-tech-lab"
+}

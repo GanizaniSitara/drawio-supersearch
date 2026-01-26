@@ -1,0 +1,22 @@
+{
+  "id": "20180",
+  "title": "CST-341-CLC-ER.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20180"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "DanielCender",
+    "github_repo": "CST-235-CLC"
+  },
+  "_links": {
+    "download": "/download/SEITE/CST-341-CLC-ER.png"
+  },
+  "created_date": "2025-05-06",
+  "author_display": "DanielCender/CST-235-CLC"
+}

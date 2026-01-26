@@ -1,0 +1,22 @@
+{
+  "id": "9569",
+  "title": "all in one.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9569"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "dtandersen",
+    "github_repo": "stationeers-library"
+  },
+  "_links": {
+    "download": "/download/SELESAI/all in one.png"
+  },
+  "created_date": "2026-01-05",
+  "author_display": "dtandersen/stationeers-library"
+}

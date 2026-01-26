@@ -1,0 +1,22 @@
+{
+  "id": "13679",
+  "title": "articulos.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13679"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "tineojf",
+    "github_repo": "practice-java"
+  },
+  "_links": {
+    "download": "/download/MAVEN/articulos.png"
+  },
+  "created_date": "2025-11-17",
+  "author_display": "tineojf/practice-java"
+}

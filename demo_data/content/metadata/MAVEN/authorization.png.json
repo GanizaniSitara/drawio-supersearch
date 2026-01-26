@@ -1,0 +1,22 @@
+{
+  "id": "13765",
+  "title": "authorization.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13765"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "bcx-exa",
+    "github_repo": "open-source_micro-backend-identity"
+  },
+  "_links": {
+    "download": "/download/MAVEN/authorization.png"
+  },
+  "created_date": "2025-07-27",
+  "author_display": "bcx-exa/open-source_micro-backend-identity"
+}

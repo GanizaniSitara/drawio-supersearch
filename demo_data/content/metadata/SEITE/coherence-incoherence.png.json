@@ -1,0 +1,22 @@
+{
+  "id": "20032",
+  "title": "coherence-incoherence.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20032"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "raytroop",
+    "github_repo": "raytroop.github.io"
+  },
+  "_links": {
+    "download": "/download/SEITE/coherence-incoherence.png"
+  },
+  "created_date": "2024-04-27",
+  "author_display": "raytroop/raytroop.github.io"
+}

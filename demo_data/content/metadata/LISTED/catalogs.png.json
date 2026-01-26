@@ -1,0 +1,22 @@
+{
+  "id": "15586",
+  "title": "catalogs.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15586"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Aliendreamer",
+    "github_repo": "templateServices"
+  },
+  "_links": {
+    "download": "/download/LISTED/catalogs.png"
+  },
+  "created_date": "2025-06-05",
+  "author_display": "Aliendreamer/templateServices"
+}

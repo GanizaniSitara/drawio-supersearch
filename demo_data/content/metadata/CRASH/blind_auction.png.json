@@ -1,0 +1,22 @@
+{
+  "id": "12502",
+  "title": "blind_auction.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12502"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "Ahiableamekm",
+    "github_repo": "pythonProj"
+  },
+  "_links": {
+    "download": "/download/CRASH/blind_auction.png"
+  },
+  "created_date": "2025-05-04",
+  "author_display": "Ahiableamekm/pythonProj"
+}

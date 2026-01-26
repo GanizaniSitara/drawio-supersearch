@@ -1,0 +1,22 @@
+{
+  "id": "17748",
+  "title": "Brainstorm - Harmonisatie-idee.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17748"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Geonovum",
+    "github_repo": "DrawIO"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/Brainstorm - Harmonisatie-idee.png"
+  },
+  "created_date": "2025-05-07",
+  "author_display": "Geonovum/DrawIO"
+}

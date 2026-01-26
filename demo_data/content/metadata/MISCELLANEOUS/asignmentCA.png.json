@@ -1,0 +1,22 @@
+{
+  "id": "1299",
+  "title": "asignmentCA.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1299"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "dang-khoa-2k4",
+    "github_repo": "BattleShip"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/asignmentCA.png"
+  },
+  "created_date": "2025-06-01",
+  "author_display": "dang-khoa-2k4/BattleShip"
+}

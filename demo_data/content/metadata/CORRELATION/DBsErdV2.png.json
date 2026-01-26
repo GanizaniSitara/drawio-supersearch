@@ -1,0 +1,22 @@
+{
+  "id": "17702",
+  "title": "DBsErdV2.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17702"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "algimas",
+    "github_repo": "tmp"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/DBsErdV2.png"
+  },
+  "created_date": "2024-05-19",
+  "author_display": "algimas/tmp"
+}

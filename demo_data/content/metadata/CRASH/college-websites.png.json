@@ -1,0 +1,22 @@
+{
+  "id": "12299",
+  "title": "college-websites.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12299"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "sbenstewart",
+    "github_repo": "the-content-writer"
+  },
+  "_links": {
+    "download": "/download/CRASH/college-websites.png"
+  },
+  "created_date": "2025-08-18",
+  "author_display": "sbenstewart/the-content-writer"
+}

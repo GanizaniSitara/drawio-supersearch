@@ -1,0 +1,22 @@
+{
+  "id": "11571",
+  "title": "car_flowchart2.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11571"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Mickmacha",
+    "github_repo": "Car_diagnostic_chatbot"
+  },
+  "_links": {
+    "download": "/download/CAL/car_flowchart2.png"
+  },
+  "created_date": "2025-02-20",
+  "author_display": "Mickmacha/Car_diagnostic_chatbot"
+}

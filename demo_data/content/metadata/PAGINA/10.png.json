@@ -1,0 +1,22 @@
+{
+  "id": "9282",
+  "title": "10.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9282"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "lumiseven",
+    "github_repo": "es-memo"
+  },
+  "_links": {
+    "download": "/download/PAGINA/10.png"
+  },
+  "created_date": "2025-03-18",
+  "author_display": "lumiseven/es-memo"
+}

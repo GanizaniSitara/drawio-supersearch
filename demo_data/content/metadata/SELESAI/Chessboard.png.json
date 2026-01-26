@@ -1,0 +1,22 @@
+{
+  "id": "9527",
+  "title": "Chessboard.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9527"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "aynh",
+    "github_repo": "diagrams"
+  },
+  "_links": {
+    "download": "/download/SELESAI/Chessboard.png"
+  },
+  "created_date": "2024-11-29",
+  "author_display": "aynh/diagrams"
+}

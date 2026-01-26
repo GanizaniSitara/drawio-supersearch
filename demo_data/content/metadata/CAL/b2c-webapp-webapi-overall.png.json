@@ -1,0 +1,22 @@
+{
+  "id": "11536",
+  "title": "b2c-webapp-webapi-overall.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11536"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "sandeep-katta0102",
+    "github_repo": "azure-sdk-for-java"
+  },
+  "_links": {
+    "download": "/download/CAL/b2c-webapp-webapi-overall.png"
+  },
+  "created_date": "2025-10-31",
+  "author_display": "sandeep-katta0102/azure-sdk-for-java"
+}

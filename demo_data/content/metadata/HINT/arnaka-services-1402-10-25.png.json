@@ -1,0 +1,22 @@
+{
+  "id": "20763",
+  "title": "arnaka-services-1402-10-25.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20763"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "msmsadegh",
+    "github_repo": "java-training"
+  },
+  "_links": {
+    "download": "/download/HINT/arnaka-services-1402-10-25.png"
+  },
+  "created_date": "2024-04-06",
+  "author_display": "msmsadegh/java-training"
+}

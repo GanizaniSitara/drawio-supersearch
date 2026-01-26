@@ -1,0 +1,22 @@
+{
+  "id": "13781",
+  "title": "aws.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13781"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "DanHachuel",
+    "github_repo": "Diagramas"
+  },
+  "_links": {
+    "download": "/download/MAVEN/aws.png"
+  },
+  "created_date": "2025-05-22",
+  "author_display": "DanHachuel/Diagramas"
+}

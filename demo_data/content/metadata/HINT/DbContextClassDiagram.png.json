@@ -1,0 +1,22 @@
+{
+  "id": "20823",
+  "title": "DbContextClassDiagram.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20823"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "mohammadaminyza",
+    "github_repo": "mongodm"
+  },
+  "_links": {
+    "download": "/download/HINT/DbContextClassDiagram.png"
+  },
+  "created_date": "2024-12-28",
+  "author_display": "mohammadaminyza/mongodm"
+}

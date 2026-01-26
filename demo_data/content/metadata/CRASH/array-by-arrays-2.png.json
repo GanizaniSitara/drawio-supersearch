@@ -1,0 +1,22 @@
+{
+  "id": "12530",
+  "title": "array-by-arrays-2.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12530"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "ue12-p23",
+    "github_repo": "numerique"
+  },
+  "_links": {
+    "download": "/download/CRASH/array-by-arrays-2.png"
+  },
+  "created_date": "2025-09-18",
+  "author_display": "ue12-p23/numerique"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "15402",
+  "title": "checking-gromacs-configuration.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15402"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "ENCCS",
+    "github_repo": "gromacs-gpu-performance"
+  },
+  "_links": {
+    "download": "/download/LISTED/checking-gromacs-configuration.png"
+  },
+  "created_date": "2025-04-10",
+  "author_display": "ENCCS/gromacs-gpu-performance"
+}

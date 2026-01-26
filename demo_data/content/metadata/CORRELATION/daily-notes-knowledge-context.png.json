@@ -1,0 +1,22 @@
+{
+  "id": "17915",
+  "title": "daily-notes-knowledge-context.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17915"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "dsebastien",
+    "github_repo": "website-dsebastien"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/daily-notes-knowledge-context.png"
+  },
+  "created_date": "2025-11-30",
+  "author_display": "dsebastien/website-dsebastien"
+}

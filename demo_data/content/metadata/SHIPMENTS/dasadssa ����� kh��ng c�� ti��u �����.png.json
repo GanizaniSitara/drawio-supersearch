@@ -1,0 +1,22 @@
+{
+  "id": "1893",
+  "title": "dasadssa \ufffd\ufffd\ufffd\ufffd\ufffd kh\ufffd\ufffdng c\ufffd\ufffd ti\ufffd\ufffdu \ufffd\ufffd\ufffd\ufffd\ufffd.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1893"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "lethanhdathust",
+    "github_repo": "algorithm"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/dasadssa \ufffd\ufffd\ufffd\ufffd\ufffd kh\ufffd\ufffdng c\ufffd\ufffd ti\ufffd\ufffdu \ufffd\ufffd\ufffd\ufffd\ufffd.png"
+  },
+  "created_date": "2024-10-13",
+  "author_display": "lethanhdathust/algorithm"
+}

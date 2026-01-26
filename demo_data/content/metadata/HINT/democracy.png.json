@@ -1,0 +1,22 @@
+{
+  "id": "20794",
+  "title": "democracy.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20794"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "sbenstewart",
+    "github_repo": "the-content-writer"
+  },
+  "_links": {
+    "download": "/download/HINT/democracy.png"
+  },
+  "created_date": "2025-10-20",
+  "author_display": "sbenstewart/the-content-writer"
+}

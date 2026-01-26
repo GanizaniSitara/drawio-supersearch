@@ -1,0 +1,22 @@
+{
+  "id": "9345",
+  "title": "DesiresStructure.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9345"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "Aceto1",
+    "github_repo": "Sharky-Bot-Template"
+  },
+  "_links": {
+    "download": "/download/PAGINA/DesiresStructure.png"
+  },
+  "created_date": "2025-06-19",
+  "author_display": "Aceto1/Sharky-Bot-Template"
+}

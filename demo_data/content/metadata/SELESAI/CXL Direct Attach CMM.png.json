@@ -1,0 +1,22 @@
+{
+  "id": "9664",
+  "title": "CXL Direct Attach CMM.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9664"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "kamilkhan52",
+    "github_repo": "cxl_diagrams"
+  },
+  "_links": {
+    "download": "/download/SELESAI/CXL Direct Attach CMM.png"
+  },
+  "created_date": "2024-04-23",
+  "author_display": "kamilkhan52/cxl_diagrams"
+}

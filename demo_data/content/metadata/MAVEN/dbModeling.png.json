@@ -1,0 +1,22 @@
+{
+  "id": "13846",
+  "title": "dbModeling.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13846"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "MotuS-Web",
+    "github_repo": "MotuS-Backend"
+  },
+  "_links": {
+    "download": "/download/MAVEN/dbModeling.png"
+  },
+  "created_date": "2024-09-21",
+  "author_display": "MotuS-Web/MotuS-Backend"
+}

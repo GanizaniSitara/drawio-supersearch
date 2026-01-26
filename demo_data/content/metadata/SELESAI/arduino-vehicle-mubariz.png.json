@@ -1,0 +1,22 @@
+{
+  "id": "9537",
+  "title": "arduino-vehicle-mubariz.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9537"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "mubarizahmed",
+    "github_repo": "ros-vehicle"
+  },
+  "_links": {
+    "download": "/download/SELESAI/arduino-vehicle-mubariz.png"
+  },
+  "created_date": "2025-05-14",
+  "author_display": "mubarizahmed/ros-vehicle"
+}

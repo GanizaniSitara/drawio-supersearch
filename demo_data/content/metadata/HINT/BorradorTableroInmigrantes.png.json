@@ -1,0 +1,22 @@
+{
+  "id": "20920",
+  "title": "BorradorTableroInmigrantes.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20920"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "Maleniski",
+    "github_repo": "ing-caracteristicas"
+  },
+  "_links": {
+    "download": "/download/HINT/BorradorTableroInmigrantes.png"
+  },
+  "created_date": "2024-07-17",
+  "author_display": "Maleniski/ing-caracteristicas"
+}

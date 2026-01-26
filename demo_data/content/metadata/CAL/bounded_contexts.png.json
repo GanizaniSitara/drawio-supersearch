@@ -1,0 +1,22 @@
+{
+  "id": "11670",
+  "title": "bounded_contexts.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11670"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "prenaissance",
+    "github_repo": "swapsquare"
+  },
+  "_links": {
+    "download": "/download/CAL/bounded_contexts.png"
+  },
+  "created_date": "2026-01-18",
+  "author_display": "prenaissance/swapsquare"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17705",
+  "title": "DoS Products - Tech Strategy.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17705"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "nhsd-exeter",
+    "github_repo": "dos-products-tech-strategy"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/DoS Products - Tech Strategy.png"
+  },
+  "created_date": "2024-04-08",
+  "author_display": "nhsd-exeter/dos-products-tech-strategy"
+}

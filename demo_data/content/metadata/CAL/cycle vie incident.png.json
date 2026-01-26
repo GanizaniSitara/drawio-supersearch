@@ -1,0 +1,22 @@
+{
+  "id": "11750",
+  "title": "cycle vie incident.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11750"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "mapette",
+    "github_repo": "sos_immo_backend"
+  },
+  "_links": {
+    "download": "/download/CAL/cycle vie incident.png"
+  },
+  "created_date": "2024-02-08",
+  "author_display": "mapette/sos_immo_backend"
+}

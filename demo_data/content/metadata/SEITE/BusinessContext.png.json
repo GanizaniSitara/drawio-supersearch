@@ -1,0 +1,22 @@
+{
+  "id": "19962",
+  "title": "BusinessContext.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19962"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Golo300",
+    "github_repo": "Kantinerado"
+  },
+  "_links": {
+    "download": "/download/SEITE/BusinessContext.png"
+  },
+  "created_date": "2025-09-11",
+  "author_display": "Golo300/Kantinerado"
+}

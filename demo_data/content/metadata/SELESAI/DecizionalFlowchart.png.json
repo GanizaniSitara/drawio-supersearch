@@ -1,0 +1,22 @@
+{
+  "id": "9761",
+  "title": "DecizionalFlowchart.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9761"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "cezarmocanu",
+    "github_repo": "Meditatii"
+  },
+  "_links": {
+    "download": "/download/SELESAI/DecizionalFlowchart.png"
+  },
+  "created_date": "2025-10-14",
+  "author_display": "cezarmocanu/Meditatii"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "23562",
+  "title": "bucket\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23562"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "xiaobaiTech",
+    "github_repo": "image"
+  },
+  "_links": {
+    "download": "/download/ROCK/bucket\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.png"
+  },
+  "created_date": "2025-09-23",
+  "author_display": "xiaobaiTech/image"
+}

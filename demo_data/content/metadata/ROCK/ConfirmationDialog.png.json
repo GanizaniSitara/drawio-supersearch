@@ -1,0 +1,22 @@
+{
+  "id": "24115",
+  "title": "ConfirmationDialog.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24115"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "openkfw",
+    "github_repo": "TruBudget"
+  },
+  "_links": {
+    "download": "/download/ROCK/ConfirmationDialog.png"
+  },
+  "created_date": "2025-11-19",
+  "author_display": "openkfw/TruBudget"
+}

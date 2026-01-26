@@ -1,0 +1,22 @@
+{
+  "id": "19986",
+  "title": "AV1RaspberryApp.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19986"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "Nathy-bajo",
+    "github_repo": "video-audio-pi"
+  },
+  "_links": {
+    "download": "/download/SEITE/AV1RaspberryApp.png"
+  },
+  "created_date": "2025-08-29",
+  "author_display": "Nathy-bajo/video-audio-pi"
+}

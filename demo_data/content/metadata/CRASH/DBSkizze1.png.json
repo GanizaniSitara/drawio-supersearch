@@ -1,0 +1,22 @@
+{
+  "id": "12498",
+  "title": "DBSkizze1.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12498"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "tobiasenger",
+    "github_repo": "zeichnungen"
+  },
+  "_links": {
+    "download": "/download/CRASH/DBSkizze1.png"
+  },
+  "created_date": "2024-06-03",
+  "author_display": "tobiasenger/zeichnungen"
+}

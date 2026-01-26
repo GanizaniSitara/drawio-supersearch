@@ -1,0 +1,22 @@
+{
+  "id": "13806",
+  "title": "demouml.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13806"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Ishanmadan10",
+    "github_repo": "Fresher-s-boot-camp-2024"
+  },
+  "_links": {
+    "download": "/download/MAVEN/demouml.png"
+  },
+  "created_date": "2024-08-24",
+  "author_display": "Ishanmadan10/Fresher-s-boot-camp-2024"
+}

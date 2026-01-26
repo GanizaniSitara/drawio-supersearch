@@ -1,0 +1,22 @@
+{
+  "id": "1076",
+  "title": "26006613715043340_1.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1076"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "lirlia",
+    "github_repo": "framinal"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/26006613715043340_1.png"
+  },
+  "created_date": "2024-02-19",
+  "author_display": "lirlia/framinal"
+}

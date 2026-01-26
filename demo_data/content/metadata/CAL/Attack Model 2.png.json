@@ -1,0 +1,22 @@
+{
+  "id": "11631",
+  "title": "Attack Model 2.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11631"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "jwnhy",
+    "github_repo": "WOOT-BadUSB-C"
+  },
+  "_links": {
+    "download": "/download/CAL/Attack Model 2.png"
+  },
+  "created_date": "2025-01-07",
+  "author_display": "jwnhy/WOOT-BadUSB-C"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1301",
+  "title": "c12-lfv2-schema.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1301"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "casecam",
+    "github_repo": "Learn-TypeScript-3-by-Building-Web-Applications"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/c12-lfv2-schema.png"
+  },
+  "created_date": "2024-11-16",
+  "author_display": "casecam/Learn-TypeScript-3-by-Building-Web-Applications"
+}

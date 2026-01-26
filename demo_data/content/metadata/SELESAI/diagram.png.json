@@ -1,0 +1,22 @@
+{
+  "id": "9711",
+  "title": "diagram.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9711"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "zhaojh329",
+    "github_repo": "rtty"
+  },
+  "_links": {
+    "download": "/download/SELESAI/diagram.png"
+  },
+  "created_date": "2024-09-25",
+  "author_display": "zhaojh329/rtty"
+}

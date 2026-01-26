@@ -1,0 +1,22 @@
+{
+  "id": "15476",
+  "title": "b2c-webapp-webapi-overall.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15476"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "NeuroticStar",
+    "github_repo": "azure-sdk-for-java"
+  },
+  "_links": {
+    "download": "/download/LISTED/b2c-webapp-webapi-overall.png"
+  },
+  "created_date": "2026-01-25",
+  "author_display": "NeuroticStar/azure-sdk-for-java"
+}

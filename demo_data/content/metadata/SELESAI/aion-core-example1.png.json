@@ -1,0 +1,22 @@
+{
+  "id": "9608",
+  "title": "aion-core-example1.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9608"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "latonaio",
+    "github_repo": "aion-core"
+  },
+  "_links": {
+    "download": "/download/SELESAI/aion-core-example1.png"
+  },
+  "created_date": "2024-11-21",
+  "author_display": "latonaio/aion-core"
+}

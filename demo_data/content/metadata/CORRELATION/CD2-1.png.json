@@ -1,0 +1,22 @@
+{
+  "id": "17773",
+  "title": "CD2-1.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17773"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "ONFFLine",
+    "github_repo": "Diagram"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/CD2-1.png"
+  },
+  "created_date": "2025-07-01",
+  "author_display": "ONFFLine/Diagram"
+}

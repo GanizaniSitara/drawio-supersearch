@@ -1,0 +1,22 @@
+{
+  "id": "15599",
+  "title": "BOTON ANTIREBOTE MDE.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15599"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "FCampo7",
+    "github_repo": "Electronica-Digital-1"
+  },
+  "_links": {
+    "download": "/download/LISTED/BOTON ANTIREBOTE MDE.png"
+  },
+  "created_date": "2025-09-17",
+  "author_display": "FCampo7/Electronica-Digital-1"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17782",
+  "title": "22965.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17782"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "sangbumlikeagod",
+    "github_repo": "backjoon"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/22965.png"
+  },
+  "created_date": "2024-05-13",
+  "author_display": "sangbumlikeagod/backjoon"
+}

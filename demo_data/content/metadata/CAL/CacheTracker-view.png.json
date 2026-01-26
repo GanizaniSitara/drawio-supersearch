@@ -1,0 +1,22 @@
+{
+  "id": "11674",
+  "title": "CacheTracker-view.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11674"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "changzhiwin",
+    "github_repo": "spark-core-analysis"
+  },
+  "_links": {
+    "download": "/download/CAL/CacheTracker-view.png"
+  },
+  "created_date": "2025-02-19",
+  "author_display": "changzhiwin/spark-core-analysis"
+}

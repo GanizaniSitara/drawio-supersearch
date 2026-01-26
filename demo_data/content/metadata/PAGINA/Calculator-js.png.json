@@ -1,0 +1,22 @@
+{
+  "id": "9396",
+  "title": "Calculator-js.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9396"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "Neeltyper001",
+    "github_repo": "Calculator-js"
+  },
+  "_links": {
+    "download": "/download/PAGINA/Calculator-js.png"
+  },
+  "created_date": "2026-01-24",
+  "author_display": "Neeltyper001/Calculator-js"
+}

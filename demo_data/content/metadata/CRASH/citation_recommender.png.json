@@ -1,0 +1,22 @@
+{
+  "id": "12317",
+  "title": "citation_recommender.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12317"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "joel-beck",
+    "github_repo": "msc-thesis"
+  },
+  "_links": {
+    "download": "/download/CRASH/citation_recommender.png"
+  },
+  "created_date": "2024-05-19",
+  "author_display": "joel-beck/msc-thesis"
+}

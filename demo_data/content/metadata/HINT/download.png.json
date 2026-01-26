@@ -1,0 +1,22 @@
+{
+  "id": "20918",
+  "title": "download.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20918"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "NurNils",
+    "github_repo": "aml-nosql-database-management"
+  },
+  "_links": {
+    "download": "/download/HINT/download.png"
+  },
+  "created_date": "2024-10-10",
+  "author_display": "NurNils/aml-nosql-database-management"
+}

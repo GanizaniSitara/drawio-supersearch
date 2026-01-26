@@ -1,0 +1,22 @@
+{
+  "id": "24061",
+  "title": "CoreMemory.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24061"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Nakazoto",
+    "github_repo": "UEVTC"
+  },
+  "_links": {
+    "download": "/download/ROCK/CoreMemory.png"
+  },
+  "created_date": "2024-03-13",
+  "author_display": "Nakazoto/UEVTC"
+}

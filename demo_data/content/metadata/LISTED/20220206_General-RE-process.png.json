@@ -1,0 +1,22 @@
+{
+  "id": "15533",
+  "title": "20220206_General-RE-process.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15533"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "ETCE-LAB",
+    "github_repo": "teaching-material"
+  },
+  "_links": {
+    "download": "/download/LISTED/20220206_General-RE-process.png"
+  },
+  "created_date": "2025-08-16",
+  "author_display": "ETCE-LAB/teaching-material"
+}

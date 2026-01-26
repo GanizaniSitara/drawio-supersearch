@@ -1,0 +1,22 @@
+{
+  "id": "15577",
+  "title": "bitsbytes.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15577"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Casanva11",
+    "github_repo": "bitsbytes"
+  },
+  "_links": {
+    "download": "/download/LISTED/bitsbytes.png"
+  },
+  "created_date": "2024-04-05",
+  "author_display": "Casanva11/bitsbytes"
+}

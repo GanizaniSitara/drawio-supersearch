@@ -1,0 +1,22 @@
+{
+  "id": "11784",
+  "title": "baize.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11784"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "dashjay",
+    "github_repo": "baize"
+  },
+  "_links": {
+    "download": "/download/CAL/baize.png"
+  },
+  "created_date": "2024-02-04",
+  "author_display": "dashjay/baize"
+}

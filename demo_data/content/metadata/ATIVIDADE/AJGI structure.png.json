@@ -1,0 +1,22 @@
+{
+  "id": "10286",
+  "title": "AJGI structure.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10286"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "tltangliang",
+    "github_repo": "arozos"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/AJGI structure.png"
+  },
+  "created_date": "2024-12-06",
+  "author_display": "tltangliang/arozos"
+}

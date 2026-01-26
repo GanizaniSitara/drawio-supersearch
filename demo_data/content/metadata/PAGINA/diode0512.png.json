@@ -1,0 +1,22 @@
+{
+  "id": "9393",
+  "title": "diode0512.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9393"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "kd9701",
+    "github_repo": "TMCIT-3rd-Report"
+  },
+  "_links": {
+    "download": "/download/PAGINA/diode0512.png"
+  },
+  "created_date": "2025-08-19",
+  "author_display": "kd9701/TMCIT-3rd-Report"
+}

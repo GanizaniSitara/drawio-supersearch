@@ -1,0 +1,22 @@
+{
+  "id": "9510",
+  "title": "admin-flow.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9510"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "izqalan",
+    "github_repo": "drawio"
+  },
+  "_links": {
+    "download": "/download/SELESAI/admin-flow.png"
+  },
+  "created_date": "2024-05-08",
+  "author_display": "izqalan/drawio"
+}

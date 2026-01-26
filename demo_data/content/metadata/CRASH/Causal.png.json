@@ -1,0 +1,22 @@
+{
+  "id": "12311",
+  "title": "Causal.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12311"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "esjimenezro",
+    "github_repo": "mgpv2022"
+  },
+  "_links": {
+    "download": "/download/CRASH/Causal.png"
+  },
+  "created_date": "2024-04-16",
+  "author_display": "esjimenezro/mgpv2022"
+}

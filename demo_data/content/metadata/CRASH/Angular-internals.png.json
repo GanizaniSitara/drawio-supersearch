@@ -1,0 +1,22 @@
+{
+  "id": "12334",
+  "title": "Angular-internals.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12334"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "bharathmuppa",
+    "github_repo": "DrawIO"
+  },
+  "_links": {
+    "download": "/download/CRASH/Angular-internals.png"
+  },
+  "created_date": "2025-10-06",
+  "author_display": "bharathmuppa/DrawIO"
+}

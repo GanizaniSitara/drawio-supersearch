@@ -1,0 +1,22 @@
+{
+  "id": "11692",
+  "title": "acorn_diagram_scene.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11692"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "nhaarman",
+    "github_repo": "acorn"
+  },
+  "_links": {
+    "download": "/download/CAL/acorn_diagram_scene.png"
+  },
+  "created_date": "2024-12-14",
+  "author_display": "nhaarman/acorn"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2033",
+  "title": "Blackjack.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2033"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "tony-plop-renegade",
+    "github_repo": "susan"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Blackjack.png"
+  },
+  "created_date": "2025-01-21",
+  "author_display": "tony-plop-renegade/susan"
+}

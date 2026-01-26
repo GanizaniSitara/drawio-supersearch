@@ -1,0 +1,22 @@
+{
+  "id": "9267",
+  "title": "access.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9267"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "jiechen257",
+    "github_repo": "draw-io-repos"
+  },
+  "_links": {
+    "download": "/download/PAGINA/access.png"
+  },
+  "created_date": "2024-09-06",
+  "author_display": "jiechen257/draw-io-repos"
+}

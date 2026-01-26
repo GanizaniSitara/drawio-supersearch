@@ -1,0 +1,22 @@
+{
+  "id": "23663",
+  "title": "2462.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23663"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "hantwofish",
+    "github_repo": "my_leetcode"
+  },
+  "_links": {
+    "download": "/download/ROCK/2462.png"
+  },
+  "created_date": "2024-10-13",
+  "author_display": "hantwofish/my_leetcode"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "13681",
+  "title": "ch2_zone.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13681"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "AkaiNoCat",
+    "github_repo": "flowcharting-repository"
+  },
+  "_links": {
+    "download": "/download/MAVEN/ch2_zone.png"
+  },
+  "created_date": "2024-02-08",
+  "author_display": "AkaiNoCat/flowcharting-repository"
+}

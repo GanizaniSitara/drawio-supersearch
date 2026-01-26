@@ -1,0 +1,22 @@
+{
+  "id": "20157",
+  "title": "BRO Agent State.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20157"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "Albert-W",
+    "github_repo": "Draw_io"
+  },
+  "_links": {
+    "download": "/download/SEITE/BRO Agent State.png"
+  },
+  "created_date": "2024-12-12",
+  "author_display": "Albert-W/Draw_io"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "11871",
+  "title": "CS151.png",
+  "space": {
+    "key": "COMPRESS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11871"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "shah-deep2",
+    "github_repo": "CS151-06-F23"
+  },
+  "_links": {
+    "download": "/download/COMPRESS/CS151.png"
+  },
+  "created_date": "2024-03-21",
+  "author_display": "shah-deep2/CS151-06-F23"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "12527",
+  "title": "der.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12527"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "isaacgoncod",
+    "github_repo": "PWBE"
+  },
+  "_links": {
+    "download": "/download/CRASH/der.png"
+  },
+  "created_date": "2024-05-07",
+  "author_display": "isaacgoncod/PWBE"
+}

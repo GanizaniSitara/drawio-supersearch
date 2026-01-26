@@ -1,0 +1,22 @@
+{
+  "id": "9639",
+  "title": "audit-log-framework.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9639"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "planetf1",
+    "github_repo": "egeria-docs"
+  },
+  "_links": {
+    "download": "/download/SELESAI/audit-log-framework.png"
+  },
+  "created_date": "2024-03-29",
+  "author_display": "planetf1/egeria-docs"
+}

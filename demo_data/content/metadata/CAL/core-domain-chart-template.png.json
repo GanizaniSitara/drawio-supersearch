@@ -1,0 +1,22 @@
+{
+  "id": "11676",
+  "title": "core-domain-chart-template.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11676"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "ddd-crew",
+    "github_repo": "core-domain-charts"
+  },
+  "_links": {
+    "download": "/download/CAL/core-domain-chart-template.png"
+  },
+  "created_date": "2024-11-20",
+  "author_display": "ddd-crew/core-domain-charts"
+}

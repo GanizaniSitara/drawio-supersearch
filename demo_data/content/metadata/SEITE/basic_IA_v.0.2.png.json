@@ -1,0 +1,22 @@
+{
+  "id": "20223",
+  "title": "basic_IA_v.0.2.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20223"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "hochmun",
+    "github_repo": "3th_team_project"
+  },
+  "_links": {
+    "download": "/download/SEITE/basic_IA_v.0.2.png"
+  },
+  "created_date": "2025-06-22",
+  "author_display": "hochmun/3th_team_project"
+}

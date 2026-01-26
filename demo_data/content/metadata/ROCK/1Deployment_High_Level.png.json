@@ -1,0 +1,22 @@
+{
+  "id": "24029",
+  "title": "1Deployment_High_Level.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24029"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "alessandrosaccone",
+    "github_repo": "codeKataBattle"
+  },
+  "_links": {
+    "download": "/download/ROCK/1Deployment_High_Level.png"
+  },
+  "created_date": "2025-07-14",
+  "author_display": "alessandrosaccone/codeKataBattle"
+}

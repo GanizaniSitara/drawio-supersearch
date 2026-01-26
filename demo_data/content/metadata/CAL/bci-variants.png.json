@@ -1,0 +1,22 @@
+{
+  "id": "11590",
+  "title": "bci-variants.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11590"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "SUSE",
+    "github_repo": "doc-modular"
+  },
+  "_links": {
+    "download": "/download/CAL/bci-variants.png"
+  },
+  "created_date": "2024-10-09",
+  "author_display": "SUSE/doc-modular"
+}

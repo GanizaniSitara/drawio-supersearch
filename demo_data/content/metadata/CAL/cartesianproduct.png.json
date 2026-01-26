@@ -1,0 +1,22 @@
+{
+  "id": "11772",
+  "title": "cartesianproduct.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11772"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "petkorutesic",
+    "github_repo": "databases-slides"
+  },
+  "_links": {
+    "download": "/download/CAL/cartesianproduct.png"
+  },
+  "created_date": "2024-08-09",
+  "author_display": "petkorutesic/databases-slides"
+}

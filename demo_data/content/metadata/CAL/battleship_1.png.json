@@ -1,0 +1,22 @@
+{
+  "id": "11594",
+  "title": "battleship_1.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11594"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "CodecoolGlobal",
+    "github_repo": "battle-ship-in-the-oo-way-battleship"
+  },
+  "_links": {
+    "download": "/download/CAL/battleship_1.png"
+  },
+  "created_date": "2025-08-12",
+  "author_display": "CodecoolGlobal/battle-ship-in-the-oo-way-battleship"
+}

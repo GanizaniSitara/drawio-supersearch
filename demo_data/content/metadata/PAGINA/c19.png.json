@@ -1,0 +1,22 @@
+{
+  "id": "9467",
+  "title": "c19.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9467"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "tawfiqh58",
+    "github_repo": "multiperiod-wood-sc-model"
+  },
+  "_links": {
+    "download": "/download/PAGINA/c19.png"
+  },
+  "created_date": "2025-02-06",
+  "author_display": "tawfiqh58/multiperiod-wood-sc-model"
+}

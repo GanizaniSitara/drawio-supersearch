@@ -1,0 +1,22 @@
+{
+  "id": "9457",
+  "title": "bmapchain.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9457"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "CQUT-Programmer",
+    "github_repo": "Golang-Doc"
+  },
+  "_links": {
+    "download": "/download/PAGINA/bmapchain.png"
+  },
+  "created_date": "2024-03-29",
+  "author_display": "CQUT-Programmer/Golang-Doc"
+}

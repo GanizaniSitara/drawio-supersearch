@@ -1,0 +1,22 @@
+{
+  "id": "20815",
+  "title": "borradorApp.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20815"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "jorgeAgoiz",
+    "github_repo": "pacDWECilerna"
+  },
+  "_links": {
+    "download": "/download/HINT/borradorApp.png"
+  },
+  "created_date": "2025-08-07",
+  "author_display": "jorgeAgoiz/pacDWECilerna"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "12407",
+  "title": "cub.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12407"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "naveenr414",
+    "github_repo": "Concept-Learning"
+  },
+  "_links": {
+    "download": "/download/CRASH/cub.png"
+  },
+  "created_date": "2024-04-09",
+  "author_display": "naveenr414/Concept-Learning"
+}

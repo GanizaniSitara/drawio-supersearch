@@ -1,0 +1,22 @@
+{
+  "id": "13719",
+  "title": "adaptor.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13719"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "DimaXDD",
+    "github_repo": "Course2"
+  },
+  "_links": {
+    "download": "/download/MAVEN/adaptor.png"
+  },
+  "created_date": "2025-06-01",
+  "author_display": "DimaXDD/Course2"
+}

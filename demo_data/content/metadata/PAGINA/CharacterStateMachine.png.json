@@ -1,0 +1,22 @@
+{
+  "id": "9371",
+  "title": "CharacterStateMachine.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9371"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "cymhellfire",
+    "github_repo": "DogFightUE"
+  },
+  "_links": {
+    "download": "/download/PAGINA/CharacterStateMachine.png"
+  },
+  "created_date": "2024-02-24",
+  "author_display": "cymhellfire/DogFightUE"
+}

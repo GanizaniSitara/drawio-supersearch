@@ -1,0 +1,22 @@
+{
+  "id": "20781",
+  "title": "aws-roles.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20781"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "StackVista",
+    "github_repo": "stackstate-docs"
+  },
+  "_links": {
+    "download": "/download/HINT/aws-roles.png"
+  },
+  "created_date": "2024-04-06",
+  "author_display": "StackVista/stackstate-docs"
+}

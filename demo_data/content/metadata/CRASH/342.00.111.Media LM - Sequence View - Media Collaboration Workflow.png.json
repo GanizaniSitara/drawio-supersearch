@@ -1,0 +1,22 @@
+{
+  "id": "12376",
+  "title": "342.00.111.Media LM - Sequence View - Media Collaboration Workflow.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12376"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "skysgh",
+    "github_repo": "SysDelivery.Guidance"
+  },
+  "_links": {
+    "download": "/download/CRASH/342.00.111.Media LM - Sequence View - Media Collaboration Workflow.png"
+  },
+  "created_date": "2025-07-08",
+  "author_display": "skysgh/SysDelivery.Guidance"
+}

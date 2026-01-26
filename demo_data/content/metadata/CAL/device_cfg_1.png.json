@@ -1,0 +1,22 @@
+{
+  "id": "11518",
+  "title": "device_cfg_1.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11518"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "woshitanwang",
+    "github_repo": "document-style-guide"
+  },
+  "_links": {
+    "download": "/download/CAL/device_cfg_1.png"
+  },
+  "created_date": "2024-06-23",
+  "author_display": "woshitanwang/document-style-guide"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "23627",
+  "title": "all_cache.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23627"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "checkking",
+    "github_repo": "diagrams"
+  },
+  "_links": {
+    "download": "/download/ROCK/all_cache.png"
+  },
+  "created_date": "2025-10-07",
+  "author_display": "checkking/diagrams"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1385",
+  "title": "C4.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1385"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "AmmonAyisiMensah",
+    "github_repo": "MyDndServer"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/C4.png"
+  },
+  "created_date": "2025-12-13",
+  "author_display": "AmmonAyisiMensah/MyDndServer"
+}

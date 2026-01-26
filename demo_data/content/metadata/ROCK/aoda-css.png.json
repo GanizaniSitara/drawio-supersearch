@@ -1,0 +1,22 @@
+{
+  "id": "23633",
+  "title": "aoda-css.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23633"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "aodazhang",
+    "github_repo": "blog"
+  },
+  "_links": {
+    "download": "/download/ROCK/aoda-css.png"
+  },
+  "created_date": "2025-05-13",
+  "author_display": "aodazhang/blog"
+}

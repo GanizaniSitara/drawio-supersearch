@@ -1,0 +1,22 @@
+{
+  "id": "2003",
+  "title": "Class_Diagram_Multiplicity.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2003"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "ucudal",
+    "github_repo": "ANDIS_Conceptos"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Class_Diagram_Multiplicity.png"
+  },
+  "created_date": "2024-11-02",
+  "author_display": "ucudal/ANDIS_Conceptos"
+}

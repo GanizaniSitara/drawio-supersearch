@@ -1,0 +1,22 @@
+{
+  "id": "17892",
+  "title": "042.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17892"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "JundMaster",
+    "github_repo": "lp2_exercicios"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/042.png"
+  },
+  "created_date": "2024-10-05",
+  "author_display": "JundMaster/lp2_exercicios"
+}

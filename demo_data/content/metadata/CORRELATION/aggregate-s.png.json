@@ -1,0 +1,22 @@
+{
+  "id": "17912",
+  "title": "aggregate-s.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17912"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "pestsov-v",
+    "github_repo": "documentation"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/aggregate-s.png"
+  },
+  "created_date": "2025-03-30",
+  "author_display": "pestsov-v/documentation"
+}

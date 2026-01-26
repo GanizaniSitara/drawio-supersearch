@@ -1,0 +1,22 @@
+{
+  "id": "15481",
+  "title": "checkpoint_tree_1.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15481"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "dapplion",
+    "github_repo": "annotated-spec"
+  },
+  "_links": {
+    "download": "/download/LISTED/checkpoint_tree_1.png"
+  },
+  "created_date": "2024-10-14",
+  "author_display": "dapplion/annotated-spec"
+}

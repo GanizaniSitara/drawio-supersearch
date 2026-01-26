@@ -1,0 +1,22 @@
+{
+  "id": "17906",
+  "title": "create_article.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17906"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "software-students-fall2021",
+    "github_repo": "user-experience-design-new_team"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/create_article.png"
+  },
+  "created_date": "2024-12-19",
+  "author_display": "software-students-fall2021/user-experience-design-new_team"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "24131",
+  "title": "Direktnachrichten_Bob.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24131"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Lonartie",
+    "github_repo": "STP-Beastopia"
+  },
+  "_links": {
+    "download": "/download/ROCK/Direktnachrichten_Bob.png"
+  },
+  "created_date": "2024-10-17",
+  "author_display": "Lonartie/STP-Beastopia"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "20046",
+  "title": "benbu.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20046"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "inNENU",
+    "github_repo": "resource"
+  },
+  "_links": {
+    "download": "/download/SEITE/benbu.png"
+  },
+  "created_date": "2025-12-20",
+  "author_display": "inNENU/resource"
+}

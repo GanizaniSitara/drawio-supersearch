@@ -1,0 +1,22 @@
+{
+  "id": "1386",
+  "title": "5557.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1386"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "sangbumlikeagod",
+    "github_repo": "backjoon"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/5557.png"
+  },
+  "created_date": "2025-03-08",
+  "author_display": "sangbumlikeagod/backjoon"
+}

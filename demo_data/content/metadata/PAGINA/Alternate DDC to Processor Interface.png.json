@@ -1,0 +1,22 @@
+{
+  "id": "9333",
+  "title": "Alternate DDC to Processor Interface.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9333"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "laurencebarker",
+    "github_repo": "Saturn"
+  },
+  "_links": {
+    "download": "/download/PAGINA/Alternate DDC to Processor Interface.png"
+  },
+  "created_date": "2025-09-26",
+  "author_display": "laurencebarker/Saturn"
+}

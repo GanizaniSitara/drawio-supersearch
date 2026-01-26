@@ -1,0 +1,22 @@
+{
+  "id": "12352",
+  "title": "all_reduce.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12352"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "NickGeneva",
+    "github_repo": "blog-code"
+  },
+  "_links": {
+    "download": "/download/CRASH/all_reduce.png"
+  },
+  "created_date": "2024-06-12",
+  "author_display": "NickGeneva/blog-code"
+}

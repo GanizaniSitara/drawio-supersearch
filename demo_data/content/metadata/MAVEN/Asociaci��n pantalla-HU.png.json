@@ -1,0 +1,22 @@
+{
+  "id": "13610",
+  "title": "Asociaci\ufffd\ufffdn pantalla-HU.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13610"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "HuBaMarin",
+    "github_repo": "projDespliegue"
+  },
+  "_links": {
+    "download": "/download/MAVEN/Asociaci\ufffd\ufffdn pantalla-HU.png"
+  },
+  "created_date": "2025-05-14",
+  "author_display": "HuBaMarin/projDespliegue"
+}

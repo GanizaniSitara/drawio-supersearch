@@ -1,0 +1,22 @@
+{
+  "id": "1244",
+  "title": "array_int.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1244"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "NCI900-Training-Organisation",
+    "github_repo": "c_programming_for_python_programmers"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/array_int.png"
+  },
+  "created_date": "2024-06-06",
+  "author_display": "NCI900-Training-Organisation/c_programming_for_python_programmers"
+}

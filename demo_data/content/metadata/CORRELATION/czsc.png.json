@@ -1,0 +1,22 @@
+{
+  "id": "17858",
+  "title": "czsc.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17858"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "mptm436",
+    "github_repo": "czsc"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/czsc.png"
+  },
+  "created_date": "2024-05-18",
+  "author_display": "mptm436/czsc"
+}

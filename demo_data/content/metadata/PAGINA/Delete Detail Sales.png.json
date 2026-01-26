@@ -1,0 +1,22 @@
+{
+  "id": "9472",
+  "title": "Delete Detail Sales.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9472"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "tramtruong98",
+    "github_repo": "use_case_diagram"
+  },
+  "_links": {
+    "download": "/download/PAGINA/Delete Detail Sales.png"
+  },
+  "created_date": "2025-10-20",
+  "author_display": "tramtruong98/use_case_diagram"
+}

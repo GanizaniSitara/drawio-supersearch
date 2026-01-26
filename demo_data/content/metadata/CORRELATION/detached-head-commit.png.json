@@ -1,0 +1,22 @@
+{
+  "id": "17715",
+  "title": "detached-head-commit.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17715"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "gbroques",
+    "github_repo": "git-internals-presentation"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/detached-head-commit.png"
+  },
+  "created_date": "2025-05-03",
+  "author_display": "gbroques/git-internals-presentation"
+}

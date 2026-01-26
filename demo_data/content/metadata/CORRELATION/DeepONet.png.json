@@ -1,0 +1,22 @@
+{
+  "id": "17750",
+  "title": "DeepONet.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17750"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "5huanghuai",
+    "github_repo": "Diagram"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/DeepONet.png"
+  },
+  "created_date": "2026-01-22",
+  "author_display": "5huanghuai/Diagram"
+}

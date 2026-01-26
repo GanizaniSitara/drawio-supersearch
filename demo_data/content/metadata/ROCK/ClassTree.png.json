@@ -1,0 +1,22 @@
+{
+  "id": "24056",
+  "title": "ClassTree.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24056"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "LovelyCatHyt",
+    "github_repo": "CurriculumDesign_CPP"
+  },
+  "_links": {
+    "download": "/download/ROCK/ClassTree.png"
+  },
+  "created_date": "2024-07-07",
+  "author_display": "LovelyCatHyt/CurriculumDesign_CPP"
+}

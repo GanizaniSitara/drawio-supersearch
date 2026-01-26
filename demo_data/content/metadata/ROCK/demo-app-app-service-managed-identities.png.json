@@ -1,0 +1,22 @@
+{
+  "id": "23595",
+  "title": "demo-app-app-service-managed-identities.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23595"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "martinabrle",
+    "github_repo": "app-service-java-demo"
+  },
+  "_links": {
+    "download": "/download/ROCK/demo-app-app-service-managed-identities.png"
+  },
+  "created_date": "2025-06-03",
+  "author_display": "martinabrle/app-service-java-demo"
+}

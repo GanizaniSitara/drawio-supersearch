@@ -1,0 +1,22 @@
+{
+  "id": "9629",
+  "title": "Copy of SamWise_DeploymentView_Iteration_3.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9629"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "GITyannie",
+    "github_repo": "samwise"
+  },
+  "_links": {
+    "download": "/download/SELESAI/Copy of SamWise_DeploymentView_Iteration_3.png"
+  },
+  "created_date": "2025-09-19",
+  "author_display": "GITyannie/samwise"
+}

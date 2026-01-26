@@ -1,0 +1,22 @@
+{
+  "id": "20338",
+  "title": "base.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20338"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "w3c",
+    "github_repo": "dpv"
+  },
+  "_links": {
+    "download": "/download/OIL/base.png"
+  },
+  "created_date": "2024-06-01",
+  "author_display": "w3c/dpv"
+}

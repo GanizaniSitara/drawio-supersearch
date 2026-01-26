@@ -1,0 +1,22 @@
+{
+  "id": "1367",
+  "title": "courses.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1367"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "bayville",
+    "github_repo": "dt207g-u1"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/courses.png"
+  },
+  "created_date": "2025-03-05",
+  "author_display": "bayville/dt207g-u1"
+}

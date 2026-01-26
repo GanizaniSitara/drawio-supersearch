@@ -1,0 +1,22 @@
+{
+  "id": "1019",
+  "title": "11.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1019"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "463024907",
+    "github_repo": "draw.io"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/11.png"
+  },
+  "created_date": "2024-05-31",
+  "author_display": "463024907/draw.io"
+}

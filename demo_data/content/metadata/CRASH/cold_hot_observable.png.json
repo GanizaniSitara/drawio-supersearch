@@ -1,0 +1,22 @@
+{
+  "id": "12435",
+  "title": "cold_hot_observable.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12435"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "voidsatisfaction",
+    "github_repo": "TIL"
+  },
+  "_links": {
+    "download": "/download/CRASH/cold_hot_observable.png"
+  },
+  "created_date": "2025-04-30",
+  "author_display": "voidsatisfaction/TIL"
+}

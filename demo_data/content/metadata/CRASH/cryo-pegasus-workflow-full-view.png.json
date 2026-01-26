@@ -1,0 +1,22 @@
+{
+  "id": "12438",
+  "title": "cryo-pegasus-workflow-full-view.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12438"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "uschpc",
+    "github_repo": "cryo-processor"
+  },
+  "_links": {
+    "download": "/download/CRASH/cryo-pegasus-workflow-full-view.png"
+  },
+  "created_date": "2024-11-12",
+  "author_display": "uschpc/cryo-processor"
+}

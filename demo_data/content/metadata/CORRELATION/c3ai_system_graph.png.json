@@ -1,0 +1,22 @@
+{
+  "id": "17688",
+  "title": "c3ai_system_graph.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17688"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "joy13975",
+    "github_repo": "covidprof_submission"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/c3ai_system_graph.png"
+  },
+  "created_date": "2024-08-10",
+  "author_display": "joy13975/covidprof_submission"
+}

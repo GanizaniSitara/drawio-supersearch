@@ -1,0 +1,22 @@
+{
+  "id": "20012",
+  "title": "001-03.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20012"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "rocboss",
+    "github_repo": "paopao-ce"
+  },
+  "_links": {
+    "download": "/download/SEITE/001-03.png"
+  },
+  "created_date": "2024-09-29",
+  "author_display": "rocboss/paopao-ce"
+}

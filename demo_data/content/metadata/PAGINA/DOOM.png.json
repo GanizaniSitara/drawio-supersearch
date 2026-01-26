@@ -1,0 +1,22 @@
+{
+  "id": "9490",
+  "title": "DOOM.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9490"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "Omelug",
+    "github_repo": "VUT_FIT_projekty"
+  },
+  "_links": {
+    "download": "/download/PAGINA/DOOM.png"
+  },
+  "created_date": "2025-01-16",
+  "author_display": "Omelug/VUT_FIT_projekty"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9425",
+  "title": "007-knowledge-graph.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9425"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "andrea-gioia",
+    "github_repo": "TheDataJoy"
+  },
+  "_links": {
+    "download": "/download/PAGINA/007-knowledge-graph.png"
+  },
+  "created_date": "2024-06-29",
+  "author_display": "andrea-gioia/TheDataJoy"
+}

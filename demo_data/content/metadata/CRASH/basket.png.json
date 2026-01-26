@@ -1,0 +1,22 @@
+{
+  "id": "12338",
+  "title": "basket.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12338"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "mz106",
+    "github_repo": "gh-project-example-lesson-3"
+  },
+  "_links": {
+    "download": "/download/CRASH/basket.png"
+  },
+  "created_date": "2024-12-22",
+  "author_display": "mz106/gh-project-example-lesson-3"
+}

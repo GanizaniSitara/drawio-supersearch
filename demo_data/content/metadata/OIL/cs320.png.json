@@ -1,0 +1,22 @@
+{
+  "id": "20400",
+  "title": "cs320.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20400"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "scherukuri2003",
+    "github_repo": "cs320-git-workshop"
+  },
+  "_links": {
+    "download": "/download/OIL/cs320.png"
+  },
+  "created_date": "2026-01-10",
+  "author_display": "scherukuri2003/cs320-git-workshop"
+}

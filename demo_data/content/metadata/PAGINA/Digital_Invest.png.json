@@ -1,0 +1,22 @@
+{
+  "id": "9497",
+  "title": "Digital_Invest.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9497"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "Brozinga",
+    "github_repo": "digital_invest"
+  },
+  "_links": {
+    "download": "/download/PAGINA/Digital_Invest.png"
+  },
+  "created_date": "2024-05-09",
+  "author_display": "Brozinga/digital_invest"
+}

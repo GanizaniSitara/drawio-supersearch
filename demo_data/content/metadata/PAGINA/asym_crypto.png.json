@@ -1,0 +1,22 @@
+{
+  "id": "9470",
+  "title": "asym_crypto.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9470"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "SamoKopecky",
+    "github_repo": "diploma-thesis-latex"
+  },
+  "_links": {
+    "download": "/download/PAGINA/asym_crypto.png"
+  },
+  "created_date": "2024-04-05",
+  "author_display": "SamoKopecky/diploma-thesis-latex"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17929",
+  "title": "BFD_Version_Final.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17929"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "hungtadasuke",
+    "github_repo": "CoffeShop_SoftwareTechnology"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/BFD_Version_Final.png"
+  },
+  "created_date": "2025-02-27",
+  "author_display": "hungtadasuke/CoffeShop_SoftwareTechnology"
+}

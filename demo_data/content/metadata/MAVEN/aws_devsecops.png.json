@@ -1,0 +1,22 @@
+{
+  "id": "13593",
+  "title": "aws_devsecops.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13593"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "gitmurali",
+    "github_repo": "aws_snippets"
+  },
+  "_links": {
+    "download": "/download/MAVEN/aws_devsecops.png"
+  },
+  "created_date": "2025-10-12",
+  "author_display": "gitmurali/aws_snippets"
+}

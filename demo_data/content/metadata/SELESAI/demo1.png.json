@@ -1,0 +1,22 @@
+{
+  "id": "9706",
+  "title": "demo1.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9706"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "ParadeTo",
+    "github_repo": "ParadeTo.github.io"
+  },
+  "_links": {
+    "download": "/download/SELESAI/demo1.png"
+  },
+  "created_date": "2025-12-17",
+  "author_display": "ParadeTo/ParadeTo.github.io"
+}

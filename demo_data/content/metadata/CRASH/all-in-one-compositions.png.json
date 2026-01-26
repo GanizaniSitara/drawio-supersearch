@@ -1,0 +1,22 @@
+{
+  "id": "12288",
+  "title": "all-in-one-compositions.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12288"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "turlodales",
+    "github_repo": "covid19-app-system-public"
+  },
+  "_links": {
+    "download": "/download/CRASH/all-in-one-compositions.png"
+  },
+  "created_date": "2024-04-06",
+  "author_display": "turlodales/covid19-app-system-public"
+}

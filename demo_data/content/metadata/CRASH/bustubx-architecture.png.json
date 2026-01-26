@@ -1,0 +1,22 @@
+{
+  "id": "12480",
+  "title": "bustubx-architecture.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12480"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Kimizu0",
+    "github_repo": "bustubx"
+  },
+  "_links": {
+    "download": "/download/CRASH/bustubx-architecture.png"
+  },
+  "created_date": "2024-12-01",
+  "author_display": "Kimizu0/bustubx"
+}

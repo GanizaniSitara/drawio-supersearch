@@ -1,0 +1,22 @@
+{
+  "id": "11559",
+  "title": "c09-state-management-redux-pattern-details.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11559"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "vonicvn",
+    "github_repo": "Learn-TypeScript-3-by-Building-Web-Applications"
+  },
+  "_links": {
+    "download": "/download/CAL/c09-state-management-redux-pattern-details.png"
+  },
+  "created_date": "2025-06-21",
+  "author_display": "vonicvn/Learn-TypeScript-3-by-Building-Web-Applications"
+}

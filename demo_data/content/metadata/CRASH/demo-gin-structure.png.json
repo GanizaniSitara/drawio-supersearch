@@ -1,0 +1,22 @@
+{
+  "id": "12513",
+  "title": "demo-gin-structure.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12513"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "wwfyde",
+    "github_repo": "demo-gin"
+  },
+  "_links": {
+    "download": "/download/CRASH/demo-gin-structure.png"
+  },
+  "created_date": "2024-05-27",
+  "author_display": "wwfyde/demo-gin"
+}

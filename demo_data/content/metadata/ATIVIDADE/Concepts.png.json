@@ -1,0 +1,22 @@
+{
+  "id": "10304",
+  "title": "Concepts.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10304"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "graphene-monitoring",
+    "github_repo": "graphene"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/Concepts.png"
+  },
+  "created_date": "2025-09-01",
+  "author_display": "graphene-monitoring/graphene"
+}

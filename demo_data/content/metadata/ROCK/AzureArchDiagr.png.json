@@ -1,0 +1,22 @@
+{
+  "id": "23647",
+  "title": "AzureArchDiagr.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23647"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "profjordanov",
+    "github_repo": "phd"
+  },
+  "_links": {
+    "download": "/download/ROCK/AzureArchDiagr.png"
+  },
+  "created_date": "2024-09-30",
+  "author_display": "profjordanov/phd"
+}

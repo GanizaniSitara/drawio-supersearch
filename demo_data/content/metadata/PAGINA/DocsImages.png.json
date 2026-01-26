@@ -1,0 +1,22 @@
+{
+  "id": "9322",
+  "title": "DocsImages.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9322"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "i-chi-li",
+    "github_repo": "micronaut-kotlin-blanco-sample"
+  },
+  "_links": {
+    "download": "/download/PAGINA/DocsImages.png"
+  },
+  "created_date": "2024-05-17",
+  "author_display": "i-chi-li/micronaut-kotlin-blanco-sample"
+}

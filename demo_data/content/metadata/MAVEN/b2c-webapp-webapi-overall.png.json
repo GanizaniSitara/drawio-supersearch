@@ -1,0 +1,22 @@
+{
+  "id": "13755",
+  "title": "b2c-webapp-webapi-overall.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13755"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "confluentinc",
+    "github_repo": "azure-sdk-for-java"
+  },
+  "_links": {
+    "download": "/download/MAVEN/b2c-webapp-webapi-overall.png"
+  },
+  "created_date": "2024-03-17",
+  "author_display": "confluentinc/azure-sdk-for-java"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9580",
+  "title": "DAU_Diagramme_de_class.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9580"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "alicia-Aesma",
+    "github_repo": "DAU_2023_Game"
+  },
+  "_links": {
+    "download": "/download/SELESAI/DAU_Diagramme_de_class.png"
+  },
+  "created_date": "2025-11-11",
+  "author_display": "alicia-Aesma/DAU_2023_Game"
+}

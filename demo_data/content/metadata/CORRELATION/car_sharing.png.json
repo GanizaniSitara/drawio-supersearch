@@ -1,0 +1,22 @@
+{
+  "id": "17887",
+  "title": "car_sharing.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17887"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "nathanael-denis",
+    "github_repo": "manuscript"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/car_sharing.png"
+  },
+  "created_date": "2025-03-15",
+  "author_display": "nathanael-denis/manuscript"
+}

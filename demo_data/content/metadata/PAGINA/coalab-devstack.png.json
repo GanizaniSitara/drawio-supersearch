@@ -1,0 +1,22 @@
+{
+  "id": "9499",
+  "title": "coalab-devstack.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9499"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "99cloud",
+    "github_repo": "lab-openstack"
+  },
+  "_links": {
+    "download": "/download/PAGINA/coalab-devstack.png"
+  },
+  "created_date": "2024-09-07",
+  "author_display": "99cloud/lab-openstack"
+}

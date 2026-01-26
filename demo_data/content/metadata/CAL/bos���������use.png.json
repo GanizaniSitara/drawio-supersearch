@@ -1,0 +1,22 @@
+{
+  "id": "11524",
+  "title": "bos\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffduse.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11524"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "yindongjun",
+    "github_repo": "drawio-3"
+  },
+  "_links": {
+    "download": "/download/CAL/bos\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffduse.png"
+  },
+  "created_date": "2025-11-12",
+  "author_display": "yindongjun/drawio-3"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "11728",
+  "title": "banking_uml.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11728"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "bachdev",
+    "github_repo": "diagram"
+  },
+  "_links": {
+    "download": "/download/CAL/banking_uml.png"
+  },
+  "created_date": "2025-11-06",
+  "author_display": "bachdev/diagram"
+}

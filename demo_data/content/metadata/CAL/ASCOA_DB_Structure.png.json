@@ -1,0 +1,22 @@
+{
+  "id": "11508",
+  "title": "ASCOA_DB_Structure.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11508"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "tvolodi-ab",
+    "github_repo": "ASCOA"
+  },
+  "_links": {
+    "download": "/download/CAL/ASCOA_DB_Structure.png"
+  },
+  "created_date": "2024-06-18",
+  "author_display": "tvolodi-ab/ASCOA"
+}

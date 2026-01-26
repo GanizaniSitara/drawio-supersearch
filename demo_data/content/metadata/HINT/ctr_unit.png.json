@@ -1,0 +1,22 @@
+{
+  "id": "21020",
+  "title": "ctr_unit.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/21020"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "cuongdp2k2",
+    "github_repo": "Project1"
+  },
+  "_links": {
+    "download": "/download/HINT/ctr_unit.png"
+  },
+  "created_date": "2024-04-30",
+  "author_display": "cuongdp2k2/Project1"
+}

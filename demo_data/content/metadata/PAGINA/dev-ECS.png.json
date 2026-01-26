@@ -1,0 +1,22 @@
+{
+  "id": "9456",
+  "title": "dev-ECS.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9456"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "praka07",
+    "github_repo": "AWS-Architecture-Ajay"
+  },
+  "_links": {
+    "download": "/download/PAGINA/dev-ECS.png"
+  },
+  "created_date": "2024-06-30",
+  "author_display": "praka07/AWS-Architecture-Ajay"
+}

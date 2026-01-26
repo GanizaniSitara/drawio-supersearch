@@ -1,0 +1,22 @@
+{
+  "id": "13701",
+  "title": "didi-ssi-arquitectura-componentes.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13701"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "ong-bitcoin-argentina",
+    "github_repo": "DIDI-SSI-Docs"
+  },
+  "_links": {
+    "download": "/download/MAVEN/didi-ssi-arquitectura-componentes.png"
+  },
+  "created_date": "2025-03-19",
+  "author_display": "ong-bitcoin-argentina/DIDI-SSI-Docs"
+}

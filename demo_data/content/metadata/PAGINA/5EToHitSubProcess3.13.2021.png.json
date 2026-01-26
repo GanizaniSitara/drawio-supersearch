@@ -1,0 +1,22 @@
+{
+  "id": "9483",
+  "title": "5EToHitSubProcess3.13.2021.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9483"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "tangowithfoxtrot",
+    "github_repo": "erpg"
+  },
+  "_links": {
+    "download": "/download/PAGINA/5EToHitSubProcess3.13.2021.png"
+  },
+  "created_date": "2025-10-05",
+  "author_display": "tangowithfoxtrot/erpg"
+}

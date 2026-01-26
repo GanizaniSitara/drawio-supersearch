@@ -1,0 +1,22 @@
+{
+  "id": "9555",
+  "title": "clear.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9555"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "Peter-Gemmell",
+    "github_repo": "ics4u-Unit2-04-typescript"
+  },
+  "_links": {
+    "download": "/download/SELESAI/clear.png"
+  },
+  "created_date": "2025-11-10",
+  "author_display": "Peter-Gemmell/ics4u-Unit2-04-typescript"
+}

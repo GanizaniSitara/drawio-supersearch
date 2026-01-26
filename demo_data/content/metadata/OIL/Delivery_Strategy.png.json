@@ -1,0 +1,22 @@
+{
+  "id": "20309",
+  "title": "Delivery_Strategy.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20309"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "perazaharmonics",
+    "github_repo": "Java-OOD"
+  },
+  "_links": {
+    "download": "/download/OIL/Delivery_Strategy.png"
+  },
+  "created_date": "2025-09-19",
+  "author_display": "perazaharmonics/Java-OOD"
+}

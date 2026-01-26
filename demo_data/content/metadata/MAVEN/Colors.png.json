@@ -1,0 +1,22 @@
+{
+  "id": "13663",
+  "title": "Colors.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13663"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "fl3pp",
+    "github_repo": "JFlepp.VS.Theme.DarkYellow"
+  },
+  "_links": {
+    "download": "/download/MAVEN/Colors.png"
+  },
+  "created_date": "2024-03-21",
+  "author_display": "fl3pp/JFlepp.VS.Theme.DarkYellow"
+}

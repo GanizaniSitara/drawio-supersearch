@@ -1,0 +1,22 @@
+{
+  "id": "11740",
+  "title": "analyze the business domain.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11740"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Maged-Samir",
+    "github_repo": "System-Development-Labs-ITI"
+  },
+  "_links": {
+    "download": "/download/CAL/analyze the business domain.png"
+  },
+  "created_date": "2025-07-15",
+  "author_display": "Maged-Samir/System-Development-Labs-ITI"
+}

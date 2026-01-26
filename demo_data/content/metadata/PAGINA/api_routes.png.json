@@ -1,0 +1,22 @@
+{
+  "id": "9284",
+  "title": "api_routes.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9284"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "christopherthai",
+    "github_repo": "chefmate-ai"
+  },
+  "_links": {
+    "download": "/download/PAGINA/api_routes.png"
+  },
+  "created_date": "2025-10-12",
+  "author_display": "christopherthai/chefmate-ai"
+}

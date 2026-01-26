@@ -1,0 +1,22 @@
+{
+  "id": "2040",
+  "title": "cociente-residuo.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2040"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "JAIROACARDOZO15",
+    "github_repo": "FUNDAMENTOS-DE-PROGRAMACION"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/cociente-residuo.png"
+  },
+  "created_date": "2025-03-18",
+  "author_display": "JAIROACARDOZO15/FUNDAMENTOS-DE-PROGRAMACION"
+}

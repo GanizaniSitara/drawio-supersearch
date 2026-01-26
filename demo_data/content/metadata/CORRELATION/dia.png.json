@@ -1,0 +1,22 @@
+{
+  "id": "17862",
+  "title": "dia.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17862"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "kokoichi206",
+    "github_repo": "til"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/dia.png"
+  },
+  "created_date": "2025-03-11",
+  "author_display": "kokoichi206/til"
+}

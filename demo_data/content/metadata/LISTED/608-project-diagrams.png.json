@@ -1,0 +1,22 @@
+{
+  "id": "15373",
+  "title": "608-project-diagrams.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15373"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "WillKNguyen",
+    "github_repo": "Real-Estate-Property-Search-Engine"
+  },
+  "_links": {
+    "download": "/download/LISTED/608-project-diagrams.png"
+  },
+  "created_date": "2025-01-18",
+  "author_display": "WillKNguyen/Real-Estate-Property-Search-Engine"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "20947",
+  "title": "Circular-Society-VS-Circular-Economy.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20947"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "ETCE-LAB",
+    "github_repo": "teaching-material"
+  },
+  "_links": {
+    "download": "/download/HINT/Circular-Society-VS-Circular-Economy.png"
+  },
+  "created_date": "2024-08-03",
+  "author_display": "ETCE-LAB/teaching-material"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "11520",
+  "title": "CSDL Ph\ufffd\ufffdng th\ufffd\ufffd nghi\ufffd\ufffd\ufffdm.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11520"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "DH20LT",
+    "github_repo": "Tai-Lieu-Hoc-Tap"
+  },
+  "_links": {
+    "download": "/download/CAL/CSDL Ph\ufffd\ufffdng th\ufffd\ufffd nghi\ufffd\ufffd\ufffdm.png"
+  },
+  "created_date": "2024-04-24",
+  "author_display": "DH20LT/Tai-Lieu-Hoc-Tap"
+}

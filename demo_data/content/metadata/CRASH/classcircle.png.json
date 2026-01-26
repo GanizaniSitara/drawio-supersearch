@@ -1,0 +1,22 @@
+{
+  "id": "12450",
+  "title": "classcircle.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12450"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "HenrikSterner",
+    "github_repo": "P5Programmering"
+  },
+  "_links": {
+    "download": "/download/CRASH/classcircle.png"
+  },
+  "created_date": "2025-08-19",
+  "author_display": "HenrikSterner/P5Programmering"
+}

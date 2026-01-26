@@ -1,0 +1,22 @@
+{
+  "id": "21022",
+  "title": "bst_2.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/21022"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "macbeth-byui",
+    "github_repo": "cse382-course"
+  },
+  "_links": {
+    "download": "/download/HINT/bst_2.png"
+  },
+  "created_date": "2026-01-11",
+  "author_display": "macbeth-byui/cse382-course"
+}

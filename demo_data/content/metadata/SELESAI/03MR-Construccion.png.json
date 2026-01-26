@@ -1,0 +1,22 @@
+{
+  "id": "9638",
+  "title": "03MR-Construccion.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9638"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "daniagongora",
+    "github_repo": "repo-escuela"
+  },
+  "_links": {
+    "download": "/download/SELESAI/03MR-Construccion.png"
+  },
+  "created_date": "2024-12-22",
+  "author_display": "daniagongora/repo-escuela"
+}

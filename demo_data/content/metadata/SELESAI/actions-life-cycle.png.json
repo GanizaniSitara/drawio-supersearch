@@ -1,0 +1,22 @@
+{
+  "id": "9765",
+  "title": "actions-life-cycle.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9765"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "ngxs",
+    "github_repo": "store"
+  },
+  "_links": {
+    "download": "/download/SELESAI/actions-life-cycle.png"
+  },
+  "created_date": "2025-02-04",
+  "author_display": "ngxs/store"
+}

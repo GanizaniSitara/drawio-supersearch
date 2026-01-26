@@ -1,0 +1,22 @@
+{
+  "id": "9373",
+  "title": "biz_ops_account.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9373"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "fast-dev",
+    "github_repo": "fast-dev.github.io"
+  },
+  "_links": {
+    "download": "/download/PAGINA/biz_ops_account.png"
+  },
+  "created_date": "2024-09-30",
+  "author_display": "fast-dev/fast-dev.github.io"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "24119",
+  "title": "deploy.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24119"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "xujintao",
+    "github_repo": "balgass"
+  },
+  "_links": {
+    "download": "/download/ROCK/deploy.png"
+  },
+  "created_date": "2024-03-06",
+  "author_display": "xujintao/balgass"
+}

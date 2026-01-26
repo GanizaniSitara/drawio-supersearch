@@ -1,0 +1,22 @@
+{
+  "id": "9420",
+  "title": "counterfactual.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9420"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "strayMat",
+    "github_repo": "thesis_manuscript"
+  },
+  "_links": {
+    "download": "/download/PAGINA/counterfactual.png"
+  },
+  "created_date": "2025-06-03",
+  "author_display": "strayMat/thesis_manuscript"
+}

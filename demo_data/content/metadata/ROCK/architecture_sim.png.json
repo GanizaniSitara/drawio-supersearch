@@ -1,0 +1,22 @@
+{
+  "id": "23507",
+  "title": "architecture_sim.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23507"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "acfloria",
+    "github_repo": "SatComInfrastructure"
+  },
+  "_links": {
+    "download": "/download/ROCK/architecture_sim.png"
+  },
+  "created_date": "2025-06-18",
+  "author_display": "acfloria/SatComInfrastructure"
+}

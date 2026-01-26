@@ -1,0 +1,22 @@
+{
+  "id": "12309",
+  "title": "crash_spending.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12309"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "zuzancek",
+    "github_repo": "schemes"
+  },
+  "_links": {
+    "download": "/download/CRASH/crash_spending.png"
+  },
+  "created_date": "2025-08-19",
+  "author_display": "zuzancek/schemes"
+}

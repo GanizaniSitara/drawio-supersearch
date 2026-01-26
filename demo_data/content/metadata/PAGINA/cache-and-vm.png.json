@@ -1,0 +1,22 @@
+{
+  "id": "9390",
+  "title": "cache-and-vm.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9390"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "dluciv",
+    "github_repo": "Computer_Architecture-SPbU-CB.5080"
+  },
+  "_links": {
+    "download": "/download/PAGINA/cache-and-vm.png"
+  },
+  "created_date": "2024-10-09",
+  "author_display": "dluciv/Computer_Architecture-SPbU-CB.5080"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "13800",
+  "title": "build_process.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13800"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "apluslms",
+    "github_repo": "gitmanager"
+  },
+  "_links": {
+    "download": "/download/MAVEN/build_process.png"
+  },
+  "created_date": "2025-03-12",
+  "author_display": "apluslms/gitmanager"
+}

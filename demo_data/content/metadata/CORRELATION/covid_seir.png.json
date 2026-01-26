@@ -1,0 +1,22 @@
+{
+  "id": "17712",
+  "title": "covid_seir.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17712"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "btseytlin",
+    "github_repo": "covid_peak_sir_modelling"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/covid_seir.png"
+  },
+  "created_date": "2024-10-23",
+  "author_display": "btseytlin/covid_peak_sir_modelling"
+}

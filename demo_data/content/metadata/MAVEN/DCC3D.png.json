@@ -1,0 +1,22 @@
+{
+  "id": "13609",
+  "title": "DCC3D.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13609"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "DigitalCompactCassette",
+    "github_repo": "P700"
+  },
+  "_links": {
+    "download": "/download/MAVEN/DCC3D.png"
+  },
+  "created_date": "2024-06-16",
+  "author_display": "DigitalCompactCassette/P700"
+}

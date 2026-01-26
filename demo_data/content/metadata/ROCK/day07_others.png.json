@@ -1,0 +1,22 @@
+{
+  "id": "23700",
+  "title": "day07_others.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23700"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "vanism2091",
+    "github_repo": "draw.io"
+  },
+  "_links": {
+    "download": "/download/ROCK/day07_others.png"
+  },
+  "created_date": "2025-01-19",
+  "author_display": "vanism2091/draw.io"
+}

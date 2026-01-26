@@ -1,0 +1,22 @@
+{
+  "id": "20326",
+  "title": "default.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20326"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "AMT-D-Flip-Flop",
+    "github_repo": "AMT-projet"
+  },
+  "_links": {
+    "download": "/download/OIL/default.png"
+  },
+  "created_date": "2025-09-20",
+  "author_display": "AMT-D-Flip-Flop/AMT-projet"
+}

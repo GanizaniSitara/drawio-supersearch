@@ -1,0 +1,22 @@
+{
+  "id": "9603",
+  "title": "apb_master_fsm.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9603"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Rice-MECE-Capstone-Projects",
+    "github_repo": "SwitchMCU"
+  },
+  "_links": {
+    "download": "/download/SELESAI/apb_master_fsm.png"
+  },
+  "created_date": "2025-05-03",
+  "author_display": "Rice-MECE-Capstone-Projects/SwitchMCU"
+}

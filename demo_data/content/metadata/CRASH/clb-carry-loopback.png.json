@@ -1,0 +1,22 @@
+{
+  "id": "12331",
+  "title": "clb-carry-loopback.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12331"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "mnemocron",
+    "github_repo": "my-discrete-fpga"
+  },
+  "_links": {
+    "download": "/download/CRASH/clb-carry-loopback.png"
+  },
+  "created_date": "2025-02-17",
+  "author_display": "mnemocron/my-discrete-fpga"
+}

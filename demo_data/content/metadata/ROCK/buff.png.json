@@ -1,0 +1,22 @@
+{
+  "id": "23541",
+  "title": "buff.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23541"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "xiqiniu",
+    "github_repo": "ActionRougelike"
+  },
+  "_links": {
+    "download": "/download/ROCK/buff.png"
+  },
+  "created_date": "2024-05-19",
+  "author_display": "xiqiniu/ActionRougelike"
+}

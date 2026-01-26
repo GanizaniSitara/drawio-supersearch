@@ -1,0 +1,22 @@
+{
+  "id": "24053",
+  "title": "0063_HomServerWithOuterServer.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24053"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "a6s-cloud",
+    "github_repo": "grouscope-books"
+  },
+  "_links": {
+    "download": "/download/ROCK/0063_HomServerWithOuterServer.png"
+  },
+  "created_date": "2024-07-02",
+  "author_display": "a6s-cloud/grouscope-books"
+}

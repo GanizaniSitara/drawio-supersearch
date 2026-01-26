@@ -1,0 +1,22 @@
+{
+  "id": "11551",
+  "title": "decoder_block.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11551"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "Nick-Gale",
+    "github_repo": "2022_Deep_Learning_CamBio"
+  },
+  "_links": {
+    "download": "/download/CAL/decoder_block.png"
+  },
+  "created_date": "2024-05-12",
+  "author_display": "Nick-Gale/2022_Deep_Learning_CamBio"
+}

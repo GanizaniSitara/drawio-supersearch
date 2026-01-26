@@ -1,0 +1,22 @@
+{
+  "id": "11765",
+  "title": "chip-designs.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11765"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "justinsgithub",
+    "github_repo": "practice"
+  },
+  "_links": {
+    "download": "/download/CAL/chip-designs.png"
+  },
+  "created_date": "2025-08-21",
+  "author_display": "justinsgithub/practice"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9562",
+  "title": "diplom_bd.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9562"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "shnircourier",
+    "github_repo": "diplom_bd_diagram"
+  },
+  "_links": {
+    "download": "/download/SELESAI/diplom_bd.png"
+  },
+  "created_date": "2025-08-25",
+  "author_display": "shnircourier/diplom_bd_diagram"
+}

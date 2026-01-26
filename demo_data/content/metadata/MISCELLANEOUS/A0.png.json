@@ -1,0 +1,22 @@
+{
+  "id": "1221",
+  "title": "A0.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1221"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "Yokud",
+    "github_repo": "bmstu_bachelors_diploma"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/A0.png"
+  },
+  "created_date": "2025-09-01",
+  "author_display": "Yokud/bmstu_bachelors_diploma"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17698",
+  "title": "crossCorrelationDiagram.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17698"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "FilipePires98",
+    "github_repo": "P4xC"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/crossCorrelationDiagram.png"
+  },
+  "created_date": "2024-10-10",
+  "author_display": "FilipePires98/P4xC"
+}

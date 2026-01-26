@@ -1,0 +1,22 @@
+{
+  "id": "9756",
+  "title": "botnet.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9756"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "Anklestonn",
+    "github_repo": "thirdYearProject"
+  },
+  "_links": {
+    "download": "/download/SELESAI/botnet.png"
+  },
+  "created_date": "2024-12-07",
+  "author_display": "Anklestonn/thirdYearProject"
+}

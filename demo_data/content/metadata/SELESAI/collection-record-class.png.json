@@ -1,0 +1,22 @@
+{
+  "id": "9742",
+  "title": "collection-record-class.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9742"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "seo92js",
+    "github_repo": "collection-record"
+  },
+  "_links": {
+    "download": "/download/SELESAI/collection-record-class.png"
+  },
+  "created_date": "2024-08-29",
+  "author_display": "seo92js/collection-record"
+}

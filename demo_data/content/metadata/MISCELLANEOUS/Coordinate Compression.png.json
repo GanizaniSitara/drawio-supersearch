@@ -1,0 +1,22 @@
+{
+  "id": "1353",
+  "title": "Coordinate Compression.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1353"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "derailed-dash",
+    "github_repo": "Advent-of-Code"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/Coordinate Compression.png"
+  },
+  "created_date": "2024-11-23",
+  "author_display": "derailed-dash/Advent-of-Code"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "12532",
+  "title": "ciclo.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12532"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "CescoP81",
+    "github_repo": "GalileiOstiglia"
+  },
+  "_links": {
+    "download": "/download/CRASH/ciclo.png"
+  },
+  "created_date": "2024-11-29",
+  "author_display": "CescoP81/GalileiOstiglia"
+}

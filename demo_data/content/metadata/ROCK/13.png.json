@@ -1,0 +1,22 @@
+{
+  "id": "24114",
+  "title": "13.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24114"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "Kerrbty",
+    "github_repo": "1earn"
+  },
+  "_links": {
+    "download": "/download/ROCK/13.png"
+  },
+  "created_date": "2024-09-03",
+  "author_display": "Kerrbty/1earn"
+}

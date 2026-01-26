@@ -1,0 +1,22 @@
+{
+  "id": "13691",
+  "title": "apache-kafka-architecture.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13691"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "GiangNguyenDev",
+    "github_repo": "today-i-learned"
+  },
+  "_links": {
+    "download": "/download/MAVEN/apache-kafka-architecture.png"
+  },
+  "created_date": "2024-06-17",
+  "author_display": "GiangNguyenDev/today-i-learned"
+}

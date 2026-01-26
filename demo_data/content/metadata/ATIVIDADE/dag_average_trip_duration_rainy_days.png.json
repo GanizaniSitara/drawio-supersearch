@@ -1,0 +1,22 @@
+{
+  "id": "10305",
+  "title": "dag_average_trip_duration_rainy_days.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10305"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "leogm99",
+    "github_repo": "tp3-bike-rides-analyzer"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/dag_average_trip_duration_rainy_days.png"
+  },
+  "created_date": "2024-06-21",
+  "author_display": "leogm99/tp3-bike-rides-analyzer"
+}

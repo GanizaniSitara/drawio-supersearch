@@ -1,0 +1,22 @@
+{
+  "id": "17692",
+  "title": "classes.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17692"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "gavv",
+    "github_repo": "signal-estimator"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/classes.png"
+  },
+  "created_date": "2025-10-27",
+  "author_display": "gavv/signal-estimator"
+}

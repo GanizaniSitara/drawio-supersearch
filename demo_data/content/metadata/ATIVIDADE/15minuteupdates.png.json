@@ -1,0 +1,22 @@
+{
+  "id": "10291",
+  "title": "15minuteupdates.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10291"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "mdunhamwilkie",
+    "github_repo": "bcgw-last-refresh-date"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/15minuteupdates.png"
+  },
+  "created_date": "2025-04-25",
+  "author_display": "mdunhamwilkie/bcgw-last-refresh-date"
+}

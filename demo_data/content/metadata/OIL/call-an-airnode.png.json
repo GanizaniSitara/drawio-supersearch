@@ -1,0 +1,22 @@
+{
+  "id": "20367",
+  "title": "call-an-airnode.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20367"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "api3dao",
+    "github_repo": "api3-docs"
+  },
+  "_links": {
+    "download": "/download/OIL/call-an-airnode.png"
+  },
+  "created_date": "2024-12-01",
+  "author_display": "api3dao/api3-docs"
+}

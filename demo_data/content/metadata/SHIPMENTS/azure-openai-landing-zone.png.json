@@ -1,0 +1,22 @@
+{
+  "id": "1975",
+  "title": "azure-openai-landing-zone.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1975"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "Azure-Samples",
+    "github_repo": "ai-hub-gateway-solution-accelerator"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/azure-openai-landing-zone.png"
+  },
+  "created_date": "2025-09-30",
+  "author_display": "Azure-Samples/ai-hub-gateway-solution-accelerator"
+}

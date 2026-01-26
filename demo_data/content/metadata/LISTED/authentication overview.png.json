@@ -1,0 +1,22 @@
+{
+  "id": "15457",
+  "title": "authentication overview.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15457"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "hiveot",
+    "github_repo": "hub"
+  },
+  "_links": {
+    "download": "/download/LISTED/authentication overview.png"
+  },
+  "created_date": "2024-11-29",
+  "author_display": "hiveot/hub"
+}

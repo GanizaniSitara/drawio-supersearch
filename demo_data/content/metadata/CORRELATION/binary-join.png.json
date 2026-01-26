@@ -1,0 +1,22 @@
+{
+  "id": "17766",
+  "title": "binary-join.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17766"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "remysucre",
+    "github_repo": "free-join-sigmod-record"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/binary-join.png"
+  },
+  "created_date": "2024-05-13",
+  "author_display": "remysucre/free-join-sigmod-record"
+}

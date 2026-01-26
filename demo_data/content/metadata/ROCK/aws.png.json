@@ -1,0 +1,22 @@
+{
+  "id": "23695",
+  "title": "aws.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23695"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "edisonyls",
+    "github_repo": "LeetCodeRecorder"
+  },
+  "_links": {
+    "download": "/download/ROCK/aws.png"
+  },
+  "created_date": "2025-03-17",
+  "author_display": "edisonyls/LeetCodeRecorder"
+}

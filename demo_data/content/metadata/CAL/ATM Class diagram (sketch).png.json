@@ -1,0 +1,22 @@
+{
+  "id": "11530",
+  "title": "ATM Class diagram (sketch).png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11530"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "kimo1ucl",
+    "github_repo": "ATM-Case-Study-CSharp-"
+  },
+  "_links": {
+    "download": "/download/CAL/ATM Class diagram (sketch).png"
+  },
+  "created_date": "2025-01-15",
+  "author_display": "kimo1ucl/ATM-Case-Study-CSharp-"
+}

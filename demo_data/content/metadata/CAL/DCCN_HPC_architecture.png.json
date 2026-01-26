@@ -1,0 +1,22 @@
+{
+  "id": "11773",
+  "title": "DCCN_HPC_architecture.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11773"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "achetverikov",
+    "github_repo": "hpc-wiki-v2"
+  },
+  "_links": {
+    "download": "/download/CAL/DCCN_HPC_architecture.png"
+  },
+  "created_date": "2025-02-26",
+  "author_display": "achetverikov/hpc-wiki-v2"
+}

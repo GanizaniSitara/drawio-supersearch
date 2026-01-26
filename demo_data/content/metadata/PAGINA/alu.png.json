@@ -1,0 +1,22 @@
+{
+  "id": "9263",
+  "title": "alu.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9263"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "silhavyj",
+    "github_repo": "ZeroMate"
+  },
+  "_links": {
+    "download": "/download/PAGINA/alu.png"
+  },
+  "created_date": "2024-11-10",
+  "author_display": "silhavyj/ZeroMate"
+}

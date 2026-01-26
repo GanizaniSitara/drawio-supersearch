@@ -1,0 +1,22 @@
+{
+  "id": "21003",
+  "title": "DeFi ecosystem.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/21003"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "xujiahuayz",
+    "github_repo": "yieldAggregators"
+  },
+  "_links": {
+    "download": "/download/HINT/DeFi ecosystem.png"
+  },
+  "created_date": "2025-02-05",
+  "author_display": "xujiahuayz/yieldAggregators"
+}

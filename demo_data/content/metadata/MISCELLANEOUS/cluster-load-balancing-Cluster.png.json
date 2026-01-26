@@ -1,0 +1,22 @@
+{
+  "id": "1382",
+  "title": "cluster-load-balancing-Cluster.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1382"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "srl-labs",
+    "github_repo": "srl-k8s-anycast-lab"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/cluster-load-balancing-Cluster.png"
+  },
+  "created_date": "2025-08-31",
+  "author_display": "srl-labs/srl-k8s-anycast-lab"
+}

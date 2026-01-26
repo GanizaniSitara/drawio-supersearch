@@ -1,0 +1,22 @@
+{
+  "id": "11565",
+  "title": "chapter5.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11565"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "LiuYinCarl",
+    "github_repo": "book"
+  },
+  "_links": {
+    "download": "/download/CAL/chapter5.png"
+  },
+  "created_date": "2024-05-12",
+  "author_display": "LiuYinCarl/book"
+}

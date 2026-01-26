@@ -1,0 +1,22 @@
+{
+  "id": "20323",
+  "title": "Cache.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20323"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "Softwarovy-projekt",
+    "github_repo": "Documentation"
+  },
+  "_links": {
+    "download": "/download/OIL/Cache.png"
+  },
+  "created_date": "2024-09-17",
+  "author_display": "Softwarovy-projekt/Documentation"
+}

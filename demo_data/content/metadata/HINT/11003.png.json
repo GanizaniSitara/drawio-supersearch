@@ -1,0 +1,22 @@
+{
+  "id": "20790",
+  "title": "11003.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20790"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "sangbumlikeagod",
+    "github_repo": "backjoon"
+  },
+  "_links": {
+    "download": "/download/HINT/11003.png"
+  },
+  "created_date": "2024-01-30",
+  "author_display": "sangbumlikeagod/backjoon"
+}

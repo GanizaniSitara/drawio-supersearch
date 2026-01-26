@@ -1,0 +1,22 @@
+{
+  "id": "20146",
+  "title": "anlat\ufffd\ufffdm.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20146"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "flowerfatih",
+    "github_repo": "IUCYBER-Python-ile-Temel-Programlama"
+  },
+  "_links": {
+    "download": "/download/SEITE/anlat\ufffd\ufffdm.png"
+  },
+  "created_date": "2024-01-29",
+  "author_display": "flowerfatih/IUCYBER-Python-ile-Temel-Programlama"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "20915",
+  "title": "Delete.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20915"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "NurNils",
+    "github_repo": "aml-nosql-database-management"
+  },
+  "_links": {
+    "download": "/download/HINT/Delete.png"
+  },
+  "created_date": "2025-06-06",
+  "author_display": "NurNils/aml-nosql-database-management"
+}

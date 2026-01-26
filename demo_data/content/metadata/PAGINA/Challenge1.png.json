@@ -1,0 +1,22 @@
+{
+  "id": "9381",
+  "title": "Challenge1.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9381"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "rsabile",
+    "github_repo": "cto-office-zero-trust"
+  },
+  "_links": {
+    "download": "/download/PAGINA/Challenge1.png"
+  },
+  "created_date": "2024-11-09",
+  "author_display": "rsabile/cto-office-zero-trust"
+}

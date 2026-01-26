@@ -1,0 +1,22 @@
+{
+  "id": "17776",
+  "title": "amazon-deequ-glue.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17776"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "sureshb208",
+    "github_repo": "amazon-deequ-glue"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/amazon-deequ-glue.png"
+  },
+  "created_date": "2024-02-03",
+  "author_display": "sureshb208/amazon-deequ-glue"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "20410",
+  "title": "db1resource.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20410"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "joneskj55",
+    "github_repo": "wireframes"
+  },
+  "_links": {
+    "download": "/download/OIL/db1resource.png"
+  },
+  "created_date": "2025-03-21",
+  "author_display": "joneskj55/wireframes"
+}

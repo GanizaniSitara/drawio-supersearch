@@ -1,0 +1,22 @@
+{
+  "id": "23679",
+  "title": "Demo Flowchart.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23679"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "longlamduc",
+    "github_repo": "C0424L1-PY103"
+  },
+  "_links": {
+    "download": "/download/ROCK/Demo Flowchart.png"
+  },
+  "created_date": "2025-04-18",
+  "author_display": "longlamduc/C0424L1-PY103"
+}

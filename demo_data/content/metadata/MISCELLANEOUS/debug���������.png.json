@@ -1,0 +1,22 @@
+{
+  "id": "1378",
+  "title": "debug\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1378"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "xiaobaiTech",
+    "github_repo": "image"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/debug\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.png"
+  },
+  "created_date": "2024-07-08",
+  "author_display": "xiaobaiTech/image"
+}

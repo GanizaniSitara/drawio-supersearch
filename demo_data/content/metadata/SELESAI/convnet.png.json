@@ -1,0 +1,22 @@
+{
+  "id": "9622",
+  "title": "convnet.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9622"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "GuitarsAI",
+    "github_repo": "MRSP_Notebooks"
+  },
+  "_links": {
+    "download": "/download/SELESAI/convnet.png"
+  },
+  "created_date": "2025-05-10",
+  "author_display": "GuitarsAI/MRSP_Notebooks"
+}

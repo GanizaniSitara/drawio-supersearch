@@ -1,0 +1,22 @@
+{
+  "id": "24060",
+  "title": "crc-rhdm-install-demo.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24060"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "lfchaim",
+    "github_repo": "chain-draw"
+  },
+  "_links": {
+    "download": "/download/ROCK/crc-rhdm-install-demo.png"
+  },
+  "created_date": "2024-05-31",
+  "author_display": "lfchaim/chain-draw"
+}

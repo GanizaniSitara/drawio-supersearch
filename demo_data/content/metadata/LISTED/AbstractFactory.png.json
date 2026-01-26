@@ -1,0 +1,22 @@
+{
+  "id": "15473",
+  "title": "AbstractFactory.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15473"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "hillfolk",
+    "github_repo": "DesignPatterns"
+  },
+  "_links": {
+    "download": "/download/LISTED/AbstractFactory.png"
+  },
+  "created_date": "2025-06-06",
+  "author_display": "hillfolk/DesignPatterns"
+}

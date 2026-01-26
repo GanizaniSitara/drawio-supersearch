@@ -1,0 +1,22 @@
+{
+  "id": "12322",
+  "title": "digramClass..png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12322"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "YFakihi",
+    "github_repo": "gestion-des-wikis"
+  },
+  "_links": {
+    "download": "/download/CRASH/digramClass..png"
+  },
+  "created_date": "2025-01-30",
+  "author_display": "YFakihi/gestion-des-wikis"
+}

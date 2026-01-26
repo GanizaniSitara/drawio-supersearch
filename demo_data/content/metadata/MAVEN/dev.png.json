@@ -1,0 +1,22 @@
+{
+  "id": "13675",
+  "title": "dev.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13675"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "Pingvin235",
+    "github_repo": "bgerp"
+  },
+  "_links": {
+    "download": "/download/MAVEN/dev.png"
+  },
+  "created_date": "2024-12-27",
+  "author_display": "Pingvin235/bgerp"
+}

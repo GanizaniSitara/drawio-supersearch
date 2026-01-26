@@ -1,0 +1,22 @@
+{
+  "id": "20253",
+  "title": "customer.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20253"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "mortytian",
+    "github_repo": "daily-study"
+  },
+  "_links": {
+    "download": "/download/OIL/customer.png"
+  },
+  "created_date": "2024-03-12",
+  "author_display": "mortytian/daily-study"
+}

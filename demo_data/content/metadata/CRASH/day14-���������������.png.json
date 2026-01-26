@@ -1,0 +1,22 @@
+{
+  "id": "12456",
+  "title": "day14-\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12456"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "nateshao",
+    "github_repo": "blog-image"
+  },
+  "_links": {
+    "download": "/download/CRASH/day14-\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.png"
+  },
+  "created_date": "2024-03-30",
+  "author_display": "nateshao/blog-image"
+}

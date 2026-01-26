@@ -1,0 +1,22 @@
+{
+  "id": "17917",
+  "title": "cs.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17917"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "riegllms",
+    "github_repo": "ros-riegl-vz"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/cs.png"
+  },
+  "created_date": "2024-09-21",
+  "author_display": "riegllms/ros-riegl-vz"
+}

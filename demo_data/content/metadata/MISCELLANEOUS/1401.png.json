@@ -1,0 +1,22 @@
+{
+  "id": "1034",
+  "title": "1401.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1034"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "progedu",
+    "github_repo": "zen-algorithm-for-ml-assets"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/1401.png"
+  },
+  "created_date": "2024-02-15",
+  "author_display": "progedu/zen-algorithm-for-ml-assets"
+}

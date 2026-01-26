@@ -1,0 +1,22 @@
+{
+  "id": "12326",
+  "title": "dovolenka.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12326"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "adrianbiro",
+    "github_repo": "postgreSQL"
+  },
+  "_links": {
+    "download": "/download/CRASH/dovolenka.png"
+  },
+  "created_date": "2025-06-09",
+  "author_display": "adrianbiro/postgreSQL"
+}

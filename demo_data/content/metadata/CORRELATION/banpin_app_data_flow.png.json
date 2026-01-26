@@ -1,0 +1,22 @@
+{
+  "id": "17721",
+  "title": "banpin_app_data_flow.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17721"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "thunwara",
+    "github_repo": "BanPinExploreDocument"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/banpin_app_data_flow.png"
+  },
+  "created_date": "2024-08-26",
+  "author_display": "thunwara/BanPinExploreDocument"
+}

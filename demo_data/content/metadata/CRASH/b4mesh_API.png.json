@@ -1,0 +1,22 @@
+{
+  "id": "12536",
+  "title": "b4mesh_API.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12536"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Davidcor89-lip6",
+    "github_repo": "b4mesh"
+  },
+  "_links": {
+    "download": "/download/CRASH/b4mesh_API.png"
+  },
+  "created_date": "2024-11-16",
+  "author_display": "Davidcor89-lip6/b4mesh"
+}

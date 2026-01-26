@@ -1,0 +1,22 @@
+{
+  "id": "11598",
+  "title": "aim-front-pipe.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11598"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "yeahsyoung",
+    "github_repo": "diagram"
+  },
+  "_links": {
+    "download": "/download/CAL/aim-front-pipe.png"
+  },
+  "created_date": "2025-07-14",
+  "author_display": "yeahsyoung/diagram"
+}

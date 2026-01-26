@@ -1,0 +1,22 @@
+{
+  "id": "15601",
+  "title": "2019-k2-graf.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15601"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "siwiki",
+    "github_repo": "OS-kolokvijumi"
+  },
+  "_links": {
+    "download": "/download/LISTED/2019-k2-graf.png"
+  },
+  "created_date": "2024-10-24",
+  "author_display": "siwiki/OS-kolokvijumi"
+}

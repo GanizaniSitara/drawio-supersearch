@@ -1,0 +1,22 @@
+{
+  "id": "24038",
+  "title": "asm-public-ingress.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24038"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "fabianlee",
+    "github_repo": "gcp-gke-clusters-ingress"
+  },
+  "_links": {
+    "download": "/download/ROCK/asm-public-ingress.png"
+  },
+  "created_date": "2025-08-25",
+  "author_display": "fabianlee/gcp-gke-clusters-ingress"
+}

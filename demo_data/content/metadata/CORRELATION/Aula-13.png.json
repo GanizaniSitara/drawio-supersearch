@@ -1,0 +1,22 @@
+{
+  "id": "17923",
+  "title": "Aula-13.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17923"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "isel-leic-tds",
+    "github_repo": "2122i-LEIC31D"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/Aula-13.png"
+  },
+  "created_date": "2025-02-01",
+  "author_display": "isel-leic-tds/2122i-LEIC31D"
+}

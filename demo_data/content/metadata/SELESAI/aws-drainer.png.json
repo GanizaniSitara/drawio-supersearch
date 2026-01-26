@@ -1,0 +1,22 @@
+{
+  "id": "9614",
+  "title": "aws-drainer.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9614"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "agilestacks",
+    "github_repo": "components"
+  },
+  "_links": {
+    "download": "/download/SELESAI/aws-drainer.png"
+  },
+  "created_date": "2024-09-18",
+  "author_display": "agilestacks/components"
+}

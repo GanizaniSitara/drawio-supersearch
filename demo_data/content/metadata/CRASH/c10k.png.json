@@ -1,0 +1,22 @@
+{
+  "id": "12356",
+  "title": "c10k.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12356"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "meodorewan",
+    "github_repo": "go-advanced"
+  },
+  "_links": {
+    "download": "/download/CRASH/c10k.png"
+  },
+  "created_date": "2024-04-21",
+  "author_display": "meodorewan/go-advanced"
+}

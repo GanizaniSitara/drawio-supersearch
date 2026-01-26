@@ -1,0 +1,22 @@
+{
+  "id": "12379",
+  "title": "AdbcStatement.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12379"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "raulcd",
+    "github_repo": "arrow-adbc"
+  },
+  "_links": {
+    "download": "/download/CRASH/AdbcStatement.png"
+  },
+  "created_date": "2024-06-29",
+  "author_display": "raulcd/arrow-adbc"
+}

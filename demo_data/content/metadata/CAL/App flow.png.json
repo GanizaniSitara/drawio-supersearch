@@ -1,0 +1,22 @@
+{
+  "id": "11522",
+  "title": "App flow.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11522"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "DenBile",
+    "github_repo": "api_sample"
+  },
+  "_links": {
+    "download": "/download/CAL/App flow.png"
+  },
+  "created_date": "2025-08-02",
+  "author_display": "DenBile/api_sample"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9716",
+  "title": "asahi-linux-hack-collab-vmemcvt.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9716"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "fishjump",
+    "github_repo": "fishjump.github.io"
+  },
+  "_links": {
+    "download": "/download/SELESAI/asahi-linux-hack-collab-vmemcvt.png"
+  },
+  "created_date": "2025-08-28",
+  "author_display": "fishjump/fishjump.github.io"
+}

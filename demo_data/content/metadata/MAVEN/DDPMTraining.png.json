@@ -1,0 +1,22 @@
+{
+  "id": "13769",
+  "title": "DDPMTraining.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13769"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "michelhilg",
+    "github_repo": "data-synthesis"
+  },
+  "_links": {
+    "download": "/download/MAVEN/DDPMTraining.png"
+  },
+  "created_date": "2024-04-02",
+  "author_display": "michelhilg/data-synthesis"
+}

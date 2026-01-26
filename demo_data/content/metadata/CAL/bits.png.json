@@ -1,0 +1,22 @@
+{
+  "id": "11558",
+  "title": "bits.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11558"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "fuzhengwei",
+    "github_repo": "java-algorithms"
+  },
+  "_links": {
+    "download": "/download/CAL/bits.png"
+  },
+  "created_date": "2025-06-06",
+  "author_display": "fuzhengwei/java-algorithms"
+}

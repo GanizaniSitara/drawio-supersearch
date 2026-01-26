@@ -1,0 +1,22 @@
+{
+  "id": "9501",
+  "title": "BiliDown.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9501"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "Borber",
+    "github_repo": "bilibili-downloader"
+  },
+  "_links": {
+    "download": "/download/PAGINA/BiliDown.png"
+  },
+  "created_date": "2025-08-23",
+  "author_display": "Borber/bilibili-downloader"
+}

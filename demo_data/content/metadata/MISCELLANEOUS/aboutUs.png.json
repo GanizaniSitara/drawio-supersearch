@@ -1,0 +1,22 @@
+{
+  "id": "1329",
+  "title": "aboutUs.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1329"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "software-assignments-spring2021",
+    "github_repo": "project-setup-team-baliton-portal-speakeasy"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/aboutUs.png"
+  },
+  "created_date": "2025-01-15",
+  "author_display": "software-assignments-spring2021/project-setup-team-baliton-portal-speakeasy"
+}

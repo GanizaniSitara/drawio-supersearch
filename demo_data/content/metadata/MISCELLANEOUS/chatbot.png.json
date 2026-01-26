@@ -1,0 +1,22 @@
+{
+  "id": "1310",
+  "title": "chatbot.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1310"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "fqd511",
+    "github_repo": "charts"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/chatbot.png"
+  },
+  "created_date": "2024-09-09",
+  "author_display": "fqd511/charts"
+}

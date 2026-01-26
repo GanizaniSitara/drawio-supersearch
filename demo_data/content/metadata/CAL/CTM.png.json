@@ -1,0 +1,22 @@
+{
+  "id": "11717",
+  "title": "CTM.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11717"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "NicolasIriarte",
+    "github_repo": "TSSE"
+  },
+  "_links": {
+    "download": "/download/CAL/CTM.png"
+  },
+  "created_date": "2025-11-06",
+  "author_display": "NicolasIriarte/TSSE"
+}

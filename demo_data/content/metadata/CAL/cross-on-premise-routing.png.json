@@ -1,0 +1,22 @@
+{
+  "id": "11693",
+  "title": "cross-on-premise-routing.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11693"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "nicolgit",
+    "github_repo": "hub-and-spoke-playground"
+  },
+  "_links": {
+    "download": "/download/CAL/cross-on-premise-routing.png"
+  },
+  "created_date": "2024-04-09",
+  "author_display": "nicolgit/hub-and-spoke-playground"
+}

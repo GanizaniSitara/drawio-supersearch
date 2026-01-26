@@ -1,0 +1,22 @@
+{
+  "id": "11626",
+  "title": "camellia-delay-queue.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11626"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "netease-im",
+    "github_repo": "camellia"
+  },
+  "_links": {
+    "download": "/download/CAL/camellia-delay-queue.png"
+  },
+  "created_date": "2024-09-05",
+  "author_display": "netease-im/camellia"
+}

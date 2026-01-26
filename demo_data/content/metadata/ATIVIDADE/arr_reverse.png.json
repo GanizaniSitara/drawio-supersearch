@@ -1,0 +1,22 @@
+{
+  "id": "10215",
+  "title": "arr_reverse.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10215"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "maxtants",
+    "github_repo": "geekbrains-projects"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/arr_reverse.png"
+  },
+  "created_date": "2025-07-22",
+  "author_display": "maxtants/geekbrains-projects"
+}

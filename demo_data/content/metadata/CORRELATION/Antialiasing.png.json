@@ -1,0 +1,22 @@
+{
+  "id": "17850",
+  "title": "Antialiasing.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17850"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "FallingXun",
+    "github_repo": "FallingXun.github.io"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/Antialiasing.png"
+  },
+  "created_date": "2025-04-10",
+  "author_display": "FallingXun/FallingXun.github.io"
+}

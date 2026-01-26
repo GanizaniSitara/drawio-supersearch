@@ -1,0 +1,22 @@
+{
+  "id": "20917",
+  "title": "discussions.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20917"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "weni-ai",
+    "github_repo": "chats-engine"
+  },
+  "_links": {
+    "download": "/download/HINT/discussions.png"
+  },
+  "created_date": "2024-11-29",
+  "author_display": "weni-ai/chats-engine"
+}

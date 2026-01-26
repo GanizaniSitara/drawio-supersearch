@@ -1,0 +1,22 @@
+{
+  "id": "9308",
+  "title": "auto-sdk-system.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9308"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "alexa",
+    "github_repo": "alexa-auto-sdk"
+  },
+  "_links": {
+    "download": "/download/PAGINA/auto-sdk-system.png"
+  },
+  "created_date": "2025-04-08",
+  "author_display": "alexa/alexa-auto-sdk"
+}

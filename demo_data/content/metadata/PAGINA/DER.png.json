@@ -1,0 +1,22 @@
+{
+  "id": "9400",
+  "title": "DER.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9400"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "Guille086",
+    "github_repo": "python"
+  },
+  "_links": {
+    "download": "/download/PAGINA/DER.png"
+  },
+  "created_date": "2025-05-07",
+  "author_display": "Guille086/python"
+}

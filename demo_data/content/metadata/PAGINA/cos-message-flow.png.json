@@ -1,0 +1,22 @@
+{
+  "id": "9436",
+  "title": "cos-message-flow.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9436"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "Energinet-DataHub",
+    "github_repo": "ARCHIVED-geh-market-roles"
+  },
+  "_links": {
+    "download": "/download/PAGINA/cos-message-flow.png"
+  },
+  "created_date": "2025-01-11",
+  "author_display": "Energinet-DataHub/ARCHIVED-geh-market-roles"
+}

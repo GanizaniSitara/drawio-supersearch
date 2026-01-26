@@ -1,0 +1,22 @@
+{
+  "id": "9571",
+  "title": "CSpics (4).png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9571"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "BryceWayne",
+    "github_repo": "COMP605"
+  },
+  "_links": {
+    "download": "/download/SELESAI/CSpics (4).png"
+  },
+  "created_date": "2025-11-21",
+  "author_display": "BryceWayne/COMP605"
+}

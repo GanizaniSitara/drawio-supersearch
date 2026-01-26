@@ -1,0 +1,22 @@
+{
+  "id": "9681",
+  "title": "addModuleCommand_finalState.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9681"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "AY2021S1-CS2113T-F12-1",
+    "github_repo": "tp"
+  },
+  "_links": {
+    "download": "/download/SELESAI/addModuleCommand_finalState.png"
+  },
+  "created_date": "2024-10-01",
+  "author_display": "AY2021S1-CS2113T-F12-1/tp"
+}

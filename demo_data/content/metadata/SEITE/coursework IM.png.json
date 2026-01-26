@@ -1,0 +1,22 @@
+{
+  "id": "20110",
+  "title": "coursework IM.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20110"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "MansurovB-source",
+    "github_repo": "Information-systems-and-databases"
+  },
+  "_links": {
+    "download": "/download/SEITE/coursework IM.png"
+  },
+  "created_date": "2024-05-08",
+  "author_display": "MansurovB-source/Information-systems-and-databases"
+}

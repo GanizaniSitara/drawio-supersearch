@@ -1,0 +1,22 @@
+{
+  "id": "11699",
+  "title": "asymmetric-encryption.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11699"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "dwmkerr",
+    "github_repo": "effective-shell"
+  },
+  "_links": {
+    "download": "/download/CAL/asymmetric-encryption.png"
+  },
+  "created_date": "2024-07-16",
+  "author_display": "dwmkerr/effective-shell"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "24123",
+  "title": "aas_classes.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24123"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "ME-IIOT",
+    "github_repo": "edge-aas-client"
+  },
+  "_links": {
+    "download": "/download/ROCK/aas_classes.png"
+  },
+  "created_date": "2024-08-30",
+  "author_display": "ME-IIOT/edge-aas-client"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "11597",
+  "title": "aggregate-e.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11597"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "pestsov-v",
+    "github_repo": "documentation"
+  },
+  "_links": {
+    "download": "/download/CAL/aggregate-e.png"
+  },
+  "created_date": "2024-03-16",
+  "author_display": "pestsov-v/documentation"
+}

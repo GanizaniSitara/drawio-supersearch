@@ -1,0 +1,22 @@
+{
+  "id": "11516",
+  "title": "DB.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11516"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "NayeonKeum",
+    "github_repo": "Peering"
+  },
+  "_links": {
+    "download": "/download/CAL/DB.png"
+  },
+  "created_date": "2024-12-09",
+  "author_display": "NayeonKeum/Peering"
+}

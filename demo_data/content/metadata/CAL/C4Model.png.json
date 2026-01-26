@@ -1,0 +1,22 @@
+{
+  "id": "11673",
+  "title": "C4Model.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11673"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "JPerezC92",
+    "github_repo": "store-backend"
+  },
+  "_links": {
+    "download": "/download/CAL/C4Model.png"
+  },
+  "created_date": "2024-06-09",
+  "author_display": "JPerezC92/store-backend"
+}

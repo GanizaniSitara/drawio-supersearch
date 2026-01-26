@@ -1,0 +1,22 @@
+{
+  "id": "17807",
+  "title": "dfd_level-1.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17807"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "kjare",
+    "github_repo": "new1-file1"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/dfd_level-1.png"
+  },
+  "created_date": "2025-06-10",
+  "author_display": "kjare/new1-file1"
+}

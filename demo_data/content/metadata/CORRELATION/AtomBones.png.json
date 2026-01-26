@@ -1,0 +1,22 @@
+{
+  "id": "17839",
+  "title": "AtomBones.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17839"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "saursin",
+    "github_repo": "riscv-atom"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/AtomBones.png"
+  },
+  "created_date": "2025-06-14",
+  "author_display": "saursin/riscv-atom"
+}

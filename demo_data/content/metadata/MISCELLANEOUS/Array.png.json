@@ -1,0 +1,22 @@
+{
+  "id": "1243",
+  "title": "Array.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1243"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "Ridjeik",
+    "github_repo": "Labs"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/Array.png"
+  },
+  "created_date": "2025-05-30",
+  "author_display": "Ridjeik/Labs"
+}

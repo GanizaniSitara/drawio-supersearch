@@ -1,0 +1,22 @@
+{
+  "id": "13678",
+  "title": "brpc-xds-flow.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13678"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "Silocean",
+    "github_repo": "diagrams"
+  },
+  "_links": {
+    "download": "/download/MAVEN/brpc-xds-flow.png"
+  },
+  "created_date": "2025-02-24",
+  "author_display": "Silocean/diagrams"
+}

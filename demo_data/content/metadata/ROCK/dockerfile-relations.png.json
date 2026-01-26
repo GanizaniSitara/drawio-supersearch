@@ -1,0 +1,22 @@
+{
+  "id": "23717",
+  "title": "dockerfile-relations.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23717"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "Laisky",
+    "github_repo": "go-fluentd"
+  },
+  "_links": {
+    "download": "/download/ROCK/dockerfile-relations.png"
+  },
+  "created_date": "2024-05-04",
+  "author_display": "Laisky/go-fluentd"
+}

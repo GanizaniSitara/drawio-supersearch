@@ -1,0 +1,22 @@
+{
+  "id": "19964",
+  "title": "cdg-code-example.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19964"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "foxycom",
+    "github_repo": "rusty-unit"
+  },
+  "_links": {
+    "download": "/download/SEITE/cdg-code-example.png"
+  },
+  "created_date": "2024-11-04",
+  "author_display": "foxycom/rusty-unit"
+}

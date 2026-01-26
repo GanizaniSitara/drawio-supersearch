@@ -1,0 +1,22 @@
+{
+  "id": "12460",
+  "title": "3Tiers.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12460"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "ericECmorlaix",
+    "github_repo": "ericECmorlaix.github.io"
+  },
+  "_links": {
+    "download": "/download/CRASH/3Tiers.png"
+  },
+  "created_date": "2025-02-08",
+  "author_display": "ericECmorlaix/ericECmorlaix.github.io"
+}

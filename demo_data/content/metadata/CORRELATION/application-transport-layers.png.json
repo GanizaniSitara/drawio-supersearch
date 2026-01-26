@@ -1,0 +1,22 @@
+{
+  "id": "17878",
+  "title": "application-transport-layers.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17878"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "in28minutes",
+    "github_repo": "java-a-course-for-beginners"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/application-transport-layers.png"
+  },
+  "created_date": "2024-12-31",
+  "author_display": "in28minutes/java-a-course-for-beginners"
+}

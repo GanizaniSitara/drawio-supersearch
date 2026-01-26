@@ -1,0 +1,22 @@
+{
+  "id": "2126",
+  "title": "dangxuat.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2126"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "nhan-ntt",
+    "github_repo": "SE"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/dangxuat.png"
+  },
+  "created_date": "2025-01-21",
+  "author_display": "nhan-ntt/SE"
+}

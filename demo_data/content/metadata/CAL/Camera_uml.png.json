@@ -1,0 +1,22 @@
+{
+  "id": "11771",
+  "title": "Camera_uml.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11771"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "lynkos",
+    "github_repo": "algae-detection"
+  },
+  "_links": {
+    "download": "/download/CAL/Camera_uml.png"
+  },
+  "created_date": "2025-09-18",
+  "author_display": "lynkos/algae-detection"
+}

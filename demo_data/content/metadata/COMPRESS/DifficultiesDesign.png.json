@@ -1,0 +1,22 @@
+{
+  "id": "11978",
+  "title": "DifficultiesDesign.png",
+  "space": {
+    "key": "COMPRESS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11978"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Edge321",
+    "github_repo": "DragonsDefense_v2"
+  },
+  "_links": {
+    "download": "/download/COMPRESS/DifficultiesDesign.png"
+  },
+  "created_date": "2024-06-30",
+  "author_display": "Edge321/DragonsDefense_v2"
+}

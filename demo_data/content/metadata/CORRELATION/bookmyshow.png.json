@@ -1,0 +1,22 @@
+{
+  "id": "17747",
+  "title": "bookmyshow.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17747"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "rrsharma7",
+    "github_repo": "Interview_Preparations"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/bookmyshow.png"
+  },
+  "created_date": "2024-11-21",
+  "author_display": "rrsharma7/Interview_Preparations"
+}

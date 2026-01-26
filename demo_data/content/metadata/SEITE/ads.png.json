@@ -1,0 +1,22 @@
+{
+  "id": "19988",
+  "title": "ads.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19988"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "wxquare",
+    "github_repo": "wxquare.github.io"
+  },
+  "_links": {
+    "download": "/download/SEITE/ads.png"
+  },
+  "created_date": "2024-05-14",
+  "author_display": "wxquare/wxquare.github.io"
+}

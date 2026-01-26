@@ -1,0 +1,22 @@
+{
+  "id": "12529",
+  "title": "Burndown.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12529"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "sbeckstrand",
+    "github_repo": "cs-3450-disk-golf"
+  },
+  "_links": {
+    "download": "/download/CRASH/Burndown.png"
+  },
+  "created_date": "2024-12-17",
+  "author_display": "sbeckstrand/cs-3450-disk-golf"
+}

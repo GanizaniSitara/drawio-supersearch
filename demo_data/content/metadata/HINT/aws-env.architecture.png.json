@@ -1,0 +1,22 @@
+{
+  "id": "20935",
+  "title": "aws-env.architecture.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20935"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "J-Hoplin",
+    "github_repo": "Online-Judge-System"
+  },
+  "_links": {
+    "download": "/download/HINT/aws-env.architecture.png"
+  },
+  "created_date": "2026-01-21",
+  "author_display": "J-Hoplin/Online-Judge-System"
+}

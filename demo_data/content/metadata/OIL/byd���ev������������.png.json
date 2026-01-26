@@ -1,0 +1,22 @@
+{
+  "id": "20313",
+  "title": "byd\ufffd\ufffd\ufffdev\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20313"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "hhhparty",
+    "github_repo": "security"
+  },
+  "_links": {
+    "download": "/download/OIL/byd\ufffd\ufffd\ufffdev\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.png"
+  },
+  "created_date": "2025-02-25",
+  "author_display": "hhhparty/security"
+}

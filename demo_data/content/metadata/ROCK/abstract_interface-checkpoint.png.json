@@ -1,0 +1,22 @@
+{
+  "id": "23569",
+  "title": "abstract_interface-checkpoint.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23569"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "defipy-devs",
+    "github_repo": "defipy-docs"
+  },
+  "_links": {
+    "download": "/download/ROCK/abstract_interface-checkpoint.png"
+  },
+  "created_date": "2024-10-12",
+  "author_display": "defipy-devs/defipy-docs"
+}

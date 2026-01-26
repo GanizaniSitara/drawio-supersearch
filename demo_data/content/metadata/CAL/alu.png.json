@@ -1,0 +1,22 @@
+{
+  "id": "11581",
+  "title": "alu.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11581"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "jules552",
+    "github_repo": "RISC-V-A-didactic-platform"
+  },
+  "_links": {
+    "download": "/download/CAL/alu.png"
+  },
+  "created_date": "2025-09-09",
+  "author_display": "jules552/RISC-V-A-didactic-platform"
+}

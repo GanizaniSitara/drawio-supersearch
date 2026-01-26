@@ -1,0 +1,22 @@
+{
+  "id": "13620",
+  "title": "dimensional - sales.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13620"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "LuisPHenriques",
+    "github_repo": "DataWarehouseMastersProject"
+  },
+  "_links": {
+    "download": "/download/MAVEN/dimensional - sales.png"
+  },
+  "created_date": "2024-02-26",
+  "author_display": "LuisPHenriques/DataWarehouseMastersProject"
+}

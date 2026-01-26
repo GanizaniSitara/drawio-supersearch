@@ -1,0 +1,22 @@
+{
+  "id": "9466",
+  "title": "12.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9466"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "StephenGrider",
+    "github_repo": "pg-casts"
+  },
+  "_links": {
+    "download": "/download/PAGINA/12.png"
+  },
+  "created_date": "2025-09-06",
+  "author_display": "StephenGrider/pg-casts"
+}

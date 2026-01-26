@@ -1,0 +1,22 @@
+{
+  "id": "2021",
+  "title": "5WebApp.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2021"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "triprjt",
+    "github_repo": "alp"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/5WebApp.png"
+  },
+  "created_date": "2025-04-11",
+  "author_display": "triprjt/alp"
+}

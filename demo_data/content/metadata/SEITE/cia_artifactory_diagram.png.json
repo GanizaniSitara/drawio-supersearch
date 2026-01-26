@@ -1,0 +1,22 @@
+{
+  "id": "20138",
+  "title": "cia_artifactory_diagram.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20138"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "jmrablat",
+    "github_repo": "diagrams"
+  },
+  "_links": {
+    "download": "/download/SEITE/cia_artifactory_diagram.png"
+  },
+  "created_date": "2025-11-06",
+  "author_display": "jmrablat/diagrams"
+}

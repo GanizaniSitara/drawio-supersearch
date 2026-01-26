@@ -1,0 +1,22 @@
+{
+  "id": "11555",
+  "title": "Biblioteca - ER.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11555"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "PhilRoll",
+    "github_repo": "test-and-exercises-Academy-S.I"
+  },
+  "_links": {
+    "download": "/download/CAL/Biblioteca - ER.png"
+  },
+  "created_date": "2025-10-18",
+  "author_display": "PhilRoll/test-and-exercises-Academy-S.I"
+}

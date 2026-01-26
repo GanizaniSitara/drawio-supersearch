@@ -1,0 +1,22 @@
+{
+  "id": "9261",
+  "title": "dijkstraexample.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9261"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "JelteDirks",
+    "github_repo": "2ilc0"
+  },
+  "_links": {
+    "download": "/download/PAGINA/dijkstraexample.png"
+  },
+  "created_date": "2025-12-10",
+  "author_display": "JelteDirks/2ilc0"
+}

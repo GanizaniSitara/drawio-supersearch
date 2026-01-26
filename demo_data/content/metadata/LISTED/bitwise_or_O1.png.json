@@ -1,0 +1,22 @@
+{
+  "id": "15425",
+  "title": "bitwise_or_O1.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15425"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "nomemory",
+    "github_repo": "andreinc-site"
+  },
+  "_links": {
+    "download": "/download/LISTED/bitwise_or_O1.png"
+  },
+  "created_date": "2025-02-18",
+  "author_display": "nomemory/andreinc-site"
+}

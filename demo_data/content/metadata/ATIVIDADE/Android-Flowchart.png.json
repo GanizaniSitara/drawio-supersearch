@@ -1,0 +1,22 @@
+{
+  "id": "10254",
+  "title": "Android-Flowchart.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10254"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "maxbirnbacher",
+    "github_repo": "docs"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/Android-Flowchart.png"
+  },
+  "created_date": "2025-06-05",
+  "author_display": "maxbirnbacher/docs"
+}

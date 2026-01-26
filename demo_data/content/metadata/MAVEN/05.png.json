@@ -1,0 +1,22 @@
+{
+  "id": "13644",
+  "title": "05.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13644"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "RickZhou666",
+    "github_repo": "redis"
+  },
+  "_links": {
+    "download": "/download/MAVEN/05.png"
+  },
+  "created_date": "2025-05-01",
+  "author_display": "RickZhou666/redis"
+}

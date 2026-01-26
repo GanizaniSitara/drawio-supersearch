@@ -1,0 +1,22 @@
+{
+  "id": "12461",
+  "title": "API-Design.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12461"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "karmarv",
+    "github_repo": "restx-swag"
+  },
+  "_links": {
+    "download": "/download/CRASH/API-Design.png"
+  },
+  "created_date": "2025-09-19",
+  "author_display": "karmarv/restx-swag"
+}

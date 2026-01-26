@@ -1,0 +1,22 @@
+{
+  "id": "1253",
+  "title": "bt.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1253"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "joshuarose",
+    "github_repo": "chan-bt"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/bt.png"
+  },
+  "created_date": "2024-02-26",
+  "author_display": "joshuarose/chan-bt"
+}

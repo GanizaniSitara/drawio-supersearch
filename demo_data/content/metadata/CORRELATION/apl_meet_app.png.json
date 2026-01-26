@@ -1,0 +1,22 @@
+{
+  "id": "17738",
+  "title": "apl_meet_app.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17738"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "mkingopng",
+    "github_repo": "apl_aws"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/apl_meet_app.png"
+  },
+  "created_date": "2025-07-26",
+  "author_display": "mkingopng/apl_aws"
+}

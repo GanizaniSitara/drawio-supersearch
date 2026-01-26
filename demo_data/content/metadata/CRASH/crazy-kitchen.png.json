@@ -1,0 +1,22 @@
+{
+  "id": "12359",
+  "title": "crazy-kitchen.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12359"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "guigarciaa",
+    "github_repo": "crazy-kitchen"
+  },
+  "_links": {
+    "download": "/download/CRASH/crazy-kitchen.png"
+  },
+  "created_date": "2024-08-11",
+  "author_display": "guigarciaa/crazy-kitchen"
+}

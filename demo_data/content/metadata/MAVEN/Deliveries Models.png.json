@@ -1,0 +1,22 @@
+{
+  "id": "13752",
+  "title": "Deliveries Models.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13752"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "chavp",
+    "github_repo": "data-modeling"
+  },
+  "_links": {
+    "download": "/download/MAVEN/Deliveries Models.png"
+  },
+  "created_date": "2025-11-27",
+  "author_display": "chavp/data-modeling"
+}

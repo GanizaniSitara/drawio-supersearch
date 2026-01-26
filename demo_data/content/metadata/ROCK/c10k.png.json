@@ -1,0 +1,22 @@
+{
+  "id": "24040",
+  "title": "c10k.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24040"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "wokaio",
+    "github_repo": "go-advanced"
+  },
+  "_links": {
+    "download": "/download/ROCK/c10k.png"
+  },
+  "created_date": "2025-07-21",
+  "author_display": "wokaio/go-advanced"
+}

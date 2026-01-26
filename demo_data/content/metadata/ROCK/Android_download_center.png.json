@@ -1,0 +1,22 @@
+{
+  "id": "23612",
+  "title": "Android_download_center.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23612"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "AnRFDev",
+    "github_repo": "android-Basic4"
+  },
+  "_links": {
+    "download": "/download/ROCK/Android_download_center.png"
+  },
+  "created_date": "2024-12-22",
+  "author_display": "AnRFDev/android-Basic4"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2129",
+  "title": "distance-embedding-experiment.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2129"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "gtfintechlab",
+    "github_repo": "Universal-NFT-Vector-Database"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/distance-embedding-experiment.png"
+  },
+  "created_date": "2025-01-04",
+  "author_display": "gtfintechlab/Universal-NFT-Vector-Database"
+}

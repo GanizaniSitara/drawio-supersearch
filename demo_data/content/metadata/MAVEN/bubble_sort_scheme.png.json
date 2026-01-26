@@ -1,0 +1,22 @@
+{
+  "id": "13717",
+  "title": "bubble_sort_scheme.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13717"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "kovkir",
+    "github_repo": "bmstu-aa-labs"
+  },
+  "_links": {
+    "download": "/download/MAVEN/bubble_sort_scheme.png"
+  },
+  "created_date": "2024-12-31",
+  "author_display": "kovkir/bmstu-aa-labs"
+}

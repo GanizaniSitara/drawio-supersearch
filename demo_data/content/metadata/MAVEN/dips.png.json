@@ -1,0 +1,22 @@
+{
+  "id": "13692",
+  "title": "dips.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13692"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "oXyut",
+    "github_repo": "model-archs"
+  },
+  "_links": {
+    "download": "/download/MAVEN/dips.png"
+  },
+  "created_date": "2025-02-12",
+  "author_display": "oXyut/model-archs"
+}

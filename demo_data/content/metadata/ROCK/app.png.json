@@ -1,0 +1,22 @@
+{
+  "id": "24057",
+  "title": "app.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24057"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "riquems",
+    "github_repo": "tak-enhanced"
+  },
+  "_links": {
+    "download": "/download/ROCK/app.png"
+  },
+  "created_date": "2024-06-26",
+  "author_display": "riquems/tak-enhanced"
+}

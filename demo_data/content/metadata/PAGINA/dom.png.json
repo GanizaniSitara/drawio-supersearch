@@ -1,0 +1,22 @@
+{
+  "id": "9478",
+  "title": "dom.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9478"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "Free-Aaron-Li",
+    "github_repo": "JavaWeb"
+  },
+  "_links": {
+    "download": "/download/PAGINA/dom.png"
+  },
+  "created_date": "2024-08-19",
+  "author_display": "Free-Aaron-Li/JavaWeb"
+}

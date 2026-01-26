@@ -1,0 +1,22 @@
+{
+  "id": "9585",
+  "title": "C1.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9585"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "KTH-SSAS",
+    "github_repo": "pentest-SLR-appendix"
+  },
+  "_links": {
+    "download": "/download/SELESAI/C1.png"
+  },
+  "created_date": "2024-08-13",
+  "author_display": "KTH-SSAS/pentest-SLR-appendix"
+}

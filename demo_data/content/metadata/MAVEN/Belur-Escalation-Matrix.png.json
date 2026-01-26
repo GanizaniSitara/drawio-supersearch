@@ -1,0 +1,22 @@
+{
+  "id": "13696",
+  "title": "Belur-Escalation-Matrix.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13696"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "namanchopra21087",
+    "github_repo": "design-documents"
+  },
+  "_links": {
+    "download": "/download/MAVEN/Belur-Escalation-Matrix.png"
+  },
+  "created_date": "2025-05-07",
+  "author_display": "namanchopra21087/design-documents"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "20961",
+  "title": "axi_master_slave.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20961"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "acoustic-warfare",
+    "github_repo": "FPGA-sampling"
+  },
+  "_links": {
+    "download": "/download/HINT/axi_master_slave.png"
+  },
+  "created_date": "2025-10-22",
+  "author_display": "acoustic-warfare/FPGA-sampling"
+}

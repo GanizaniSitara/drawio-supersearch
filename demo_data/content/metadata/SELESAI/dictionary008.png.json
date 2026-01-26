@@ -1,0 +1,22 @@
+{
+  "id": "9559",
+  "title": "dictionary008.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9559"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "tiangolo",
+    "github_repo": "sqlmodel"
+  },
+  "_links": {
+    "download": "/download/SELESAI/dictionary008.png"
+  },
+  "created_date": "2024-11-22",
+  "author_display": "tiangolo/sqlmodel"
+}

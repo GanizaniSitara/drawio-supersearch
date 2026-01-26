@@ -1,0 +1,22 @@
+{
+  "id": "20189",
+  "title": "CMYP-flow.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20189"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "zhongmz",
+    "github_repo": "Draw_io"
+  },
+  "_links": {
+    "download": "/download/SEITE/CMYP-flow.png"
+  },
+  "created_date": "2025-09-05",
+  "author_display": "zhongmz/Draw_io"
+}

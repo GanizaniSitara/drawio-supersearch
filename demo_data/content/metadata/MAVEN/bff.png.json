@@ -1,0 +1,22 @@
+{
+  "id": "13682",
+  "title": "bff.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13682"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "caelum",
+    "github_repo": "apostila-microservices-com-spring-cloud"
+  },
+  "_links": {
+    "download": "/download/MAVEN/bff.png"
+  },
+  "created_date": "2024-03-10",
+  "author_display": "caelum/apostila-microservices-com-spring-cloud"
+}

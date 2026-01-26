@@ -1,0 +1,22 @@
+{
+  "id": "13737",
+  "title": "caso_de_uso.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13737"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "PuraFome",
+    "github_repo": "AEP-Segundo-Semestre-2022"
+  },
+  "_links": {
+    "download": "/download/MAVEN/caso_de_uso.png"
+  },
+  "created_date": "2025-08-29",
+  "author_display": "PuraFome/AEP-Segundo-Semestre-2022"
+}

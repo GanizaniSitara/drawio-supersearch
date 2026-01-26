@@ -1,0 +1,22 @@
+{
+  "id": "15385",
+  "title": "clojure-garden-erd.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15385"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "clojure-garden",
+    "github_repo": "clojure-garden"
+  },
+  "_links": {
+    "download": "/download/LISTED/clojure-garden-erd.png"
+  },
+  "created_date": "2025-06-10",
+  "author_display": "clojure-garden/clojure-garden"
+}

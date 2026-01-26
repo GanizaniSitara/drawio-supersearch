@@ -1,0 +1,22 @@
+{
+  "id": "19969",
+  "title": "adminCode.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19969"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Rakibei",
+    "github_repo": "P2-Project-cs-23-sw-2-04"
+  },
+  "_links": {
+    "download": "/download/SEITE/adminCode.png"
+  },
+  "created_date": "2024-12-12",
+  "author_display": "Rakibei/P2-Project-cs-23-sw-2-04"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "15416",
+  "title": "arquitetura02.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15416"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "flaviohmarques",
+    "github_repo": "desafioBMG_TechLead"
+  },
+  "_links": {
+    "download": "/download/LISTED/arquitetura02.png"
+  },
+  "created_date": "2025-12-19",
+  "author_display": "flaviohmarques/desafioBMG_TechLead"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "10096",
+  "title": "bsn_prxy_ord_dtl.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10096"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "fsJerryChan",
+    "github_repo": "fsJerryChan"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/bsn_prxy_ord_dtl.png"
+  },
+  "created_date": "2025-07-06",
+  "author_display": "fsJerryChan/fsJerryChan"
+}

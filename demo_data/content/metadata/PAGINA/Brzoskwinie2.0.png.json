@@ -1,0 +1,22 @@
+{
+  "id": "9276",
+  "title": "Brzoskwinie2.0.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9276"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "4RCZ1",
+    "github_repo": "Brzoskwinie"
+  },
+  "_links": {
+    "download": "/download/PAGINA/Brzoskwinie2.0.png"
+  },
+  "created_date": "2024-03-03",
+  "author_display": "4RCZ1/Brzoskwinie"
+}

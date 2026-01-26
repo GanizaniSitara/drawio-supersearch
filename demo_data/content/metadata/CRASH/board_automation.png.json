@@ -1,0 +1,22 @@
+{
+  "id": "12394",
+  "title": "board_automation.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12394"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "theteamworks",
+    "github_repo": "project-board-automation"
+  },
+  "_links": {
+    "download": "/download/CRASH/board_automation.png"
+  },
+  "created_date": "2025-04-24",
+  "author_display": "theteamworks/project-board-automation"
+}

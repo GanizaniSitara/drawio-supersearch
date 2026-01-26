@@ -1,0 +1,22 @@
+{
+  "id": "24028",
+  "title": "Attention AI.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24028"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "JoseMiguelCh",
+    "github_repo": "AIMaster-code"
+  },
+  "_links": {
+    "download": "/download/ROCK/Attention AI.png"
+  },
+  "created_date": "2025-05-04",
+  "author_display": "JoseMiguelCh/AIMaster-code"
+}

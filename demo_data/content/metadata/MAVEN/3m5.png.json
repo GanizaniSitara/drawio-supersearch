@@ -1,0 +1,22 @@
+{
+  "id": "13636",
+  "title": "3m5.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13636"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "nonexistent-nancy",
+    "github_repo": "diagrams"
+  },
+  "_links": {
+    "download": "/download/MAVEN/3m5.png"
+  },
+  "created_date": "2024-11-20",
+  "author_display": "nonexistent-nancy/diagrams"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9676",
+  "title": "CycleGANTransformRoute.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9676"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "Shaun-Z",
+    "github_repo": "DrawioFigure"
+  },
+  "_links": {
+    "download": "/download/SELESAI/CycleGANTransformRoute.png"
+  },
+  "created_date": "2025-02-15",
+  "author_display": "Shaun-Z/DrawioFigure"
+}

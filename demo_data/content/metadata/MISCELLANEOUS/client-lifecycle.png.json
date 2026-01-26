@@ -1,0 +1,22 @@
+{
+  "id": "1331",
+  "title": "client-lifecycle.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1331"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "timchunght",
+    "github_repo": "stream-chat-android-client"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/client-lifecycle.png"
+  },
+  "created_date": "2025-06-03",
+  "author_display": "timchunght/stream-chat-android-client"
+}

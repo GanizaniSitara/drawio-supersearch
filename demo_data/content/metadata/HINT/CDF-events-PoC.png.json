@@ -1,0 +1,22 @@
+{
+  "id": "20879",
+  "title": "CDF-events-PoC.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20879"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "cdfoundation",
+    "github_repo": "sig-events"
+  },
+  "_links": {
+    "download": "/download/HINT/CDF-events-PoC.png"
+  },
+  "created_date": "2025-08-06",
+  "author_display": "cdfoundation/sig-events"
+}

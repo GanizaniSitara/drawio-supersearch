@@ -1,0 +1,22 @@
+{
+  "id": "12383",
+  "title": "aidocx_flow_zh-cn.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12383"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "learninfun",
+    "github_repo": "learn-with-ai"
+  },
+  "_links": {
+    "download": "/download/CRASH/aidocx_flow_zh-cn.png"
+  },
+  "created_date": "2024-06-19",
+  "author_display": "learninfun/learn-with-ai"
+}

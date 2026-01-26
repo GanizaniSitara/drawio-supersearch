@@ -1,0 +1,22 @@
+{
+  "id": "15532",
+  "title": "codebook_attention.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15532"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "Satyam52",
+    "github_repo": "Draw.io"
+  },
+  "_links": {
+    "download": "/download/LISTED/codebook_attention.png"
+  },
+  "created_date": "2025-02-21",
+  "author_display": "Satyam52/Draw.io"
+}

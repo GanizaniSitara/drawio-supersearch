@@ -1,0 +1,22 @@
+{
+  "id": "11595",
+  "title": "amba-parity.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11595"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "rodrigomelo9",
+    "github_repo": "amba"
+  },
+  "_links": {
+    "download": "/download/CAL/amba-parity.png"
+  },
+  "created_date": "2024-06-30",
+  "author_display": "rodrigomelo9/amba"
+}

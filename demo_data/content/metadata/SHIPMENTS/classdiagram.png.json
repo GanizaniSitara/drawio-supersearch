@@ -1,0 +1,22 @@
+{
+  "id": "2061",
+  "title": "classdiagram.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2061"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "FriendUPCloud",
+    "github_repo": "friend-applications"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/classdiagram.png"
+  },
+  "created_date": "2024-06-26",
+  "author_display": "FriendUPCloud/friend-applications"
+}

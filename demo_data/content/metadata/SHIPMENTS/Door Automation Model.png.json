@@ -1,0 +1,22 @@
+{
+  "id": "2052",
+  "title": "Door Automation Model.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2052"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "SenAarush",
+    "github_repo": "diagrams"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Door Automation Model.png"
+  },
+  "created_date": "2024-03-30",
+  "author_display": "SenAarush/diagrams"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "12386",
+  "title": "c1c2map.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12386"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Ubugeeei",
+    "github_repo": "chibivue"
+  },
+  "_links": {
+    "download": "/download/CRASH/c1c2map.png"
+  },
+  "created_date": "2025-09-18",
+  "author_display": "Ubugeeei/chibivue"
+}

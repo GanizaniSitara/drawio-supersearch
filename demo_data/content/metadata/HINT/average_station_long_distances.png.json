@@ -1,0 +1,22 @@
+{
+  "id": "21014",
+  "title": "average_station_long_distances.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/21014"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "leogm99",
+    "github_repo": "tp3-bike-rides-analyzer"
+  },
+  "_links": {
+    "download": "/download/HINT/average_station_long_distances.png"
+  },
+  "created_date": "2024-06-08",
+  "author_display": "leogm99/tp3-bike-rides-analyzer"
+}

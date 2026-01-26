@@ -1,0 +1,22 @@
+{
+  "id": "20414",
+  "title": "Account Mockups.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20414"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "bounswe",
+    "github_repo": "bounswe2023group2"
+  },
+  "_links": {
+    "download": "/download/OIL/Account Mockups.png"
+  },
+  "created_date": "2024-07-15",
+  "author_display": "bounswe/bounswe2023group2"
+}

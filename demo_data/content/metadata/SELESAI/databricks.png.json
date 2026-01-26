@@ -1,0 +1,22 @@
+{
+  "id": "9588",
+  "title": "databricks.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9588"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "datamesh-architecture",
+    "github_repo": "datamesh-architecture.com"
+  },
+  "_links": {
+    "download": "/download/SELESAI/databricks.png"
+  },
+  "created_date": "2025-04-23",
+  "author_display": "datamesh-architecture/datamesh-architecture.com"
+}

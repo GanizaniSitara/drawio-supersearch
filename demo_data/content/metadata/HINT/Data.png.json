@@ -1,0 +1,22 @@
+{
+  "id": "20864",
+  "title": "Data.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20864"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "wri",
+    "github_repo": "sentinel-tree-cover"
+  },
+  "_links": {
+    "download": "/download/HINT/Data.png"
+  },
+  "created_date": "2025-02-09",
+  "author_display": "wri/sentinel-tree-cover"
+}

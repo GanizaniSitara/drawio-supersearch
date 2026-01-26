@@ -1,0 +1,22 @@
+{
+  "id": "20840",
+  "title": "chessgame diagram.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20840"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "Imshakhawat",
+    "github_repo": "ConsoleChess"
+  },
+  "_links": {
+    "download": "/download/HINT/chessgame diagram.png"
+  },
+  "created_date": "2025-04-27",
+  "author_display": "Imshakhawat/ConsoleChess"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "13590",
+  "title": "airin_architecture.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13590"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "rapenne-s",
+    "github_repo": "airin"
+  },
+  "_links": {
+    "download": "/download/MAVEN/airin_architecture.png"
+  },
+  "created_date": "2025-06-02",
+  "author_display": "rapenne-s/airin"
+}

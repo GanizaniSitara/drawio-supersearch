@@ -1,0 +1,22 @@
+{
+  "id": "2039",
+  "title": "CNN.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2039"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Ku0904",
+    "github_repo": "180_Days_Hard_Cpp"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/CNN.png"
+  },
+  "created_date": "2024-12-16",
+  "author_display": "Ku0904/180_Days_Hard_Cpp"
+}

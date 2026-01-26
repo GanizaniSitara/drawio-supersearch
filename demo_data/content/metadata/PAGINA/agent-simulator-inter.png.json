@@ -1,0 +1,22 @@
+{
+  "id": "9289",
+  "title": "agent-simulator-inter.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9289"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "Soare-Robert-Daniel",
+    "github_repo": "diploma-de-licenta"
+  },
+  "_links": {
+    "download": "/download/PAGINA/agent-simulator-inter.png"
+  },
+  "created_date": "2024-11-14",
+  "author_display": "Soare-Robert-Daniel/diploma-de-licenta"
+}

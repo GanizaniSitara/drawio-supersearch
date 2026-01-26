@@ -1,0 +1,22 @@
+{
+  "id": "17899",
+  "title": "cognito_diagrams.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17899"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "hamidgasmi",
+    "github_repo": "training.computerscience.cloud.aws"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/cognito_diagrams.png"
+  },
+  "created_date": "2025-08-31",
+  "author_display": "hamidgasmi/training.computerscience.cloud.aws"
+}

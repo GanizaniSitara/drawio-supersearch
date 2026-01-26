@@ -1,0 +1,22 @@
+{
+  "id": "2145",
+  "title": "AI.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2145"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "ManJ-PC",
+    "github_repo": "ML-DoC"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/AI.png"
+  },
+  "created_date": "2025-04-04",
+  "author_display": "ManJ-PC/ML-DoC"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "23737",
+  "title": "bomberman_classes.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23737"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "j4n-r",
+    "github_repo": "OOP2_Bomberman"
+  },
+  "_links": {
+    "download": "/download/ROCK/bomberman_classes.png"
+  },
+  "created_date": "2024-03-06",
+  "author_display": "j4n-r/OOP2_Bomberman"
+}

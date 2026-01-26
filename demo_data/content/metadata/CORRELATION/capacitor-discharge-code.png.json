@@ -1,0 +1,22 @@
+{
+  "id": "17942",
+  "title": "capacitor-discharge-code.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17942"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "lbm98",
+    "github_repo": "devs-fmu"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/capacitor-discharge-code.png"
+  },
+  "created_date": "2025-09-30",
+  "author_display": "lbm98/devs-fmu"
+}

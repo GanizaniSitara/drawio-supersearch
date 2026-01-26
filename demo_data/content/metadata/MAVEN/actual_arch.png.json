@@ -1,0 +1,22 @@
+{
+  "id": "13722",
+  "title": "actual_arch.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13722"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "7bruno",
+    "github_repo": "drawio"
+  },
+  "_links": {
+    "download": "/download/MAVEN/actual_arch.png"
+  },
+  "created_date": "2024-07-14",
+  "author_display": "7bruno/drawio"
+}

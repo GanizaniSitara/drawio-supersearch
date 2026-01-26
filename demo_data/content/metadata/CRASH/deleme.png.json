@@ -1,0 +1,22 @@
+{
+  "id": "12481",
+  "title": "deleme.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12481"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "ammar-abu-yaman",
+    "github_repo": "FSM2Java"
+  },
+  "_links": {
+    "download": "/download/CRASH/deleme.png"
+  },
+  "created_date": "2024-11-06",
+  "author_display": "ammar-abu-yaman/FSM2Java"
+}

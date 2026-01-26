@@ -1,0 +1,22 @@
+{
+  "id": "23561",
+  "title": "basics.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23561"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "gvwilson",
+    "github_repo": "tidynomicon"
+  },
+  "_links": {
+    "download": "/download/ROCK/basics.png"
+  },
+  "created_date": "2024-09-18",
+  "author_display": "gvwilson/tidynomicon"
+}

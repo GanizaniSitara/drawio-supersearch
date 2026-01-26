@@ -1,0 +1,22 @@
+{
+  "id": "13591",
+  "title": "ambiente-execucao.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13591"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "rpicanco",
+    "github_repo": "livro-eda"
+  },
+  "_links": {
+    "download": "/download/MAVEN/ambiente-execucao.png"
+  },
+  "created_date": "2025-06-03",
+  "author_display": "rpicanco/livro-eda"
+}

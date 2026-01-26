@@ -1,0 +1,22 @@
+{
+  "id": "11675",
+  "title": "cim.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11675"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "AmaranthosIO",
+    "github_repo": "drawings"
+  },
+  "_links": {
+    "download": "/download/CAL/cim.png"
+  },
+  "created_date": "2025-10-04",
+  "author_display": "AmaranthosIO/drawings"
+}

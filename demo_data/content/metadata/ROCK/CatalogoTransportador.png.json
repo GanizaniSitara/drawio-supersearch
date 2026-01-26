@@ -1,0 +1,22 @@
+{
+  "id": "23559",
+  "title": "CatalogoTransportador.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23559"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "pCosta99",
+    "github_repo": "Masters"
+  },
+  "_links": {
+    "download": "/download/ROCK/CatalogoTransportador.png"
+  },
+  "created_date": "2025-08-19",
+  "author_display": "pCosta99/Masters"
+}

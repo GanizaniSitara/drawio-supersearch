@@ -1,0 +1,22 @@
+{
+  "id": "20045",
+  "title": "CoronaBuster_Architecture.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20045"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "CoronaBuster",
+    "github_repo": "docs"
+  },
+  "_links": {
+    "download": "/download/SEITE/CoronaBuster_Architecture.png"
+  },
+  "created_date": "2024-09-29",
+  "author_display": "CoronaBuster/docs"
+}

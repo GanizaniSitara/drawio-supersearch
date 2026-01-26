@@ -1,0 +1,22 @@
+{
+  "id": "9715",
+  "title": "ArgumentParseBehavior.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9715"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "bilal-fazlani",
+    "github_repo": "commanddotnet"
+  },
+  "_links": {
+    "download": "/download/SELESAI/ArgumentParseBehavior.png"
+  },
+  "created_date": "2024-03-04",
+  "author_display": "bilal-fazlani/commanddotnet"
+}

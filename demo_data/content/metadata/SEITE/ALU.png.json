@@ -1,0 +1,22 @@
+{
+  "id": "19977",
+  "title": "ALU.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19977"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "RubiRubsn",
+    "github_repo": "AVR_processor-VHDL_implementation"
+  },
+  "_links": {
+    "download": "/download/SEITE/ALU.png"
+  },
+  "created_date": "2024-10-08",
+  "author_display": "RubiRubsn/AVR_processor-VHDL_implementation"
+}

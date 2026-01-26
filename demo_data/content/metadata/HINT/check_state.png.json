@@ -1,0 +1,22 @@
+{
+  "id": "20832",
+  "title": "check_state.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20832"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Sonic-Rain",
+    "github_repo": "Elo-Ranking-Pairing-System"
+  },
+  "_links": {
+    "download": "/download/HINT/check_state.png"
+  },
+  "created_date": "2025-09-15",
+  "author_display": "Sonic-Rain/Elo-Ranking-Pairing-System"
+}

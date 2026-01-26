@@ -1,0 +1,22 @@
+{
+  "id": "19957",
+  "title": "AusschreibungEDV.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19957"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Matz21X",
+    "github_repo": "2023_24_4BHITS"
+  },
+  "_links": {
+    "download": "/download/SEITE/AusschreibungEDV.png"
+  },
+  "created_date": "2024-02-19",
+  "author_display": "Matz21X/2023_24_4BHITS"
+}

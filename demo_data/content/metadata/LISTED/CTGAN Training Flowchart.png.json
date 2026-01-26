@@ -1,0 +1,22 @@
+{
+  "id": "15410",
+  "title": "CTGAN Training Flowchart.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15410"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "upforde",
+    "github_repo": "Idun"
+  },
+  "_links": {
+    "download": "/download/LISTED/CTGAN Training Flowchart.png"
+  },
+  "created_date": "2025-03-09",
+  "author_display": "upforde/Idun"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9625",
+  "title": "CFD.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9625"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "delbingeorge",
+    "github_repo": "eatables-php"
+  },
+  "_links": {
+    "download": "/download/SELESAI/CFD.png"
+  },
+  "created_date": "2025-11-01",
+  "author_display": "delbingeorge/eatables-php"
+}

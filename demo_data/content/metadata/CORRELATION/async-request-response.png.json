@@ -1,0 +1,22 @@
+{
+  "id": "17682",
+  "title": "async-request-response.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17682"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "DEFRA",
+    "github_repo": "ffc-diagrams"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/async-request-response.png"
+  },
+  "created_date": "2024-10-22",
+  "author_display": "DEFRA/ffc-diagrams"
+}

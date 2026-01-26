@@ -1,0 +1,22 @@
+{
+  "id": "20082",
+  "title": "1pro-oper.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20082"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "mammoth2008",
+    "github_repo": "mammoth2008.github.io"
+  },
+  "_links": {
+    "download": "/download/SEITE/1pro-oper.png"
+  },
+  "created_date": "2024-06-09",
+  "author_display": "mammoth2008/mammoth2008.github.io"
+}

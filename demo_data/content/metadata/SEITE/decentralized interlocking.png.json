@@ -1,0 +1,22 @@
+{
+  "id": "19966",
+  "title": "decentralized interlocking.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19966"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "INCYDE-GmbH",
+    "github_repo": "attackgraphs"
+  },
+  "_links": {
+    "download": "/download/SEITE/decentralized interlocking.png"
+  },
+  "created_date": "2025-04-01",
+  "author_display": "INCYDE-GmbH/attackgraphs"
+}

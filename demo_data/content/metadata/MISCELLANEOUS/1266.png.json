@@ -1,0 +1,22 @@
+{
+  "id": "1028",
+  "title": "1266.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1028"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "becoze",
+    "github_repo": "wiki"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/1266.png"
+  },
+  "created_date": "2024-07-24",
+  "author_display": "becoze/wiki"
+}

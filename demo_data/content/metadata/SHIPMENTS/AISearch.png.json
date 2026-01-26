@@ -1,0 +1,22 @@
+{
+  "id": "2068",
+  "title": "AISearch.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2068"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "algoasylum",
+    "github_repo": "PythonForDataScience-Aug2019"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/AISearch.png"
+  },
+  "created_date": "2024-05-11",
+  "author_display": "algoasylum/PythonForDataScience-Aug2019"
+}

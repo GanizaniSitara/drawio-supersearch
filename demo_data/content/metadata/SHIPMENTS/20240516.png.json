@@ -1,0 +1,22 @@
+{
+  "id": "2017",
+  "title": "20240516.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2017"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "Navven",
+    "github_repo": "Img"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/20240516.png"
+  },
+  "created_date": "2025-11-07",
+  "author_display": "Navven/Img"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17716",
+  "title": "Buses.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17716"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Uhgtred",
+    "github_repo": "HomeExplorer"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/Buses.png"
+  },
+  "created_date": "2024-08-03",
+  "author_display": "Uhgtred/HomeExplorer"
+}

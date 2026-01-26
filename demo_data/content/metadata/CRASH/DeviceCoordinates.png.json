@@ -1,0 +1,22 @@
+{
+  "id": "12550",
+  "title": "DeviceCoordinates.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12550"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "ClemensX",
+    "github_repo": "ShadedPathV"
+  },
+  "_links": {
+    "download": "/download/CRASH/DeviceCoordinates.png"
+  },
+  "created_date": "2024-02-16",
+  "author_display": "ClemensX/ShadedPathV"
+}

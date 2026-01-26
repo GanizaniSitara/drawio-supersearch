@@ -1,0 +1,22 @@
+{
+  "id": "12385",
+  "title": "cms_db.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12385"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "DannyGlade",
+    "github_repo": "Real_Estate_Site"
+  },
+  "_links": {
+    "download": "/download/CRASH/cms_db.png"
+  },
+  "created_date": "2024-04-26",
+  "author_display": "DannyGlade/Real_Estate_Site"
+}

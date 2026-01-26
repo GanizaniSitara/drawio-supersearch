@@ -1,0 +1,22 @@
+{
+  "id": "11567",
+  "title": "canari.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11567"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "pieda2006",
+    "github_repo": "TestPro"
+  },
+  "_links": {
+    "download": "/download/CAL/canari.png"
+  },
+  "created_date": "2024-10-11",
+  "author_display": "pieda2006/TestPro"
+}

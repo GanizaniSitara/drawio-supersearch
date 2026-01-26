@@ -1,0 +1,22 @@
+{
+  "id": "11782",
+  "title": "artix_baseboard.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11782"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "gabriel-tenma-white",
+    "github_repo": "sdr6"
+  },
+  "_links": {
+    "download": "/download/CAL/artix_baseboard.png"
+  },
+  "created_date": "2025-09-07",
+  "author_display": "gabriel-tenma-white/sdr6"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "19996",
+  "title": "BRI_components_v3.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19996"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "antoniosfiala",
+    "github_repo": "UCL_Dissertation"
+  },
+  "_links": {
+    "download": "/download/SEITE/BRI_components_v3.png"
+  },
+  "created_date": "2025-03-20",
+  "author_display": "antoniosfiala/UCL_Dissertation"
+}

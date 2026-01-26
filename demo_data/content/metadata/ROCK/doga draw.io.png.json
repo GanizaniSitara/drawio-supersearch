@@ -1,0 +1,22 @@
+{
+  "id": "23732",
+  "title": "doga draw.io.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23732"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "KiazaHunor",
+    "github_repo": "Szisarp"
+  },
+  "_links": {
+    "download": "/download/ROCK/doga draw.io.png"
+  },
+  "created_date": "2025-02-26",
+  "author_display": "KiazaHunor/Szisarp"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "23697",
+  "title": "alternative_baseline_no_noise.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23697"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "ArttuD",
+    "github_repo": "microrheology"
+  },
+  "_links": {
+    "download": "/download/ROCK/alternative_baseline_no_noise.png"
+  },
+  "created_date": "2025-07-16",
+  "author_display": "ArttuD/microrheology"
+}

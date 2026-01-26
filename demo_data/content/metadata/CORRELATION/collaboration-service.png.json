@@ -1,0 +1,22 @@
+{
+  "id": "17874",
+  "title": "collaboration-service.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17874"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "CS3219-AY2223S1",
+    "github_repo": "cs3219-project-ay2223s1-g42"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/collaboration-service.png"
+  },
+  "created_date": "2025-08-04",
+  "author_display": "CS3219-AY2223S1/cs3219-project-ay2223s1-g42"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "24067",
+  "title": "Aula03.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24067"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "Gustavo-Teixeiraa",
+    "github_repo": "ADS2A3A"
+  },
+  "_links": {
+    "download": "/download/ROCK/Aula03.png"
+  },
+  "created_date": "2024-08-06",
+  "author_display": "Gustavo-Teixeiraa/ADS2A3A"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "24095",
+  "title": "03Day Logout Session.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24095"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "EM-ORG-2023-12-27",
+    "github_repo": "05_JAVA_ECLIPSE"
+  },
+  "_links": {
+    "download": "/download/ROCK/03Day Logout Session.png"
+  },
+  "created_date": "2025-07-05",
+  "author_display": "EM-ORG-2023-12-27/05_JAVA_ECLIPSE"
+}

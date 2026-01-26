@@ -1,0 +1,22 @@
+{
+  "id": "11940",
+  "title": "DER (1).png",
+  "space": {
+    "key": "COMPRESS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11940"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "MatheusPignata",
+    "github_repo": "FinalProjectSenai2022"
+  },
+  "_links": {
+    "download": "/download/COMPRESS/DER (1).png"
+  },
+  "created_date": "2024-09-06",
+  "author_display": "MatheusPignata/FinalProjectSenai2022"
+}

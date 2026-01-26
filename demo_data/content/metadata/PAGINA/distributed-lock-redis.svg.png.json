@@ -1,0 +1,22 @@
+{
+  "id": "9319",
+  "title": "distributed-lock-redis.svg.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9319"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "fals",
+    "github_repo": "distributed-lock"
+  },
+  "_links": {
+    "download": "/download/PAGINA/distributed-lock-redis.svg.png"
+  },
+  "created_date": "2025-07-12",
+  "author_display": "fals/distributed-lock"
+}

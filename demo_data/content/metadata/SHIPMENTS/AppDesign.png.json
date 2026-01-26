@@ -1,0 +1,22 @@
+{
+  "id": "2118",
+  "title": "AppDesign.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2118"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "yakuzadave",
+    "github_repo": "DiscoMush"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/AppDesign.png"
+  },
+  "created_date": "2024-05-07",
+  "author_display": "yakuzadave/DiscoMush"
+}

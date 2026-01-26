@@ -1,0 +1,22 @@
+{
+  "id": "9283",
+  "title": "bmm_condition_chain.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9283"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "openEHR",
+    "github_repo": "specifications-LANG"
+  },
+  "_links": {
+    "download": "/download/PAGINA/bmm_condition_chain.png"
+  },
+  "created_date": "2024-08-03",
+  "author_display": "openEHR/specifications-LANG"
+}

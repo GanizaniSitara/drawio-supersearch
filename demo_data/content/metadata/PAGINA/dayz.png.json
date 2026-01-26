@@ -1,0 +1,22 @@
+{
+  "id": "9465",
+  "title": "dayz.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9465"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "makevs",
+    "github_repo": "dayz"
+  },
+  "_links": {
+    "download": "/download/PAGINA/dayz.png"
+  },
+  "created_date": "2024-08-04",
+  "author_display": "makevs/dayz"
+}

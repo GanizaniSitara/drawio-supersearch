@@ -1,0 +1,22 @@
+{
+  "id": "1416",
+  "title": "arc.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1416"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "macromania",
+    "github_repo": "serverless-mongodb-sample"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/arc.png"
+  },
+  "created_date": "2025-09-13",
+  "author_display": "macromania/serverless-mongodb-sample"
+}

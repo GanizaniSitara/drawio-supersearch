@@ -1,0 +1,22 @@
+{
+  "id": "23624",
+  "title": "1composite.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23624"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "Vlas1d",
+    "github_repo": "BasePatterns"
+  },
+  "_links": {
+    "download": "/download/ROCK/1composite.png"
+  },
+  "created_date": "2026-01-11",
+  "author_display": "Vlas1d/BasePatterns"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9752",
+  "title": "bmh2.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9752"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "manuelsalas",
+    "github_repo": "AED-Apuntes"
+  },
+  "_links": {
+    "download": "/download/SELESAI/bmh2.png"
+  },
+  "created_date": "2024-03-10",
+  "author_display": "manuelsalas/AED-Apuntes"
+}

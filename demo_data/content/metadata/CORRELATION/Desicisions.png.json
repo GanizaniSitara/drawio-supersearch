@@ -1,0 +1,22 @@
+{
+  "id": "17720",
+  "title": "Desicisions.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17720"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "jaduplessis",
+    "github_repo": "scientific-computing"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/Desicisions.png"
+  },
+  "created_date": "2025-09-13",
+  "author_display": "jaduplessis/scientific-computing"
+}

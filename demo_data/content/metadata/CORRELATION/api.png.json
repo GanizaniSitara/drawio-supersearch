@@ -1,0 +1,22 @@
+{
+  "id": "17765",
+  "title": "api.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17765"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "osawa-koki",
+    "github_repo": "pokemonAnalyzer"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/api.png"
+  },
+  "created_date": "2025-08-13",
+  "author_display": "osawa-koki/pokemonAnalyzer"
+}

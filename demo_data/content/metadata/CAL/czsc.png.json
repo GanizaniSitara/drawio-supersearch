@@ -1,0 +1,22 @@
+{
+  "id": "11733",
+  "title": "czsc.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11733"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "0x0918",
+    "github_repo": "czsc"
+  },
+  "_links": {
+    "download": "/download/CAL/czsc.png"
+  },
+  "created_date": "2025-03-09",
+  "author_display": "0x0918/czsc"
+}

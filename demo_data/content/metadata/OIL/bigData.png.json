@@ -1,0 +1,22 @@
+{
+  "id": "20422",
+  "title": "bigData.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20422"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "KGwolf",
+    "github_repo": "MyDraw"
+  },
+  "_links": {
+    "download": "/download/OIL/bigData.png"
+  },
+  "created_date": "2025-01-04",
+  "author_display": "KGwolf/MyDraw"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "23714",
+  "title": "adp.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23714"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "Hoverhuang-er",
+    "github_repo": "HoverLibrary"
+  },
+  "_links": {
+    "download": "/download/ROCK/adp.png"
+  },
+  "created_date": "2025-02-27",
+  "author_display": "Hoverhuang-er/HoverLibrary"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "20349",
+  "title": "CPU_KR_PIE_ERROR.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20349"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "kongzhongfeima",
+    "github_repo": "draw_io"
+  },
+  "_links": {
+    "download": "/download/OIL/CPU_KR_PIE_ERROR.png"
+  },
+  "created_date": "2024-09-16",
+  "author_display": "kongzhongfeima/draw_io"
+}

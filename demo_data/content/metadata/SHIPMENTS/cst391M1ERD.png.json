@@ -1,0 +1,22 @@
+{
+  "id": "1892",
+  "title": "cst391M1ERD.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1892"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "melichar-m",
+    "github_repo": "cst391"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/cst391M1ERD.png"
+  },
+  "created_date": "2024-07-11",
+  "author_display": "melichar-m/cst391"
+}

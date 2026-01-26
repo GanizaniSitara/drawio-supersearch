@@ -1,0 +1,22 @@
+{
+  "id": "13845",
+  "title": "dide_drawings.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13845"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "joelvonrotz",
+    "github_repo": "BSc-electrical-engineering"
+  },
+  "_links": {
+    "download": "/download/MAVEN/dide_drawings.png"
+  },
+  "created_date": "2025-03-22",
+  "author_display": "joelvonrotz/BSc-electrical-engineering"
+}

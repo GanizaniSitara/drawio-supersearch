@@ -1,0 +1,22 @@
+{
+  "id": "20440",
+  "title": "anastasis_reducer_recovery.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20440"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "LedgerProject",
+    "github_repo": "Anastasis"
+  },
+  "_links": {
+    "download": "/download/OIL/anastasis_reducer_recovery.png"
+  },
+  "created_date": "2026-01-02",
+  "author_display": "LedgerProject/Anastasis"
+}

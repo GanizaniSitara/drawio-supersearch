@@ -1,0 +1,22 @@
+{
+  "id": "9751",
+  "title": "big_dnn_inference.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9751"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "tomomano",
+    "github_repo": "learn-aws-by-coding"
+  },
+  "_links": {
+    "download": "/download/SELESAI/big_dnn_inference.png"
+  },
+  "created_date": "2025-01-10",
+  "author_display": "tomomano/learn-aws-by-coding"
+}

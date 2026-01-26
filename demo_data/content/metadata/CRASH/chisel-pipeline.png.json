@@ -1,0 +1,22 @@
+{
+  "id": "12297",
+  "title": "chisel-pipeline.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12297"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "lahiri-phdworks",
+    "github_repo": "PAVT-debloating-project"
+  },
+  "_links": {
+    "download": "/download/CRASH/chisel-pipeline.png"
+  },
+  "created_date": "2024-07-24",
+  "author_display": "lahiri-phdworks/PAVT-debloating-project"
+}

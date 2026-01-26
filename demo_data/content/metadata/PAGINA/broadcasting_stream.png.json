@@ -1,0 +1,22 @@
+{
+  "id": "9292",
+  "title": "broadcasting_stream.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9292"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "SDU-eScience",
+    "github_repo": "UCloud"
+  },
+  "_links": {
+    "download": "/download/PAGINA/broadcasting_stream.png"
+  },
+  "created_date": "2025-10-26",
+  "author_display": "SDU-eScience/UCloud"
+}

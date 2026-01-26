@@ -1,0 +1,22 @@
+{
+  "id": "9372",
+  "title": "BigMapLayout.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9372"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "shinspiegel",
+    "github_repo": "playground"
+  },
+  "_links": {
+    "download": "/download/PAGINA/BigMapLayout.png"
+  },
+  "created_date": "2025-04-03",
+  "author_display": "shinspiegel/playground"
+}

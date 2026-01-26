@@ -1,0 +1,22 @@
+{
+  "id": "13820",
+  "title": "000.04 - UML Diagram - SINGLE_STAGE.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13820"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "onepulltriple",
+    "github_repo": "Single_Stage_WPF"
+  },
+  "_links": {
+    "download": "/download/MAVEN/000.04 - UML Diagram - SINGLE_STAGE.png"
+  },
+  "created_date": "2024-05-27",
+  "author_display": "onepulltriple/Single_Stage_WPF"
+}

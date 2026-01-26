@@ -1,0 +1,22 @@
+{
+  "id": "19982",
+  "title": "dpp-overview.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19982"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "bytebutcher",
+    "github_repo": "decoder-plus-plus"
+  },
+  "_links": {
+    "download": "/download/SEITE/dpp-overview.png"
+  },
+  "created_date": "2025-06-22",
+  "author_display": "bytebutcher/decoder-plus-plus"
+}

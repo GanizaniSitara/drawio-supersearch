@@ -1,0 +1,22 @@
+{
+  "id": "17944",
+  "title": "BazaDeDateLicenta.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17944"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "andreiudan",
+    "github_repo": "bachelor-degree"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/BazaDeDateLicenta.png"
+  },
+  "created_date": "2024-10-24",
+  "author_display": "andreiudan/bachelor-degree"
+}

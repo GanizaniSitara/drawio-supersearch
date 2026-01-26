@@ -1,0 +1,22 @@
+{
+  "id": "13844",
+  "title": "DFD-level-1(admin).png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13844"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "Gopal2004311",
+    "github_repo": "MayIHelpYou-ServiceApp"
+  },
+  "_links": {
+    "download": "/download/MAVEN/DFD-level-1(admin).png"
+  },
+  "created_date": "2025-10-21",
+  "author_display": "Gopal2004311/MayIHelpYou-ServiceApp"
+}

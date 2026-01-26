@@ -1,0 +1,22 @@
+{
+  "id": "17826",
+  "title": "analytics.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17826"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "TousAntiCovid",
+    "github_repo": "analytics-server"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/analytics.png"
+  },
+  "created_date": "2024-09-20",
+  "author_display": "TousAntiCovid/analytics-server"
+}

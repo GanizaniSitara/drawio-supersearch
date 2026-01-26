@@ -1,0 +1,22 @@
+{
+  "id": "11603",
+  "title": "cli.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11603"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "pvlasov",
+    "github_repo": "cv"
+  },
+  "_links": {
+    "download": "/download/CAL/cli.png"
+  },
+  "created_date": "2025-10-01",
+  "author_display": "pvlasov/cv"
+}

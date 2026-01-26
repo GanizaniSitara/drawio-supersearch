@@ -1,0 +1,22 @@
+{
+  "id": "9612",
+  "title": "1727.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9612"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "becoze",
+    "github_repo": "wiki"
+  },
+  "_links": {
+    "download": "/download/SELESAI/1727.png"
+  },
+  "created_date": "2024-04-22",
+  "author_display": "becoze/wiki"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "12390",
+  "title": "dbModel.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12390"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "STK-Students",
+    "github_repo": "MapManager"
+  },
+  "_links": {
+    "download": "/download/CRASH/dbModel.png"
+  },
+  "created_date": "2024-02-04",
+  "author_display": "STK-Students/MapManager"
+}

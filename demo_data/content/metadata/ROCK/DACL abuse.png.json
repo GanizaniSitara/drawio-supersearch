@@ -1,0 +1,22 @@
+{
+  "id": "24126",
+  "title": "DACL abuse.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24126"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "owalid",
+    "github_repo": "The-Hacker-Recipes"
+  },
+  "_links": {
+    "download": "/download/ROCK/DACL abuse.png"
+  },
+  "created_date": "2024-10-21",
+  "author_display": "owalid/The-Hacker-Recipes"
+}

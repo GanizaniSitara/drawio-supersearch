@@ -1,0 +1,22 @@
+{
+  "id": "20019",
+  "title": "ajnaContractsArchitecture.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20019"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "icmoore",
+    "github_repo": "ajna-core"
+  },
+  "_links": {
+    "download": "/download/SEITE/ajnaContractsArchitecture.png"
+  },
+  "created_date": "2025-04-12",
+  "author_display": "icmoore/ajna-core"
+}

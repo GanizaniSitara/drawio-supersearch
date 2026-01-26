@@ -1,0 +1,22 @@
+{
+  "id": "2062",
+  "title": "DFA.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2062"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "trung-pham-dinh",
+    "github_repo": "Microcontroller-lab-Chapter3-ButtonsSwitches"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/DFA.png"
+  },
+  "created_date": "2025-01-23",
+  "author_display": "trung-pham-dinh/Microcontroller-lab-Chapter3-ButtonsSwitches"
+}

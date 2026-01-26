@@ -1,0 +1,22 @@
+{
+  "id": "19959",
+  "title": "badge-hologate.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19959"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "IVCTool",
+    "github_repo": "TS_RPR_FOM"
+  },
+  "_links": {
+    "download": "/download/SEITE/badge-hologate.png"
+  },
+  "created_date": "2024-12-04",
+  "author_display": "IVCTool/TS_RPR_FOM"
+}

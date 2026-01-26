@@ -1,0 +1,22 @@
+{
+  "id": "2020",
+  "title": "3DReconstructionPipeline.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2020"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "min86615",
+    "github_repo": "minmin"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/3DReconstructionPipeline.png"
+  },
+  "created_date": "2025-07-29",
+  "author_display": "min86615/minmin"
+}

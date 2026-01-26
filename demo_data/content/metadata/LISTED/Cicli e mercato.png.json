@@ -1,0 +1,22 @@
+{
+  "id": "15404",
+  "title": "Cicli e mercato.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15404"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "gabrielrovesti",
+    "github_repo": "Teaching-And-Tutoring"
+  },
+  "_links": {
+    "download": "/download/LISTED/Cicli e mercato.png"
+  },
+  "created_date": "2025-07-26",
+  "author_display": "gabrielrovesti/Teaching-And-Tutoring"
+}

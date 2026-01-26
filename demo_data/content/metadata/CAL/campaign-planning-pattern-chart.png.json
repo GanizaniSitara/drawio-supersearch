@@ -1,0 +1,22 @@
+{
+  "id": "11777",
+  "title": "campaign-planning-pattern-chart.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11777"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "politic-partner",
+    "github_repo": "election-campaign"
+  },
+  "_links": {
+    "download": "/download/CAL/campaign-planning-pattern-chart.png"
+  },
+  "created_date": "2025-10-25",
+  "author_display": "politic-partner/election-campaign"
+}

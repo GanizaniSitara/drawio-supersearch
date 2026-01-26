@@ -1,0 +1,22 @@
+{
+  "id": "23570",
+  "title": "Ahihi BRD.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23570"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "eNViDAT0001",
+    "github_repo": "Discovery-Social-Network-Docs"
+  },
+  "_links": {
+    "download": "/download/ROCK/Ahihi BRD.png"
+  },
+  "created_date": "2025-06-22",
+  "author_display": "eNViDAT0001/Discovery-Social-Network-Docs"
+}

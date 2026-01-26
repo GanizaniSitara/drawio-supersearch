@@ -1,0 +1,22 @@
+{
+  "id": "21006",
+  "title": "AlertingStrategy.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/21006"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "garaio",
+    "github_repo": "AzureRecipes"
+  },
+  "_links": {
+    "download": "/download/HINT/AlertingStrategy.png"
+  },
+  "created_date": "2024-06-06",
+  "author_display": "garaio/AzureRecipes"
+}

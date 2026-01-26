@@ -1,0 +1,22 @@
+{
+  "id": "12499",
+  "title": "CGI & Servlet.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12499"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "reeves55",
+    "github_repo": "notes"
+  },
+  "_links": {
+    "download": "/download/CRASH/CGI & Servlet.png"
+  },
+  "created_date": "2025-03-14",
+  "author_display": "reeves55/notes"
+}

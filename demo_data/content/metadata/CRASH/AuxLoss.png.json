@@ -1,0 +1,22 @@
+{
+  "id": "12490",
+  "title": "AuxLoss.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12490"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "TuAnh23",
+    "github_repo": "MultiModalST"
+  },
+  "_links": {
+    "download": "/download/CRASH/AuxLoss.png"
+  },
+  "created_date": "2025-08-10",
+  "author_display": "TuAnh23/MultiModalST"
+}

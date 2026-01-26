@@ -1,0 +1,22 @@
+{
+  "id": "2139",
+  "title": "bst-store.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2139"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "auula",
+    "github_repo": "draw.io"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/bst-store.png"
+  },
+  "created_date": "2025-04-07",
+  "author_display": "auula/draw.io"
+}

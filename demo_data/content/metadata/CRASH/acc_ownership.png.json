@@ -1,0 +1,22 @@
+{
+  "id": "12474",
+  "title": "acc_ownership.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12474"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "EGORAGANIN",
+    "github_repo": "solana-amm"
+  },
+  "_links": {
+    "download": "/download/CRASH/acc_ownership.png"
+  },
+  "created_date": "2024-05-21",
+  "author_display": "EGORAGANIN/solana-amm"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "11532",
+  "title": "ClasseJeu.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11532"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Raider472",
+    "github_repo": "ProjetThreeJsRPG"
+  },
+  "_links": {
+    "download": "/download/CAL/ClasseJeu.png"
+  },
+  "created_date": "2025-06-29",
+  "author_display": "Raider472/ProjetThreeJsRPG"
+}

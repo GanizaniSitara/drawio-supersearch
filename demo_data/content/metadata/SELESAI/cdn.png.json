@@ -1,0 +1,22 @@
+{
+  "id": "9592",
+  "title": "cdn.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9592"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "zhuoooo",
+    "github_repo": "doodles"
+  },
+  "_links": {
+    "download": "/download/SELESAI/cdn.png"
+  },
+  "created_date": "2024-12-25",
+  "author_display": "zhuoooo/doodles"
+}

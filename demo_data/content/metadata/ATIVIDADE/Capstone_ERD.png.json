@@ -1,0 +1,22 @@
+{
+  "id": "10054",
+  "title": "Capstone_ERD.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10054"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "conradartco",
+    "github_repo": "capstone"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/Capstone_ERD.png"
+  },
+  "created_date": "2025-10-19",
+  "author_display": "conradartco/capstone"
+}

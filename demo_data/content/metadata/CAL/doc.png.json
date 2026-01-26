@@ -1,0 +1,22 @@
+{
+  "id": "11756",
+  "title": "doc.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11756"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Jahia",
+    "github_repo": "javascript-components"
+  },
+  "_links": {
+    "download": "/download/CAL/doc.png"
+  },
+  "created_date": "2024-04-12",
+  "author_display": "Jahia/javascript-components"
+}

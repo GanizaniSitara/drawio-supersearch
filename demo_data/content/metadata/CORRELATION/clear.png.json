@@ -1,0 +1,22 @@
+{
+  "id": "17871",
+  "title": "clear.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17871"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "Curtis-Edwards",
+    "github_repo": "ICS4U-Unit-2-04-Typescript"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/clear.png"
+  },
+  "created_date": "2025-06-15",
+  "author_display": "Curtis-Edwards/ICS4U-Unit-2-04-Typescript"
+}

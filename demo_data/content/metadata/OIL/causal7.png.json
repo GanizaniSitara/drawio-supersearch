@@ -1,0 +1,22 @@
+{
+  "id": "20279",
+  "title": "causal7.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20279"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "kay-squared",
+    "github_repo": "PyTorchLearn"
+  },
+  "_links": {
+    "download": "/download/OIL/causal7.png"
+  },
+  "created_date": "2025-09-17",
+  "author_display": "kay-squared/PyTorchLearn"
+}

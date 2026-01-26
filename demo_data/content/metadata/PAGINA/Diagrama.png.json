@@ -1,0 +1,22 @@
+{
+  "id": "9426",
+  "title": "Diagrama.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9426"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "codedesignplus",
+    "github_repo": "CodeDesignPlus.Core"
+  },
+  "_links": {
+    "download": "/download/PAGINA/Diagrama.png"
+  },
+  "created_date": "2025-10-08",
+  "author_display": "codedesignplus/CodeDesignPlus.Core"
+}

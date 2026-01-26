@@ -1,0 +1,22 @@
+{
+  "id": "10026",
+  "title": "atividade.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10026"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "prof-rodrigor",
+    "github_repo": "aps2023.2"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/atividade.png"
+  },
+  "created_date": "2024-11-06",
+  "author_display": "prof-rodrigor/aps2023.2"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "23583",
+  "title": "digram.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23583"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "sayaoyuri",
+    "github_repo": "zapRecall"
+  },
+  "_links": {
+    "download": "/download/ROCK/digram.png"
+  },
+  "created_date": "2025-01-09",
+  "author_display": "sayaoyuri/zapRecall"
+}

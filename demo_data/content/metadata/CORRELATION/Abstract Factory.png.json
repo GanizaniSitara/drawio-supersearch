@@ -1,0 +1,22 @@
+{
+  "id": "17880",
+  "title": "Abstract Factory.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17880"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "kowlutla",
+    "github_repo": "Design-Patterns"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/Abstract Factory.png"
+  },
+  "created_date": "2024-10-30",
+  "author_display": "kowlutla/Design-Patterns"
+}

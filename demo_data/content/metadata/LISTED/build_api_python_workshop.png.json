@@ -1,0 +1,22 @@
+{
+  "id": "15381",
+  "title": "build_api_python_workshop.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15381"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "abunuwas",
+    "github_repo": "conferences-images"
+  },
+  "_links": {
+    "download": "/download/LISTED/build_api_python_workshop.png"
+  },
+  "created_date": "2024-09-16",
+  "author_display": "abunuwas/conferences-images"
+}

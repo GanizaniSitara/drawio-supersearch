@@ -1,0 +1,22 @@
+{
+  "id": "23655",
+  "title": "abc.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23655"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "naihloan",
+    "github_repo": "analista-escmb"
+  },
+  "_links": {
+    "download": "/download/ROCK/abc.png"
+  },
+  "created_date": "2024-07-08",
+  "author_display": "naihloan/analista-escmb"
+}

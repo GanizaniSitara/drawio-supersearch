@@ -1,0 +1,22 @@
+{
+  "id": "11542",
+  "title": "anti_corruption_layer_small.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11542"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "wuyichen24",
+    "github_repo": "system-design-knowledge"
+  },
+  "_links": {
+    "download": "/download/CAL/anti_corruption_layer_small.png"
+  },
+  "created_date": "2025-01-28",
+  "author_display": "wuyichen24/system-design-knowledge"
+}

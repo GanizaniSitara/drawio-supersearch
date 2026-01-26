@@ -1,0 +1,22 @@
+{
+  "id": "23722",
+  "title": "customer_reservation.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23722"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "yi2003",
+    "github_repo": "diagram"
+  },
+  "_links": {
+    "download": "/download/ROCK/customer_reservation.png"
+  },
+  "created_date": "2025-05-16",
+  "author_display": "yi2003/diagram"
+}

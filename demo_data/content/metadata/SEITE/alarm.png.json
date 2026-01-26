@@ -1,0 +1,22 @@
+{
+  "id": "20009",
+  "title": "alarm.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20009"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "mortytian",
+    "github_repo": "daily-study"
+  },
+  "_links": {
+    "download": "/download/SEITE/alarm.png"
+  },
+  "created_date": "2024-07-07",
+  "author_display": "mortytian/daily-study"
+}

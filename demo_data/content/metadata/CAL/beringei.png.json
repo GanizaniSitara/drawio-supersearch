@@ -1,0 +1,22 @@
+{
+  "id": "11706",
+  "title": "beringei.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11706"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "Rachelint",
+    "github_repo": "drawio-store"
+  },
+  "_links": {
+    "download": "/download/CAL/beringei.png"
+  },
+  "created_date": "2024-09-15",
+  "author_display": "Rachelint/drawio-store"
+}

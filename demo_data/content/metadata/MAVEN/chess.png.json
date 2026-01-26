@@ -1,0 +1,22 @@
+{
+  "id": "13802",
+  "title": "chess.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13802"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "frankxhunter",
+    "github_repo": "chess"
+  },
+  "_links": {
+    "download": "/download/MAVEN/chess.png"
+  },
+  "created_date": "2024-03-02",
+  "author_display": "frankxhunter/chess"
+}

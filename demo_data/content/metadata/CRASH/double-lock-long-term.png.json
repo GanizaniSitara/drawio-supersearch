@@ -1,0 +1,22 @@
+{
+  "id": "12339",
+  "title": "double-lock-long-term.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12339"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "andersfischernielsen",
+    "github_repo": "Finding-Resource-Manipulation-Bugs-with-Monitor-Automata-on-the-Example-of-the-Linux-Kernel"
+  },
+  "_links": {
+    "download": "/download/CRASH/double-lock-long-term.png"
+  },
+  "created_date": "2024-07-14",
+  "author_display": "andersfischernielsen/Finding-Resource-Manipulation-Bugs-with-Monitor-Automata-on-the-Example-of-the-Linux-Kernel"
+}

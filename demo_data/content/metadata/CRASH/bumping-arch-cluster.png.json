@@ -1,0 +1,22 @@
+{
+  "id": "12412",
+  "title": "bumping-arch-cluster.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12412"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "LuyaoZhong",
+    "github_repo": "Figures"
+  },
+  "_links": {
+    "download": "/download/CRASH/bumping-arch-cluster.png"
+  },
+  "created_date": "2024-09-24",
+  "author_display": "LuyaoZhong/Figures"
+}

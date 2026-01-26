@@ -1,0 +1,22 @@
+{
+  "id": "23568",
+  "title": "Azure_Architecture_V2.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23568"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "gilgamesh7",
+    "github_repo": "azure_book_store"
+  },
+  "_links": {
+    "download": "/download/ROCK/Azure_Architecture_V2.png"
+  },
+  "created_date": "2025-12-09",
+  "author_display": "gilgamesh7/azure_book_store"
+}

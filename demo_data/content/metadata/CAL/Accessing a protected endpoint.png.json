@@ -1,0 +1,22 @@
+{
+  "id": "11609",
+  "title": "Accessing a protected endpoint.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11609"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "tecladocode",
+    "github_repo": "web-dev-bootcamp"
+  },
+  "_links": {
+    "download": "/download/CAL/Accessing a protected endpoint.png"
+  },
+  "created_date": "2025-04-24",
+  "author_display": "tecladocode/web-dev-bootcamp"
+}

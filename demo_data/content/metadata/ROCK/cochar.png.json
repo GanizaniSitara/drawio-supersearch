@@ -1,0 +1,22 @@
+{
+  "id": "23552",
+  "title": "cochar.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23552"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "ajwalkiewicz",
+    "github_repo": "cochar"
+  },
+  "_links": {
+    "download": "/download/ROCK/cochar.png"
+  },
+  "created_date": "2024-05-17",
+  "author_display": "ajwalkiewicz/cochar"
+}

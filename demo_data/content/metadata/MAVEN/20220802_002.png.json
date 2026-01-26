@@ -1,0 +1,22 @@
+{
+  "id": "13796",
+  "title": "20220802_002.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13796"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "loganmarchione",
+    "github_repo": "loganmarchione.com"
+  },
+  "_links": {
+    "download": "/download/MAVEN/20220802_002.png"
+  },
+  "created_date": "2025-05-08",
+  "author_display": "loganmarchione/loganmarchione.com"
+}

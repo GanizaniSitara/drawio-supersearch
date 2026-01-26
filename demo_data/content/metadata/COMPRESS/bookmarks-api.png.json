@@ -1,0 +1,22 @@
+{
+  "id": "11977",
+  "title": "bookmarks-api.png",
+  "space": {
+    "key": "COMPRESS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11977"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "pranav-patil",
+    "github_repo": "go-serverless-api"
+  },
+  "_links": {
+    "download": "/download/COMPRESS/bookmarks-api.png"
+  },
+  "created_date": "2024-03-21",
+  "author_display": "pranav-patil/go-serverless-api"
+}

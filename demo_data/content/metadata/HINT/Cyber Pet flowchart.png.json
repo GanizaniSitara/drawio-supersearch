@@ -1,0 +1,22 @@
+{
+  "id": "20783",
+  "title": "Cyber Pet flowchart.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20783"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "Shoregill",
+    "github_repo": "dragon"
+  },
+  "_links": {
+    "download": "/download/HINT/Cyber Pet flowchart.png"
+  },
+  "created_date": "2024-07-15",
+  "author_display": "Shoregill/dragon"
+}

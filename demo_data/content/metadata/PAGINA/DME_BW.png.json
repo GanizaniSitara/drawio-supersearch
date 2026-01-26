@@ -1,0 +1,22 @@
+{
+  "id": "9368",
+  "title": "DME_BW.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9368"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "BEYHHH",
+    "github_repo": "SBLP"
+  },
+  "_links": {
+    "download": "/download/PAGINA/DME_BW.png"
+  },
+  "created_date": "2025-10-30",
+  "author_display": "BEYHHH/SBLP"
+}

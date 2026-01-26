@@ -1,0 +1,22 @@
+{
+  "id": "23531",
+  "title": "cortex-m-exception.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23531"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "carloscn",
+    "github_repo": "drawio"
+  },
+  "_links": {
+    "download": "/download/ROCK/cortex-m-exception.png"
+  },
+  "created_date": "2024-09-13",
+  "author_display": "carloscn/drawio"
+}

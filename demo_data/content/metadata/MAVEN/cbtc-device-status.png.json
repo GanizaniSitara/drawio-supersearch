@@ -1,0 +1,22 @@
+{
+  "id": "13759",
+  "title": "cbtc-device-status.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13759"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "how-chwong",
+    "github_repo": "nug"
+  },
+  "_links": {
+    "download": "/download/MAVEN/cbtc-device-status.png"
+  },
+  "created_date": "2024-05-13",
+  "author_display": "how-chwong/nug"
+}

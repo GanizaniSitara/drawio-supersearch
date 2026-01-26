@@ -1,0 +1,22 @@
+{
+  "id": "9244",
+  "title": "abstract-server-client.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9244"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "andreacaravano",
+    "github_repo": "myshelfie"
+  },
+  "_links": {
+    "download": "/download/PAGINA/abstract-server-client.png"
+  },
+  "created_date": "2024-06-24",
+  "author_display": "andreacaravano/myshelfie"
+}

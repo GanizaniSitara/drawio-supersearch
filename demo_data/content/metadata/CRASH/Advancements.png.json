@@ -1,0 +1,22 @@
+{
+  "id": "12420",
+  "title": "Advancements.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12420"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "the-dwellers",
+    "github_repo": "Fyre"
+  },
+  "_links": {
+    "download": "/download/CRASH/Advancements.png"
+  },
+  "created_date": "2026-01-23",
+  "author_display": "the-dwellers/Fyre"
+}

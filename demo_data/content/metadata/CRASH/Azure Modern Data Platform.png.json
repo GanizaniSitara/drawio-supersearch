@@ -1,0 +1,22 @@
+{
+  "id": "12424",
+  "title": "Azure Modern Data Platform.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12424"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "bennyaustin",
+    "github_repo": "elt-framework"
+  },
+  "_links": {
+    "download": "/download/CRASH/Azure Modern Data Platform.png"
+  },
+  "created_date": "2024-03-30",
+  "author_display": "bennyaustin/elt-framework"
+}

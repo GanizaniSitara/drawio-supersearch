@@ -1,0 +1,22 @@
+{
+  "id": "2004",
+  "title": "API\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2004"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "XiaoLiuAI",
+    "github_repo": "diagrams"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/API\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.png"
+  },
+  "created_date": "2024-03-18",
+  "author_display": "XiaoLiuAI/diagrams"
+}

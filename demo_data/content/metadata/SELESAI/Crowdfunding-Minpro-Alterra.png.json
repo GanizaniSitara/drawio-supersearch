@@ -1,0 +1,22 @@
+{
+  "id": "9566",
+  "title": "Crowdfunding-Minpro-Alterra.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9566"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "FaqihAzh",
+    "github_repo": "crowdfunding-minpro-alterra"
+  },
+  "_links": {
+    "download": "/download/SELESAI/Crowdfunding-Minpro-Alterra.png"
+  },
+  "created_date": "2024-06-06",
+  "author_display": "FaqihAzh/crowdfunding-minpro-alterra"
+}

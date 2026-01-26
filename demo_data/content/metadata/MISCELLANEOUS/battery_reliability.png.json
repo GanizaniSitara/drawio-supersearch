@@ -1,0 +1,22 @@
+{
+  "id": "1312",
+  "title": "battery_reliability.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1312"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "bapukokare",
+    "github_repo": "assignment"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/battery_reliability.png"
+  },
+  "created_date": "2025-03-31",
+  "author_display": "bapukokare/assignment"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "13794",
+  "title": "binder.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13794"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "jasonactions",
+    "github_repo": "graph"
+  },
+  "_links": {
+    "download": "/download/MAVEN/binder.png"
+  },
+  "created_date": "2024-07-20",
+  "author_display": "jasonactions/graph"
+}

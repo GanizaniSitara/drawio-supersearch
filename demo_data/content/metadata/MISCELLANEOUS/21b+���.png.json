@@ -1,0 +1,22 @@
+{
+  "id": "1060",
+  "title": "21b+\ufffd\ufffd\ufffd.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1060"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "MikeCreken",
+    "github_repo": "Interview-site-Lan"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/21b+\ufffd\ufffd\ufffd.png"
+  },
+  "created_date": "2025-06-09",
+  "author_display": "MikeCreken/Interview-site-Lan"
+}

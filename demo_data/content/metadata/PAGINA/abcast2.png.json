@@ -1,0 +1,22 @@
+{
+  "id": "9366",
+  "title": "abcast2.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9366"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "lasarojc",
+    "github_repo": "ds_notes"
+  },
+  "_links": {
+    "download": "/download/PAGINA/abcast2.png"
+  },
+  "created_date": "2025-03-27",
+  "author_display": "lasarojc/ds_notes"
+}

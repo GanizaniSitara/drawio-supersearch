@@ -1,0 +1,22 @@
+{
+  "id": "20871",
+  "title": "code-example-diagram.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20871"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "Lemoncode",
+    "github_repo": "k8s-fundamentals"
+  },
+  "_links": {
+    "download": "/download/HINT/code-example-diagram.png"
+  },
+  "created_date": "2024-09-08",
+  "author_display": "Lemoncode/k8s-fundamentals"
+}

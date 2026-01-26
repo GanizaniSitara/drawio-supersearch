@@ -1,0 +1,22 @@
+{
+  "id": "15605",
+  "title": "d06.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15605"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "AlexisRmnk",
+    "github_repo": "practicaInformatorio2022"
+  },
+  "_links": {
+    "download": "/download/LISTED/d06.png"
+  },
+  "created_date": "2025-03-05",
+  "author_display": "AlexisRmnk/practicaInformatorio2022"
+}

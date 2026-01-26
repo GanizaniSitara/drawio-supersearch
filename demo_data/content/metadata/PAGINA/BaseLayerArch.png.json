@@ -1,0 +1,22 @@
+{
+  "id": "9397",
+  "title": "BaseLayerArch.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9397"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "tari-project",
+    "github_repo": "rfcs"
+  },
+  "_links": {
+    "download": "/download/PAGINA/BaseLayerArch.png"
+  },
+  "created_date": "2025-09-29",
+  "author_display": "tari-project/rfcs"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9487",
+  "title": "deny_write.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9487"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "rntlqvnf",
+    "github_repo": "csed312-pintos-reports"
+  },
+  "_links": {
+    "download": "/download/PAGINA/deny_write.png"
+  },
+  "created_date": "2024-12-26",
+  "author_display": "rntlqvnf/csed312-pintos-reports"
+}

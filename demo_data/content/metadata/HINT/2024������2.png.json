@@ -1,0 +1,22 @@
+{
+  "id": "21004",
+  "title": "2024\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd2.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/21004"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "zhufuyin",
+    "github_repo": "draw"
+  },
+  "_links": {
+    "download": "/download/HINT/2024\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd2.png"
+  },
+  "created_date": "2025-12-20",
+  "author_display": "zhufuyin/draw"
+}

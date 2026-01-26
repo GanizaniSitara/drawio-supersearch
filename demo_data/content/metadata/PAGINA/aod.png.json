@@ -1,0 +1,22 @@
+{
+  "id": "9433",
+  "title": "aod.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9433"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "vegardit",
+    "github_repo": "docker-softhsm2-pkcs11-proxy"
+  },
+  "_links": {
+    "download": "/download/PAGINA/aod.png"
+  },
+  "created_date": "2024-05-21",
+  "author_display": "vegardit/docker-softhsm2-pkcs11-proxy"
+}

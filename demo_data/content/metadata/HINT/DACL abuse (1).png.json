@@ -1,0 +1,22 @@
+{
+  "id": "21027",
+  "title": "DACL abuse (1).png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/21027"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "ShutdownRepo",
+    "github_repo": "The-Hacker-Recipes"
+  },
+  "_links": {
+    "download": "/download/HINT/DACL abuse (1).png"
+  },
+  "created_date": "2024-12-08",
+  "author_display": "ShutdownRepo/The-Hacker-Recipes"
+}

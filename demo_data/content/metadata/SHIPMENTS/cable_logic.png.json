@@ -1,0 +1,22 @@
+{
+  "id": "2107",
+  "title": "cable_logic.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2107"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "shedaniel",
+    "github_repo": "slotlink"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/cable_logic.png"
+  },
+  "created_date": "2024-10-06",
+  "author_display": "shedaniel/slotlink"
+}

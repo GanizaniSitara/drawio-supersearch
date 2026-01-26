@@ -1,0 +1,22 @@
+{
+  "id": "2014",
+  "title": "100DaysOfCode-Hangman.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2014"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Nodenyx",
+    "github_repo": "100DaysOfCode"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/100DaysOfCode-Hangman.png"
+  },
+  "created_date": "2025-11-17",
+  "author_display": "Nodenyx/100DaysOfCode"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9417",
+  "title": "cnn-convlstm_3.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9417"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "dzhv",
+    "github_repo": "Spatio-Temporal-mobile-traffic-forecasting"
+  },
+  "_links": {
+    "download": "/download/PAGINA/cnn-convlstm_3.png"
+  },
+  "created_date": "2025-04-29",
+  "author_display": "dzhv/Spatio-Temporal-mobile-traffic-forecasting"
+}

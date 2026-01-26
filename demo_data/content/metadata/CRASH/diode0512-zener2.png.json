@@ -1,0 +1,22 @@
+{
+  "id": "12358",
+  "title": "diode0512-zener2.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12358"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "kd9701",
+    "github_repo": "TMCIT-3rd-Report"
+  },
+  "_links": {
+    "download": "/download/CRASH/diode0512-zener2.png"
+  },
+  "created_date": "2025-07-19",
+  "author_display": "kd9701/TMCIT-3rd-Report"
+}

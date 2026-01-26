@@ -1,0 +1,22 @@
+{
+  "id": "23674",
+  "title": "apicoin.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23674"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "EnzoDiazDev",
+    "github_repo": "diagram"
+  },
+  "_links": {
+    "download": "/download/ROCK/apicoin.png"
+  },
+  "created_date": "2024-05-22",
+  "author_display": "EnzoDiazDev/diagram"
+}

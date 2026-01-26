@@ -1,0 +1,22 @@
+{
+  "id": "17868",
+  "title": "dcu.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17868"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "wellifabio",
+    "github_repo": "senai2023"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/dcu.png"
+  },
+  "created_date": "2025-08-31",
+  "author_display": "wellifabio/senai2023"
+}

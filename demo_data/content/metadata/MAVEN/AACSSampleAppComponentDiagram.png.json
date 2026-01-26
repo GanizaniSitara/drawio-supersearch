@@ -1,0 +1,22 @@
+{
+  "id": "13761",
+  "title": "AACSSampleAppComponentDiagram.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13761"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "markwharton",
+    "github_repo": "alexa-auto-sdk"
+  },
+  "_links": {
+    "download": "/download/MAVEN/AACSSampleAppComponentDiagram.png"
+  },
+  "created_date": "2024-10-19",
+  "author_display": "markwharton/alexa-auto-sdk"
+}

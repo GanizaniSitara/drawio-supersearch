@@ -1,0 +1,22 @@
+{
+  "id": "12306",
+  "title": "CRASH_households_O.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12306"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "zuzancek",
+    "github_repo": "schemes"
+  },
+  "_links": {
+    "download": "/download/CRASH/CRASH_households_O.png"
+  },
+  "created_date": "2025-09-06",
+  "author_display": "zuzancek/schemes"
+}

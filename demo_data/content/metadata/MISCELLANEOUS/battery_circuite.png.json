@@ -1,0 +1,22 @@
+{
+  "id": "1347",
+  "title": "battery_circuite.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1347"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "xonder05",
+    "github_repo": "ROS2_For_Adeept_AWR"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/battery_circuite.png"
+  },
+  "created_date": "2024-09-19",
+  "author_display": "xonder05/ROS2_For_Adeept_AWR"
+}

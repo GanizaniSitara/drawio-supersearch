@@ -1,0 +1,22 @@
+{
+  "id": "13597",
+  "title": "CICD_Maven_Azure_Function_Pipeline_v1.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13597"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "microsoft",
+    "github_repo": "cobalt"
+  },
+  "_links": {
+    "download": "/download/MAVEN/CICD_Maven_Azure_Function_Pipeline_v1.png"
+  },
+  "created_date": "2025-02-21",
+  "author_display": "microsoft/cobalt"
+}

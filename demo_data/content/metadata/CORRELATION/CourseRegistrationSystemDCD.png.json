@@ -1,0 +1,22 @@
+{
+  "id": "17842",
+  "title": "CourseRegistrationSystemDCD.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17842"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "ahmetabdullahgultekin",
+    "github_repo": "CSE3063F23P1_GRP14"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/CourseRegistrationSystemDCD.png"
+  },
+  "created_date": "2024-11-18",
+  "author_display": "ahmetabdullahgultekin/CSE3063F23P1_GRP14"
+}

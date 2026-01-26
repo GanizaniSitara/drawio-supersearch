@@ -1,0 +1,22 @@
+{
+  "id": "11521",
+  "title": "DNS\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11521"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "RunningMartin",
+    "github_repo": "notebook"
+  },
+  "_links": {
+    "download": "/download/CAL/DNS\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.png"
+  },
+  "created_date": "2024-03-22",
+  "author_display": "RunningMartin/notebook"
+}

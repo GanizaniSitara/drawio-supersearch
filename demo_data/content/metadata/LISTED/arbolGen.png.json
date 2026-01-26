@@ -1,0 +1,22 @@
+{
+  "id": "15480",
+  "title": "arbolGen.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15480"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Torgeck",
+    "github_repo": "TPFinalEstructuras"
+  },
+  "_links": {
+    "download": "/download/LISTED/arbolGen.png"
+  },
+  "created_date": "2025-08-31",
+  "author_display": "Torgeck/TPFinalEstructuras"
+}

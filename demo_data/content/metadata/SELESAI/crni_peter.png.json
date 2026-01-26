@@ -1,0 +1,22 @@
+{
+  "id": "9675",
+  "title": "crni_peter.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9675"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "anzeljg",
+    "github_repo": "rin2"
+  },
+  "_links": {
+    "download": "/download/SELESAI/crni_peter.png"
+  },
+  "created_date": "2024-03-23",
+  "author_display": "anzeljg/rin2"
+}

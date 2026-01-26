@@ -1,0 +1,22 @@
+{
+  "id": "23906",
+  "title": "121.best-time-to-buy-and-sell-stock.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23906"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "zxhycxq",
+    "github_repo": "leetcode"
+  },
+  "_links": {
+    "download": "/download/ROCK/121.best-time-to-buy-and-sell-stock.png"
+  },
+  "created_date": "2025-10-13",
+  "author_display": "zxhycxq/leetcode"
+}

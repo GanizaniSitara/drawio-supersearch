@@ -1,0 +1,22 @@
+{
+  "id": "21008",
+  "title": "direct_rvp.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/21008"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "mrazekv-students",
+    "github_repo": "bp22_cpu_perina"
+  },
+  "_links": {
+    "download": "/download/HINT/direct_rvp.png"
+  },
+  "created_date": "2025-10-18",
+  "author_display": "mrazekv-students/bp22_cpu_perina"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "11606",
+  "title": "banking.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11606"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "HOGENT-Web",
+    "github_repo": "csharp"
+  },
+  "_links": {
+    "download": "/download/CAL/banking.png"
+  },
+  "created_date": "2025-09-21",
+  "author_display": "HOGENT-Web/csharp"
+}

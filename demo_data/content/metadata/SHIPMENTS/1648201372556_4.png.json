@@ -1,0 +1,22 @@
+{
+  "id": "1861",
+  "title": "1648201372556_4.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1861"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "aNhdUy13",
+    "github_repo": "COMP1640_Group2_CourseWork"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/1648201372556_4.png"
+  },
+  "created_date": "2025-05-14",
+  "author_display": "aNhdUy13/COMP1640_Group2_CourseWork"
+}

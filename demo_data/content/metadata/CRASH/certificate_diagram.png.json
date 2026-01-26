@@ -1,0 +1,22 @@
+{
+  "id": "12313",
+  "title": "certificate_diagram.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12313"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "adcimon",
+    "github_repo": "cheatsheets"
+  },
+  "_links": {
+    "download": "/download/CRASH/certificate_diagram.png"
+  },
+  "created_date": "2024-05-24",
+  "author_display": "adcimon/cheatsheets"
+}

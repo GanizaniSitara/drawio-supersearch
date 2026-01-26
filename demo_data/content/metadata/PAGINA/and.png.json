@@ -1,0 +1,22 @@
+{
+  "id": "9246",
+  "title": "and.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9246"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "P2-718na",
+    "github_repo": "electronics-laboratory"
+  },
+  "_links": {
+    "download": "/download/PAGINA/and.png"
+  },
+  "created_date": "2025-09-26",
+  "author_display": "P2-718na/electronics-laboratory"
+}

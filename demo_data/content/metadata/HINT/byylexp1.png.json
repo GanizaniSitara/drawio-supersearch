@@ -1,0 +1,22 @@
+{
+  "id": "20996",
+  "title": "byylexp1.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20996"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "chensiyi0904",
+    "github_repo": "draw.io"
+  },
+  "_links": {
+    "download": "/download/HINT/byylexp1.png"
+  },
+  "created_date": "2025-07-30",
+  "author_display": "chensiyi0904/draw.io"
+}

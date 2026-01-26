@@ -1,0 +1,22 @@
+{
+  "id": "15429",
+  "title": "BuildAndDeploy.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15429"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "ITU-BDSA23-GROUP8",
+    "github_repo": "Chirp"
+  },
+  "_links": {
+    "download": "/download/LISTED/BuildAndDeploy.png"
+  },
+  "created_date": "2024-02-27",
+  "author_display": "ITU-BDSA23-GROUP8/Chirp"
+}

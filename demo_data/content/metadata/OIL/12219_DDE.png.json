@@ -1,0 +1,22 @@
+{
+  "id": "20493",
+  "title": "12219_DDE.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20493"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "KuvonchbekN",
+    "github_repo": "30day-challange"
+  },
+  "_links": {
+    "download": "/download/OIL/12219_DDE.png"
+  },
+  "created_date": "2025-06-26",
+  "author_display": "KuvonchbekN/30day-challange"
+}

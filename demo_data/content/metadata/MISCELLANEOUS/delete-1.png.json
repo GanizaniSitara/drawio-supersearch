@@ -1,0 +1,22 @@
+{
+  "id": "1284",
+  "title": "delete-1.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1284"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "ALLENYGY",
+    "github_repo": "ALLENYGY.github.io"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/delete-1.png"
+  },
+  "created_date": "2024-03-31",
+  "author_display": "ALLENYGY/ALLENYGY.github.io"
+}

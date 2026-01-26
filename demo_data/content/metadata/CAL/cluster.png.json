@@ -1,0 +1,22 @@
+{
+  "id": "11723",
+  "title": "cluster.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11723"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "alkem-io",
+    "github_repo": "alkemio"
+  },
+  "_links": {
+    "download": "/download/CAL/cluster.png"
+  },
+  "created_date": "2024-04-13",
+  "author_display": "alkem-io/alkemio"
+}

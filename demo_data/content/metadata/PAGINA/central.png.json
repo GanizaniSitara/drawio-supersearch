@@ -1,0 +1,22 @@
+{
+  "id": "9439",
+  "title": "central.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9439"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "dgomesbr",
+    "github_repo": "aws-secure-environment-accelerator"
+  },
+  "_links": {
+    "download": "/download/PAGINA/central.png"
+  },
+  "created_date": "2025-02-05",
+  "author_display": "dgomesbr/aws-secure-environment-accelerator"
+}

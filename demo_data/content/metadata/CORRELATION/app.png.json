@@ -1,0 +1,22 @@
+{
+  "id": "17827",
+  "title": "app.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17827"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "kodmanyagha",
+    "github_repo": "db-manager-rs"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/app.png"
+  },
+  "created_date": "2024-11-09",
+  "author_display": "kodmanyagha/db-manager-rs"
+}

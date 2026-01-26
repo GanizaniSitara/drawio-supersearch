@@ -1,0 +1,22 @@
+{
+  "id": "17680",
+  "title": "agile_001_flowchart.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17680"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "traveller195",
+    "github_repo": "draw_io"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/agile_001_flowchart.png"
+  },
+  "created_date": "2024-03-21",
+  "author_display": "traveller195/draw_io"
+}

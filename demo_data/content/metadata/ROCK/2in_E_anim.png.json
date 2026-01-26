@@ -1,0 +1,22 @@
+{
+  "id": "24019",
+  "title": "2in_E_anim.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24019"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "GusevVlad",
+    "github_repo": "Russian-Phd-LaTeX-Dissertation-Template"
+  },
+  "_links": {
+    "download": "/download/ROCK/2in_E_anim.png"
+  },
+  "created_date": "2024-08-22",
+  "author_display": "GusevVlad/Russian-Phd-LaTeX-Dissertation-Template"
+}

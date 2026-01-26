@@ -1,0 +1,22 @@
+{
+  "id": "12354",
+  "title": "Desing_v2.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12354"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "tBuddy00",
+    "github_repo": "Follow-Me-Roboter"
+  },
+  "_links": {
+    "download": "/download/CRASH/Desing_v2.png"
+  },
+  "created_date": "2024-09-02",
+  "author_display": "tBuddy00/Follow-Me-Roboter"
+}

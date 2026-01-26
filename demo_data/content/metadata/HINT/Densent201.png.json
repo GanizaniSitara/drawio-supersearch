@@ -1,0 +1,22 @@
+{
+  "id": "20799",
+  "title": "Densent201.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20799"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "hmh38324",
+    "github_repo": "diagrams"
+  },
+  "_links": {
+    "download": "/download/HINT/Densent201.png"
+  },
+  "created_date": "2026-01-14",
+  "author_display": "hmh38324/diagrams"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "15506",
+  "title": "0051_DeployOnHeroku0001.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15506"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "a6s-cloud",
+    "github_repo": "grouscope-books"
+  },
+  "_links": {
+    "download": "/download/LISTED/0051_DeployOnHeroku0001.png"
+  },
+  "created_date": "2024-08-12",
+  "author_display": "a6s-cloud/grouscope-books"
+}

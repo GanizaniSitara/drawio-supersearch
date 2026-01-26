@@ -1,0 +1,22 @@
+{
+  "id": "2038",
+  "title": "Citanje_ulaza.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2038"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "Grkila",
+    "github_repo": "MODBUS-for-8051"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Citanje_ulaza.png"
+  },
+  "created_date": "2025-08-02",
+  "author_display": "Grkila/MODBUS-for-8051"
+}

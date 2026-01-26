@@ -1,0 +1,22 @@
+{
+  "id": "13718",
+  "title": "admin raffin\ufffd\ufffd.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13718"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "labidimahdi",
+    "github_repo": "diagrams"
+  },
+  "_links": {
+    "download": "/download/MAVEN/admin raffin\ufffd\ufffd.png"
+  },
+  "created_date": "2025-07-21",
+  "author_display": "labidimahdi/diagrams"
+}

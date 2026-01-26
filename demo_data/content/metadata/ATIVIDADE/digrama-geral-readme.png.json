@@ -1,0 +1,22 @@
+{
+  "id": "10203",
+  "title": "digrama-geral-readme.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10203"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "GleytonLima",
+    "github_repo": "datasus-etl"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/digrama-geral-readme.png"
+  },
+  "created_date": "2024-07-12",
+  "author_display": "GleytonLima/datasus-etl"
+}

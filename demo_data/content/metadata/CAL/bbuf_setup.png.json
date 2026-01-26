@@ -1,0 +1,22 @@
+{
+  "id": "11646",
+  "title": "bbuf_setup.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11646"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "OpenOSOrg",
+    "github_repo": "openos"
+  },
+  "_links": {
+    "download": "/download/CAL/bbuf_setup.png"
+  },
+  "created_date": "2025-04-29",
+  "author_display": "OpenOSOrg/openos"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "12403",
+  "title": "cpu_flowchart.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12403"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "MobilityDB",
+    "github_repo": "MobilityDB-Azure"
+  },
+  "_links": {
+    "download": "/download/CRASH/cpu_flowchart.png"
+  },
+  "created_date": "2025-02-20",
+  "author_display": "MobilityDB/MobilityDB-Azure"
+}

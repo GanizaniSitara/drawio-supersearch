@@ -1,0 +1,22 @@
+{
+  "id": "17877",
+  "title": "Blackjack Activity Diagram.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17877"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Real1236",
+    "github_repo": "BlackjackSimulator"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/Blackjack Activity Diagram.png"
+  },
+  "created_date": "2025-04-10",
+  "author_display": "Real1236/BlackjackSimulator"
+}

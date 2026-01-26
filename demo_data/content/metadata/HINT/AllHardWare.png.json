@@ -1,0 +1,22 @@
+{
+  "id": "21016",
+  "title": "AllHardWare.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/21016"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "nttoan-khiem",
+    "github_repo": "bkAirbus"
+  },
+  "_links": {
+    "download": "/download/HINT/AllHardWare.png"
+  },
+  "created_date": "2025-03-15",
+  "author_display": "nttoan-khiem/bkAirbus"
+}

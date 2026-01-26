@@ -1,0 +1,22 @@
+{
+  "id": "11714",
+  "title": "021.Development (Patterns) View - Patterns - Delivery - Semantic Versioning.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11714"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "skysgh",
+    "github_repo": "SysDelivery.Guidance"
+  },
+  "_links": {
+    "download": "/download/CAL/021.Development (Patterns) View - Patterns - Delivery - Semantic Versioning.png"
+  },
+  "created_date": "2025-01-26",
+  "author_display": "skysgh/SysDelivery.Guidance"
+}

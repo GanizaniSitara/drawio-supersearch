@@ -1,0 +1,22 @@
+{
+  "id": "15544",
+  "title": "Cats and Dogs.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15544"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "kubiak-calpoly",
+    "github_repo": "csc307-team-project"
+  },
+  "_links": {
+    "download": "/download/LISTED/Cats and Dogs.png"
+  },
+  "created_date": "2024-03-06",
+  "author_display": "kubiak-calpoly/csc307-team-project"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1898",
+  "title": "decowrapsdb.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1898"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "mavallejos93",
+    "github_repo": "diagramas"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/decowrapsdb.png"
+  },
+  "created_date": "2024-08-18",
+  "author_display": "mavallejos93/diagramas"
+}

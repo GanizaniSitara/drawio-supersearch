@@ -1,0 +1,22 @@
+{
+  "id": "12451",
+  "title": "Afonso.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12451"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "sdrrv",
+    "github_repo": "PO_Project_2020"
+  },
+  "_links": {
+    "download": "/download/CRASH/Afonso.png"
+  },
+  "created_date": "2025-09-07",
+  "author_display": "sdrrv/PO_Project_2020"
+}

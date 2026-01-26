@@ -1,0 +1,22 @@
+{
+  "id": "17941",
+  "title": "79.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17941"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "bbha99",
+    "github_repo": "React-Redux"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/79.png"
+  },
+  "created_date": "2025-06-18",
+  "author_display": "bbha99/React-Redux"
+}

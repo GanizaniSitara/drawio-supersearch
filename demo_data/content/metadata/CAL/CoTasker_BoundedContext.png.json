@@ -1,0 +1,22 @@
+{
+  "id": "11677",
+  "title": "CoTasker_BoundedContext.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11677"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "Migue1409-KP",
+    "github_repo": "DOO-working-group"
+  },
+  "_links": {
+    "download": "/download/CAL/CoTasker_BoundedContext.png"
+  },
+  "created_date": "2024-09-15",
+  "author_display": "Migue1409-KP/DOO-working-group"
+}

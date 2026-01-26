@@ -1,0 +1,22 @@
+{
+  "id": "9601",
+  "title": "bos-web\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_new.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9601"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "yindongjun",
+    "github_repo": "drawio-3"
+  },
+  "_links": {
+    "download": "/download/SELESAI/bos-web\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_new.png"
+  },
+  "created_date": "2024-09-07",
+  "author_display": "yindongjun/drawio-3"
+}

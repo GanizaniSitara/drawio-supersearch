@@ -1,0 +1,22 @@
+{
+  "id": "9495",
+  "title": "different_channels.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9495"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Kontent-ai-Learn",
+    "github_repo": "kontent-ai-learn-diagrams"
+  },
+  "_links": {
+    "download": "/download/PAGINA/different_channels.png"
+  },
+  "created_date": "2024-04-10",
+  "author_display": "Kontent-ai-Learn/kontent-ai-learn-diagrams"
+}

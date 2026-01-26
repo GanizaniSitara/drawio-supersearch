@@ -1,0 +1,22 @@
+{
+  "id": "9609",
+  "title": "Core db schema.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9609"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "manniloff",
+    "github_repo": "EShop"
+  },
+  "_links": {
+    "download": "/download/SELESAI/Core db schema.png"
+  },
+  "created_date": "2024-02-26",
+  "author_display": "manniloff/EShop"
+}

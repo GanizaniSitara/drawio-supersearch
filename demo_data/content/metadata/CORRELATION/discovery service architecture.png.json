@@ -1,0 +1,22 @@
+{
+  "id": "17893",
+  "title": "discovery service architecture.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17893"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "nuts-foundation",
+    "github_repo": "nuts-node"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/discovery service architecture.png"
+  },
+  "created_date": "2024-08-19",
+  "author_display": "nuts-foundation/nuts-node"
+}

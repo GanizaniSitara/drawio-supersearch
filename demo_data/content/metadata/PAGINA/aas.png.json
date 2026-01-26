@@ -1,0 +1,22 @@
+{
+  "id": "9313",
+  "title": "aas.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9313"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "kuznero",
+    "github_repo": "slides-avoid-lockin-with-k8s"
+  },
+  "_links": {
+    "download": "/download/PAGINA/aas.png"
+  },
+  "created_date": "2025-10-20",
+  "author_display": "kuznero/slides-avoid-lockin-with-k8s"
+}

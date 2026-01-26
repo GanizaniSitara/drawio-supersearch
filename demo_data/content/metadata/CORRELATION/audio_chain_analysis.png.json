@@ -1,0 +1,22 @@
+{
+  "id": "17683",
+  "title": "audio_chain_analysis.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17683"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "davidzwa",
+    "github_repo": "advanced-iot-lisat"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/audio_chain_analysis.png"
+  },
+  "created_date": "2024-05-11",
+  "author_display": "davidzwa/advanced-iot-lisat"
+}

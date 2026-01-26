@@ -1,0 +1,22 @@
+{
+  "id": "20909",
+  "title": "Backend.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20909"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "Blokas23",
+    "github_repo": "FoodTrends"
+  },
+  "_links": {
+    "download": "/download/HINT/Backend.png"
+  },
+  "created_date": "2024-08-22",
+  "author_display": "Blokas23/FoodTrends"
+}

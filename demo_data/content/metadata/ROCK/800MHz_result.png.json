@@ -1,0 +1,22 @@
+{
+  "id": "23575",
+  "title": "800MHz_result.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23575"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "SETIatHCRO",
+    "github_repo": "Front-Page"
+  },
+  "_links": {
+    "download": "/download/ROCK/800MHz_result.png"
+  },
+  "created_date": "2025-09-04",
+  "author_display": "SETIatHCRO/Front-Page"
+}

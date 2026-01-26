@@ -1,0 +1,22 @@
+{
+  "id": "13847",
+  "title": "alamcd.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13847"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "GravitonXD",
+    "github_repo": "OLARTE_SP"
+  },
+  "_links": {
+    "download": "/download/MAVEN/alamcd.png"
+  },
+  "created_date": "2024-09-23",
+  "author_display": "GravitonXD/OLARTE_SP"
+}

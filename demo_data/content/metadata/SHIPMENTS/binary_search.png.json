@@ -1,0 +1,22 @@
+{
+  "id": "1911",
+  "title": "binary_search.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1911"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "amunra2",
+    "github_repo": "aa-bmstu-iu7"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/binary_search.png"
+  },
+  "created_date": "2024-11-27",
+  "author_display": "amunra2/aa-bmstu-iu7"
+}

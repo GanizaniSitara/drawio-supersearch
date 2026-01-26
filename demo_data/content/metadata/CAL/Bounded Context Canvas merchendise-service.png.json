@@ -1,0 +1,22 @@
+{
+  "id": "11647",
+  "title": "Bounded Context Canvas merchendise-service.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11647"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "routeCsharp256",
+    "github_repo": "ANeychev"
+  },
+  "_links": {
+    "download": "/download/CAL/Bounded Context Canvas merchendise-service.png"
+  },
+  "created_date": "2025-07-16",
+  "author_display": "routeCsharp256/ANeychev"
+}

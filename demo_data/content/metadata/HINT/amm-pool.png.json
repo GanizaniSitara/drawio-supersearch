@@ -1,0 +1,22 @@
+{
+  "id": "20880",
+  "title": "amm-pool.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20880"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "erickang08",
+    "github_repo": "bondingcurves"
+  },
+  "_links": {
+    "download": "/download/HINT/amm-pool.png"
+  },
+  "created_date": "2025-03-25",
+  "author_display": "erickang08/bondingcurves"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17693",
+  "title": "Clickstream.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17693"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "hikumealan",
+    "github_repo": "draw-io-diagrams"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/Clickstream.png"
+  },
+  "created_date": "2024-11-24",
+  "author_display": "hikumealan/draw-io-diagrams"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2140",
+  "title": "88.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2140"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "Biswa-bob",
+    "github_repo": "React_Tutorial"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/88.png"
+  },
+  "created_date": "2025-12-12",
+  "author_display": "Biswa-bob/React_Tutorial"
+}

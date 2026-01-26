@@ -1,0 +1,22 @@
+{
+  "id": "23534",
+  "title": "baud_controller_dataflow.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23534"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "nefgaroufali",
+    "github_repo": "Digital_Systems_Lab"
+  },
+  "_links": {
+    "download": "/download/ROCK/baud_controller_dataflow.png"
+  },
+  "created_date": "2024-07-21",
+  "author_display": "nefgaroufali/Digital_Systems_Lab"
+}

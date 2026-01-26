@@ -1,0 +1,22 @@
+{
+  "id": "24072",
+  "title": "Auction Flow.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24072"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "Trungkien2022001",
+    "github_repo": "auction"
+  },
+  "_links": {
+    "download": "/download/ROCK/Auction Flow.png"
+  },
+  "created_date": "2025-09-16",
+  "author_display": "Trungkien2022001/auction"
+}

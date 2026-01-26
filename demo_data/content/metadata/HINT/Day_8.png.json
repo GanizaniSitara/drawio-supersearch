@@ -1,0 +1,22 @@
+{
+  "id": "20981",
+  "title": "Day_8.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20981"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "George-Smirnoff",
+    "github_repo": "Bootcamp-100"
+  },
+  "_links": {
+    "download": "/download/HINT/Day_8.png"
+  },
+  "created_date": "2025-01-26",
+  "author_display": "George-Smirnoff/Bootcamp-100"
+}

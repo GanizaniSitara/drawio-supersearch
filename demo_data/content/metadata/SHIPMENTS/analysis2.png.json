@@ -1,0 +1,22 @@
+{
+  "id": "2084",
+  "title": "analysis2.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2084"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "isglobal-brge",
+    "github_repo": "exposome_bookdown"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/analysis2.png"
+  },
+  "created_date": "2025-09-26",
+  "author_display": "isglobal-brge/exposome_bookdown"
+}

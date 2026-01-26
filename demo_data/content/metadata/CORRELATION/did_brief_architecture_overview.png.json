@@ -1,0 +1,22 @@
+{
+  "id": "17879",
+  "title": "did_brief_architecture_overview.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17879"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "isabella232",
+    "github_repo": "did-core"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/did_brief_architecture_overview.png"
+  },
+  "created_date": "2024-05-24",
+  "author_display": "isabella232/did-core"
+}

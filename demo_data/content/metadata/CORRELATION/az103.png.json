@@ -1,0 +1,22 @@
+{
+  "id": "17783",
+  "title": "az103.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17783"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "augustovan",
+    "github_repo": "cursoaz"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/az103.png"
+  },
+  "created_date": "2025-06-13",
+  "author_display": "augustovan/cursoaz"
+}

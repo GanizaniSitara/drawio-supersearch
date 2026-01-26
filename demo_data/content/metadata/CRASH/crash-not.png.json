@@ -1,0 +1,22 @@
+{
+  "id": "12302",
+  "title": "crash-not.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12302"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "prim",
+    "github_repo": "git"
+  },
+  "_links": {
+    "download": "/download/CRASH/crash-not.png"
+  },
+  "created_date": "2025-01-08",
+  "author_display": "prim/git"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "12449",
+  "title": "derivator.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12449"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "tdooms",
+    "github_repo": "mosis"
+  },
+  "_links": {
+    "download": "/download/CRASH/derivator.png"
+  },
+  "created_date": "2026-01-13",
+  "author_display": "tdooms/mosis"
+}

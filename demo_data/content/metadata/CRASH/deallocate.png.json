@@ -1,0 +1,22 @@
+{
+  "id": "12387",
+  "title": "deallocate.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12387"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "rntlqvnf",
+    "github_repo": "csed312-pintos-reports"
+  },
+  "_links": {
+    "download": "/download/CRASH/deallocate.png"
+  },
+  "created_date": "2024-03-24",
+  "author_display": "rntlqvnf/csed312-pintos-reports"
+}

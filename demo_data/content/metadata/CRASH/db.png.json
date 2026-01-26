@@ -1,0 +1,22 @@
+{
+  "id": "12489",
+  "title": "db.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12489"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "TrieuHongKy",
+    "github_repo": "PHP3_WebsiteBanGiay"
+  },
+  "_links": {
+    "download": "/download/CRASH/db.png"
+  },
+  "created_date": "2024-04-01",
+  "author_display": "TrieuHongKy/PHP3_WebsiteBanGiay"
+}

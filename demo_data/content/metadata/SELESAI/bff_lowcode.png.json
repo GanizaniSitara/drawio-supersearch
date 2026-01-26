@@ -1,0 +1,22 @@
+{
+  "id": "9631",
+  "title": "bff_lowcode.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9631"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "kubebb",
+    "github_repo": "website"
+  },
+  "_links": {
+    "download": "/download/SELESAI/bff_lowcode.png"
+  },
+  "created_date": "2024-06-14",
+  "author_display": "kubebb/website"
+}

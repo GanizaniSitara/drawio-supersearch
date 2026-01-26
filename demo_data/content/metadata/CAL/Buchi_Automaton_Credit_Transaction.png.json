@@ -1,0 +1,22 @@
+{
+  "id": "11529",
+  "title": "Buchi_Automaton_Credit_Transaction.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11529"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "oliverfanderson",
+    "github_repo": "DATA599-02-Diagrams"
+  },
+  "_links": {
+    "download": "/download/CAL/Buchi_Automaton_Credit_Transaction.png"
+  },
+  "created_date": "2025-09-09",
+  "author_display": "oliverfanderson/DATA599-02-Diagrams"
+}

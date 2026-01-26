@@ -1,0 +1,22 @@
+{
+  "id": "12312",
+  "title": "bl.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12312"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "maelvls",
+    "github_repo": "termscp"
+  },
+  "_links": {
+    "download": "/download/CRASH/bl.png"
+  },
+  "created_date": "2025-08-18",
+  "author_display": "maelvls/termscp"
+}

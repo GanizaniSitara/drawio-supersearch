@@ -1,0 +1,22 @@
+{
+  "id": "9294",
+  "title": "ddd-sample-breakdown.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9294"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "magicliang",
+    "github_repo": "magicliang.github.io"
+  },
+  "_links": {
+    "download": "/download/PAGINA/ddd-sample-breakdown.png"
+  },
+  "created_date": "2025-09-30",
+  "author_display": "magicliang/magicliang.github.io"
+}

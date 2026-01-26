@@ -1,0 +1,22 @@
+{
+  "id": "2036",
+  "title": "car_flowchart.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2036"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "Mickmacha",
+    "github_repo": "Car_diagnostic_chatbot"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/car_flowchart.png"
+  },
+  "created_date": "2024-06-16",
+  "author_display": "Mickmacha/Car_diagnostic_chatbot"
+}

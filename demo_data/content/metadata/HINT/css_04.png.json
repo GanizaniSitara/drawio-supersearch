@@ -1,0 +1,22 @@
+{
+  "id": "21013",
+  "title": "css_04.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/21013"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "profmancusoa",
+    "github_repo": "TPSI"
+  },
+  "_links": {
+    "download": "/download/HINT/css_04.png"
+  },
+  "created_date": "2025-01-21",
+  "author_display": "profmancusoa/TPSI"
+}

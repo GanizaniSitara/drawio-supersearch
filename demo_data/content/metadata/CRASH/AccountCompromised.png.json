@@ -1,0 +1,22 @@
+{
+  "id": "12286",
+  "title": "AccountCompromised.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12286"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "socfortress",
+    "github_repo": "Playbooks"
+  },
+  "_links": {
+    "download": "/download/CRASH/AccountCompromised.png"
+  },
+  "created_date": "2025-11-16",
+  "author_display": "socfortress/Playbooks"
+}

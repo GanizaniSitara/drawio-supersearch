@@ -1,0 +1,22 @@
+{
+  "id": "15518",
+  "title": "builder_flowchart.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15518"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "Jangle-Parth",
+    "github_repo": "Design-Pattern"
+  },
+  "_links": {
+    "download": "/download/LISTED/builder_flowchart.png"
+  },
+  "created_date": "2024-02-03",
+  "author_display": "Jangle-Parth/Design-Pattern"
+}

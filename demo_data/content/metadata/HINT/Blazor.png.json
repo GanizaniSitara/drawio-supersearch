@@ -1,0 +1,22 @@
+{
+  "id": "20949",
+  "title": "Blazor.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20949"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "PacktPublishing",
+    "github_repo": "Architecting-ASP.NET-Core-Applications-3E"
+  },
+  "_links": {
+    "download": "/download/HINT/Blazor.png"
+  },
+  "created_date": "2024-10-03",
+  "author_display": "PacktPublishing/Architecting-ASP.NET-Core-Applications-3E"
+}

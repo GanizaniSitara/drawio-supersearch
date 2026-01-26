@@ -1,0 +1,22 @@
+{
+  "id": "2015",
+  "title": "1213demo01.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2015"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "shenshen123",
+    "github_repo": "draw"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/1213demo01.png"
+  },
+  "created_date": "2025-10-18",
+  "author_display": "shenshen123/draw"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "13720",
+  "title": "check_request_part2.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13720"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "kalashkovpaul",
+    "github_repo": "bmstu-aa"
+  },
+  "_links": {
+    "download": "/download/MAVEN/check_request_part2.png"
+  },
+  "created_date": "2025-05-24",
+  "author_display": "kalashkovpaul/bmstu-aa"
+}

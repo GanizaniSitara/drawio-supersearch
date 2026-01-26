@@ -1,0 +1,22 @@
+{
+  "id": "17800",
+  "title": "Coverage_GA.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17800"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "kelvinlyy",
+    "github_repo": "DCDT"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/Coverage_GA.png"
+  },
+  "created_date": "2024-02-15",
+  "author_display": "kelvinlyy/DCDT"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "23720",
+  "title": "DOD workflow.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23720"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "Zsynuting",
+    "github_repo": "diagram"
+  },
+  "_links": {
+    "download": "/download/ROCK/DOD workflow.png"
+  },
+  "created_date": "2026-01-02",
+  "author_display": "Zsynuting/diagram"
+}

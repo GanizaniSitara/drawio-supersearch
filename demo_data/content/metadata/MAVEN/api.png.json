@@ -1,0 +1,22 @@
+{
+  "id": "13592",
+  "title": "api.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13592"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "jzy3d",
+    "github_repo": "jzy3d-api"
+  },
+  "_links": {
+    "download": "/download/MAVEN/api.png"
+  },
+  "created_date": "2024-06-07",
+  "author_display": "jzy3d/jzy3d-api"
+}

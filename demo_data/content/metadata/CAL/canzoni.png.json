@@ -1,0 +1,22 @@
+{
+  "id": "11785",
+  "title": "canzoni.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11785"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "maboglia",
+    "github_repo": "Fintech2022"
+  },
+  "_links": {
+    "download": "/download/CAL/canzoni.png"
+  },
+  "created_date": "2024-10-02",
+  "author_display": "maboglia/Fintech2022"
+}

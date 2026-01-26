@@ -1,0 +1,22 @@
+{
+  "id": "20208",
+  "title": "abp.V.1.0.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20208"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "Campusoft",
+    "github_repo": "knowledge_base"
+  },
+  "_links": {
+    "download": "/download/SEITE/abp.V.1.0.png"
+  },
+  "created_date": "2025-11-14",
+  "author_display": "Campusoft/knowledge_base"
+}

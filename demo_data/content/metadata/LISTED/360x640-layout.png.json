@@ -1,0 +1,22 @@
+{
+  "id": "15418",
+  "title": "360x640-layout.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15418"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "alastair-smith",
+    "github_repo": "website"
+  },
+  "_links": {
+    "download": "/download/LISTED/360x640-layout.png"
+  },
+  "created_date": "2024-05-03",
+  "author_display": "alastair-smith/website"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "15582",
+  "title": "Analisa Sistem Berjalan.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15582"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "hako-975",
+    "github_repo": "UNPAM-File"
+  },
+  "_links": {
+    "download": "/download/LISTED/Analisa Sistem Berjalan.png"
+  },
+  "created_date": "2024-03-13",
+  "author_display": "hako-975/UNPAM-File"
+}

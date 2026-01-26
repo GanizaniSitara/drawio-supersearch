@@ -1,0 +1,22 @@
+{
+  "id": "11580",
+  "title": "BranchStrategy.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11580"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "surajnaik90",
+    "github_repo": "Architectures-Designs"
+  },
+  "_links": {
+    "download": "/download/CAL/BranchStrategy.png"
+  },
+  "created_date": "2024-08-17",
+  "author_display": "surajnaik90/Architectures-Designs"
+}

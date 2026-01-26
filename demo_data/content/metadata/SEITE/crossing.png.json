@@ -1,0 +1,22 @@
+{
+  "id": "19965",
+  "title": "crossing.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19965"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "not-a-feature",
+    "github_repo": "Layouting-Phylogenetic-Networks-using-MIQP"
+  },
+  "_links": {
+    "download": "/download/SEITE/crossing.png"
+  },
+  "created_date": "2025-01-20",
+  "author_display": "not-a-feature/Layouting-Phylogenetic-Networks-using-MIQP"
+}

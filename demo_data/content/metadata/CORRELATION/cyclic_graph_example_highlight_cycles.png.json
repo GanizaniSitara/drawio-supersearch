@@ -1,0 +1,22 @@
+{
+  "id": "17775",
+  "title": "cyclic_graph_example_highlight_cycles.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17775"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "WyvernIXTL",
+    "github_repo": "feedback-arc-set-in-tournaments-ss2023"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/cyclic_graph_example_highlight_cycles.png"
+  },
+  "created_date": "2024-03-01",
+  "author_display": "WyvernIXTL/feedback-arc-set-in-tournaments-ss2023"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9354",
+  "title": "072.1.071.Deployment View - Deliverables - Environments - Hosts - Portable Containers Myth #1.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9354"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "skysgh",
+    "github_repo": "SysDelivery.Guidance"
+  },
+  "_links": {
+    "download": "/download/PAGINA/072.1.071.Deployment View - Deliverables - Environments - Hosts - Portable Containers Myth #1.png"
+  },
+  "created_date": "2025-02-07",
+  "author_display": "skysgh/SysDelivery.Guidance"
+}

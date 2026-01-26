@@ -1,0 +1,22 @@
+{
+  "id": "11774",
+  "title": "C1.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11774"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "tdarst",
+    "github_repo": "AssembleXperience"
+  },
+  "_links": {
+    "download": "/download/CAL/C1.png"
+  },
+  "created_date": "2025-07-23",
+  "author_display": "tdarst/AssembleXperience"
+}

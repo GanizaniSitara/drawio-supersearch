@@ -1,0 +1,22 @@
+{
+  "id": "17745",
+  "title": "ant.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17745"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "antonidass",
+    "github_repo": "research_work"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/ant.png"
+  },
+  "created_date": "2025-10-12",
+  "author_display": "antonidass/research_work"
+}

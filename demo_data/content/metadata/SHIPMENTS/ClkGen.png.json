@@ -1,0 +1,22 @@
+{
+  "id": "1940",
+  "title": "ClkGen.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1940"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "bogdan-iamnitchi-school",
+    "github_repo": "ssc-vhdl-project"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/ClkGen.png"
+  },
+  "created_date": "2025-04-04",
+  "author_display": "bogdan-iamnitchi-school/ssc-vhdl-project"
+}

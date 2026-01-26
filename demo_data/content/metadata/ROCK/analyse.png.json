@@ -1,0 +1,22 @@
+{
+  "id": "23707",
+  "title": "analyse.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23707"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "baptisteRiviere",
+    "github_repo": "SpectacleHallManagement"
+  },
+  "_links": {
+    "download": "/download/ROCK/analyse.png"
+  },
+  "created_date": "2024-12-08",
+  "author_display": "baptisteRiviere/SpectacleHallManagement"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1363",
+  "title": "arkhitecture RGC sites system.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1363"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "xxipocima",
+    "github_repo": "TestPHPGenesis"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/arkhitecture RGC sites system.png"
+  },
+  "created_date": "2024-11-18",
+  "author_display": "xxipocima/TestPHPGenesis"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "11672",
+  "title": "Bounded__Context.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11672"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "routeCsharp256",
+    "github_repo": "dshepetenko"
+  },
+  "_links": {
+    "download": "/download/CAL/Bounded__Context.png"
+  },
+  "created_date": "2024-08-20",
+  "author_display": "routeCsharp256/dshepetenko"
+}

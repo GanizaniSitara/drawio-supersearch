@@ -1,0 +1,22 @@
+{
+  "id": "20907",
+  "title": "article.staco.batch.loader.detail.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20907"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "jesperancinha",
+    "github_repo": "staco-app"
+  },
+  "_links": {
+    "download": "/download/HINT/article.staco.batch.loader.detail.png"
+  },
+  "created_date": "2024-02-16",
+  "author_display": "jesperancinha/staco-app"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "19963",
+  "title": "carousel_diagram.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19963"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "simwai",
+    "github_repo": "random-gifs"
+  },
+  "_links": {
+    "download": "/download/SEITE/carousel_diagram.png"
+  },
+  "created_date": "2024-04-02",
+  "author_display": "simwai/random-gifs"
+}

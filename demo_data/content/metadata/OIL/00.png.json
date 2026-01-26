@@ -1,0 +1,22 @@
+{
+  "id": "20478",
+  "title": "00.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20478"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "jenniferha03",
+    "github_repo": "drawio_diagram"
+  },
+  "_links": {
+    "download": "/download/OIL/00.png"
+  },
+  "created_date": "2025-02-07",
+  "author_display": "jenniferha03/drawio_diagram"
+}

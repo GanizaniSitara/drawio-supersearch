@@ -1,0 +1,22 @@
+{
+  "id": "13727",
+  "title": "ahluwalia_e_jain_design_pattern_para_alta_disponibilidade.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13727"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "pedrofgd",
+    "github_repo": "api-rest-broker"
+  },
+  "_links": {
+    "download": "/download/MAVEN/ahluwalia_e_jain_design_pattern_para_alta_disponibilidade.png"
+  },
+  "created_date": "2024-05-13",
+  "author_display": "pedrofgd/api-rest-broker"
+}

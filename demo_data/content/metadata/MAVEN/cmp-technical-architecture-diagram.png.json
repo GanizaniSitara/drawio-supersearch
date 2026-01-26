@@ -1,0 +1,22 @@
+{
+  "id": "13600",
+  "title": "cmp-technical-architecture-diagram.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13600"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "O70",
+    "github_repo": "diagram-hub"
+  },
+  "_links": {
+    "download": "/download/MAVEN/cmp-technical-architecture-diagram.png"
+  },
+  "created_date": "2024-04-22",
+  "author_display": "O70/diagram-hub"
+}

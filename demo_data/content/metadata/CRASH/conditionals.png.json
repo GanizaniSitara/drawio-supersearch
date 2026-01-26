@@ -1,0 +1,22 @@
+{
+  "id": "12466",
+  "title": "conditionals.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12466"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "MrXploder",
+    "github_repo": "bootcamp"
+  },
+  "_links": {
+    "download": "/download/CRASH/conditionals.png"
+  },
+  "created_date": "2024-08-15",
+  "author_display": "MrXploder/bootcamp"
+}

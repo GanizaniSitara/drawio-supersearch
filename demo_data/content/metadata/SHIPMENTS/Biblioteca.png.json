@@ -1,0 +1,22 @@
+{
+  "id": "2086",
+  "title": "Biblioteca.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2086"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "andrefajardo",
+    "github_repo": "Fullstack-Education"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Biblioteca.png"
+  },
+  "created_date": "2024-12-07",
+  "author_display": "andrefajardo/Fullstack-Education"
+}

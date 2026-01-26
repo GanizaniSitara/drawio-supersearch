@@ -1,0 +1,22 @@
+{
+  "id": "10196",
+  "title": "dbrelations.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10196"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "m6-t11-grp18",
+    "github_repo": "API"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/dbrelations.png"
+  },
+  "created_date": "2024-07-11",
+  "author_display": "m6-t11-grp18/API"
+}

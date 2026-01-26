@@ -1,0 +1,22 @@
+{
+  "id": "24063",
+  "title": "DNS.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24063"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "kh4y4m",
+    "github_repo": "Obsidian-Berufsschule"
+  },
+  "_links": {
+    "download": "/download/ROCK/DNS.png"
+  },
+  "created_date": "2024-06-29",
+  "author_display": "kh4y4m/Obsidian-Berufsschule"
+}

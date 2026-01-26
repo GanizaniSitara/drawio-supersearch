@@ -1,0 +1,22 @@
+{
+  "id": "23688",
+  "title": "DangXuat.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23688"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "tankyhuynh",
+    "github_repo": "Helpdesk_Update"
+  },
+  "_links": {
+    "download": "/download/ROCK/DangXuat.png"
+  },
+  "created_date": "2025-06-04",
+  "author_display": "tankyhuynh/Helpdesk_Update"
+}

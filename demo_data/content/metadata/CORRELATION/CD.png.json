@@ -1,0 +1,22 @@
+{
+  "id": "17714",
+  "title": "CD.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17714"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "DevanshuSurana",
+    "github_repo": "SY-1ST-SEM"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/CD.png"
+  },
+  "created_date": "2024-05-10",
+  "author_display": "DevanshuSurana/SY-1ST-SEM"
+}

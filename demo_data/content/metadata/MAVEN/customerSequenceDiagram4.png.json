@@ -1,0 +1,22 @@
+{
+  "id": "13787",
+  "title": "customerSequenceDiagram4.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13787"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "ahmedali724",
+    "github_repo": "Store-System"
+  },
+  "_links": {
+    "download": "/download/MAVEN/customerSequenceDiagram4.png"
+  },
+  "created_date": "2025-05-05",
+  "author_display": "ahmedali724/Store-System"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "19994",
+  "title": "arhitecture.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19994"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "Yalanday",
+    "github_repo": "v-reacte"
+  },
+  "_links": {
+    "download": "/download/SEITE/arhitecture.png"
+  },
+  "created_date": "2025-04-29",
+  "author_display": "Yalanday/v-reacte"
+}

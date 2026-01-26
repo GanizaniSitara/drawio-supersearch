@@ -1,0 +1,22 @@
+{
+  "id": "12372",
+  "title": "async-dance.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12372"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "XuShaohua",
+    "github_repo": "intro-to-rust"
+  },
+  "_links": {
+    "download": "/download/CRASH/async-dance.png"
+  },
+  "created_date": "2024-11-15",
+  "author_display": "XuShaohua/intro-to-rust"
+}

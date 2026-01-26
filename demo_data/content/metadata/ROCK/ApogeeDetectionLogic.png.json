@@ -1,0 +1,22 @@
+{
+  "id": "24118",
+  "title": "ApogeeDetectionLogic.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24118"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "tokai-student-rocket-project",
+    "github_repo": "H-58-Avionics"
+  },
+  "_links": {
+    "download": "/download/ROCK/ApogeeDetectionLogic.png"
+  },
+  "created_date": "2024-05-05",
+  "author_display": "tokai-student-rocket-project/H-58-Avionics"
+}

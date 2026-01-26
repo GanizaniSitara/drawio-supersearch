@@ -1,0 +1,22 @@
+{
+  "id": "11662",
+  "title": "bounded-context-canvas.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11662"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "routeCsharp256",
+    "github_repo": "mkshnyakin"
+  },
+  "_links": {
+    "download": "/download/CAL/bounded-context-canvas.png"
+  },
+  "created_date": "2024-11-27",
+  "author_display": "routeCsharp256/mkshnyakin"
+}

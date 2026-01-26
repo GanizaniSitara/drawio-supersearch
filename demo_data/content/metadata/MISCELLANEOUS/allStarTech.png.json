@@ -1,0 +1,22 @@
+{
+  "id": "1351",
+  "title": "allStarTech.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1351"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "SergioPp95",
+    "github_repo": "grupo_9_allStarTech"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/allStarTech.png"
+  },
+  "created_date": "2024-09-11",
+  "author_display": "SergioPp95/grupo_9_allStarTech"
+}

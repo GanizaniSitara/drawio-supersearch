@@ -1,0 +1,22 @@
+{
+  "id": "23635",
+  "title": "AVCDL documentation management.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23635"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "nutonomy",
+    "github_repo": "AVCDL"
+  },
+  "_links": {
+    "download": "/download/ROCK/AVCDL documentation management.png"
+  },
+  "created_date": "2025-09-14",
+  "author_display": "nutonomy/AVCDL"
+}

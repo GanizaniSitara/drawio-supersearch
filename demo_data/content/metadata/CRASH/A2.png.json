@@ -1,0 +1,22 @@
+{
+  "id": "12285",
+  "title": "A2.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12285"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "ZongliangHan01",
+    "github_repo": "DS-A2"
+  },
+  "_links": {
+    "download": "/download/CRASH/A2.png"
+  },
+  "created_date": "2025-04-20",
+  "author_display": "ZongliangHan01/DS-A2"
+}

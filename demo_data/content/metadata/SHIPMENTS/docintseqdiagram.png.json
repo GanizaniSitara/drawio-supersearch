@@ -1,0 +1,22 @@
+{
+  "id": "2120",
+  "title": "docintseqdiagram.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2120"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "maritimeconnectivity",
+    "github_repo": "g1128-msr-service-specification"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/docintseqdiagram.png"
+  },
+  "created_date": "2025-07-08",
+  "author_display": "maritimeconnectivity/g1128-msr-service-specification"
+}

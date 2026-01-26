@@ -1,0 +1,22 @@
+{
+  "id": "17784",
+  "title": "bathroom_heating_db.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17784"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "bastinjul",
+    "github_repo": "bathroom_heating"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/bathroom_heating_db.png"
+  },
+  "created_date": "2024-09-01",
+  "author_display": "bastinjul/bathroom_heating"
+}

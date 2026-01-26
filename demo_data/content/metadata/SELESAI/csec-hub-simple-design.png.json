@@ -1,0 +1,22 @@
+{
+  "id": "9583",
+  "title": "csec-hub-simple-design.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9583"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "CSEC-ASTU",
+    "github_repo": "dev_hackathon_bro_code"
+  },
+  "_links": {
+    "download": "/download/SELESAI/csec-hub-simple-design.png"
+  },
+  "created_date": "2024-11-06",
+  "author_display": "CSEC-ASTU/dev_hackathon_bro_code"
+}

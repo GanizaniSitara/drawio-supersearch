@@ -1,0 +1,22 @@
+{
+  "id": "9253",
+  "title": "change-passw.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9253"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "yolly98",
+    "github_repo": "ZiFiorino"
+  },
+  "_links": {
+    "download": "/download/PAGINA/change-passw.png"
+  },
+  "created_date": "2024-06-03",
+  "author_display": "yolly98/ZiFiorino"
+}

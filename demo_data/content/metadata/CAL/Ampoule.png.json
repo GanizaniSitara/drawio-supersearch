@@ -1,0 +1,22 @@
+{
+  "id": "11721",
+  "title": "Ampoule.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11721"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "CeIIardoor",
+    "github_repo": "EMSI"
+  },
+  "_links": {
+    "download": "/download/CAL/Ampoule.png"
+  },
+  "created_date": "2024-04-07",
+  "author_display": "CeIIardoor/EMSI"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "20384",
+  "title": "directcode.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20384"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "GaetanoPiazzolla",
+    "github_repo": "direct-code"
+  },
+  "_links": {
+    "download": "/download/OIL/directcode.png"
+  },
+  "created_date": "2024-02-01",
+  "author_display": "GaetanoPiazzolla/direct-code"
+}

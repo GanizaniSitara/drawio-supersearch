@@ -1,0 +1,22 @@
+{
+  "id": "2114",
+  "title": "big_data.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2114"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "wat1r",
+    "github_repo": "geek-algorithm-leetcode"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/big_data.png"
+  },
+  "created_date": "2024-08-17",
+  "author_display": "wat1r/geek-algorithm-leetcode"
+}

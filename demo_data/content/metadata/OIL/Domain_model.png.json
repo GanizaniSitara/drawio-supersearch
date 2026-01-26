@@ -1,0 +1,22 @@
+{
+  "id": "20387",
+  "title": "Domain_model.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20387"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "softeng-feup",
+    "github_repo": "open-cx-sirconference"
+  },
+  "_links": {
+    "download": "/download/OIL/Domain_model.png"
+  },
+  "created_date": "2024-07-16",
+  "author_display": "softeng-feup/open-cx-sirconference"
+}

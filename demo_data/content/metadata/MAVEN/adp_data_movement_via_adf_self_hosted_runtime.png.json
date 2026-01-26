@@ -1,0 +1,22 @@
+{
+  "id": "13652",
+  "title": "adp_data_movement_via_adf_self_hosted_runtime.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13652"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "DonGroovy1120",
+    "github_repo": "azure-data-platform"
+  },
+  "_links": {
+    "download": "/download/MAVEN/adp_data_movement_via_adf_self_hosted_runtime.png"
+  },
+  "created_date": "2025-06-30",
+  "author_display": "DonGroovy1120/azure-data-platform"
+}

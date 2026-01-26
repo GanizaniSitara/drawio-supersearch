@@ -1,0 +1,22 @@
+{
+  "id": "11578",
+  "title": "bdd_biblioteca.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11578"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "Robe-Ortiz",
+    "github_repo": "mysql"
+  },
+  "_links": {
+    "download": "/download/CAL/bdd_biblioteca.png"
+  },
+  "created_date": "2024-04-30",
+  "author_display": "Robe-Ortiz/mysql"
+}

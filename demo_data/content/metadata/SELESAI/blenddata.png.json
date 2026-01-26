@@ -1,0 +1,22 @@
+{
+  "id": "9553",
+  "title": "blenddata.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9553"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "tts885",
+    "github_repo": "reincarnation_tech"
+  },
+  "_links": {
+    "download": "/download/SELESAI/blenddata.png"
+  },
+  "created_date": "2024-01-27",
+  "author_display": "tts885/reincarnation_tech"
+}

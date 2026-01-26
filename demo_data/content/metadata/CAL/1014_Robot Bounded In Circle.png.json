@@ -1,0 +1,22 @@
+{
+  "id": "11636",
+  "title": "1014_Robot Bounded In Circle.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11636"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "brianchiang-tw",
+    "github_repo": "leetcode"
+  },
+  "_links": {
+    "download": "/download/CAL/1014_Robot Bounded In Circle.png"
+  },
+  "created_date": "2024-06-07",
+  "author_display": "brianchiang-tw/leetcode"
+}

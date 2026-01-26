@@ -1,0 +1,22 @@
+{
+  "id": "20836",
+  "title": "diagnostics.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20836"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "HL7Norway",
+    "github_repo": "NILAR"
+  },
+  "_links": {
+    "download": "/download/HINT/diagnostics.png"
+  },
+  "created_date": "2025-04-13",
+  "author_display": "HL7Norway/NILAR"
+}

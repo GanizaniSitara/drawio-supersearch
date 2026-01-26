@@ -1,0 +1,22 @@
+{
+  "id": "24014",
+  "title": "Beziehung.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24014"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "Azuki04",
+    "github_repo": "m450-Applikationen_testen"
+  },
+  "_links": {
+    "download": "/download/ROCK/Beziehung.png"
+  },
+  "created_date": "2024-01-29",
+  "author_display": "Azuki04/m450-Applikationen_testen"
+}

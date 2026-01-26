@@ -1,0 +1,22 @@
+{
+  "id": "23658",
+  "title": "cross-attention-unit.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23658"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "JMYok",
+    "github_repo": "wx_crossLearn"
+  },
+  "_links": {
+    "download": "/download/ROCK/cross-attention-unit.png"
+  },
+  "created_date": "2024-10-23",
+  "author_display": "JMYok/wx_crossLearn"
+}

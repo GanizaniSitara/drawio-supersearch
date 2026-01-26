@@ -1,0 +1,22 @@
+{
+  "id": "12519",
+  "title": "awsmeter-diagrams.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12519"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "JoseLuisSR",
+    "github_repo": "awsmeter"
+  },
+  "_links": {
+    "download": "/download/CRASH/awsmeter-diagrams.png"
+  },
+  "created_date": "2025-11-03",
+  "author_display": "JoseLuisSR/awsmeter"
+}

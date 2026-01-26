@@ -1,0 +1,22 @@
+{
+  "id": "1358",
+  "title": "Django_Base.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1358"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "Ox03bb",
+    "github_repo": "Graphs"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/Django_Base.png"
+  },
+  "created_date": "2026-01-20",
+  "author_display": "Ox03bb/Graphs"
+}

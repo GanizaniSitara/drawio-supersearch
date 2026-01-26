@@ -1,0 +1,22 @@
+{
+  "id": "17910",
+  "title": "CasosUso.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17910"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "Aldair9819",
+    "github_repo": "ArqSof_DenunciaCiudadano"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/CasosUso.png"
+  },
+  "created_date": "2025-12-26",
+  "author_display": "Aldair9819/ArqSof_DenunciaCiudadano"
+}

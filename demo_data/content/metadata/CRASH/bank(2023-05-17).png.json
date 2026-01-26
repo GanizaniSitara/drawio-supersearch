@@ -1,0 +1,22 @@
+{
+  "id": "12365",
+  "title": "bank(2023-05-17).png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12365"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "dbsdud00",
+    "github_repo": "Biz-2023-04-505-Java"
+  },
+  "_links": {
+    "download": "/download/CRASH/bank(2023-05-17).png"
+  },
+  "created_date": "2024-05-15",
+  "author_display": "dbsdud00/Biz-2023-04-505-Java"
+}

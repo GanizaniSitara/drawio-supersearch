@@ -1,0 +1,22 @@
+{
+  "id": "11513",
+  "title": "CAN.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11513"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "richMetellus",
+    "github_repo": "Wiki_PythonSphinxDoc"
+  },
+  "_links": {
+    "download": "/download/CAL/CAN.png"
+  },
+  "created_date": "2024-03-21",
+  "author_display": "richMetellus/Wiki_PythonSphinxDoc"
+}

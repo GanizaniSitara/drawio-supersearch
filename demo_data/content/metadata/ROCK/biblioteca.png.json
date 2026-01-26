@@ -1,0 +1,22 @@
+{
+  "id": "24011",
+  "title": "biblioteca.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24011"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "dsdaniel-santana",
+    "github_repo": "logica_programacao"
+  },
+  "_links": {
+    "download": "/download/ROCK/biblioteca.png"
+  },
+  "created_date": "2024-06-22",
+  "author_display": "dsdaniel-santana/logica_programacao"
+}

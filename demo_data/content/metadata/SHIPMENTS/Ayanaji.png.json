@@ -1,0 +1,22 @@
+{
+  "id": "2147",
+  "title": "Ayanaji.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2147"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "UpekHansaja",
+    "github_repo": "draw.io"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Ayanaji.png"
+  },
+  "created_date": "2025-08-07",
+  "author_display": "UpekHansaja/draw.io"
+}

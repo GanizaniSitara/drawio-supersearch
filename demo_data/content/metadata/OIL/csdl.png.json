@@ -1,0 +1,22 @@
+{
+  "id": "20298",
+  "title": "csdl.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20298"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "dunkvippro",
+    "github_repo": "DunkShop"
+  },
+  "_links": {
+    "download": "/download/OIL/csdl.png"
+  },
+  "created_date": "2024-08-07",
+  "author_display": "dunkvippro/DunkShop"
+}

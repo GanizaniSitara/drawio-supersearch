@@ -1,0 +1,22 @@
+{
+  "id": "17830",
+  "title": "bootybay.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17830"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "Ucandoit",
+    "github_repo": "bootybay"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/bootybay.png"
+  },
+  "created_date": "2025-03-19",
+  "author_display": "Ucandoit/bootybay"
+}

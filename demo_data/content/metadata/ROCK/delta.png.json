@@ -1,0 +1,22 @@
+{
+  "id": "24054",
+  "title": "delta.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24054"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "DEFRA",
+    "github_repo": "ffc-diagrams"
+  },
+  "_links": {
+    "download": "/download/ROCK/delta.png"
+  },
+  "created_date": "2025-07-19",
+  "author_display": "DEFRA/ffc-diagrams"
+}

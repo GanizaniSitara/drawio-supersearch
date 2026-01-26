@@ -1,0 +1,22 @@
+{
+  "id": "12426",
+  "title": "bigdata_architecture.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12426"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "mqjd",
+    "github_repo": "mqjd.github.io"
+  },
+  "_links": {
+    "download": "/download/CRASH/bigdata_architecture.png"
+  },
+  "created_date": "2024-05-01",
+  "author_display": "mqjd/mqjd.github.io"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "23532",
+  "title": "ch6-task-sched.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23532"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "zalopay-oss",
+    "github_repo": "go-advanced"
+  },
+  "_links": {
+    "download": "/download/ROCK/ch6-task-sched.png"
+  },
+  "created_date": "2024-08-06",
+  "author_display": "zalopay-oss/go-advanced"
+}

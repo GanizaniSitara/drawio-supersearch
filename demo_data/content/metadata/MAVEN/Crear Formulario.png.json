@@ -1,0 +1,22 @@
+{
+  "id": "13715",
+  "title": "Crear Formulario.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13715"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "mariela21180",
+    "github_repo": "institucional-cfp"
+  },
+  "_links": {
+    "download": "/download/MAVEN/Crear Formulario.png"
+  },
+  "created_date": "2024-04-12",
+  "author_display": "mariela21180/institucional-cfp"
+}

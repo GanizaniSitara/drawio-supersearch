@@ -1,0 +1,22 @@
+{
+  "id": "23710",
+  "title": "cat_transaction.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23710"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "yindongjun",
+    "github_repo": "drawio-2"
+  },
+  "_links": {
+    "download": "/download/ROCK/cat_transaction.png"
+  },
+  "created_date": "2024-03-20",
+  "author_display": "yindongjun/drawio-2"
+}

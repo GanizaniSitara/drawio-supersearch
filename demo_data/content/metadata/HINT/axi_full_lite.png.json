@@ -1,0 +1,22 @@
+{
+  "id": "21023",
+  "title": "axi_full_lite.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/21023"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "acoustic-warfare",
+    "github_repo": "FPGA-sampling"
+  },
+  "_links": {
+    "download": "/download/HINT/axi_full_lite.png"
+  },
+  "created_date": "2024-05-04",
+  "author_display": "acoustic-warfare/FPGA-sampling"
+}

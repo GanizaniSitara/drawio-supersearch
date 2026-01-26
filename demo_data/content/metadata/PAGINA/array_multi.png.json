@@ -1,0 +1,22 @@
+{
+  "id": "9474",
+  "title": "array_multi.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9474"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "NCI900-Training-Organisation",
+    "github_repo": "c_programming_for_python_programmers"
+  },
+  "_links": {
+    "download": "/download/PAGINA/array_multi.png"
+  },
+  "created_date": "2025-01-24",
+  "author_display": "NCI900-Training-Organisation/c_programming_for_python_programmers"
+}

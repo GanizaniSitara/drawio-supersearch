@@ -1,0 +1,22 @@
+{
+  "id": "9427",
+  "title": "Arquitectura_TFM.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9427"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "EnricRovira",
+    "github_repo": "TFM_DNN_Recomendator"
+  },
+  "_links": {
+    "download": "/download/PAGINA/Arquitectura_TFM.png"
+  },
+  "created_date": "2025-01-31",
+  "author_display": "EnricRovira/TFM_DNN_Recomendator"
+}

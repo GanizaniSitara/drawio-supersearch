@@ -1,0 +1,22 @@
+{
+  "id": "17793",
+  "title": "architecture_direct_connection.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17793"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "modelica",
+    "github_repo": "fmi-ls-bus"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/architecture_direct_connection.png"
+  },
+  "created_date": "2024-05-11",
+  "author_display": "modelica/fmi-ls-bus"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "12521",
+  "title": "arvin.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12521"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "relivnd",
+    "github_repo": "arvin"
+  },
+  "_links": {
+    "download": "/download/CRASH/arvin.png"
+  },
+  "created_date": "2024-05-16",
+  "author_display": "relivnd/arvin"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "13837",
+  "title": "battery_test.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13837"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "lesunb",
+    "github_repo": "HMRSsim"
+  },
+  "_links": {
+    "download": "/download/MAVEN/battery_test.png"
+  },
+  "created_date": "2025-06-30",
+  "author_display": "lesunb/HMRSsim"
+}

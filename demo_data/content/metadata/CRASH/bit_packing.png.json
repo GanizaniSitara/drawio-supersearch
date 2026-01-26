@@ -1,0 +1,22 @@
+{
+  "id": "12545",
+  "title": "bit_packing.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12545"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "SamoKopecky",
+    "github_repo": "diploma-thesis-latex"
+  },
+  "_links": {
+    "download": "/download/CRASH/bit_packing.png"
+  },
+  "created_date": "2025-07-31",
+  "author_display": "SamoKopecky/diploma-thesis-latex"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "11548",
+  "title": "client_server_kernel.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11548"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "jtpio",
+    "github_repo": "alposs-2024"
+  },
+  "_links": {
+    "download": "/download/CAL/client_server_kernel.png"
+  },
+  "created_date": "2025-04-19",
+  "author_display": "jtpio/alposs-2024"
+}

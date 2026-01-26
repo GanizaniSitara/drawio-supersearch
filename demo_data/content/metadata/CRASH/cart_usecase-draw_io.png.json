@@ -1,0 +1,22 @@
+{
+  "id": "12537",
+  "title": "cart_usecase-draw_io.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12537"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "gallenc",
+    "github_repo": "solent2Public"
+  },
+  "_links": {
+    "download": "/download/CRASH/cart_usecase-draw_io.png"
+  },
+  "created_date": "2024-02-03",
+  "author_display": "gallenc/solent2Public"
+}

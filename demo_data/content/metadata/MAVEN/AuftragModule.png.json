@@ -1,0 +1,22 @@
+{
+  "id": "13818",
+  "title": "AuftragModule.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13818"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "fkehlenb",
+    "github_repo": "softwareprojekt-2"
+  },
+  "_links": {
+    "download": "/download/MAVEN/AuftragModule.png"
+  },
+  "created_date": "2024-03-24",
+  "author_display": "fkehlenb/softwareprojekt-2"
+}

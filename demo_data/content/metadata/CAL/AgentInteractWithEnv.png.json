@@ -1,0 +1,22 @@
+{
+  "id": "11527",
+  "title": "AgentInteractWithEnv.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11527"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "liuzhaoze",
+    "github_repo": "presentation-1"
+  },
+  "_links": {
+    "download": "/download/CAL/AgentInteractWithEnv.png"
+  },
+  "created_date": "2025-10-03",
+  "author_display": "liuzhaoze/presentation-1"
+}

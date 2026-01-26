@@ -1,0 +1,22 @@
+{
+  "id": "12494",
+  "title": "Azure_Architecture_V3.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12494"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "gilgamesh7",
+    "github_repo": "azure_book_store"
+  },
+  "_links": {
+    "download": "/download/CRASH/Azure_Architecture_V3.png"
+  },
+  "created_date": "2025-10-31",
+  "author_display": "gilgamesh7/azure_book_store"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "23705",
+  "title": "BDM_004_Relational_Model.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23705"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "Prz-Ellam",
+    "github_repo": "Cursotopia"
+  },
+  "_links": {
+    "download": "/download/ROCK/BDM_004_Relational_Model.png"
+  },
+  "created_date": "2024-08-21",
+  "author_display": "Prz-Ellam/Cursotopia"
+}

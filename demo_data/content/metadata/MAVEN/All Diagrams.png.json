@@ -1,0 +1,22 @@
+{
+  "id": "13648",
+  "title": "All Diagrams.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13648"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Sheriff99yt",
+    "github_repo": "Vision_Visual_Scripting"
+  },
+  "_links": {
+    "download": "/download/MAVEN/All Diagrams.png"
+  },
+  "created_date": "2025-07-18",
+  "author_display": "Sheriff99yt/Vision_Visual_Scripting"
+}

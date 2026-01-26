@@ -1,0 +1,22 @@
+{
+  "id": "24084",
+  "title": "DigitalWorkshopAgenda.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24084"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "Tronelectronics",
+    "github_repo": "drawio"
+  },
+  "_links": {
+    "download": "/download/ROCK/DigitalWorkshopAgenda.png"
+  },
+  "created_date": "2024-08-24",
+  "author_display": "Tronelectronics/drawio"
+}

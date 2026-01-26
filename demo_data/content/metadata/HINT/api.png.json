@@ -1,0 +1,22 @@
+{
+  "id": "20928",
+  "title": "API.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20928"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "pierreleocadie",
+    "github_repo": "CountryGuesserProject"
+  },
+  "_links": {
+    "download": "/download/HINT/API.png"
+  },
+  "created_date": "2025-09-15",
+  "author_display": "pierreleocadie/CountryGuesserProject"
+}

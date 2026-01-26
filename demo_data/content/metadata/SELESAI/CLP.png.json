@@ -1,0 +1,22 @@
+{
+  "id": "9733",
+  "title": "CLP.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9733"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "Lwao",
+    "github_repo": "awesome-ufrn"
+  },
+  "_links": {
+    "download": "/download/SELESAI/CLP.png"
+  },
+  "created_date": "2025-07-10",
+  "author_display": "Lwao/awesome-ufrn"
+}

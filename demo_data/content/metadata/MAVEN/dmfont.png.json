@@ -1,0 +1,22 @@
+{
+  "id": "13669",
+  "title": "dmfont.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13669"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "derwind",
+    "github_repo": "draw.io"
+  },
+  "_links": {
+    "download": "/download/MAVEN/dmfont.png"
+  },
+  "created_date": "2025-01-02",
+  "author_display": "derwind/draw.io"
+}

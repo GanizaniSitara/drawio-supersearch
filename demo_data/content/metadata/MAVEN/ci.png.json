@@ -1,0 +1,22 @@
+{
+  "id": "13702",
+  "title": "ci.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13702"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "ggabbiani",
+    "github_repo": "OFL"
+  },
+  "_links": {
+    "download": "/download/MAVEN/ci.png"
+  },
+  "created_date": "2025-12-10",
+  "author_display": "ggabbiani/OFL"
+}

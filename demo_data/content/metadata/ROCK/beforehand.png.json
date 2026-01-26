@@ -1,0 +1,22 @@
+{
+  "id": "23699",
+  "title": "beforehand.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23699"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "thereferences",
+    "github_repo": "practice"
+  },
+  "_links": {
+    "download": "/download/ROCK/beforehand.png"
+  },
+  "created_date": "2024-09-11",
+  "author_display": "thereferences/practice"
+}

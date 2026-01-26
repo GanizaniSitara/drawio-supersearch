@@ -1,0 +1,22 @@
+{
+  "id": "23619",
+  "title": "crows_foot_entity.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23619"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "cpainterwakefield",
+    "github_repo": "practical_db_textbook"
+  },
+  "_links": {
+    "download": "/download/ROCK/crows_foot_entity.png"
+  },
+  "created_date": "2024-03-12",
+  "author_display": "cpainterwakefield/practical_db_textbook"
+}

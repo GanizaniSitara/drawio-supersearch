@@ -1,0 +1,22 @@
+{
+  "id": "2095",
+  "title": "detailed-model-controller.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2095"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "andreacaravano",
+    "github_repo": "myshelfie"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/detailed-model-controller.png"
+  },
+  "created_date": "2024-10-18",
+  "author_display": "andreacaravano/myshelfie"
+}

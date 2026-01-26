@@ -1,0 +1,22 @@
+{
+  "id": "12463",
+  "title": "coverage.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12463"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Orcallxl",
+    "github_repo": "garph"
+  },
+  "_links": {
+    "download": "/download/CRASH/coverage.png"
+  },
+  "created_date": "2024-07-02",
+  "author_display": "Orcallxl/garph"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "15512",
+  "title": "bert_inner_workings_tokenizer.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15512"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "gmihaila",
+    "github_repo": "ml_things"
+  },
+  "_links": {
+    "download": "/download/LISTED/bert_inner_workings_tokenizer.png"
+  },
+  "created_date": "2024-09-15",
+  "author_display": "gmihaila/ml_things"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "24010",
+  "title": "1mvc.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24010"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "Vlas1d",
+    "github_repo": "BasePatterns"
+  },
+  "_links": {
+    "download": "/download/ROCK/1mvc.png"
+  },
+  "created_date": "2026-01-09",
+  "author_display": "Vlas1d/BasePatterns"
+}

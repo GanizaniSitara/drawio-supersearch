@@ -1,0 +1,22 @@
+{
+  "id": "2088",
+  "title": "bcs-cloud-netservice.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2088"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "TencentBlueKing",
+    "github_repo": "bk-bcs"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/bcs-cloud-netservice.png"
+  },
+  "created_date": "2026-01-10",
+  "author_display": "TencentBlueKing/bk-bcs"
+}

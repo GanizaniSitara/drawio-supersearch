@@ -1,0 +1,22 @@
+{
+  "id": "21011",
+  "title": "clustering.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/21011"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "fdalforno",
+    "github_repo": "basic_course"
+  },
+  "_links": {
+    "download": "/download/HINT/clustering.png"
+  },
+  "created_date": "2024-06-09",
+  "author_display": "fdalforno/basic_course"
+}

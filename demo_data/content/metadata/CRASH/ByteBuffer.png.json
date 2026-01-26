@@ -1,0 +1,22 @@
+{
+  "id": "12448",
+  "title": "ByteBuffer.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12448"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Ordertiny",
+    "github_repo": "graph"
+  },
+  "_links": {
+    "download": "/download/CRASH/ByteBuffer.png"
+  },
+  "created_date": "2025-01-26",
+  "author_display": "Ordertiny/graph"
+}

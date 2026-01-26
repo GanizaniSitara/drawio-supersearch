@@ -1,0 +1,22 @@
+{
+  "id": "2042",
+  "title": "CRUD.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2042"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "dyno9589",
+    "github_repo": "test"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/CRUD.png"
+  },
+  "created_date": "2024-06-25",
+  "author_display": "dyno9589/test"
+}

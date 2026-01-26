@@ -1,0 +1,22 @@
+{
+  "id": "2008",
+  "title": "dc.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2008"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "happy-lx",
+    "github_repo": "drawio"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/dc.png"
+  },
+  "created_date": "2024-06-01",
+  "author_display": "happy-lx/drawio"
+}

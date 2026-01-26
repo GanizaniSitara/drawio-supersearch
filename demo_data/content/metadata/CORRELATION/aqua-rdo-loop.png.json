@@ -1,0 +1,22 @@
+{
+  "id": "17814",
+  "title": "aqua-rdo-loop.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17814"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "bd4sur",
+    "github_repo": "Aqua"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/aqua-rdo-loop.png"
+  },
+  "created_date": "2025-04-04",
+  "author_display": "bd4sur/Aqua"
+}

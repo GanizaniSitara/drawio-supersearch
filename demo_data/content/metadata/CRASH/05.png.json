@@ -1,0 +1,22 @@
+{
+  "id": "12319",
+  "title": "05.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12319"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "iankuratri",
+    "github_repo": "microfrontend-architecture"
+  },
+  "_links": {
+    "download": "/download/CRASH/05.png"
+  },
+  "created_date": "2025-04-23",
+  "author_display": "iankuratri/microfrontend-architecture"
+}

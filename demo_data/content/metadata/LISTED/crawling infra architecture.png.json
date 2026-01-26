@@ -1,0 +1,22 @@
+{
+  "id": "15392",
+  "title": "crawling infra architecture.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15392"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "NikolaiT",
+    "github_repo": "Crawling-Infrastructure"
+  },
+  "_links": {
+    "download": "/download/LISTED/crawling infra architecture.png"
+  },
+  "created_date": "2024-10-13",
+  "author_display": "NikolaiT/Crawling-Infrastructure"
+}

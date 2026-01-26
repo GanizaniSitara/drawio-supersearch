@@ -1,0 +1,22 @@
+{
+  "id": "23555",
+  "title": "ByteUi.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23555"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "XKrypt",
+    "github_repo": "ByteRunnerDB"
+  },
+  "_links": {
+    "download": "/download/ROCK/ByteUi.png"
+  },
+  "created_date": "2024-11-23",
+  "author_display": "XKrypt/ByteRunnerDB"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9271",
+  "title": "corr_combo.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9271"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "keaven",
+    "github_repo": "gsd-deming"
+  },
+  "_links": {
+    "download": "/download/PAGINA/corr_combo.png"
+  },
+  "created_date": "2024-12-16",
+  "author_display": "keaven/gsd-deming"
+}

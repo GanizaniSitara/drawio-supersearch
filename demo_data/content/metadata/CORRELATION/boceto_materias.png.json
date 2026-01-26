@@ -1,0 +1,22 @@
+{
+  "id": "17781",
+  "title": "boceto_materias.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17781"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "JaasielGuerra",
+    "github_repo": "Control-Notas"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/boceto_materias.png"
+  },
+  "created_date": "2025-02-02",
+  "author_display": "JaasielGuerra/Control-Notas"
+}

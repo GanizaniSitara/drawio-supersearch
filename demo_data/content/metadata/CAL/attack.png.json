@@ -1,0 +1,22 @@
+{
+  "id": "11695",
+  "title": "attack.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11695"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "broland29",
+    "github_repo": "open-cb"
+  },
+  "_links": {
+    "download": "/download/CAL/attack.png"
+  },
+  "created_date": "2025-04-02",
+  "author_display": "broland29/open-cb"
+}

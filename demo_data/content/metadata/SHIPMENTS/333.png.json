@@ -1,0 +1,22 @@
+{
+  "id": "2019",
+  "title": "333.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2019"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "Qiuhang817385",
+    "github_repo": "frontend-download-sample"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/333.png"
+  },
+  "created_date": "2025-02-17",
+  "author_display": "Qiuhang817385/frontend-download-sample"
+}

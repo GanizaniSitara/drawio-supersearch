@@ -1,0 +1,22 @@
+{
+  "id": "11624",
+  "title": "cwiczenia1.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11624"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "aamkye",
+    "github_repo": "studia"
+  },
+  "_links": {
+    "download": "/download/CAL/cwiczenia1.png"
+  },
+  "created_date": "2024-12-01",
+  "author_display": "aamkye/studia"
+}

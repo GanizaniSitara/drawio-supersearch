@@ -1,0 +1,22 @@
+{
+  "id": "2127",
+  "title": "analytics-lab.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2127"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "gmrqs",
+    "github_repo": "lasagna"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/analytics-lab.png"
+  },
+  "created_date": "2024-03-21",
+  "author_display": "gmrqs/lasagna"
+}

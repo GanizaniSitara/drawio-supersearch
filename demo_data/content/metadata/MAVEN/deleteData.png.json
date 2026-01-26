@@ -1,0 +1,22 @@
+{
+  "id": "13822",
+  "title": "deleteData.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13822"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "tobiadnan",
+    "github_repo": "CRUD-FRS-with-Java-native"
+  },
+  "_links": {
+    "download": "/download/MAVEN/deleteData.png"
+  },
+  "created_date": "2024-03-13",
+  "author_display": "tobiadnan/CRUD-FRS-with-Java-native"
+}

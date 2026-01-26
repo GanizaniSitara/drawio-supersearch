@@ -1,0 +1,22 @@
+{
+  "id": "9502",
+  "title": "baixo_nivel.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9502"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "josemariofr",
+    "github_repo": "curso_web_dev"
+  },
+  "_links": {
+    "download": "/download/PAGINA/baixo_nivel.png"
+  },
+  "created_date": "2024-07-12",
+  "author_display": "josemariofr/curso_web_dev"
+}

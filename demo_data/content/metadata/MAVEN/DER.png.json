@@ -1,0 +1,22 @@
+{
+  "id": "13704",
+  "title": "DER.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13704"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "wOL-Lucas",
+    "github_repo": "trabalho_jurandir_1"
+  },
+  "_links": {
+    "download": "/download/MAVEN/DER.png"
+  },
+  "created_date": "2024-02-05",
+  "author_display": "wOL-Lucas/trabalho_jurandir_1"
+}

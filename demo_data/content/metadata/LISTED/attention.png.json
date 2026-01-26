@@ -1,0 +1,22 @@
+{
+  "id": "15612",
+  "title": "attention.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15612"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "webis-de",
+    "github_repo": "pytorch-window-matmul"
+  },
+  "_links": {
+    "download": "/download/LISTED/attention.png"
+  },
+  "created_date": "2024-11-21",
+  "author_display": "webis-de/pytorch-window-matmul"
+}

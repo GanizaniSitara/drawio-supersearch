@@ -1,0 +1,22 @@
+{
+  "id": "13780",
+  "title": "BPMN8.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13780"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "francescospangaro",
+    "github_repo": "SpangaroTosettiRiccardi"
+  },
+  "_links": {
+    "download": "/download/MAVEN/BPMN8.png"
+  },
+  "created_date": "2024-07-20",
+  "author_display": "francescospangaro/SpangaroTosettiRiccardi"
+}

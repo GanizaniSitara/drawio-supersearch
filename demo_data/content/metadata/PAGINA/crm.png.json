@@ -1,0 +1,22 @@
+{
+  "id": "9403",
+  "title": "crm.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9403"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "shaxboz19",
+    "github_repo": "excel"
+  },
+  "_links": {
+    "download": "/download/PAGINA/crm.png"
+  },
+  "created_date": "2025-11-09",
+  "author_display": "shaxboz19/excel"
+}

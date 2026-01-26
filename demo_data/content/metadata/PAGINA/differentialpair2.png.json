@@ -1,0 +1,22 @@
+{
+  "id": "9437",
+  "title": "differentialpair2.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9437"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "miilTgy",
+    "github_repo": "analogIC"
+  },
+  "_links": {
+    "download": "/download/PAGINA/differentialpair2.png"
+  },
+  "created_date": "2025-02-25",
+  "author_display": "miilTgy/analogIC"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "13748",
+  "title": "cp4i-azure-architecture.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13748"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "ibm-ecosystem-engineering",
+    "github_repo": "azure-arm-templates"
+  },
+  "_links": {
+    "download": "/download/MAVEN/cp4i-azure-architecture.png"
+  },
+  "created_date": "2025-01-27",
+  "author_display": "ibm-ecosystem-engineering/azure-arm-templates"
+}

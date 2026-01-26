@@ -1,0 +1,22 @@
+{
+  "id": "1962",
+  "title": "cau-truc-cau-tieng-anh.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1962"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "hohdd",
+    "github_repo": "hohdd.github.io"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/cau-truc-cau-tieng-anh.png"
+  },
+  "created_date": "2025-08-16",
+  "author_display": "hohdd/hohdd.github.io"
+}

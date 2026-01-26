@@ -1,0 +1,22 @@
+{
+  "id": "9266",
+  "title": "dcat-ap-donl_2.0.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9266"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "dataoverheid",
+    "github_repo": "dcat-ap-donl"
+  },
+  "_links": {
+    "download": "/download/PAGINA/dcat-ap-donl_2.0.png"
+  },
+  "created_date": "2024-12-22",
+  "author_display": "dataoverheid/dcat-ap-donl"
+}

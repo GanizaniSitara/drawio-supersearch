@@ -1,0 +1,22 @@
+{
+  "id": "11852",
+  "title": "crud-explanation.png",
+  "space": {
+    "key": "COMPRESS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11852"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "MrXploder",
+    "github_repo": "bootcamp"
+  },
+  "_links": {
+    "download": "/download/COMPRESS/crud-explanation.png"
+  },
+  "created_date": "2024-07-25",
+  "author_display": "MrXploder/bootcamp"
+}

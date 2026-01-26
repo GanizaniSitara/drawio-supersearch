@@ -1,0 +1,22 @@
+{
+  "id": "23524",
+  "title": "AppLayout.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23524"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "naruhiyo",
+    "github_repo": "naruhiyo.github.io"
+  },
+  "_links": {
+    "download": "/download/ROCK/AppLayout.png"
+  },
+  "created_date": "2024-05-19",
+  "author_display": "naruhiyo/naruhiyo.github.io"
+}

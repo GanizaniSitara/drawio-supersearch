@@ -1,0 +1,22 @@
+{
+  "id": "9310",
+  "title": "cfprivatecontent.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9310"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "a-pavithraa",
+    "github_repo": "go-serverless"
+  },
+  "_links": {
+    "download": "/download/PAGINA/cfprivatecontent.png"
+  },
+  "created_date": "2025-05-21",
+  "author_display": "a-pavithraa/go-serverless"
+}

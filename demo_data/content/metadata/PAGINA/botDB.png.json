@@ -1,0 +1,22 @@
+{
+  "id": "9358",
+  "title": "botDB.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9358"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "LyryKua",
+    "github_repo": "hackaton-auction"
+  },
+  "_links": {
+    "download": "/download/PAGINA/botDB.png"
+  },
+  "created_date": "2026-01-22",
+  "author_display": "LyryKua/hackaton-auction"
+}

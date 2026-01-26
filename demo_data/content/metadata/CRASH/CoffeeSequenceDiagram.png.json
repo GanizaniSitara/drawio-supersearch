@@ -1,0 +1,22 @@
+{
+  "id": "12539",
+  "title": "CoffeeSequenceDiagram.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12539"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "xu4",
+    "github_repo": "blockchain-nanodegree-project6"
+  },
+  "_links": {
+    "download": "/download/CRASH/CoffeeSequenceDiagram.png"
+  },
+  "created_date": "2024-06-17",
+  "author_display": "xu4/blockchain-nanodegree-project6"
+}

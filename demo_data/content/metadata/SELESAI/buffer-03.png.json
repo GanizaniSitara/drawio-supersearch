@@ -1,0 +1,22 @@
+{
+  "id": "9682",
+  "title": "buffer-03.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9682"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "shuntian",
+    "github_repo": "over-javascript"
+  },
+  "_links": {
+    "download": "/download/SELESAI/buffer-03.png"
+  },
+  "created_date": "2025-08-20",
+  "author_display": "shuntian/over-javascript"
+}

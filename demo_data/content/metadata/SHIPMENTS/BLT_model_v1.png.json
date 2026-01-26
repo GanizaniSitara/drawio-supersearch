@@ -1,0 +1,22 @@
+{
+  "id": "1991",
+  "title": "BLT_model_v1.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1991"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "edmizac",
+    "github_repo": "BLT_IBM-Model"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/BLT_model_v1.png"
+  },
+  "created_date": "2025-09-01",
+  "author_display": "edmizac/BLT_IBM-Model"
+}

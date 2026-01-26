@@ -1,0 +1,22 @@
+{
+  "id": "9762",
+  "title": "alert.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9762"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "snoozeweb",
+    "github_repo": "snooze"
+  },
+  "_links": {
+    "download": "/download/SELESAI/alert.png"
+  },
+  "created_date": "2025-11-29",
+  "author_display": "snoozeweb/snooze"
+}

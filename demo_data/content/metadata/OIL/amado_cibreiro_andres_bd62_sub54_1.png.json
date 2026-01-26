@@ -1,0 +1,22 @@
+{
+  "id": "20445",
+  "title": "amado_cibreiro_andres_bd62_sub54_1.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20445"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "Amaado",
+    "github_repo": "DAM1_archives"
+  },
+  "_links": {
+    "download": "/download/OIL/amado_cibreiro_andres_bd62_sub54_1.png"
+  },
+  "created_date": "2024-08-02",
+  "author_display": "Amaado/DAM1_archives"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "24037",
+  "title": "BMR.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24037"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "kkuvaldina",
+    "github_repo": "draw.io"
+  },
+  "_links": {
+    "download": "/download/ROCK/BMR.png"
+  },
+  "created_date": "2024-09-29",
+  "author_display": "kkuvaldina/draw.io"
+}

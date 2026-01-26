@@ -1,0 +1,22 @@
+{
+  "id": "12452",
+  "title": "com.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12452"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "marihachi",
+    "github_repo": "fed"
+  },
+  "_links": {
+    "download": "/download/CRASH/com.png"
+  },
+  "created_date": "2024-03-09",
+  "author_display": "marihachi/fed"
+}

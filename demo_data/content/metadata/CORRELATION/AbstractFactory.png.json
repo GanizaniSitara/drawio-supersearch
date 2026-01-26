@@ -1,0 +1,22 @@
+{
+  "id": "17903",
+  "title": "AbstractFactory.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17903"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "maartendekker1998",
+    "github_repo": "OU_jabberpoint"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/AbstractFactory.png"
+  },
+  "created_date": "2025-07-14",
+  "author_display": "maartendekker1998/OU_jabberpoint"
+}

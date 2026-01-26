@@ -1,0 +1,22 @@
+{
+  "id": "1191",
+  "title": "570hw4_4.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1191"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Eren-Jeager123",
+    "github_repo": "Algorithm"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/570hw4_4.png"
+  },
+  "created_date": "2024-04-04",
+  "author_display": "Eren-Jeager123/Algorithm"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9677",
+  "title": "DFifMal.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9677"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "mramurr641",
+    "github_repo": "II"
+  },
+  "_links": {
+    "download": "/download/SELESAI/DFifMal.png"
+  },
+  "created_date": "2024-12-06",
+  "author_display": "mramurr641/II"
+}

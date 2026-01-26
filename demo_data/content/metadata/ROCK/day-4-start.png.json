@@ -1,0 +1,22 @@
+{
+  "id": "23519",
+  "title": "day-4-start.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23519"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "jose-guisao",
+    "github_repo": "hello-world"
+  },
+  "_links": {
+    "download": "/download/ROCK/day-4-start.png"
+  },
+  "created_date": "2024-05-14",
+  "author_display": "jose-guisao/hello-world"
+}

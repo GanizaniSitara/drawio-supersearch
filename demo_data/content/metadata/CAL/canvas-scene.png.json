@@ -1,0 +1,22 @@
+{
+  "id": "11563",
+  "title": "canvas-scene.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11563"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "rse",
+    "github_repo": "studio-canvas"
+  },
+  "_links": {
+    "download": "/download/CAL/canvas-scene.png"
+  },
+  "created_date": "2024-10-21",
+  "author_display": "rse/studio-canvas"
+}

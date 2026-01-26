@@ -1,0 +1,22 @@
+{
+  "id": "1277",
+  "title": "co.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1277"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "lucahttp",
+    "github_repo": "covid19-argentina"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/co.png"
+  },
+  "created_date": "2025-04-15",
+  "author_display": "lucahttp/covid19-argentina"
+}

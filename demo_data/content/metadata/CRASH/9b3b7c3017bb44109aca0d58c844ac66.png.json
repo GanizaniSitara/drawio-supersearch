@@ -1,0 +1,22 @@
+{
+  "id": "12374",
+  "title": "9b3b7c3017bb44109aca0d58c844ac66.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12374"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Chinadean",
+    "github_repo": "magda"
+  },
+  "_links": {
+    "download": "/download/CRASH/9b3b7c3017bb44109aca0d58c844ac66.png"
+  },
+  "created_date": "2025-01-03",
+  "author_display": "Chinadean/magda"
+}

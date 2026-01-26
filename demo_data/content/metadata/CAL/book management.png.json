@@ -1,0 +1,22 @@
+{
+  "id": "11712",
+  "title": "book management.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11712"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "CorpDK",
+    "github_repo": "Tushuguan-Manger"
+  },
+  "_links": {
+    "download": "/download/CAL/book management.png"
+  },
+  "created_date": "2024-06-08",
+  "author_display": "CorpDK/Tushuguan-Manger"
+}

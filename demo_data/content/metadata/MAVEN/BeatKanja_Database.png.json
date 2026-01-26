@@ -1,0 +1,22 @@
+{
+  "id": "13751",
+  "title": "BeatKanja_Database.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13751"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "Chrisvenator",
+    "github_repo": "BeatKenja"
+  },
+  "_links": {
+    "download": "/download/MAVEN/BeatKanja_Database.png"
+  },
+  "created_date": "2025-06-02",
+  "author_display": "Chrisvenator/BeatKenja"
+}

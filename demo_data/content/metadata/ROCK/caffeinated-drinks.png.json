@@ -1,0 +1,22 @@
+{
+  "id": "23594",
+  "title": "caffeinated-drinks.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23594"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "sbenstewart",
+    "github_repo": "the-content-writer"
+  },
+  "_links": {
+    "download": "/download/ROCK/caffeinated-drinks.png"
+  },
+  "created_date": "2024-08-03",
+  "author_display": "sbenstewart/the-content-writer"
+}

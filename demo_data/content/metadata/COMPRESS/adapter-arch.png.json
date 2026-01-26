@@ -1,0 +1,22 @@
+{
+  "id": "11997",
+  "title": "adapter-arch.png",
+  "space": {
+    "key": "COMPRESS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11997"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "pestsov-v",
+    "github_repo": "documentation"
+  },
+  "_links": {
+    "download": "/download/COMPRESS/adapter-arch.png"
+  },
+  "created_date": "2026-01-05",
+  "author_display": "pestsov-v/documentation"
+}

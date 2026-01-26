@@ -1,0 +1,22 @@
+{
+  "id": "17873",
+  "title": "cost-analysis.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17873"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "P4ELTE",
+    "github_repo": "P4Query"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/cost-analysis.png"
+  },
+  "created_date": "2025-11-18",
+  "author_display": "P4ELTE/P4Query"
+}

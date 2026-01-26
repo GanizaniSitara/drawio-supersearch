@@ -1,0 +1,22 @@
+{
+  "id": "23563",
+  "title": "bdd.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23563"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "Goramax",
+    "github_repo": "chooze_me"
+  },
+  "_links": {
+    "download": "/download/ROCK/bdd.png"
+  },
+  "created_date": "2024-11-09",
+  "author_display": "Goramax/chooze_me"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "24109",
+  "title": "Ablaufdiagramm.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24109"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "rohangirishrao",
+    "github_repo": "skipbo"
+  },
+  "_links": {
+    "download": "/download/ROCK/Ablaufdiagramm.png"
+  },
+  "created_date": "2025-08-10",
+  "author_display": "rohangirishrao/skipbo"
+}

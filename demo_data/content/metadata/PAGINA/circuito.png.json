@@ -1,0 +1,22 @@
+{
+  "id": "9254",
+  "title": "circuito.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9254"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "P2-718na",
+    "github_repo": "electronics-laboratory"
+  },
+  "_links": {
+    "download": "/download/PAGINA/circuito.png"
+  },
+  "created_date": "2025-08-09",
+  "author_display": "P2-718na/electronics-laboratory"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "19952",
+  "title": "253a_tileexamples.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19952"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "ComputerNetworkManager",
+    "github_repo": "WikiDE"
+  },
+  "_links": {
+    "download": "/download/SEITE/253a_tileexamples.png"
+  },
+  "created_date": "2024-08-10",
+  "author_display": "ComputerNetworkManager/WikiDE"
+}

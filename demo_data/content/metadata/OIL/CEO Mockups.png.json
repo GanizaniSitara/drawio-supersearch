@@ -1,0 +1,22 @@
+{
+  "id": "20369",
+  "title": "CEO Mockups.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20369"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "CRBogdan",
+    "github_repo": "POS-System"
+  },
+  "_links": {
+    "download": "/download/OIL/CEO Mockups.png"
+  },
+  "created_date": "2024-03-03",
+  "author_display": "CRBogdan/POS-System"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17763",
+  "title": "build_facility.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17763"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "LV-APT",
+    "github_repo": "lvCICD"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/build_facility.png"
+  },
+  "created_date": "2025-05-15",
+  "author_display": "LV-APT/lvCICD"
+}

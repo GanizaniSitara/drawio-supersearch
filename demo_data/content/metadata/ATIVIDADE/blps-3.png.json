@@ -1,0 +1,22 @@
+{
+  "id": "10062",
+  "title": "blps-3.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10062"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "semwett0301",
+    "github_repo": "blps_3"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/blps-3.png"
+  },
+  "created_date": "2025-07-21",
+  "author_display": "semwett0301/blps_3"
+}

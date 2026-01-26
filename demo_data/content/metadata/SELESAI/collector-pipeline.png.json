@@ -1,0 +1,22 @@
+{
+  "id": "9672",
+  "title": "collector-pipeline.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9672"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "course-go",
+    "github_repo": "lectures"
+  },
+  "_links": {
+    "download": "/download/SELESAI/collector-pipeline.png"
+  },
+  "created_date": "2024-05-23",
+  "author_display": "course-go/lectures"
+}

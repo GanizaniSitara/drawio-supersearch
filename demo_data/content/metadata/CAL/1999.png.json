@@ -1,0 +1,22 @@
+{
+  "id": "11504",
+  "title": "1999.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11504"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "OGYWORLD",
+    "github_repo": "KE_1999"
+  },
+  "_links": {
+    "download": "/download/CAL/1999.png"
+  },
+  "created_date": "2025-01-23",
+  "author_display": "OGYWORLD/KE_1999"
+}

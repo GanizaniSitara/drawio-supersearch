@@ -1,0 +1,22 @@
+{
+  "id": "11588",
+  "title": "BD21_zhTW.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11588"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "theQuert",
+    "github_repo": "inlpfun"
+  },
+  "_links": {
+    "download": "/download/CAL/BD21_zhTW.png"
+  },
+  "created_date": "2024-10-20",
+  "author_display": "theQuert/inlpfun"
+}

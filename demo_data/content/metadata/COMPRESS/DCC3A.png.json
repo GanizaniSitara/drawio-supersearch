@@ -1,0 +1,22 @@
+{
+  "id": "11830",
+  "title": "DCC3A.png",
+  "space": {
+    "key": "COMPRESS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11830"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "DigitalCompactCassette",
+    "github_repo": "P700"
+  },
+  "_links": {
+    "download": "/download/COMPRESS/DCC3A.png"
+  },
+  "created_date": "2025-05-27",
+  "author_display": "DigitalCompactCassette/P700"
+}

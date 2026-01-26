@@ -1,0 +1,22 @@
+{
+  "id": "12484",
+  "title": "biblioteca_2.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12484"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "ednilsonrossi",
+    "github_repo": "deoo_2024s1"
+  },
+  "_links": {
+    "download": "/download/CRASH/biblioteca_2.png"
+  },
+  "created_date": "2025-01-19",
+  "author_display": "ednilsonrossi/deoo_2024s1"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2093",
+  "title": "bindingsource.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2093"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "adevrrc",
+    "github_repo": "adev-p2-notes"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/bindingsource.png"
+  },
+  "created_date": "2025-09-02",
+  "author_display": "adevrrc/adev-p2-notes"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "12427",
+  "title": "boiler_chiller.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12427"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "savinduwannigama",
+    "github_repo": "e17-co326-Smart-Building"
+  },
+  "_links": {
+    "download": "/download/CRASH/boiler_chiller.png"
+  },
+  "created_date": "2025-01-19",
+  "author_display": "savinduwannigama/e17-co326-Smart-Building"
+}

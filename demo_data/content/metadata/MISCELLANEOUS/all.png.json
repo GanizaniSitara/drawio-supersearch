@@ -1,0 +1,22 @@
+{
+  "id": "1236",
+  "title": "all.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1236"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "optozorax",
+    "github_repo": "blog_old"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/all.png"
+  },
+  "created_date": "2025-09-26",
+  "author_display": "optozorax/blog_old"
+}

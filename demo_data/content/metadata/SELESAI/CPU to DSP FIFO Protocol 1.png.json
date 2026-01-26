@@ -1,0 +1,22 @@
+{
+  "id": "9660",
+  "title": "CPU to DSP FIFO Protocol 1.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9660"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "laurencebarker",
+    "github_repo": "Saturn"
+  },
+  "_links": {
+    "download": "/download/SELESAI/CPU to DSP FIFO Protocol 1.png"
+  },
+  "created_date": "2024-06-24",
+  "author_display": "laurencebarker/Saturn"
+}

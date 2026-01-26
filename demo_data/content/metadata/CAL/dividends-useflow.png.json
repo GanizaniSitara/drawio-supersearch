@@ -1,0 +1,22 @@
+{
+  "id": "11569",
+  "title": "dividends-useflow.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11569"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "dreamdev2427",
+    "github_repo": "odering_and_trading_platform"
+  },
+  "_links": {
+    "download": "/download/CAL/dividends-useflow.png"
+  },
+  "created_date": "2025-05-03",
+  "author_display": "dreamdev2427/odering_and_trading_platform"
+}

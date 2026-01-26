@@ -1,0 +1,22 @@
+{
+  "id": "24070",
+  "title": "cognifeedusecase.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24070"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "saileshbro",
+    "github_repo": "cognifeed"
+  },
+  "_links": {
+    "download": "/download/ROCK/cognifeedusecase.png"
+  },
+  "created_date": "2024-06-01",
+  "author_display": "saileshbro/cognifeed"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9404",
+  "title": "cqrs.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9404"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "adesso-austria",
+    "github_repo": "workshop-architectures-love-js"
+  },
+  "_links": {
+    "download": "/download/PAGINA/cqrs.png"
+  },
+  "created_date": "2025-07-13",
+  "author_display": "adesso-austria/workshop-architectures-love-js"
+}

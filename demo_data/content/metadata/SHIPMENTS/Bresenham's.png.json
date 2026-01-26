@@ -1,0 +1,22 @@
+{
+  "id": "2085",
+  "title": "Bresenham's.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2085"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "DKC195",
+    "github_repo": "DKC195-Sem-4-Computer-Graphics"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Bresenham's.png"
+  },
+  "created_date": "2025-07-06",
+  "author_display": "DKC195/DKC195-Sem-4-Computer-Graphics"
+}

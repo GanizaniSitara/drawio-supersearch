@@ -1,0 +1,22 @@
+{
+  "id": "20117",
+  "title": "DagramTR.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20117"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Rysiu2708",
+    "github_repo": "pbLab1"
+  },
+  "_links": {
+    "download": "/download/SEITE/DagramTR.png"
+  },
+  "created_date": "2024-09-10",
+  "author_display": "Rysiu2708/pbLab1"
+}

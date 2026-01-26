@@ -1,0 +1,22 @@
+{
+  "id": "9764",
+  "title": "ASG.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9764"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "olaoruku007",
+    "github_repo": "terraform-pro"
+  },
+  "_links": {
+    "download": "/download/SELESAI/ASG.png"
+  },
+  "created_date": "2024-04-30",
+  "author_display": "olaoruku007/terraform-pro"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "13731",
+  "title": "BMPN To Be - BP.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13731"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "Luiz-Dinani",
+    "github_repo": "bp"
+  },
+  "_links": {
+    "download": "/download/MAVEN/BMPN To Be - BP.png"
+  },
+  "created_date": "2025-10-27",
+  "author_display": "Luiz-Dinani/bp"
+}

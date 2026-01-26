@@ -1,0 +1,22 @@
+{
+  "id": "9464",
+  "title": "AWS-Three-Tier-Architecture.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9464"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "AbdassalamAhmad",
+    "github_repo": "Deploying-AWS-webapp-with-Terraform-GitHub-Actions"
+  },
+  "_links": {
+    "download": "/download/PAGINA/AWS-Three-Tier-Architecture.png"
+  },
+  "created_date": "2024-04-27",
+  "author_display": "AbdassalamAhmad/Deploying-AWS-webapp-with-Terraform-GitHub-Actions"
+}

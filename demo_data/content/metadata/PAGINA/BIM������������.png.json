@@ -1,0 +1,22 @@
+{
+  "id": "9409",
+  "title": "BIM\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9409"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "gaochaowyq",
+    "github_repo": "MinderGraph"
+  },
+  "_links": {
+    "download": "/download/PAGINA/BIM\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.png"
+  },
+  "created_date": "2026-01-23",
+  "author_display": "gaochaowyq/MinderGraph"
+}

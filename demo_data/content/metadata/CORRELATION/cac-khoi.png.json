@@ -1,0 +1,22 @@
+{
+  "id": "17856",
+  "title": "cac-khoi.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17856"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "Vanperdung",
+    "github_repo": "Project_2"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/cac-khoi.png"
+  },
+  "created_date": "2025-05-17",
+  "author_display": "Vanperdung/Project_2"
+}

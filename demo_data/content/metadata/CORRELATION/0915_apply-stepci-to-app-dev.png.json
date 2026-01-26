@@ -1,0 +1,22 @@
+{
+  "id": "17768",
+  "title": "0915_apply-stepci-to-app-dev.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17768"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "mamezou-tech",
+    "github_repo": "mamezou-tech-site"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/0915_apply-stepci-to-app-dev.png"
+  },
+  "created_date": "2025-08-04",
+  "author_display": "mamezou-tech/mamezou-tech-site"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17905",
+  "title": "bestgo.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17905"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "abserari",
+    "github_repo": "draw.io"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/bestgo.png"
+  },
+  "created_date": "2025-06-01",
+  "author_display": "abserari/draw.io"
+}

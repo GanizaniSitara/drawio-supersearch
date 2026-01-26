@@ -1,0 +1,22 @@
+{
+  "id": "20143",
+  "title": "afa_pipeline.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20143"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "joshuawe",
+    "github_repo": "sepsis"
+  },
+  "_links": {
+    "download": "/download/SEITE/afa_pipeline.png"
+  },
+  "created_date": "2024-07-17",
+  "author_display": "joshuawe/sepsis"
+}

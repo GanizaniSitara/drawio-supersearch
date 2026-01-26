@@ -1,0 +1,22 @@
+{
+  "id": "9523",
+  "title": "bilangan terbesar.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9523"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "githubindonesia",
+    "github_repo": "docs"
+  },
+  "_links": {
+    "download": "/download/SELESAI/bilangan terbesar.png"
+  },
+  "created_date": "2025-02-09",
+  "author_display": "githubindonesia/docs"
+}

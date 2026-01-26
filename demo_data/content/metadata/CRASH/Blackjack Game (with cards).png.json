@@ -1,0 +1,22 @@
+{
+  "id": "12493",
+  "title": "Blackjack Game (with cards).png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12493"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "mcagonsi",
+    "github_repo": "College-of-the-North-Atlantic"
+  },
+  "_links": {
+    "download": "/download/CRASH/Blackjack Game (with cards).png"
+  },
+  "created_date": "2025-09-29",
+  "author_display": "mcagonsi/College-of-the-North-Atlantic"
+}

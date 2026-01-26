@@ -1,0 +1,22 @@
+{
+  "id": "15446",
+  "title": "bst-deletion-en.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15446"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "moonbitlang",
+    "github_repo": "moonbit-course"
+  },
+  "_links": {
+    "download": "/download/LISTED/bst-deletion-en.png"
+  },
+  "created_date": "2025-08-03",
+  "author_display": "moonbitlang/moonbit-course"
+}

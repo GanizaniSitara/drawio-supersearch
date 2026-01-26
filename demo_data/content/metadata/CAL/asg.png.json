@@ -1,0 +1,22 @@
+{
+  "id": "11592",
+  "title": "asg.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11592"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "xebia",
+    "github_repo": "eks-node-upgrade"
+  },
+  "_links": {
+    "download": "/download/CAL/asg.png"
+  },
+  "created_date": "2024-04-11",
+  "author_display": "xebia/eks-node-upgrade"
+}

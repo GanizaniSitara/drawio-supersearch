@@ -1,0 +1,22 @@
+{
+  "id": "9550",
+  "title": "caseDiagram.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9550"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "m-alhoomaidi",
+    "github_repo": "Blood-Bank"
+  },
+  "_links": {
+    "download": "/download/SELESAI/caseDiagram.png"
+  },
+  "created_date": "2024-04-09",
+  "author_display": "m-alhoomaidi/Blood-Bank"
+}

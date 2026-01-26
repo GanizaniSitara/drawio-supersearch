@@ -1,0 +1,22 @@
+{
+  "id": "20014",
+  "title": "di.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20014"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "7aske",
+    "github_repo": "uni"
+  },
+  "_links": {
+    "download": "/download/SEITE/di.png"
+  },
+  "created_date": "2024-08-23",
+  "author_display": "7aske/uni"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17843",
+  "title": "area-0-basic-types-and-infrastructure.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17843"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "danielaotelea",
+    "github_repo": "egeria"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/area-0-basic-types-and-infrastructure.png"
+  },
+  "created_date": "2024-12-21",
+  "author_display": "danielaotelea/egeria"
+}

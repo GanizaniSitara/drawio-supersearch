@@ -1,0 +1,22 @@
+{
+  "id": "13815",
+  "title": "catalog-integrator.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13815"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "odpi",
+    "github_repo": "egeria"
+  },
+  "_links": {
+    "download": "/download/MAVEN/catalog-integrator.png"
+  },
+  "created_date": "2025-01-07",
+  "author_display": "odpi/egeria"
+}

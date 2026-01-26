@@ -1,0 +1,22 @@
+{
+  "id": "23650",
+  "title": "attnetion.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23650"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "lorenzofamiglini",
+    "github_repo": "Irony-Sarcasm-Detection-Task"
+  },
+  "_links": {
+    "download": "/download/ROCK/attnetion.png"
+  },
+  "created_date": "2024-03-19",
+  "author_display": "lorenzofamiglini/Irony-Sarcasm-Detection-Task"
+}

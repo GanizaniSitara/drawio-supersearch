@@ -1,0 +1,22 @@
+{
+  "id": "24083",
+  "title": "Beer_Craft.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24083"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "9Kritsada",
+    "github_repo": "ENGCE117_Computer_Programming_for_Computer_Engineering"
+  },
+  "_links": {
+    "download": "/download/ROCK/Beer_Craft.png"
+  },
+  "created_date": "2024-06-15",
+  "author_display": "9Kritsada/ENGCE117_Computer_Programming_for_Computer_Engineering"
+}

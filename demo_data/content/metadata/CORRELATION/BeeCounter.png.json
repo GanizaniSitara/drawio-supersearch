@@ -1,0 +1,22 @@
+{
+  "id": "17724",
+  "title": "BeeCounter.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17724"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "boortel",
+    "github_repo": "Bee-Health-Monitor"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/BeeCounter.png"
+  },
+  "created_date": "2025-04-06",
+  "author_display": "boortel/Bee-Health-Monitor"
+}

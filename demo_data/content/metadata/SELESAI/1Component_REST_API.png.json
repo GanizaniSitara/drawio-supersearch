@@ -1,0 +1,22 @@
+{
+  "id": "9737",
+  "title": "1Component_REST_API.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9737"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "alessandrosaccone",
+    "github_repo": "codeKataBattle"
+  },
+  "_links": {
+    "download": "/download/SELESAI/1Component_REST_API.png"
+  },
+  "created_date": "2024-02-19",
+  "author_display": "alessandrosaccone/codeKataBattle"
+}

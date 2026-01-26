@@ -1,0 +1,22 @@
+{
+  "id": "11570",
+  "title": "BufferControl.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11570"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "s8nm4m",
+    "github_repo": "LIC"
+  },
+  "_links": {
+    "download": "/download/CAL/BufferControl.png"
+  },
+  "created_date": "2025-12-23",
+  "author_display": "s8nm4m/LIC"
+}

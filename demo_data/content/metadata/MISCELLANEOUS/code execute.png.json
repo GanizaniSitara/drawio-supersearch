@@ -1,0 +1,22 @@
+{
+  "id": "1388",
+  "title": "code execute.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1388"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "X-DX",
+    "github_repo": "JS-Course-CC"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/code execute.png"
+  },
+  "created_date": "2024-04-23",
+  "author_display": "X-DX/JS-Course-CC"
+}

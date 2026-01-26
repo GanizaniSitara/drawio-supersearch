@@ -1,0 +1,22 @@
+{
+  "id": "23749",
+  "title": "dax.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23749"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "DEFRA",
+    "github_repo": "ffc-diagrams"
+  },
+  "_links": {
+    "download": "/download/ROCK/dax.png"
+  },
+  "created_date": "2025-12-21",
+  "author_display": "DEFRA/ffc-diagrams"
+}

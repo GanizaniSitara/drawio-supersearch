@@ -1,0 +1,22 @@
+{
+  "id": "12323",
+  "title": "CryptoTrader.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12323"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "theoliverlear",
+    "github_repo": "Crypto-Trader"
+  },
+  "_links": {
+    "download": "/download/CRASH/CryptoTrader.png"
+  },
+  "created_date": "2025-10-13",
+  "author_display": "theoliverlear/Crypto-Trader"
+}

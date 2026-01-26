@@ -1,0 +1,22 @@
+{
+  "id": "17945",
+  "title": "allapotdiagram_3.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17945"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "andraspatka",
+    "github_repo": "ws2813_driver"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/allapotdiagram_3.png"
+  },
+  "created_date": "2025-06-23",
+  "author_display": "andraspatka/ws2813_driver"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "12328",
+  "title": "Diplom.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12328"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Hi1t0n",
+    "github_repo": "HilVideo"
+  },
+  "_links": {
+    "download": "/download/CRASH/Diplom.png"
+  },
+  "created_date": "2024-04-26",
+  "author_display": "Hi1t0n/HilVideo"
+}

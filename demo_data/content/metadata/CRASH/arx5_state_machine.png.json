@@ -1,0 +1,22 @@
+{
+  "id": "12409",
+  "title": "arx5_state_machine.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12409"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "haochangsheng",
+    "github_repo": "diagrams"
+  },
+  "_links": {
+    "download": "/download/CRASH/arx5_state_machine.png"
+  },
+  "created_date": "2025-06-17",
+  "author_display": "haochangsheng/diagrams"
+}

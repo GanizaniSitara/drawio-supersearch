@@ -1,0 +1,22 @@
+{
+  "id": "11619",
+  "title": "dag.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11619"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "chhzh123",
+    "github_repo": "Assignments"
+  },
+  "_links": {
+    "download": "/download/CAL/dag.png"
+  },
+  "created_date": "2025-12-21",
+  "author_display": "chhzh123/Assignments"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1314",
+  "title": "Boxes_Activity_Diagram.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1314"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "AtmoGD",
+    "github_repo": "EIA2"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/Boxes_Activity_Diagram.png"
+  },
+  "created_date": "2025-06-02",
+  "author_display": "AtmoGD/EIA2"
+}

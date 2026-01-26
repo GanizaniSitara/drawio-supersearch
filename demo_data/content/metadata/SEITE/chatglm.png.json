@@ -1,0 +1,22 @@
+{
+  "id": "20061",
+  "title": "chatglm.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20061"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "fuzhengwei",
+    "github_repo": "chatglm-sdk-java"
+  },
+  "_links": {
+    "download": "/download/SEITE/chatglm.png"
+  },
+  "created_date": "2024-03-02",
+  "author_display": "fuzhengwei/chatglm-sdk-java"
+}

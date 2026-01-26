@@ -1,0 +1,22 @@
+{
+  "id": "1245",
+  "title": "arrow-right.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1245"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "aKuad",
+    "github_repo": "mozjpeg-webui"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/arrow-right.png"
+  },
+  "created_date": "2024-12-19",
+  "author_display": "aKuad/mozjpeg-webui"
+}

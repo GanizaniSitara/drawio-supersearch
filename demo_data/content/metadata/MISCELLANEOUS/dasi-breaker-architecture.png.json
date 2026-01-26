@@ -1,0 +1,22 @@
+{
+  "id": "1404",
+  "title": "dasi-breaker-architecture.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1404"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "vaimee",
+    "github_repo": "dasi-breaker"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/dasi-breaker-architecture.png"
+  },
+  "created_date": "2025-02-02",
+  "author_display": "vaimee/dasi-breaker"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "11727",
+  "title": "DFD_Proveedores.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11727"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "mariaig01",
+    "github_repo": "DDSI-UGR"
+  },
+  "_links": {
+    "download": "/download/CAL/DFD_Proveedores.png"
+  },
+  "created_date": "2024-11-17",
+  "author_display": "mariaig01/DDSI-UGR"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "11554",
+  "title": "debug_logging.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11554"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "nao1215",
+    "github_repo": "mimixbox"
+  },
+  "_links": {
+    "download": "/download/CAL/debug_logging.png"
+  },
+  "created_date": "2024-04-26",
+  "author_display": "nao1215/mimixbox"
+}

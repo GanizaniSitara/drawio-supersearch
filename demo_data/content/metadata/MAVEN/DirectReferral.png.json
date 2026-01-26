@@ -1,0 +1,22 @@
+{
+  "id": "13756",
+  "title": "DirectReferral.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13756"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "HL7",
+    "github_repo": "fhir-sdoh-clinicalcare"
+  },
+  "_links": {
+    "download": "/download/MAVEN/DirectReferral.png"
+  },
+  "created_date": "2024-04-20",
+  "author_display": "HL7/fhir-sdoh-clinicalcare"
+}

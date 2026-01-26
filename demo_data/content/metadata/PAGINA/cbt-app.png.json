@@ -1,0 +1,22 @@
+{
+  "id": "9494",
+  "title": "cbt-app.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9494"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Kinoken0413",
+    "github_repo": "cbt-app"
+  },
+  "_links": {
+    "download": "/download/PAGINA/cbt-app.png"
+  },
+  "created_date": "2024-08-12",
+  "author_display": "Kinoken0413/cbt-app"
+}

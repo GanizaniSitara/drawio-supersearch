@@ -1,0 +1,22 @@
+{
+  "id": "15484",
+  "title": "cmd-daemon.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15484"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "mido3ds",
+    "github_repo": "C4IAN"
+  },
+  "_links": {
+    "download": "/download/LISTED/cmd-daemon.png"
+  },
+  "created_date": "2024-07-10",
+  "author_display": "mido3ds/C4IAN"
+}

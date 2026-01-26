@@ -1,0 +1,22 @@
+{
+  "id": "1240",
+  "title": "And.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1240"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "Larshalvorhansen",
+    "github_repo": "icProsjekt"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/And.png"
+  },
+  "created_date": "2026-01-12",
+  "author_display": "Larshalvorhansen/icProsjekt"
+}

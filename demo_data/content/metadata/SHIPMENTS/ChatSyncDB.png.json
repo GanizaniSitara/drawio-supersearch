@@ -1,0 +1,22 @@
+{
+  "id": "1885",
+  "title": "ChatSyncDB.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1885"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "veetmoradiya3628",
+    "github_repo": "ChatSync"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/ChatSyncDB.png"
+  },
+  "created_date": "2025-05-18",
+  "author_display": "veetmoradiya3628/ChatSync"
+}

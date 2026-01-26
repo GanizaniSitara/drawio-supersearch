@@ -1,0 +1,22 @@
+{
+  "id": "20762",
+  "title": "ait code learn.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20762"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "shaojiewang",
+    "github_repo": "ait_learn"
+  },
+  "_links": {
+    "download": "/download/HINT/ait code learn.png"
+  },
+  "created_date": "2024-05-10",
+  "author_display": "shaojiewang/ait_learn"
+}

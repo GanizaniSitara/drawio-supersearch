@@ -1,0 +1,22 @@
+{
+  "id": "11667",
+  "title": "BoundedContextMicroservices-dedicated-db.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11667"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "fusionswap",
+    "github_repo": "graphs"
+  },
+  "_links": {
+    "download": "/download/CAL/BoundedContextMicroservices-dedicated-db.png"
+  },
+  "created_date": "2025-11-21",
+  "author_display": "fusionswap/graphs"
+}

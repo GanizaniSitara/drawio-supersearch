@@ -1,0 +1,22 @@
+{
+  "id": "9274",
+  "title": "Dobavlenie_kategorii.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9274"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "iCosmos76",
+    "github_repo": "Curriculum-Designer"
+  },
+  "_links": {
+    "download": "/download/PAGINA/Dobavlenie_kategorii.png"
+  },
+  "created_date": "2024-02-21",
+  "author_display": "iCosmos76/Curriculum-Designer"
+}

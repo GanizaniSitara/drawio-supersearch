@@ -1,0 +1,22 @@
+{
+  "id": "17728",
+  "title": "clj-graal-testing-sci-interpret.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17728"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "thiagokokada",
+    "github_repo": "clj-graal-docs"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/clj-graal-testing-sci-interpret.png"
+  },
+  "created_date": "2025-06-22",
+  "author_display": "thiagokokada/clj-graal-docs"
+}

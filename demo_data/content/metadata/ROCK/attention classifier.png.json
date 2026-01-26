@@ -1,0 +1,22 @@
+{
+  "id": "23628",
+  "title": "attention classifier.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23628"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "brn-dev",
+    "github_repo": "mlpc-ue-2023-team-ugly"
+  },
+  "_links": {
+    "download": "/download/ROCK/attention classifier.png"
+  },
+  "created_date": "2025-07-14",
+  "author_display": "brn-dev/mlpc-ue-2023-team-ugly"
+}

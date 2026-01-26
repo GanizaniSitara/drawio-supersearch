@@ -1,0 +1,22 @@
+{
+  "id": "11533",
+  "title": "DEOLS - Architecture Applicative v1.2.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11533"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "jeref",
+    "github_repo": "manpower"
+  },
+  "_links": {
+    "download": "/download/CAL/DEOLS - Architecture Applicative v1.2.png"
+  },
+  "created_date": "2025-03-10",
+  "author_display": "jeref/manpower"
+}

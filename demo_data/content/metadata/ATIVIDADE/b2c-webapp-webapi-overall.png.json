@@ -1,0 +1,22 @@
+{
+  "id": "10259",
+  "title": "b2c-webapp-webapi-overall.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10259"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "splitio",
+    "github_repo": "azure-sdk-for-java"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/b2c-webapp-webapi-overall.png"
+  },
+  "created_date": "2024-05-02",
+  "author_display": "splitio/azure-sdk-for-java"
+}

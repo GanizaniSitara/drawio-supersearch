@@ -1,0 +1,22 @@
+{
+  "id": "11744",
+  "title": "C\ufffd\ufffd\ufffd.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11744"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "star-devil",
+    "github_repo": "diagramsFiles"
+  },
+  "_links": {
+    "download": "/download/CAL/C\ufffd\ufffd\ufffd.png"
+  },
+  "created_date": "2025-06-19",
+  "author_display": "star-devil/diagramsFiles"
+}

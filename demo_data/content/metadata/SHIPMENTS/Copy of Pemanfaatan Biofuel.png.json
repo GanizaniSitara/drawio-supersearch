@@ -1,0 +1,22 @@
+{
+  "id": "1982",
+  "title": "Copy of Pemanfaatan Biofuel.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1982"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "ariesharry",
+    "github_repo": "Diagrams"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Copy of Pemanfaatan Biofuel.png"
+  },
+  "created_date": "2025-08-23",
+  "author_display": "ariesharry/Diagrams"
+}

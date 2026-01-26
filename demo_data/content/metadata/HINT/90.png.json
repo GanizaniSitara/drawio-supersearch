@@ -1,0 +1,22 @@
+{
+  "id": "20817",
+  "title": "90.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20817"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "Atman-Shah",
+    "github_repo": "Modern-React-with-Redux"
+  },
+  "_links": {
+    "download": "/download/HINT/90.png"
+  },
+  "created_date": "2024-03-17",
+  "author_display": "Atman-Shah/Modern-React-with-Redux"
+}

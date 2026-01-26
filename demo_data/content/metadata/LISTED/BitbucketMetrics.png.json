@@ -1,0 +1,22 @@
+{
+  "id": "15378",
+  "title": "BitbucketMetrics.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15378"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "truemark",
+    "github_repo": "bitbucket-metrics"
+  },
+  "_links": {
+    "download": "/download/LISTED/BitbucketMetrics.png"
+  },
+  "created_date": "2025-08-12",
+  "author_display": "truemark/bitbucket-metrics"
+}

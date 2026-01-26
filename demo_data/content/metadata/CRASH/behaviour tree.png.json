@@ -1,0 +1,22 @@
+{
+  "id": "12290",
+  "title": "behaviour tree.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12290"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "mounteverset",
+    "github_repo": "behavior_planning"
+  },
+  "_links": {
+    "download": "/download/CRASH/behaviour tree.png"
+  },
+  "created_date": "2025-04-17",
+  "author_display": "mounteverset/behavior_planning"
+}

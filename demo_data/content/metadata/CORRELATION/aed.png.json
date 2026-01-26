@@ -1,0 +1,22 @@
+{
+  "id": "17756",
+  "title": "aed.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17756"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "HamzaAlsarakbi",
+    "github_repo": "AEDSimulator"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/aed.png"
+  },
+  "created_date": "2025-07-11",
+  "author_display": "HamzaAlsarakbi/AEDSimulator"
+}

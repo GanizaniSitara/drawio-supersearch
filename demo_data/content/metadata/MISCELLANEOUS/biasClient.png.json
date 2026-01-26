@@ -1,0 +1,22 @@
+{
+  "id": "1372",
+  "title": "biasClient.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1372"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "gaochaowyq",
+    "github_repo": "MinderGraph"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/biasClient.png"
+  },
+  "created_date": "2025-06-17",
+  "author_display": "gaochaowyq/MinderGraph"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "11539",
+  "title": "cncf.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11539"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "bibryam",
+    "github_repo": "cncf-casestudy"
+  },
+  "_links": {
+    "download": "/download/CAL/cncf.png"
+  },
+  "created_date": "2024-07-10",
+  "author_display": "bibryam/cncf-casestudy"
+}

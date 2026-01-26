@@ -1,0 +1,22 @@
+{
+  "id": "20388",
+  "title": "arsitektur.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20388"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "alfikridotname",
+    "github_repo": "h8-milestones-phase-0"
+  },
+  "_links": {
+    "download": "/download/OIL/arsitektur.png"
+  },
+  "created_date": "2024-09-10",
+  "author_display": "alfikridotname/h8-milestones-phase-0"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "11637",
+  "title": "architecture-1.0.0.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11637"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "informalsystems",
+    "github_repo": "apalache"
+  },
+  "_links": {
+    "download": "/download/CAL/architecture-1.0.0.png"
+  },
+  "created_date": "2025-08-15",
+  "author_display": "informalsystems/apalache"
+}

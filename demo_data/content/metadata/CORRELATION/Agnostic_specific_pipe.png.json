@@ -1,0 +1,22 @@
+{
+  "id": "17764",
+  "title": "Agnostic_specific_pipe.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17764"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "NMRL",
+    "github_repo": "Ardetype"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/Agnostic_specific_pipe.png"
+  },
+  "created_date": "2025-01-19",
+  "author_display": "NMRL/Ardetype"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "24007",
+  "title": "BestTimeToBuyAndSellStockWithCooldown.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24007"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "ledongthuc",
+    "github_repo": "notes"
+  },
+  "_links": {
+    "download": "/download/ROCK/BestTimeToBuyAndSellStockWithCooldown.png"
+  },
+  "created_date": "2025-02-04",
+  "author_display": "ledongthuc/notes"
+}

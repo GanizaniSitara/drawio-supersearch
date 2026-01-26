@@ -1,0 +1,22 @@
+{
+  "id": "1364",
+  "title": "aks.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1364"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "abossard",
+    "github_repo": "Elysium"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/aks.png"
+  },
+  "created_date": "2024-12-21",
+  "author_display": "abossard/Elysium"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17717",
+  "title": "DetailedDesign.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17717"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "ayaadelhassan",
+    "github_repo": "DCNN_Accelerator"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/DetailedDesign.png"
+  },
+  "created_date": "2026-01-04",
+  "author_display": "ayaadelhassan/DCNN_Accelerator"
+}

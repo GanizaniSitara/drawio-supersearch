@@ -1,0 +1,22 @@
+{
+  "id": "11648",
+  "title": "Bounded Context Canvas Template (3).png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11648"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "routeCsharp256",
+    "github_repo": "chernov"
+  },
+  "_links": {
+    "download": "/download/CAL/Bounded Context Canvas Template (3).png"
+  },
+  "created_date": "2025-06-17",
+  "author_display": "routeCsharp256/chernov"
+}

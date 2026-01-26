@@ -1,0 +1,22 @@
+{
+  "id": "13768",
+  "title": "1wrapper.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13768"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Vlas1d",
+    "github_repo": "BasePatterns"
+  },
+  "_links": {
+    "download": "/download/MAVEN/1wrapper.png"
+  },
+  "created_date": "2025-09-14",
+  "author_display": "Vlas1d/BasePatterns"
+}

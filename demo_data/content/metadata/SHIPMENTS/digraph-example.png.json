@@ -1,0 +1,22 @@
+{
+  "id": "2082",
+  "title": "digraph-example.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2082"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "LShun",
+    "github_repo": "dco-1820"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/digraph-example.png"
+  },
+  "created_date": "2025-02-24",
+  "author_display": "LShun/dco-1820"
+}

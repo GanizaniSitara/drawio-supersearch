@@ -1,0 +1,22 @@
+{
+  "id": "12320",
+  "title": "dash.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12320"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "ameysatwe",
+    "github_repo": "Factory-Frontend"
+  },
+  "_links": {
+    "download": "/download/CRASH/dash.png"
+  },
+  "created_date": "2025-06-20",
+  "author_display": "ameysatwe/Factory-Frontend"
+}

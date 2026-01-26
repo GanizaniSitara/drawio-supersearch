@@ -1,0 +1,22 @@
+{
+  "id": "9468",
+  "title": "celeste.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9468"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Orcania",
+    "github_repo": "celeste-js"
+  },
+  "_links": {
+    "download": "/download/PAGINA/celeste.png"
+  },
+  "created_date": "2025-05-30",
+  "author_display": "Orcania/celeste-js"
+}

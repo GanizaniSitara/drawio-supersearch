@@ -1,0 +1,22 @@
+{
+  "id": "23602",
+  "title": "Cinemagoer.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23602"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "IUS-CS",
+    "github_repo": "s22-project-tendies-movies"
+  },
+  "_links": {
+    "download": "/download/ROCK/Cinemagoer.png"
+  },
+  "created_date": "2025-09-23",
+  "author_display": "IUS-CS/s22-project-tendies-movies"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "10122",
+  "title": "browzen.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10122"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "nickbild",
+    "github_repo": "browzen"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/browzen.png"
+  },
+  "created_date": "2025-10-11",
+  "author_display": "nickbild/browzen"
+}

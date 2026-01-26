@@ -1,0 +1,22 @@
+{
+  "id": "13634",
+  "title": "ADDVA.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13634"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "Patricia-Johansson-TheFork",
+    "github_repo": "hello-world"
+  },
+  "_links": {
+    "download": "/download/MAVEN/ADDVA.png"
+  },
+  "created_date": "2025-09-06",
+  "author_display": "Patricia-Johansson-TheFork/hello-world"
+}

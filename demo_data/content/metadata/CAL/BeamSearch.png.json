@@ -1,0 +1,22 @@
+{
+  "id": "11620",
+  "title": "BeamSearch.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11620"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "ElinLiu0",
+    "github_repo": "HandsOnTransformer"
+  },
+  "_links": {
+    "download": "/download/CAL/BeamSearch.png"
+  },
+  "created_date": "2025-11-27",
+  "author_display": "ElinLiu0/HandsOnTransformer"
+}

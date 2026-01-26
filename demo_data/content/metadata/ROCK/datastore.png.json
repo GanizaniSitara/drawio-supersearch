@@ -1,0 +1,22 @@
+{
+  "id": "23518",
+  "title": "datastore.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23518"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "emerginganalytics",
+    "github_repo": "cyberarena"
+  },
+  "_links": {
+    "download": "/download/ROCK/datastore.png"
+  },
+  "created_date": "2024-06-04",
+  "author_display": "emerginganalytics/cyberarena"
+}

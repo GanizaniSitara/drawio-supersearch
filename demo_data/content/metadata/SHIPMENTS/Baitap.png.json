@@ -1,0 +1,22 @@
+{
+  "id": "1875",
+  "title": "Baitap.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1875"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "ntrphongse",
+    "github_repo": "PhongNT-FPTU-Learning-Resources"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Baitap.png"
+  },
+  "created_date": "2024-06-19",
+  "author_display": "ntrphongse/PhongNT-FPTU-Learning-Resources"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "23509",
+  "title": "Asteroids_Inheritance.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23509"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "byui-cs",
+    "github_repo": "CS246"
+  },
+  "_links": {
+    "download": "/download/ROCK/Asteroids_Inheritance.png"
+  },
+  "created_date": "2024-10-25",
+  "author_display": "byui-cs/CS246"
+}

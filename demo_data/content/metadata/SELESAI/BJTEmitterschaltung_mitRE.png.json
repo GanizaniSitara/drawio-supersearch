@@ -1,0 +1,22 @@
+{
+  "id": "9546",
+  "title": "BJTEmitterschaltung_mitRE.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9546"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "lg-eng",
+    "github_repo": "HWE-Skript"
+  },
+  "_links": {
+    "download": "/download/SELESAI/BJTEmitterschaltung_mitRE.png"
+  },
+  "created_date": "2025-01-02",
+  "author_display": "lg-eng/HWE-Skript"
+}

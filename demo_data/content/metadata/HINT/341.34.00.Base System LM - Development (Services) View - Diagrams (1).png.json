@@ -1,0 +1,22 @@
+{
+  "id": "20760",
+  "title": "341.34.00.Base System LM - Development (Services) View - Diagrams (1).png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20760"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "skysgh",
+    "github_repo": "SysDelivery.Guidance"
+  },
+  "_links": {
+    "download": "/download/HINT/341.34.00.Base System LM - Development (Services) View - Diagrams (1).png"
+  },
+  "created_date": "2024-04-10",
+  "author_display": "skysgh/SysDelivery.Guidance"
+}

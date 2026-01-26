@@ -1,0 +1,22 @@
+{
+  "id": "17731",
+  "title": "BelarusChess diagram.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17731"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "AndrryArmor",
+    "github_repo": "BelarusianLithuanianChess"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/BelarusChess diagram.png"
+  },
+  "created_date": "2025-01-21",
+  "author_display": "AndrryArmor/BelarusianLithuanianChess"
+}

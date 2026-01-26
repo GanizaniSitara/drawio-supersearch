@@ -1,0 +1,22 @@
+{
+  "id": "9450",
+  "title": "Canvas Production Pipeline.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9450"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "intechstudio",
+    "github_repo": "grid-manufacturing"
+  },
+  "_links": {
+    "download": "/download/PAGINA/Canvas Production Pipeline.png"
+  },
+  "created_date": "2024-05-03",
+  "author_display": "intechstudio/grid-manufacturing"
+}

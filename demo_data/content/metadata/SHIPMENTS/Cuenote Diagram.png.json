@@ -1,0 +1,22 @@
+{
+  "id": "2044",
+  "title": "Cuenote Diagram.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2044"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "KimsuorLun",
+    "github_repo": "KimsuorLun.github.io"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Cuenote Diagram.png"
+  },
+  "created_date": "2025-02-15",
+  "author_display": "KimsuorLun/KimsuorLun.github.io"
+}

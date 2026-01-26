@@ -1,0 +1,22 @@
+{
+  "id": "1293",
+  "title": "DoubleArrow.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1293"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "sharpchen",
+    "github_repo": "AvaloniaLoudnessMeterX"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/DoubleArrow.png"
+  },
+  "created_date": "2025-07-30",
+  "author_display": "sharpchen/AvaloniaLoudnessMeterX"
+}

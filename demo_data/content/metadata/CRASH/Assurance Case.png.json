@@ -1,0 +1,22 @@
+{
+  "id": "12399",
+  "title": "Assurance Case.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12399"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "JCKelley-CYBR",
+    "github_repo": "CYBR-8420-SoftwareAssurance"
+  },
+  "_links": {
+    "download": "/download/CRASH/Assurance Case.png"
+  },
+  "created_date": "2024-09-25",
+  "author_display": "JCKelley-CYBR/CYBR-8420-SoftwareAssurance"
+}

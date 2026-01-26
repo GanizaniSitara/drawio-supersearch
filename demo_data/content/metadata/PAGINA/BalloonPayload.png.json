@@ -1,0 +1,22 @@
+{
+  "id": "9300",
+  "title": "BalloonPayload.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9300"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "RTU-HPR",
+    "github_repo": "Dev-Payload-Rockoon"
+  },
+  "_links": {
+    "download": "/download/PAGINA/BalloonPayload.png"
+  },
+  "created_date": "2024-07-18",
+  "author_display": "RTU-HPR/Dev-Payload-Rockoon"
+}

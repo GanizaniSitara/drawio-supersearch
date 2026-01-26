@@ -1,0 +1,22 @@
+{
+  "id": "23625",
+  "title": "bmh2.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23625"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "DGRcodex",
+    "github_repo": "AED"
+  },
+  "_links": {
+    "download": "/download/ROCK/bmh2.png"
+  },
+  "created_date": "2025-03-02",
+  "author_display": "DGRcodex/AED"
+}

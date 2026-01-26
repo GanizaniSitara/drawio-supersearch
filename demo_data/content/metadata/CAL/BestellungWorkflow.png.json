@@ -1,0 +1,22 @@
+{
+  "id": "11627",
+  "title": "BestellungWorkflow.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11627"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "MarkusDegen",
+    "github_repo": "workflowDemo"
+  },
+  "_links": {
+    "download": "/download/CAL/BestellungWorkflow.png"
+  },
+  "created_date": "2024-02-24",
+  "author_display": "MarkusDegen/workflowDemo"
+}

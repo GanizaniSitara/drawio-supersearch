@@ -1,0 +1,22 @@
+{
+  "id": "23719",
+  "title": "Bearing.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23719"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "WSDOT",
+    "github_repo": "BEToolbox"
+  },
+  "_links": {
+    "download": "/download/ROCK/Bearing.png"
+  },
+  "created_date": "2025-05-20",
+  "author_display": "WSDOT/BEToolbox"
+}

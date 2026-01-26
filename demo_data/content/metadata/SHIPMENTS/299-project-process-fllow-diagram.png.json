@@ -1,0 +1,22 @@
+{
+  "id": "2138",
+  "title": "299-project-process-fllow-diagram.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2138"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "shamimferdous",
+    "github_repo": "nsu-cse-299"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/299-project-process-fllow-diagram.png"
+  },
+  "created_date": "2025-02-04",
+  "author_display": "shamimferdous/nsu-cse-299"
+}

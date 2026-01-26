@@ -1,0 +1,22 @@
+{
+  "id": "19970",
+  "title": "abstract-toplevel-tile.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19970"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "mnemocron",
+    "github_repo": "my-discrete-fpga"
+  },
+  "_links": {
+    "download": "/download/SEITE/abstract-toplevel-tile.png"
+  },
+  "created_date": "2026-01-14",
+  "author_display": "mnemocron/my-discrete-fpga"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "23537",
+  "title": "cloudformation-stacks.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23537"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "exasol",
+    "github_repo": "ai-lab"
+  },
+  "_links": {
+    "download": "/download/ROCK/cloudformation-stacks.png"
+  },
+  "created_date": "2025-06-18",
+  "author_display": "exasol/ai-lab"
+}

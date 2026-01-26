@@ -1,0 +1,22 @@
+{
+  "id": "15478",
+  "title": "atttentional_graph_message.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15478"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "Nick-Gale",
+    "github_repo": "2022_Deep_Learning_CamBio"
+  },
+  "_links": {
+    "download": "/download/LISTED/atttentional_graph_message.png"
+  },
+  "created_date": "2025-03-25",
+  "author_display": "Nick-Gale/2022_Deep_Learning_CamBio"
+}

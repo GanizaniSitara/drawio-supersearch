@@ -1,0 +1,22 @@
+{
+  "id": "13779",
+  "title": "activity_generic_example.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13779"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "VCityTeam",
+    "github_repo": "py3dtilers"
+  },
+  "_links": {
+    "download": "/download/MAVEN/activity_generic_example.png"
+  },
+  "created_date": "2024-12-03",
+  "author_display": "VCityTeam/py3dtilers"
+}

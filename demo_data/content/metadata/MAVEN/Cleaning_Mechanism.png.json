@@ -1,0 +1,22 @@
+{
+  "id": "13650",
+  "title": "Cleaning_Mechanism.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13650"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "muhdariffrazak",
+    "github_repo": "SUTD-Research"
+  },
+  "_links": {
+    "download": "/download/MAVEN/Cleaning_Mechanism.png"
+  },
+  "created_date": "2026-01-07",
+  "author_display": "muhdariffrazak/SUTD-Research"
+}

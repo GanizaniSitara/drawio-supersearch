@@ -1,0 +1,22 @@
+{
+  "id": "1867",
+  "title": "1668563881931diagramaparactica1.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1867"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "guidoc1985",
+    "github_repo": "grupo_1_Hawk"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/1668563881931diagramaparactica1.png"
+  },
+  "created_date": "2025-11-01",
+  "author_display": "guidoc1985/grupo_1_Hawk"
+}

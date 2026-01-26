@@ -1,0 +1,22 @@
+{
+  "id": "1218",
+  "title": "82.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1218"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "blacksheesh",
+    "github_repo": "svp"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/82.png"
+  },
+  "created_date": "2025-05-02",
+  "author_display": "blacksheesh/svp"
+}

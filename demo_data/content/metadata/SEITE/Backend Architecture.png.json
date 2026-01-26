@@ -1,0 +1,22 @@
+{
+  "id": "19985",
+  "title": "Backend Architecture.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19985"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "chris-kyle2",
+    "github_repo": "Grocery-web-app"
+  },
+  "_links": {
+    "download": "/download/SEITE/Backend Architecture.png"
+  },
+  "created_date": "2025-03-11",
+  "author_display": "chris-kyle2/Grocery-web-app"
+}

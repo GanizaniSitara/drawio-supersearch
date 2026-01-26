@@ -1,0 +1,22 @@
+{
+  "id": "9524",
+  "title": "BilliardDiagram.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9524"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "AdheFirmansyah",
+    "github_repo": "DataScience"
+  },
+  "_links": {
+    "download": "/download/SELESAI/BilliardDiagram.png"
+  },
+  "created_date": "2025-01-10",
+  "author_display": "AdheFirmansyah/DataScience"
+}

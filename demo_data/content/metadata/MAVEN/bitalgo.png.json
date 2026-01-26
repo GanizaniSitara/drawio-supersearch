@@ -1,0 +1,22 @@
+{
+  "id": "13832",
+  "title": "bitalgo.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13832"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "nomemory",
+    "github_repo": "andreinc-site"
+  },
+  "_links": {
+    "download": "/download/MAVEN/bitalgo.png"
+  },
+  "created_date": "2024-06-18",
+  "author_display": "nomemory/andreinc-site"
+}

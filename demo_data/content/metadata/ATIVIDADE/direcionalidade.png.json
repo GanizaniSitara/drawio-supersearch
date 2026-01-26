@@ -1,0 +1,22 @@
+{
+  "id": "10253",
+  "title": "direcionalidade.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10253"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "ludico1959",
+    "github_repo": "ifrs-poo"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/direcionalidade.png"
+  },
+  "created_date": "2024-12-14",
+  "author_display": "ludico1959/ifrs-poo"
+}

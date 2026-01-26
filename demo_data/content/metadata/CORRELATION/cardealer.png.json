@@ -1,0 +1,22 @@
+{
+  "id": "17709",
+  "title": "cardealer.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17709"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "sreeteja06",
+    "github_repo": "actchain-cardealer"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/cardealer.png"
+  },
+  "created_date": "2025-05-15",
+  "author_display": "sreeteja06/actchain-cardealer"
+}

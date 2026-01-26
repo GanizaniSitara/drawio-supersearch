@@ -1,0 +1,22 @@
+{
+  "id": "12014",
+  "title": "Buaaa0.png",
+  "space": {
+    "key": "COMPRESS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12014"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "enderwigim",
+    "github_repo": "1daw"
+  },
+  "_links": {
+    "download": "/download/COMPRESS/Buaaa0.png"
+  },
+  "created_date": "2024-05-30",
+  "author_display": "enderwigim/1daw"
+}

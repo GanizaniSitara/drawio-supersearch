@@ -1,0 +1,22 @@
+{
+  "id": "1369",
+  "title": "atomic_write.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1369"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "ofiwg",
+    "github_repo": "libfabric"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/atomic_write.png"
+  },
+  "created_date": "2025-01-25",
+  "author_display": "ofiwg/libfabric"
+}

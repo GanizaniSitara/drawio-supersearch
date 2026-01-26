@@ -1,0 +1,22 @@
+{
+  "id": "2056",
+  "title": "Anwendungsfall_Diagramm.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2056"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "Xipit",
+    "github_repo": "2d-maze-game"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Anwendungsfall_Diagramm.png"
+  },
+  "created_date": "2025-02-10",
+  "author_display": "Xipit/2d-maze-game"
+}

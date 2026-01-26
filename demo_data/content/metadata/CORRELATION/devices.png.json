@@ -1,0 +1,22 @@
+{
+  "id": "17841",
+  "title": "devices.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17841"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "ReinBentdal",
+    "github_repo": "le_audio_synthesizer"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/devices.png"
+  },
+  "created_date": "2025-05-05",
+  "author_display": "ReinBentdal/le_audio_synthesizer"
+}

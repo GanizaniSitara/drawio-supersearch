@@ -1,0 +1,22 @@
+{
+  "id": "13629",
+  "title": "certificates.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13629"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "nuts-foundation",
+    "github_repo": "nuts-documentation"
+  },
+  "_links": {
+    "download": "/download/MAVEN/certificates.png"
+  },
+  "created_date": "2024-02-26",
+  "author_display": "nuts-foundation/nuts-documentation"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17685",
+  "title": "Biomass change.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17685"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "arnanaraza",
+    "github_repo": "diagrams"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/Biomass change.png"
+  },
+  "created_date": "2025-05-28",
+  "author_display": "arnanaraza/diagrams"
+}

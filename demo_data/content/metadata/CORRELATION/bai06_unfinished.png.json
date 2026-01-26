@@ -1,0 +1,22 @@
+{
+  "id": "17913",
+  "title": "bai06_unfinished.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17913"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "KhanhNguyen9872",
+    "github_repo": "DH_Gia_Dinh_K16"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/bai06_unfinished.png"
+  },
+  "created_date": "2025-11-30",
+  "author_display": "KhanhNguyen9872/DH_Gia_Dinh_K16"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "11753",
+  "title": "domain-types.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11753"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "AyresMonteiro",
+    "github_repo": "reinforcer"
+  },
+  "_links": {
+    "download": "/download/CAL/domain-types.png"
+  },
+  "created_date": "2025-08-04",
+  "author_display": "AyresMonteiro/reinforcer"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17869",
+  "title": "DiagramaClasesTresEnRaya.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17869"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "luismescobarf",
+    "github_repo": "clasesCiclo2"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/DiagramaClasesTresEnRaya.png"
+  },
+  "created_date": "2025-04-23",
+  "author_display": "luismescobarf/clasesCiclo2"
+}

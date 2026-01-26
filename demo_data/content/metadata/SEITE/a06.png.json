@@ -1,0 +1,22 @@
+{
+  "id": "20211",
+  "title": "a06.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20211"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "angel-badillo-hernandez",
+    "github_repo": "2143-OOP-Badillo"
+  },
+  "_links": {
+    "download": "/download/SEITE/a06.png"
+  },
+  "created_date": "2024-06-30",
+  "author_display": "angel-badillo-hernandez/2143-OOP-Badillo"
+}

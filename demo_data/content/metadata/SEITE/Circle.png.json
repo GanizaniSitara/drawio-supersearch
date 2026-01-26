@@ -1,0 +1,22 @@
+{
+  "id": "20193",
+  "title": "Circle.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20193"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "lani009",
+    "github_repo": "Ajou-OOP-Practice_22"
+  },
+  "_links": {
+    "download": "/download/SEITE/Circle.png"
+  },
+  "created_date": "2025-08-27",
+  "author_display": "lani009/Ajou-OOP-Practice_22"
+}

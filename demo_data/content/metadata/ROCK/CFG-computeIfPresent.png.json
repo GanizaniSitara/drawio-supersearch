@@ -1,0 +1,22 @@
+{
+  "id": "23529",
+  "title": "CFG-computeIfPresent.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23529"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "edubriguenti",
+    "github_repo": "sttp-book.github.io"
+  },
+  "_links": {
+    "download": "/download/ROCK/CFG-computeIfPresent.png"
+  },
+  "created_date": "2026-01-22",
+  "author_display": "edubriguenti/sttp-book.github.io"
+}

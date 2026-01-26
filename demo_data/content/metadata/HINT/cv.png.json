@@ -1,0 +1,22 @@
+{
+  "id": "21019",
+  "title": "cv.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/21019"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "phamhongphuc1999",
+    "github_repo": "computer-vision"
+  },
+  "_links": {
+    "download": "/download/HINT/cv.png"
+  },
+  "created_date": "2024-01-30",
+  "author_display": "phamhongphuc1999/computer-vision"
+}

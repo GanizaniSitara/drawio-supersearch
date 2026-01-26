@@ -1,0 +1,22 @@
+{
+  "id": "11769",
+  "title": "CourierServer_SequenceDiagram.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11769"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "arbdoescode",
+    "github_repo": "Group6-Project"
+  },
+  "_links": {
+    "download": "/download/CAL/CourierServer_SequenceDiagram.png"
+  },
+  "created_date": "2025-09-22",
+  "author_display": "arbdoescode/Group6-Project"
+}

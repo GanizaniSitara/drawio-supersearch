@@ -1,0 +1,22 @@
+{
+  "id": "17761",
+  "title": "CDM.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17761"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "Nde-Dilan",
+    "github_repo": "ICT-UFALL"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/CDM.png"
+  },
+  "created_date": "2024-03-27",
+  "author_display": "Nde-Dilan/ICT-UFALL"
+}

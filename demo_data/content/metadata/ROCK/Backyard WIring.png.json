@@ -1,0 +1,22 @@
+{
+  "id": "23510",
+  "title": "Backyard WIring.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23510"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "sob",
+    "github_repo": "drawings"
+  },
+  "_links": {
+    "download": "/download/ROCK/Backyard WIring.png"
+  },
+  "created_date": "2025-02-03",
+  "author_display": "sob/drawings"
+}

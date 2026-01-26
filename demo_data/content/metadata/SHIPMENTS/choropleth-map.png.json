@@ -1,0 +1,22 @@
+{
+  "id": "2057",
+  "title": "choropleth-map.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2057"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "cosname",
+    "github_repo": "cosx.org"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/choropleth-map.png"
+  },
+  "created_date": "2024-09-28",
+  "author_display": "cosname/cosx.org"
+}

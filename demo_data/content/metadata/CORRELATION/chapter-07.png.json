@@ -1,0 +1,22 @@
+{
+  "id": "17870",
+  "title": "chapter-07.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17870"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "antop-dev",
+    "github_repo": "spring5-msa-2e"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/chapter-07.png"
+  },
+  "created_date": "2024-04-12",
+  "author_display": "antop-dev/spring5-msa-2e"
+}

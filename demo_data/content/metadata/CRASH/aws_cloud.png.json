@@ -1,0 +1,22 @@
+{
+  "id": "12534",
+  "title": "aws_cloud.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12534"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "0x-Robert",
+    "github_repo": "AWS_Study"
+  },
+  "_links": {
+    "download": "/download/CRASH/aws_cloud.png"
+  },
+  "created_date": "2024-11-18",
+  "author_display": "0x-Robert/AWS_Study"
+}

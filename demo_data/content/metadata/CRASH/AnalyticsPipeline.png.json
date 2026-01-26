@@ -1,0 +1,22 @@
+{
+  "id": "12362",
+  "title": "AnalyticsPipeline.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12362"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "ISIS3510-202320-Team13",
+    "github_repo": "Wiki"
+  },
+  "_links": {
+    "download": "/download/CRASH/AnalyticsPipeline.png"
+  },
+  "created_date": "2025-02-11",
+  "author_display": "ISIS3510-202320-Team13/Wiki"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "23748",
+  "title": "ArOZ Online Subservice Architecture.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23748"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "rudals",
+    "github_repo": "arozos"
+  },
+  "_links": {
+    "download": "/download/ROCK/ArOZ Online Subservice Architecture.png"
+  },
+  "created_date": "2024-06-21",
+  "author_display": "rudals/arozos"
+}

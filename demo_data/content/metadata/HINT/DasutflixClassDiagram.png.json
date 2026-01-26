@@ -1,0 +1,22 @@
+{
+  "id": "20784",
+  "title": "DasutflixClassDiagram.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20784"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "bcchoi518",
+    "github_repo": "Gukbi"
+  },
+  "_links": {
+    "download": "/download/HINT/DasutflixClassDiagram.png"
+  },
+  "created_date": "2024-12-17",
+  "author_display": "bcchoi518/Gukbi"
+}

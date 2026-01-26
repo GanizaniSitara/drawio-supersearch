@@ -1,0 +1,22 @@
+{
+  "id": "23550",
+  "title": "b3scale_arch_new.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23550"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "prototypefund",
+    "github_repo": "demoweek-archive"
+  },
+  "_links": {
+    "download": "/download/ROCK/b3scale_arch_new.png"
+  },
+  "created_date": "2025-09-06",
+  "author_display": "prototypefund/demoweek-archive"
+}

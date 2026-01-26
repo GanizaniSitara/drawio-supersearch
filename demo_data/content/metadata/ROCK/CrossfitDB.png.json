@@ -1,0 +1,22 @@
+{
+  "id": "24080",
+  "title": "CrossfitDB.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24080"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "mmanchon",
+    "github_repo": "crossfit"
+  },
+  "_links": {
+    "download": "/download/ROCK/CrossfitDB.png"
+  },
+  "created_date": "2025-02-21",
+  "author_display": "mmanchon/crossfit"
+}

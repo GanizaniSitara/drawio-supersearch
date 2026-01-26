@@ -1,0 +1,22 @@
+{
+  "id": "9687",
+  "title": "Circuito analisis.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9687"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "brunogle",
+    "github_repo": "tc2-r4001"
+  },
+  "_links": {
+    "download": "/download/SELESAI/Circuito analisis.png"
+  },
+  "created_date": "2024-05-12",
+  "author_display": "brunogle/tc2-r4001"
+}

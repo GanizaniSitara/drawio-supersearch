@@ -1,0 +1,22 @@
+{
+  "id": "10218",
+  "title": "cache_aside_small.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10218"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "wuyichen24",
+    "github_repo": "system-design-knowledge"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/cache_aside_small.png"
+  },
+  "created_date": "2025-04-19",
+  "author_display": "wuyichen24/system-design-knowledge"
+}

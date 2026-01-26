@@ -1,0 +1,22 @@
+{
+  "id": "24009",
+  "title": "broadcast.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24009"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "godaai",
+    "github_repo": "scale-py-zh"
+  },
+  "_links": {
+    "download": "/download/ROCK/broadcast.png"
+  },
+  "created_date": "2024-11-23",
+  "author_display": "godaai/scale-py-zh"
+}

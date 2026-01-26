@@ -1,0 +1,22 @@
+{
+  "id": "24017",
+  "title": "certificate-rotation-architecture.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24017"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "awslabs",
+    "github_repo": "aws-greengrass-labs-certificate-rotator"
+  },
+  "_links": {
+    "download": "/download/ROCK/certificate-rotation-architecture.png"
+  },
+  "created_date": "2024-04-05",
+  "author_display": "awslabs/aws-greengrass-labs-certificate-rotator"
+}

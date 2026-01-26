@@ -1,0 +1,22 @@
+{
+  "id": "9769",
+  "title": "Cell_States.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9769"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "addap",
+    "github_repo": "master-thesis"
+  },
+  "_links": {
+    "download": "/download/SELESAI/Cell_States.png"
+  },
+  "created_date": "2025-09-12",
+  "author_display": "addap/master-thesis"
+}

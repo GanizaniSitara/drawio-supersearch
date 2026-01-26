@@ -1,0 +1,22 @@
+{
+  "id": "13723",
+  "title": "ADUC3.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13723"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "mbeccari856608",
+    "github_repo": "architetturasw2024"
+  },
+  "_links": {
+    "download": "/download/MAVEN/ADUC3.png"
+  },
+  "created_date": "2025-01-22",
+  "author_display": "mbeccari856608/architetturasw2024"
+}

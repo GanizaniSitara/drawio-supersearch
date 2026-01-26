@@ -1,0 +1,22 @@
+{
+  "id": "24102",
+  "title": "collapse2.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24102"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "vivianjeng",
+    "github_repo": "blog"
+  },
+  "_links": {
+    "download": "/download/ROCK/collapse2.png"
+  },
+  "created_date": "2025-05-29",
+  "author_display": "vivianjeng/blog"
+}

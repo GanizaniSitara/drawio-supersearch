@@ -1,0 +1,22 @@
+{
+  "id": "23546",
+  "title": "addUserDiagram.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23546"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "DavidWood2001-zz",
+    "github_repo": "ISAD157"
+  },
+  "_links": {
+    "download": "/download/ROCK/addUserDiagram.png"
+  },
+  "created_date": "2025-05-03",
+  "author_display": "DavidWood2001-zz/ISAD157"
+}

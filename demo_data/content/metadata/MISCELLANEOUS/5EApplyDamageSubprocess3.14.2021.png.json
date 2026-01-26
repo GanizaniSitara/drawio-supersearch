@@ -1,0 +1,22 @@
+{
+  "id": "1411",
+  "title": "5EApplyDamageSubprocess3.14.2021.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1411"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "RPG-Research",
+    "github_repo": "bcirpg"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/5EApplyDamageSubprocess3.14.2021.png"
+  },
+  "created_date": "2025-06-21",
+  "author_display": "RPG-Research/bcirpg"
+}

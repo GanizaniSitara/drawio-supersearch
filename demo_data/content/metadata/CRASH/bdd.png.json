@@ -1,0 +1,22 @@
+{
+  "id": "12496",
+  "title": "bdd.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12496"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "agrueneberg",
+    "github_repo": "sews2324"
+  },
+  "_links": {
+    "download": "/download/CRASH/bdd.png"
+  },
+  "created_date": "2025-09-16",
+  "author_display": "agrueneberg/sews2324"
+}

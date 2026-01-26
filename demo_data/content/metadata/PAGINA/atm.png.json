@@ -1,0 +1,22 @@
+{
+  "id": "9325",
+  "title": "atm.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9325"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "OxideVanadium",
+    "github_repo": "ets_practica"
+  },
+  "_links": {
+    "download": "/download/PAGINA/atm.png"
+  },
+  "created_date": "2024-03-20",
+  "author_display": "OxideVanadium/ets_practica"
+}

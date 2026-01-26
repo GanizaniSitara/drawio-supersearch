@@ -1,0 +1,22 @@
+{
+  "id": "1931",
+  "title": "Arquitetura MVC3.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1931"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "mariocosta2021",
+    "github_repo": "Jobs-PAP-2023-"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Arquitetura MVC3.png"
+  },
+  "created_date": "2024-09-07",
+  "author_display": "mariocosta2021/Jobs-PAP-2023-"
+}

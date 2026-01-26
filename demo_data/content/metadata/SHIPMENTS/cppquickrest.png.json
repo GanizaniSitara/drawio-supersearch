@@ -1,0 +1,22 @@
+{
+  "id": "2041",
+  "title": "cppquickrest.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2041"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "metazyc",
+    "github_repo": "cppquickrest"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/cppquickrest.png"
+  },
+  "created_date": "2025-01-13",
+  "author_display": "metazyc/cppquickrest"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "24045",
+  "title": "DesignDiagram.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24045"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "PSUCapstone2023-Group1",
+    "github_repo": "Clean-Energy-PA"
+  },
+  "_links": {
+    "download": "/download/ROCK/DesignDiagram.png"
+  },
+  "created_date": "2025-02-03",
+  "author_display": "PSUCapstone2023-Group1/Clean-Energy-PA"
+}

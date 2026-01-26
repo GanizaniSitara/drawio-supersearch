@@ -1,0 +1,22 @@
+{
+  "id": "15580",
+  "title": "Algorithm_Diagram.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15580"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "guimtcandido",
+    "github_repo": "CANPID"
+  },
+  "_links": {
+    "download": "/download/LISTED/Algorithm_Diagram.png"
+  },
+  "created_date": "2025-05-17",
+  "author_display": "guimtcandido/CANPID"
+}

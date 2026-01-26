@@ -1,0 +1,22 @@
+{
+  "id": "2070",
+  "title": "cameraAPI.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2070"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Bright-Hsu",
+    "github_repo": "Real-Time-Trans-Server"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/cameraAPI.png"
+  },
+  "created_date": "2025-02-22",
+  "author_display": "Bright-Hsu/Real-Time-Trans-Server"
+}

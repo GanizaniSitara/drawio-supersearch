@@ -1,0 +1,22 @@
+{
+  "id": "23574",
+  "title": "cumulative_sx.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23574"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "OliverKillane",
+    "github_repo": "Imperial-Computing-Notes"
+  },
+  "_links": {
+    "download": "/download/ROCK/cumulative_sx.png"
+  },
+  "created_date": "2024-09-11",
+  "author_display": "OliverKillane/Imperial-Computing-Notes"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "12344",
+  "title": "detailed_bart_aux_head_diagram.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12344"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "AlejandroSantorum",
+    "github_repo": "MPhil_MLMI_Cambridge"
+  },
+  "_links": {
+    "download": "/download/CRASH/detailed_bart_aux_head_diagram.png"
+  },
+  "created_date": "2025-08-31",
+  "author_display": "AlejandroSantorum/MPhil_MLMI_Cambridge"
+}

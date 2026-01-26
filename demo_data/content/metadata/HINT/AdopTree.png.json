@@ -1,0 +1,22 @@
+{
+  "id": "20977",
+  "title": "AdopTree.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20977"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "andresmendoza482",
+    "github_repo": "data-base"
+  },
+  "_links": {
+    "download": "/download/HINT/AdopTree.png"
+  },
+  "created_date": "2025-08-02",
+  "author_display": "andresmendoza482/data-base"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "12363",
+  "title": "bosquejo.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12363"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "estebanrucan",
+    "github_repo": "recomendador-cursos-uc"
+  },
+  "_links": {
+    "download": "/download/CRASH/bosquejo.png"
+  },
+  "created_date": "2025-11-21",
+  "author_display": "estebanrucan/recomendador-cursos-uc"
+}

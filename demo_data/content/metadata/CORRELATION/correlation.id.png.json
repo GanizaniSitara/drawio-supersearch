@@ -1,0 +1,22 @@
+{
+  "id": "17695",
+  "title": "correlation.id.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17695"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "polarnik",
+    "github_repo": "Performance.testing.via.AMQP.with.Gatling"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/correlation.id.png"
+  },
+  "created_date": "2024-02-06",
+  "author_display": "polarnik/Performance.testing.via.AMQP.with.Gatling"
+}

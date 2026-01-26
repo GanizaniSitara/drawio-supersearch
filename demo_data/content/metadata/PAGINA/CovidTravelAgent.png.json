@@ -1,0 +1,22 @@
+{
+  "id": "9480",
+  "title": "CovidTravelAgent.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9480"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "software-assignments-spring2021",
+    "github_repo": "project-setup-team-tacoma-foreground"
+  },
+  "_links": {
+    "download": "/download/PAGINA/CovidTravelAgent.png"
+  },
+  "created_date": "2024-12-17",
+  "author_display": "software-assignments-spring2021/project-setup-team-tacoma-foreground"
+}

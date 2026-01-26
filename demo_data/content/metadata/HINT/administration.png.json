@@ -1,0 +1,22 @@
+{
+  "id": "20921",
+  "title": "administration.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20921"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "filippofinke",
+    "github_repo": "HackerLab"
+  },
+  "_links": {
+    "download": "/download/HINT/administration.png"
+  },
+  "created_date": "2025-05-13",
+  "author_display": "filippofinke/HackerLab"
+}

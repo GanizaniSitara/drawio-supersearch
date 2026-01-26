@@ -1,0 +1,22 @@
+{
+  "id": "20496",
+  "title": "bus.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20496"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "hsc-latte",
+    "github_repo": "hs32core-rtl"
+  },
+  "_links": {
+    "download": "/download/OIL/bus.png"
+  },
+  "created_date": "2024-07-13",
+  "author_display": "hsc-latte/hs32core-rtl"
+}

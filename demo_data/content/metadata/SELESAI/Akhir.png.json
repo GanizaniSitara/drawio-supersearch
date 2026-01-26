@@ -1,0 +1,22 @@
+{
+  "id": "9511",
+  "title": "Akhir.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9511"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "erlnggfjr",
+    "github_repo": "KPPS-APPS"
+  },
+  "_links": {
+    "download": "/download/SELESAI/Akhir.png"
+  },
+  "created_date": "2025-04-03",
+  "author_display": "erlnggfjr/KPPS-APPS"
+}

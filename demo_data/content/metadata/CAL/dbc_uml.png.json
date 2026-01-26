@@ -1,0 +1,22 @@
+{
+  "id": "11763",
+  "title": "dbc_uml.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11763"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "MichalOkon",
+    "github_repo": "sttp-book"
+  },
+  "_links": {
+    "download": "/download/CAL/dbc_uml.png"
+  },
+  "created_date": "2024-08-05",
+  "author_display": "MichalOkon/sttp-book"
+}

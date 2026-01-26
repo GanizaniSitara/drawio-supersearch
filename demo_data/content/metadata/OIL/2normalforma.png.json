@@ -1,0 +1,22 @@
+{
+  "id": "20341",
+  "title": "2normalforma.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20341"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "PetrooAdam",
+    "github_repo": "fodraszatprojekt"
+  },
+  "_links": {
+    "download": "/download/OIL/2normalforma.png"
+  },
+  "created_date": "2024-06-08",
+  "author_display": "PetrooAdam/fodraszatprojekt"
+}

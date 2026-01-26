@@ -1,0 +1,22 @@
+{
+  "id": "9694",
+  "title": "ChirpUMLSequence.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9694"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "ITU-BDSA23-GROUP19",
+    "github_repo": "Chirp"
+  },
+  "_links": {
+    "download": "/download/SELESAI/ChirpUMLSequence.png"
+  },
+  "created_date": "2026-01-20",
+  "author_display": "ITU-BDSA23-GROUP19/Chirp"
+}

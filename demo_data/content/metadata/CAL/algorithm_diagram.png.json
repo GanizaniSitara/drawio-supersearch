@@ -1,0 +1,22 @@
+{
+  "id": "11506",
+  "title": "algorithm_diagram.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11506"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "LarryDong",
+    "github_repo": "lidar_camera_calibration"
+  },
+  "_links": {
+    "download": "/download/CAL/algorithm_diagram.png"
+  },
+  "created_date": "2024-03-04",
+  "author_display": "LarryDong/lidar_camera_calibration"
+}

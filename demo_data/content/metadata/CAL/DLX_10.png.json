@@ -1,0 +1,22 @@
+{
+  "id": "11613",
+  "title": "DLX_10.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11613"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "Tiphereth-A",
+    "github_repo": "Tiphereth-A.github.io"
+  },
+  "_links": {
+    "download": "/download/CAL/DLX_10.png"
+  },
+  "created_date": "2025-09-18",
+  "author_display": "Tiphereth-A/Tiphereth-A.github.io"
+}

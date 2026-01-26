@@ -1,0 +1,22 @@
+{
+  "id": "23670",
+  "title": "authentication_sequence.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23670"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "bounswe",
+    "github_repo": "bounswe2023group4"
+  },
+  "_links": {
+    "download": "/download/ROCK/authentication_sequence.png"
+  },
+  "created_date": "2025-06-07",
+  "author_display": "bounswe/bounswe2023group4"
+}

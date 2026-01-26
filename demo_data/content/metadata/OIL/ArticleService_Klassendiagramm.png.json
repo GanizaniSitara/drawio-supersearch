@@ -1,0 +1,22 @@
+{
+  "id": "20300",
+  "title": "ArticleService_Klassendiagramm.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20300"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Livio2000",
+    "github_repo": "SWAT-FS24"
+  },
+  "_links": {
+    "download": "/download/OIL/ArticleService_Klassendiagramm.png"
+  },
+  "created_date": "2024-11-25",
+  "author_display": "Livio2000/SWAT-FS24"
+}

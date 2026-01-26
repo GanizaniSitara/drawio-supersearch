@@ -1,0 +1,22 @@
+{
+  "id": "24016",
+  "title": "api-flow.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24016"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "Mikescher",
+    "github_repo": "firefox-sync-client"
+  },
+  "_links": {
+    "download": "/download/ROCK/api-flow.png"
+  },
+  "created_date": "2025-08-28",
+  "author_display": "Mikescher/firefox-sync-client"
+}

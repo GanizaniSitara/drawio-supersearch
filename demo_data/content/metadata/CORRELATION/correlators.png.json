@@ -1,0 +1,22 @@
+{
+  "id": "17697",
+  "title": "correlators.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17697"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "Evolveum",
+    "github_repo": "docs"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/correlators.png"
+  },
+  "created_date": "2025-05-23",
+  "author_display": "Evolveum/docs"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1320",
+  "title": "battery-simulator.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1320"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "natecostello",
+    "github_repo": "van_two_point_oh"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/battery-simulator.png"
+  },
+  "created_date": "2025-07-10",
+  "author_display": "natecostello/van_two_point_oh"
+}

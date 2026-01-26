@@ -1,0 +1,22 @@
+{
+  "id": "20392",
+  "title": "dise\ufffd\ufffdo.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20392"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "sergiomalv",
+    "github_repo": "dlp"
+  },
+  "_links": {
+    "download": "/download/OIL/dise\ufffd\ufffdo.png"
+  },
+  "created_date": "2025-07-25",
+  "author_display": "sergiomalv/dlp"
+}

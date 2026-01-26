@@ -1,0 +1,22 @@
+{
+  "id": "17801",
+  "title": "ADVDB.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17801"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "ervette",
+    "github_repo": "systemathic-design"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/ADVDB.png"
+  },
+  "created_date": "2024-03-12",
+  "author_display": "ervette/systemathic-design"
+}

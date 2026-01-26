@@ -1,0 +1,22 @@
+{
+  "id": "13762",
+  "title": "CRC cards.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13762"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "tom7689",
+    "github_repo": "Ex.-2"
+  },
+  "_links": {
+    "download": "/download/MAVEN/CRC cards.png"
+  },
+  "created_date": "2024-04-18",
+  "author_display": "tom7689/Ex.-2"
+}

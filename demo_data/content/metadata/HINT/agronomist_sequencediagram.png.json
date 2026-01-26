@@ -1,0 +1,22 @@
+{
+  "id": "20905",
+  "title": "agronomist_sequencediagram.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20905"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "gabrielemarra",
+    "github_repo": "DREAM-ProjectDesign"
+  },
+  "_links": {
+    "download": "/download/HINT/agronomist_sequencediagram.png"
+  },
+  "created_date": "2025-10-17",
+  "author_display": "gabrielemarra/DREAM-ProjectDesign"
+}

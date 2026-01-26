@@ -1,0 +1,22 @@
+{
+  "id": "13687",
+  "title": "Aufgabe01.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13687"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "R4Tobi",
+    "github_repo": "CV-Semester-1"
+  },
+  "_links": {
+    "download": "/download/MAVEN/Aufgabe01.png"
+  },
+  "created_date": "2025-09-11",
+  "author_display": "R4Tobi/CV-Semester-1"
+}

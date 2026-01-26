@@ -1,0 +1,22 @@
+{
+  "id": "20970",
+  "title": "68K_registers.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20970"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "stefanocoppi",
+    "github_repo": "amiga_game_prog"
+  },
+  "_links": {
+    "download": "/download/HINT/68K_registers.png"
+  },
+  "created_date": "2025-09-29",
+  "author_display": "stefanocoppi/amiga_game_prog"
+}

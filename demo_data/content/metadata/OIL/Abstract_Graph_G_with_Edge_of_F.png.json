@@ -1,0 +1,22 @@
+{
+  "id": "20456",
+  "title": "Abstract_Graph_G_with_Edge_of_F.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20456"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "WyvernIXTL",
+    "github_repo": "feedback-arc-set-in-tournaments-ss2023"
+  },
+  "_links": {
+    "download": "/download/OIL/Abstract_Graph_G_with_Edge_of_F.png"
+  },
+  "created_date": "2024-03-29",
+  "author_display": "WyvernIXTL/feedback-arc-set-in-tournaments-ss2023"
+}

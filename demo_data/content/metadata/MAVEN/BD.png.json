@@ -1,0 +1,22 @@
+{
+  "id": "13805",
+  "title": "BD.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13805"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "xanderkov",
+    "github_repo": "ics7-ppo"
+  },
+  "_links": {
+    "download": "/download/MAVEN/BD.png"
+  },
+  "created_date": "2025-09-26",
+  "author_display": "xanderkov/ics7-ppo"
+}

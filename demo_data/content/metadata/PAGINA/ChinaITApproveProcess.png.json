@@ -1,0 +1,22 @@
+{
+  "id": "9295",
+  "title": "ChinaITApproveProcess.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9295"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "luss613",
+    "github_repo": "draw.io"
+  },
+  "_links": {
+    "download": "/download/PAGINA/ChinaITApproveProcess.png"
+  },
+  "created_date": "2024-11-13",
+  "author_display": "luss613/draw.io"
+}

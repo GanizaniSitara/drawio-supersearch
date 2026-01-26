@@ -1,0 +1,22 @@
+{
+  "id": "9541",
+  "title": "Action.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9541"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "yuriyyakym",
+    "github_repo": "awai"
+  },
+  "_links": {
+    "download": "/download/SELESAI/Action.png"
+  },
+  "created_date": "2025-03-08",
+  "author_display": "yuriyyakym/awai"
+}

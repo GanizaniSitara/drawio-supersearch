@@ -1,0 +1,22 @@
+{
+  "id": "24092",
+  "title": "campgrounds.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24092"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "jahigerald24",
+    "github_repo": "IST236_2024"
+  },
+  "_links": {
+    "download": "/download/ROCK/campgrounds.png"
+  },
+  "created_date": "2024-05-23",
+  "author_display": "jahigerald24/IST236_2024"
+}

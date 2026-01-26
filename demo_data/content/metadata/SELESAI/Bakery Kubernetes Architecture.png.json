@@ -1,0 +1,22 @@
+{
+  "id": "9545",
+  "title": "Bakery Kubernetes Architecture.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9545"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "mlplatform",
+    "github_repo": "baker"
+  },
+  "_links": {
+    "download": "/download/SELESAI/Bakery Kubernetes Architecture.png"
+  },
+  "created_date": "2025-04-07",
+  "author_display": "mlplatform/baker"
+}

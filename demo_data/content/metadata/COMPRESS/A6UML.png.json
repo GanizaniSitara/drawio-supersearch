@@ -1,0 +1,22 @@
+{
+  "id": "12008",
+  "title": "A6UML.png",
+  "space": {
+    "key": "COMPRESS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12008"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "MiaWeber25",
+    "github_repo": "OOP-mweber2"
+  },
+  "_links": {
+    "download": "/download/COMPRESS/A6UML.png"
+  },
+  "created_date": "2025-09-03",
+  "author_display": "MiaWeber25/OOP-mweber2"
+}

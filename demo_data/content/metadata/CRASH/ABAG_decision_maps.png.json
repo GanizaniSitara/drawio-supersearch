@@ -1,0 +1,22 @@
+{
+  "id": "12398",
+  "title": "ABAG_decision_maps.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12398"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "DjoleMNE",
+    "github_repo": "Lazy_Robot_Control_by_Relaxation_of_Motion_and_Force_Constraints"
+  },
+  "_links": {
+    "download": "/download/CRASH/ABAG_decision_maps.png"
+  },
+  "created_date": "2025-08-30",
+  "author_display": "DjoleMNE/Lazy_Robot_Control_by_Relaxation_of_Motion_and_Force_Constraints"
+}

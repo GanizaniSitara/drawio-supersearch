@@ -1,0 +1,22 @@
+{
+  "id": "9710",
+  "title": "auth.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9710"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "dyarfi",
+    "github_repo": "nextjs-jwt"
+  },
+  "_links": {
+    "download": "/download/SELESAI/auth.png"
+  },
+  "created_date": "2024-09-20",
+  "author_display": "dyarfi/nextjs-jwt"
+}

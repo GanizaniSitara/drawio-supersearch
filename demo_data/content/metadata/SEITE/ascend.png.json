@@ -1,0 +1,22 @@
+{
+  "id": "20054",
+  "title": "ascend.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20054"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "mar-file-system",
+    "github_repo": "GUFI"
+  },
+  "_links": {
+    "download": "/download/SEITE/ascend.png"
+  },
+  "created_date": "2025-05-27",
+  "author_display": "mar-file-system/GUFI"
+}

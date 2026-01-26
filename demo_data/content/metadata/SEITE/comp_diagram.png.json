@@ -1,0 +1,22 @@
+{
+  "id": "20069",
+  "title": "comp_diagram.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20069"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "learn-co-students",
+    "github_repo": "west-se-103122-react-piat-components-props"
+  },
+  "_links": {
+    "download": "/download/SEITE/comp_diagram.png"
+  },
+  "created_date": "2025-01-16",
+  "author_display": "learn-co-students/west-se-103122-react-piat-components-props"
+}

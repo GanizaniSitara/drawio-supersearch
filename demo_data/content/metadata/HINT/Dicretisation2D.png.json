@@ -1,0 +1,22 @@
+{
+  "id": "20886",
+  "title": "Dicretisation2D.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20886"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "ddrous",
+    "github_repo": "projet-inverse-2d"
+  },
+  "_links": {
+    "download": "/download/HINT/Dicretisation2D.png"
+  },
+  "created_date": "2025-06-17",
+  "author_display": "ddrous/projet-inverse-2d"
+}

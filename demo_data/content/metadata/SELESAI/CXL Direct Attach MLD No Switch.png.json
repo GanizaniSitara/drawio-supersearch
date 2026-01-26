@@ -1,0 +1,22 @@
+{
+  "id": "9665",
+  "title": "CXL Direct Attach MLD No Switch.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9665"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "kamilkhan52",
+    "github_repo": "cxl_diagrams"
+  },
+  "_links": {
+    "download": "/download/SELESAI/CXL Direct Attach MLD No Switch.png"
+  },
+  "created_date": "2024-02-12",
+  "author_display": "kamilkhan52/cxl_diagrams"
+}

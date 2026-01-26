@@ -1,0 +1,22 @@
+{
+  "id": "24082",
+  "title": "AD3 Object BirthdayParty.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24082"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "JazzRose",
+    "github_repo": "homework"
+  },
+  "_links": {
+    "download": "/download/ROCK/AD3 Object BirthdayParty.png"
+  },
+  "created_date": "2024-08-05",
+  "author_display": "JazzRose/homework"
+}

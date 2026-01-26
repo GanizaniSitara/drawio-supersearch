@@ -1,0 +1,22 @@
+{
+  "id": "9656",
+  "title": "bmbt-without-iommu.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9656"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "Martins3",
+    "github_repo": "Bare-Metal-Binary-Translator"
+  },
+  "_links": {
+    "download": "/download/SELESAI/bmbt-without-iommu.png"
+  },
+  "created_date": "2025-07-10",
+  "author_display": "Martins3/Bare-Metal-Binary-Translator"
+}

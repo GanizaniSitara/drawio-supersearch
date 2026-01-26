@@ -1,0 +1,22 @@
+{
+  "id": "24089",
+  "title": "activity diagram.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24089"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "LUDOOS",
+    "github_repo": "LUDOSDOCS"
+  },
+  "_links": {
+    "download": "/download/ROCK/activity diagram.png"
+  },
+  "created_date": "2025-11-18",
+  "author_display": "LUDOOS/LUDOSDOCS"
+}

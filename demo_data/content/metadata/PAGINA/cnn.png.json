@@ -1,0 +1,22 @@
+{
+  "id": "9447",
+  "title": "cnn.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9447"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "pikawika",
+    "github_repo": "VUB-BCI-thesis"
+  },
+  "_links": {
+    "download": "/download/PAGINA/cnn.png"
+  },
+  "created_date": "2024-09-05",
+  "author_display": "pikawika/VUB-BCI-thesis"
+}

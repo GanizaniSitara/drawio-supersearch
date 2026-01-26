@@ -1,0 +1,22 @@
+{
+  "id": "9479",
+  "title": "android-6.0-sdcard-struct.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9479"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "f23505106",
+    "github_repo": "drawio"
+  },
+  "_links": {
+    "download": "/download/PAGINA/android-6.0-sdcard-struct.png"
+  },
+  "created_date": "2025-02-08",
+  "author_display": "f23505106/drawio"
+}

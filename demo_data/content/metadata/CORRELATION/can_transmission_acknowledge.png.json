@@ -1,0 +1,22 @@
+{
+  "id": "17752",
+  "title": "can_transmission_acknowledge.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17752"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "modelica",
+    "github_repo": "fmi-guides"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/can_transmission_acknowledge.png"
+  },
+  "created_date": "2026-01-20",
+  "author_display": "modelica/fmi-guides"
+}

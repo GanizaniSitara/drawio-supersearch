@@ -1,0 +1,22 @@
+{
+  "id": "2037",
+  "title": "chess_parser_architecture.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2037"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "noopta",
+    "github_repo": "chess_ai_parser"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/chess_parser_architecture.png"
+  },
+  "created_date": "2024-10-27",
+  "author_display": "noopta/chess_ai_parser"
+}

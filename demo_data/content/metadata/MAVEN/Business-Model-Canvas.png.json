@@ -1,0 +1,22 @@
+{
+  "id": "13788",
+  "title": "Business-Model-Canvas.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13788"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "airdb",
+    "github_repo": "drawio"
+  },
+  "_links": {
+    "download": "/download/MAVEN/Business-Model-Canvas.png"
+  },
+  "created_date": "2024-11-21",
+  "author_display": "airdb/drawio"
+}

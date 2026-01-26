@@ -1,0 +1,22 @@
+{
+  "id": "15467",
+  "title": "bmh1.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15467"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "marcogandra",
+    "github_repo": "AED"
+  },
+  "_links": {
+    "download": "/download/LISTED/bmh1.png"
+  },
+  "created_date": "2024-09-15",
+  "author_display": "marcogandra/AED"
+}

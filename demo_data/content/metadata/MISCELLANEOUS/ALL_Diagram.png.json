@@ -1,0 +1,22 @@
+{
+  "id": "1237",
+  "title": "ALL_Diagram.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1237"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "quadang21cen",
+    "github_repo": "NLP-in-arranging-rooms-problem."
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/ALL_Diagram.png"
+  },
+  "created_date": "2024-05-31",
+  "author_display": "quadang21cen/NLP-in-arranging-rooms-problem."
+}

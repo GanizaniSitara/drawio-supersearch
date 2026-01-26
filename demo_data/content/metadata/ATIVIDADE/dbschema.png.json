@@ -1,0 +1,22 @@
+{
+  "id": "10059",
+  "title": "dbschema.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10059"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "USACE",
+    "github_repo": "cumulus-api"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/dbschema.png"
+  },
+  "created_date": "2024-12-31",
+  "author_display": "USACE/cumulus-api"
+}

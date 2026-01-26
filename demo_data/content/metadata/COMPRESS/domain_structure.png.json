@@ -1,0 +1,22 @@
+{
+  "id": "11864",
+  "title": "domain_structure.png",
+  "space": {
+    "key": "COMPRESS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11864"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "swipe-food",
+    "github_repo": "backend"
+  },
+  "_links": {
+    "download": "/download/COMPRESS/domain_structure.png"
+  },
+  "created_date": "2025-05-05",
+  "author_display": "swipe-food/backend"
+}

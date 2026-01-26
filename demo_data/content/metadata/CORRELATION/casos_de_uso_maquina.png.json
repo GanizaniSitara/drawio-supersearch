@@ -1,0 +1,22 @@
+{
+  "id": "17886",
+  "title": "casos_de_uso_maquina.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17886"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "Diego-Hiriart",
+    "github_repo": "Capstone_Hiriart-Corales-Samaniego"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/casos_de_uso_maquina.png"
+  },
+  "created_date": "2025-11-23",
+  "author_display": "Diego-Hiriart/Capstone_Hiriart-Corales-Samaniego"
+}

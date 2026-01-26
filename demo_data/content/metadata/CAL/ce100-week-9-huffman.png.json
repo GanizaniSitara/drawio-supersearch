@@ -1,0 +1,22 @@
+{
+  "id": "11576",
+  "title": "ce100-week-9-huffman.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11576"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "ucoruh",
+    "github_repo": "ce100-algorithms-and-programming-II"
+  },
+  "_links": {
+    "download": "/download/CAL/ce100-week-9-huffman.png"
+  },
+  "created_date": "2024-10-02",
+  "author_display": "ucoruh/ce100-algorithms-and-programming-II"
+}

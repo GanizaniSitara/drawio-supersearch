@@ -1,0 +1,22 @@
+{
+  "id": "15540",
+  "title": "decentralized_access_control.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15540"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "lorenzHeinrich",
+    "github_repo": "proseminar-data-sovereignty"
+  },
+  "_links": {
+    "download": "/download/LISTED/decentralized_access_control.png"
+  },
+  "created_date": "2024-06-15",
+  "author_display": "lorenzHeinrich/proseminar-data-sovereignty"
+}

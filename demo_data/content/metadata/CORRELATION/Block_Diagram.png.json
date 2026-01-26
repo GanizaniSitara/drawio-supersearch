@@ -1,0 +1,22 @@
+{
+  "id": "17891",
+  "title": "block_diagram.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17891"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "adrianiainlam",
+    "github_repo": "facial-landmarks-for-cubism"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/block_diagram.png"
+  },
+  "created_date": "2024-07-02",
+  "author_display": "adrianiainlam/facial-landmarks-for-cubism"
+}

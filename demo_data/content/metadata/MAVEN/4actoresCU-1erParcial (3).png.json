@@ -1,0 +1,22 @@
+{
+  "id": "13835",
+  "title": "4actoresCU-1erParcial (3).png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13835"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "naihloan",
+    "github_repo": "analista-escmb"
+  },
+  "_links": {
+    "download": "/download/MAVEN/4actoresCU-1erParcial (3).png"
+  },
+  "created_date": "2024-12-22",
+  "author_display": "naihloan/analista-escmb"
+}

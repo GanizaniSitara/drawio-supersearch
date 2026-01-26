@@ -1,0 +1,22 @@
+{
+  "id": "19961",
+  "title": "bspZweigueberdeckung.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19961"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "jtuttas",
+    "github_repo": "evplan"
+  },
+  "_links": {
+    "download": "/download/SEITE/bspZweigueberdeckung.png"
+  },
+  "created_date": "2024-08-13",
+  "author_display": "jtuttas/evplan"
+}

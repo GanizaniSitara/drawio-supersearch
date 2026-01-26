@@ -1,0 +1,22 @@
+{
+  "id": "20270",
+  "title": "Bytecode circuit && Tx circuit.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20270"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "0xyicheng",
+    "github_repo": "a-research-diagram"
+  },
+  "_links": {
+    "download": "/download/OIL/Bytecode circuit && Tx circuit.png"
+  },
+  "created_date": "2025-02-20",
+  "author_display": "0xyicheng/a-research-diagram"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "13606",
+  "title": "DCM.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13606"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "brookicv",
+    "github_repo": "GolombCode"
+  },
+  "_links": {
+    "download": "/download/MAVEN/DCM.png"
+  },
+  "created_date": "2025-04-23",
+  "author_display": "brookicv/GolombCode"
+}

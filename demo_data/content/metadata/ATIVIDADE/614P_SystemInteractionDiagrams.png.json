@@ -1,0 +1,22 @@
+{
+  "id": "10133",
+  "title": "614P_SystemInteractionDiagrams.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10133"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "Dele-Oyelese",
+    "github_repo": "ENSF614_Project"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/614P_SystemInteractionDiagrams.png"
+  },
+  "created_date": "2025-05-19",
+  "author_display": "Dele-Oyelese/ENSF614_Project"
+}

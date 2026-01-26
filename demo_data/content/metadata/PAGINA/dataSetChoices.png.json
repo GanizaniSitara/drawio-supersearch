@@ -1,0 +1,22 @@
+{
+  "id": "9444",
+  "title": "dataSetChoices.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9444"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "TheDarkTrumpet",
+    "github_repo": "BAIS-6040-0EXP-Sum2021"
+  },
+  "_links": {
+    "download": "/download/PAGINA/dataSetChoices.png"
+  },
+  "created_date": "2024-06-23",
+  "author_display": "TheDarkTrumpet/BAIS-6040-0EXP-Sum2021"
+}

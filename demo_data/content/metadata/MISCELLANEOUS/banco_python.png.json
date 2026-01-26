@@ -1,0 +1,22 @@
+{
+  "id": "1304",
+  "title": "banco_python.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1304"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "LuisGomes18",
+    "github_repo": "Banco_Python"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/banco_python.png"
+  },
+  "created_date": "2025-09-26",
+  "author_display": "LuisGomes18/Banco_Python"
+}

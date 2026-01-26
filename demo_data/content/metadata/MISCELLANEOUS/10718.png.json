@@ -1,0 +1,22 @@
+{
+  "id": "1014",
+  "title": "10718.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1014"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Baebin",
+    "github_repo": "Baekjoon"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/10718.png"
+  },
+  "created_date": "2024-09-25",
+  "author_display": "Baebin/Baekjoon"
+}

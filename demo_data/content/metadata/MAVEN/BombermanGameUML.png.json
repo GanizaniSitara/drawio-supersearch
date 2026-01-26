@@ -1,0 +1,22 @@
+{
+  "id": "13627",
+  "title": "BombermanGameUML.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13627"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "huudong03uet",
+    "github_repo": "BombermanGame"
+  },
+  "_links": {
+    "download": "/download/MAVEN/BombermanGameUML.png"
+  },
+  "created_date": "2024-07-10",
+  "author_display": "huudong03uet/BombermanGame"
+}

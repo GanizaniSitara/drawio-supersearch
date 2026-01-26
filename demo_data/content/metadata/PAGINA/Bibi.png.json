@@ -1,0 +1,22 @@
+{
+  "id": "9328",
+  "title": "Bibi.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9328"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "DmitriySidyakin",
+    "github_repo": "School-IT"
+  },
+  "_links": {
+    "download": "/download/PAGINA/Bibi.png"
+  },
+  "created_date": "2025-03-09",
+  "author_display": "DmitriySidyakin/School-IT"
+}

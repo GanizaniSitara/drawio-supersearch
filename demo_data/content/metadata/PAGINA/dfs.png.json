@@ -1,0 +1,22 @@
+{
+  "id": "9442",
+  "title": "dfs.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9442"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "Dapizz01",
+    "github_repo": "Appunti_algoritmi"
+  },
+  "_links": {
+    "download": "/download/PAGINA/dfs.png"
+  },
+  "created_date": "2025-05-15",
+  "author_display": "Dapizz01/Appunti_algoritmi"
+}

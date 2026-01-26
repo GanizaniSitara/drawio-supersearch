@@ -1,0 +1,22 @@
+{
+  "id": "11949",
+  "title": "CACHE-SET.png",
+  "space": {
+    "key": "COMPRESS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11949"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "BiscuitOS",
+    "github_repo": "HardStack"
+  },
+  "_links": {
+    "download": "/download/COMPRESS/CACHE-SET.png"
+  },
+  "created_date": "2024-11-16",
+  "author_display": "BiscuitOS/HardStack"
+}

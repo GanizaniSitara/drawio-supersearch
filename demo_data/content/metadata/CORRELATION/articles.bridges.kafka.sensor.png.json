@@ -1,0 +1,22 @@
+{
+  "id": "17940",
+  "title": "articles.bridges.kafka.sensor.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17940"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "jesperancinha",
+    "github_repo": "bridges-surveillance-story"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/articles.bridges.kafka.sensor.png"
+  },
+  "created_date": "2024-06-20",
+  "author_display": "jesperancinha/bridges-surveillance-story"
+}

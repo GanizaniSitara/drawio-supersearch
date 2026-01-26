@@ -1,0 +1,22 @@
+{
+  "id": "9324",
+  "title": "catalogo-de-actores.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9324"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Polo123456789",
+    "github_repo": "Universidad"
+  },
+  "_links": {
+    "download": "/download/PAGINA/catalogo-de-actores.png"
+  },
+  "created_date": "2024-04-24",
+  "author_display": "Polo123456789/Universidad"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1993",
+  "title": "configurator_diagram.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1993"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "qmk",
+    "github_repo": "qmk_firmware"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/configurator_diagram.png"
+  },
+  "created_date": "2025-09-20",
+  "author_display": "qmk/qmk_firmware"
+}

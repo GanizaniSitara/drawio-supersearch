@@ -1,0 +1,22 @@
+{
+  "id": "17925",
+  "title": "dibujo.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17925"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "rubences",
+    "github_repo": "POO_Segunda_Parte"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/dibujo.png"
+  },
+  "created_date": "2025-09-15",
+  "author_display": "rubences/POO_Segunda_Parte"
+}

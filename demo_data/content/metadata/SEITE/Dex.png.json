@@ -1,0 +1,22 @@
+{
+  "id": "20075",
+  "title": "Dex.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20075"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "NFT-com",
+    "github_repo": "contracts"
+  },
+  "_links": {
+    "download": "/download/SEITE/Dex.png"
+  },
+  "created_date": "2025-09-14",
+  "author_display": "NFT-com/contracts"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9406",
+  "title": "BYOAI Architectrue Diagram.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9406"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "QAlexBall",
+    "github_repo": "diagrams"
+  },
+  "_links": {
+    "download": "/download/PAGINA/BYOAI Architectrue Diagram.png"
+  },
+  "created_date": "2024-02-01",
+  "author_display": "QAlexBall/diagrams"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "23727",
+  "title": "DetectionLab.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23727"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Xp101T7",
+    "github_repo": "Xp101T7.github.io"
+  },
+  "_links": {
+    "download": "/download/ROCK/DetectionLab.png"
+  },
+  "created_date": "2024-04-18",
+  "author_display": "Xp101T7/Xp101T7.github.io"
+}

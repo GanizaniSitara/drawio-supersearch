@@ -1,0 +1,22 @@
+{
+  "id": "9722",
+  "title": "301-subdomain-redirect.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9722"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "jeeshofone",
+    "github_repo": "Public-AWS-Website-Patterns"
+  },
+  "_links": {
+    "download": "/download/SELESAI/301-subdomain-redirect.png"
+  },
+  "created_date": "2026-01-11",
+  "author_display": "jeeshofone/Public-AWS-Website-Patterns"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9392",
+  "title": "19.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9392"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "aixgl",
+    "github_repo": "gobook"
+  },
+  "_links": {
+    "download": "/download/PAGINA/19.png"
+  },
+  "created_date": "2025-02-22",
+  "author_display": "aixgl/gobook"
+}

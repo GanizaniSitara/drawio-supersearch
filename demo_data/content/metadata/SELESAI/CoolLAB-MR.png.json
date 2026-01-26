@@ -1,0 +1,22 @@
+{
+  "id": "9758",
+  "title": "CoolLAB-MR.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9758"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "Programming-Technology-ALG",
+    "github_repo": "UML_pull"
+  },
+  "_links": {
+    "download": "/download/SELESAI/CoolLAB-MR.png"
+  },
+  "created_date": "2025-01-04",
+  "author_display": "Programming-Technology-ALG/UML_pull"
+}

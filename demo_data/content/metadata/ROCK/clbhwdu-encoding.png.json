@@ -1,0 +1,22 @@
+{
+  "id": "23696",
+  "title": "clbhwdu-encoding.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23696"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "capt-hb",
+    "github_repo": "thesis"
+  },
+  "_links": {
+    "download": "/download/ROCK/clbhwdu-encoding.png"
+  },
+  "created_date": "2024-05-24",
+  "author_display": "capt-hb/thesis"
+}

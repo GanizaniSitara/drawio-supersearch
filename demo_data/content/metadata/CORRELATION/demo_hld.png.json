@@ -1,0 +1,22 @@
+{
+  "id": "17836",
+  "title": "demo_hld.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17836"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "thierryturpin",
+    "github_repo": "msk-connect"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/demo_hld.png"
+  },
+  "created_date": "2024-09-03",
+  "author_display": "thierryturpin/msk-connect"
+}

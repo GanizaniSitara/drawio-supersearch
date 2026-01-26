@@ -1,0 +1,22 @@
+{
+  "id": "11534",
+  "title": "dns-relational-schema.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11534"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "kiriushkin",
+    "github_repo": "dnsish-relational-schema"
+  },
+  "_links": {
+    "download": "/download/CAL/dns-relational-schema.png"
+  },
+  "created_date": "2024-05-14",
+  "author_display": "kiriushkin/dnsish-relational-schema"
+}

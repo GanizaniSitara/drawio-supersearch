@@ -1,0 +1,22 @@
+{
+  "id": "2112",
+  "title": "cloudlab.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2112"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "ajcborges",
+    "github_repo": "devsecops-tactical-workbook"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/cloudlab.png"
+  },
+  "created_date": "2025-08-12",
+  "author_display": "ajcborges/devsecops-tactical-workbook"
+}

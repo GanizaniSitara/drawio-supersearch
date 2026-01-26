@@ -1,0 +1,22 @@
+{
+  "id": "11678",
+  "title": "cqrs-es.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11678"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "tienlx97",
+    "github_repo": "amaterasu"
+  },
+  "_links": {
+    "download": "/download/CAL/cqrs-es.png"
+  },
+  "created_date": "2025-05-22",
+  "author_display": "tienlx97/amaterasu"
+}

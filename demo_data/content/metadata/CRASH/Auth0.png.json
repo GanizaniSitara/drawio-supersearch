@@ -1,0 +1,22 @@
+{
+  "id": "12491",
+  "title": "Auth0.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12491"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "sdwvit",
+    "github_repo": "learn-json-web-tokens"
+  },
+  "_links": {
+    "download": "/download/CRASH/Auth0.png"
+  },
+  "created_date": "2024-11-06",
+  "author_display": "sdwvit/learn-json-web-tokens"
+}

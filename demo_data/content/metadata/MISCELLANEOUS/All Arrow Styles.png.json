@@ -1,0 +1,22 @@
+{
+  "id": "1318",
+  "title": "All Arrow Styles.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1318"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "MerrimanInd",
+    "github_repo": "drawpyo"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/All Arrow Styles.png"
+  },
+  "created_date": "2024-05-14",
+  "author_display": "MerrimanInd/drawpyo"
+}

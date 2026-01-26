@@ -1,0 +1,22 @@
+{
+  "id": "20226",
+  "title": "Ages_science.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20226"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "WiebedeBoer",
+    "github_repo": "medieval"
+  },
+  "_links": {
+    "download": "/download/OIL/Ages_science.png"
+  },
+  "created_date": "2024-06-07",
+  "author_display": "WiebedeBoer/medieval"
+}

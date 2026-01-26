@@ -1,0 +1,22 @@
+{
+  "id": "1400",
+  "title": "BT1.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1400"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "hungdt31",
+    "github_repo": "Dev-Study"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/BT1.png"
+  },
+  "created_date": "2024-03-05",
+  "author_display": "hungdt31/Dev-Study"
+}

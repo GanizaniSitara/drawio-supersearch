@@ -1,0 +1,22 @@
+{
+  "id": "23724",
+  "title": "articles.mos.ddd.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23724"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "jesperancinha",
+    "github_repo": "moving-objects-service-root"
+  },
+  "_links": {
+    "download": "/download/ROCK/articles.mos.ddd.png"
+  },
+  "created_date": "2025-12-26",
+  "author_display": "jesperancinha/moving-objects-service-root"
+}

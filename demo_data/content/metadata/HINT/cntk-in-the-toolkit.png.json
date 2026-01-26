@@ -1,0 +1,22 @@
+{
+  "id": "20924",
+  "title": "cntk-in-the-toolkit.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20924"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "cloud-native-toolkit",
+    "github_repo": "site-developer-guide"
+  },
+  "_links": {
+    "download": "/download/HINT/cntk-in-the-toolkit.png"
+  },
+  "created_date": "2025-08-13",
+  "author_display": "cloud-native-toolkit/site-developer-guide"
+}

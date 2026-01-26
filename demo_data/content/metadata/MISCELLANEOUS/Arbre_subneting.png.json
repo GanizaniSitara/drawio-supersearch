@@ -1,0 +1,22 @@
+{
+  "id": "1379",
+  "title": "Arbre_subneting.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1379"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Aniol0012",
+    "github_repo": "Xarxes-Practiques"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/Arbre_subneting.png"
+  },
+  "created_date": "2024-03-29",
+  "author_display": "Aniol0012/Xarxes-Practiques"
+}

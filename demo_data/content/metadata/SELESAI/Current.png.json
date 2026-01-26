@@ -1,0 +1,22 @@
+{
+  "id": "9691",
+  "title": "Current.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9691"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "OmarDGreat",
+    "github_repo": "PORTFOLIO-Omar-Daghestani"
+  },
+  "_links": {
+    "download": "/download/SELESAI/Current.png"
+  },
+  "created_date": "2025-09-11",
+  "author_display": "OmarDGreat/PORTFOLIO-Omar-Daghestani"
+}

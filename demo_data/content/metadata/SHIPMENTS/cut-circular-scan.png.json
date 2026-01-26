@@ -1,0 +1,22 @@
+{
+  "id": "2133",
+  "title": "cut-circular-scan.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2133"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "quangloc99",
+    "github_repo": "quangloc99.github.io"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/cut-circular-scan.png"
+  },
+  "created_date": "2025-09-26",
+  "author_display": "quangloc99/quangloc99.github.io"
+}

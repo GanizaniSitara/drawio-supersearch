@@ -1,0 +1,22 @@
+{
+  "id": "15535",
+  "title": "convlstm_seq2seq.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15535"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "dzhv",
+    "github_repo": "Spatio-Temporal-mobile-traffic-forecasting"
+  },
+  "_links": {
+    "download": "/download/LISTED/convlstm_seq2seq.png"
+  },
+  "created_date": "2025-12-14",
+  "author_display": "dzhv/Spatio-Temporal-mobile-traffic-forecasting"
+}

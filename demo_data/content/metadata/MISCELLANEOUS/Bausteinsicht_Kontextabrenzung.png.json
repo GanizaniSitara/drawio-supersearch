@@ -1,0 +1,22 @@
+{
+  "id": "1414",
+  "title": "Bausteinsicht_Kontextabrenzung.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1414"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "Christian-2003",
+    "github_repo": "CrInGE"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/Bausteinsicht_Kontextabrenzung.png"
+  },
+  "created_date": "2024-06-30",
+  "author_display": "Christian-2003/CrInGE"
+}

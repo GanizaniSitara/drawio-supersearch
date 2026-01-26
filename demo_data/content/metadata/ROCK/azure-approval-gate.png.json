@@ -1,0 +1,22 @@
+{
+  "id": "24024",
+  "title": "azure-approval-gate.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24024"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "ascdso2020",
+    "github_repo": "ascdso-cloud-examples"
+  },
+  "_links": {
+    "download": "/download/ROCK/azure-approval-gate.png"
+  },
+  "created_date": "2024-10-09",
+  "author_display": "ascdso2020/ascdso-cloud-examples"
+}

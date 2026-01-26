@@ -1,0 +1,22 @@
+{
+  "id": "1981",
+  "title": "basic-process.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1981"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Big-Life-Lab",
+    "github_repo": "bllflow"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/basic-process.png"
+  },
+  "created_date": "2024-07-25",
+  "author_display": "Big-Life-Lab/bllflow"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "11761",
+  "title": "bai1.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11761"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "mahiru7229",
+    "github_repo": "python-tutorial"
+  },
+  "_links": {
+    "download": "/download/CAL/bai1.png"
+  },
+  "created_date": "2025-08-27",
+  "author_display": "mahiru7229/python-tutorial"
+}

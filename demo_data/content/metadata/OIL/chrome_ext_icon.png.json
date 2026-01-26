@@ -1,0 +1,22 @@
+{
+  "id": "20269",
+  "title": "chrome_ext_icon.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20269"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "yukari-n-erb",
+    "github_repo": "enable-grammarly-on-deepl"
+  },
+  "_links": {
+    "download": "/download/OIL/chrome_ext_icon.png"
+  },
+  "created_date": "2025-03-16",
+  "author_display": "yukari-n-erb/enable-grammarly-on-deepl"
+}

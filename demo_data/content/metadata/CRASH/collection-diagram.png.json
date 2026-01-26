@@ -1,0 +1,22 @@
+{
+  "id": "12396",
+  "title": "collection-diagram.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12396"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "UKMNorge",
+    "github_repo": "UKMapi"
+  },
+  "_links": {
+    "download": "/download/CRASH/collection-diagram.png"
+  },
+  "created_date": "2025-03-30",
+  "author_display": "UKMNorge/UKMapi"
+}

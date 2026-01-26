@@ -1,0 +1,22 @@
+{
+  "id": "11552",
+  "title": "asset-manager.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11552"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "odpi",
+    "github_repo": "egeria-docs"
+  },
+  "_links": {
+    "download": "/download/CAL/asset-manager.png"
+  },
+  "created_date": "2024-10-19",
+  "author_display": "odpi/egeria-docs"
+}

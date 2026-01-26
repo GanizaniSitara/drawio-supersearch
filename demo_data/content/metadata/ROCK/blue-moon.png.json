@@ -1,0 +1,22 @@
+{
+  "id": "23597",
+  "title": "blue-moon.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23597"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "sbenstewart",
+    "github_repo": "the-content-writer"
+  },
+  "_links": {
+    "download": "/download/ROCK/blue-moon.png"
+  },
+  "created_date": "2025-11-12",
+  "author_display": "sbenstewart/the-content-writer"
+}

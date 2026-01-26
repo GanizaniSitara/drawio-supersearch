@@ -1,0 +1,22 @@
+{
+  "id": "9255",
+  "title": "Coppa America.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9255"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "justvicthor",
+    "github_repo": "justvicthor"
+  },
+  "_links": {
+    "download": "/download/PAGINA/Coppa America.png"
+  },
+  "created_date": "2025-03-04",
+  "author_display": "justvicthor/justvicthor"
+}

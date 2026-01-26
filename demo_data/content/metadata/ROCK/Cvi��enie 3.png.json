@@ -1,0 +1,22 @@
+{
+  "id": "23578",
+  "title": "Cvi\ufffd\ufffdenie 3.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23578"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Flyerbe-N",
+    "github_repo": "informatika2023"
+  },
+  "_links": {
+    "download": "/download/ROCK/Cvi\ufffd\ufffdenie 3.png"
+  },
+  "created_date": "2025-07-18",
+  "author_display": "Flyerbe-N/informatika2023"
+}

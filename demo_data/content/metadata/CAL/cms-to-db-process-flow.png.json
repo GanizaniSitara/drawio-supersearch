@@ -1,0 +1,22 @@
+{
+  "id": "11735",
+  "title": "cms-to-db-process-flow.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11735"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "DFE-Digital",
+    "github_repo": "sts-plan-technology-for-your-school"
+  },
+  "_links": {
+    "download": "/download/CAL/cms-to-db-process-flow.png"
+  },
+  "created_date": "2025-03-11",
+  "author_display": "DFE-Digital/sts-plan-technology-for-your-school"
+}

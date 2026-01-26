@@ -1,0 +1,22 @@
+{
+  "id": "12423",
+  "title": "App.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12423"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "AliceHincu",
+    "github_repo": "Theory-Concepts"
+  },
+  "_links": {
+    "download": "/download/CRASH/App.png"
+  },
+  "created_date": "2024-10-31",
+  "author_display": "AliceHincu/Theory-Concepts"
+}

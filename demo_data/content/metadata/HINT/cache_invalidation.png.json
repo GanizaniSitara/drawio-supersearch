@@ -1,0 +1,22 @@
+{
+  "id": "20768",
+  "title": "cache_invalidation.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20768"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "rokker1",
+    "github_repo": "yp-excel"
+  },
+  "_links": {
+    "download": "/download/HINT/cache_invalidation.png"
+  },
+  "created_date": "2024-06-25",
+  "author_display": "rokker1/yp-excel"
+}

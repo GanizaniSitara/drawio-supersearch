@@ -1,0 +1,22 @@
+{
+  "id": "2058",
+  "title": "CUC_algorithm.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2058"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "AuroraBoreas",
+    "github_repo": "pypj_sonic_pc"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/CUC_algorithm.png"
+  },
+  "created_date": "2024-02-04",
+  "author_display": "AuroraBoreas/pypj_sonic_pc"
+}

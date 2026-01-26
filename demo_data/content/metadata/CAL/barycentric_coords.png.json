@@ -1,0 +1,22 @@
+{
+  "id": "11724",
+  "title": "barycentric_coords.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11724"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "saikrn112",
+    "github_repo": "face-swap-rbe549"
+  },
+  "_links": {
+    "download": "/download/CAL/barycentric_coords.png"
+  },
+  "created_date": "2025-01-24",
+  "author_display": "saikrn112/face-swap-rbe549"
+}

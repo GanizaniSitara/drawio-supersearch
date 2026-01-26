@@ -1,0 +1,22 @@
+{
+  "id": "24104",
+  "title": "domain-event-PagamentoConfirmado.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24104"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "caelum",
+    "github_repo": "apostila-microservices-com-spring-cloud"
+  },
+  "_links": {
+    "download": "/download/ROCK/domain-event-PagamentoConfirmado.png"
+  },
+  "created_date": "2024-07-19",
+  "author_display": "caelum/apostila-microservices-com-spring-cloud"
+}

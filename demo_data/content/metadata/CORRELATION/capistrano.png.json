@@ -1,0 +1,22 @@
+{
+  "id": "17785",
+  "title": "capistrano.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17785"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "hiroki-it",
+    "github_repo": "tech-notebook-images"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/capistrano.png"
+  },
+  "created_date": "2025-02-16",
+  "author_display": "hiroki-it/tech-notebook-images"
+}

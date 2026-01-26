@@ -1,0 +1,22 @@
+{
+  "id": "2034",
+  "title": "bom_bom_bakudan.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2034"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "kittyofheaven",
+    "github_repo": "Bom-Bom-Bakudan"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/bom_bom_bakudan.png"
+  },
+  "created_date": "2024-03-08",
+  "author_display": "kittyofheaven/Bom-Bom-Bakudan"
+}

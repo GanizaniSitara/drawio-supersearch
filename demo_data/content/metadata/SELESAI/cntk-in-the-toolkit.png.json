@@ -1,0 +1,22 @@
+{
+  "id": "9735",
+  "title": "cntk-in-the-toolkit.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9735"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "IBM",
+    "github_repo": "Industry-4.0-Toolkit"
+  },
+  "_links": {
+    "download": "/download/SELESAI/cntk-in-the-toolkit.png"
+  },
+  "created_date": "2024-11-20",
+  "author_display": "IBM/Industry-4.0-Toolkit"
+}

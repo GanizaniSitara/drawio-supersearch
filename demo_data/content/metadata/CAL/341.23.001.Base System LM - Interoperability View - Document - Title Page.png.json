@@ -1,0 +1,22 @@
+{
+  "id": "11545",
+  "title": "341.23.001.Base System LM - Interoperability View - Document - Title Page.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11545"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "skysgh",
+    "github_repo": "SysDelivery.Guidance"
+  },
+  "_links": {
+    "download": "/download/CAL/341.23.001.Base System LM - Interoperability View - Document - Title Page.png"
+  },
+  "created_date": "2024-07-02",
+  "author_display": "skysgh/SysDelivery.Guidance"
+}

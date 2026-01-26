@@ -1,0 +1,22 @@
+{
+  "id": "13707",
+  "title": "ch2-batchOS.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13707"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "ToniXWD",
+    "github_repo": "ToniXWD.github.io"
+  },
+  "_links": {
+    "download": "/download/MAVEN/ch2-batchOS.png"
+  },
+  "created_date": "2024-09-28",
+  "author_display": "ToniXWD/ToniXWD.github.io"
+}

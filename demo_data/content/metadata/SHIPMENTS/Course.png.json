@@ -1,0 +1,22 @@
+{
+  "id": "2055",
+  "title": "Course.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2055"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "Hummel009",
+    "github_repo": "Computer-Systems-and-Networks"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Course.png"
+  },
+  "created_date": "2025-01-24",
+  "author_display": "Hummel009/Computer-Systems-and-Networks"
+}

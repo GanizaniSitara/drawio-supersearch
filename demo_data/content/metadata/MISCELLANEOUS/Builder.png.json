@@ -1,0 +1,22 @@
+{
+  "id": "1422",
+  "title": "Builder.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1422"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "matheus-rubio",
+    "github_repo": "DCC078-Builder"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/Builder.png"
+  },
+  "created_date": "2025-08-07",
+  "author_display": "matheus-rubio/DCC078-Builder"
+}

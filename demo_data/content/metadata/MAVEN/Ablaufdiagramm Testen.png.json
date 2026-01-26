@@ -1,0 +1,22 @@
+{
+  "id": "13654",
+  "title": "Ablaufdiagramm Testen.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13654"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "MrS-E",
+    "github_repo": "CKi"
+  },
+  "_links": {
+    "download": "/download/MAVEN/Ablaufdiagramm Testen.png"
+  },
+  "created_date": "2025-03-12",
+  "author_display": "MrS-E/CKi"
+}

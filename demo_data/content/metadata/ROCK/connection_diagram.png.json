@@ -1,0 +1,22 @@
+{
+  "id": "24027",
+  "title": "connection_diagram.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24027"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "Comet-Robotics",
+    "github_repo": "chessBot"
+  },
+  "_links": {
+    "download": "/download/ROCK/connection_diagram.png"
+  },
+  "created_date": "2025-04-17",
+  "author_display": "Comet-Robotics/chessBot"
+}

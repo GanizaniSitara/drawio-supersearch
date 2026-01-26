@@ -1,0 +1,22 @@
+{
+  "id": "19980",
+  "title": "always-comb-schematic.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19980"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "FDUCSLG",
+    "github_repo": "ICS-2021Spring-dev"
+  },
+  "_links": {
+    "download": "/download/SEITE/always-comb-schematic.png"
+  },
+  "created_date": "2025-04-11",
+  "author_display": "FDUCSLG/ICS-2021Spring-dev"
+}

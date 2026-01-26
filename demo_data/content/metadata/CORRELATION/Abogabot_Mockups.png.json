@@ -1,0 +1,22 @@
+{
+  "id": "17845",
+  "title": "Abogabot_Mockups.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17845"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "79155637",
+    "github_repo": "MisionFrontEnd"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/Abogabot_Mockups.png"
+  },
+  "created_date": "2025-01-21",
+  "author_display": "79155637/MisionFrontEnd"
+}

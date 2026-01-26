@@ -1,0 +1,22 @@
+{
+  "id": "23657",
+  "title": "dev quiz.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23657"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "natpoulson",
+    "github_repo": "dev-quiz"
+  },
+  "_links": {
+    "download": "/download/ROCK/dev quiz.png"
+  },
+  "created_date": "2024-03-02",
+  "author_display": "natpoulson/dev-quiz"
+}

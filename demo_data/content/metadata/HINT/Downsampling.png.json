@@ -1,0 +1,22 @@
+{
+  "id": "20974",
+  "title": "Downsampling.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20974"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "wodyy666",
+    "github_repo": "Microservices"
+  },
+  "_links": {
+    "download": "/download/HINT/Downsampling.png"
+  },
+  "created_date": "2024-02-22",
+  "author_display": "wodyy666/Microservices"
+}

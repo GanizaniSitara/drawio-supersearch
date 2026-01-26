@@ -1,0 +1,22 @@
+{
+  "id": "17884",
+  "title": "customerSequenceDiagram1.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17884"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "ahmedali724",
+    "github_repo": "Store-System"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/customerSequenceDiagram1.png"
+  },
+  "created_date": "2025-10-03",
+  "author_display": "ahmedali724/Store-System"
+}

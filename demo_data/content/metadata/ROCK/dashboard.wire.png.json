@@ -1,0 +1,22 @@
+{
+  "id": "24013",
+  "title": "dashboard.wire.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24013"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "mmineno",
+    "github_repo": "n-sma-prototype"
+  },
+  "_links": {
+    "download": "/download/ROCK/dashboard.wire.png"
+  },
+  "created_date": "2024-06-12",
+  "author_display": "mmineno/n-sma-prototype"
+}

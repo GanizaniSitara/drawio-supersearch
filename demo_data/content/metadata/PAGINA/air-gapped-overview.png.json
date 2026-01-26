@@ -1,0 +1,22 @@
+{
+  "id": "9320",
+  "title": "air-gapped-overview.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9320"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "IBM",
+    "github_repo": "cloud-pak-deployer"
+  },
+  "_links": {
+    "download": "/download/PAGINA/air-gapped-overview.png"
+  },
+  "created_date": "2025-02-17",
+  "author_display": "IBM/cloud-pak-deployer"
+}

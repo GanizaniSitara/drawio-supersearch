@@ -1,0 +1,22 @@
+{
+  "id": "17806",
+  "title": "cmake\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17806"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "MakeskyCode",
+    "github_repo": "cmake-demo"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/cmake\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.png"
+  },
+  "created_date": "2024-02-18",
+  "author_display": "MakeskyCode/cmake-demo"
+}

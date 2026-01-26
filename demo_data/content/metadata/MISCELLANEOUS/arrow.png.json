@@ -1,0 +1,22 @@
+{
+  "id": "1246",
+  "title": "arrow.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1246"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "nunezGlave",
+    "github_repo": "SpaceInvaders"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/arrow.png"
+  },
+  "created_date": "2025-01-02",
+  "author_display": "nunezGlave/SpaceInvaders"
+}

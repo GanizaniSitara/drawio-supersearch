@@ -1,0 +1,22 @@
+{
+  "id": "24100",
+  "title": "API.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24100"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "Akutchi",
+    "github_repo": "Website_Manga"
+  },
+  "_links": {
+    "download": "/download/ROCK/API.png"
+  },
+  "created_date": "2024-04-22",
+  "author_display": "Akutchi/Website_Manga"
+}

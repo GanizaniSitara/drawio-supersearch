@@ -1,0 +1,22 @@
+{
+  "id": "10022",
+  "title": "atividade-principal.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10022"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "raioxcape",
+    "github_repo": "raioxcape"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/atividade-principal.png"
+  },
+  "created_date": "2025-06-26",
+  "author_display": "raioxcape/raioxcape"
+}

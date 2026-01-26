@@ -1,0 +1,22 @@
+{
+  "id": "15409",
+  "title": "2fa-spring-boot-angular.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15409"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "ali-bouali",
+    "github_repo": "tfa-spring-boot-3-angular"
+  },
+  "_links": {
+    "download": "/download/LISTED/2fa-spring-boot-angular.png"
+  },
+  "created_date": "2025-04-16",
+  "author_display": "ali-bouali/tfa-spring-boot-3-angular"
+}

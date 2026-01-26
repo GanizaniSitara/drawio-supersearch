@@ -1,0 +1,22 @@
+{
+  "id": "1050",
+  "title": "1934.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1050"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Gyeongrok-Oh",
+    "github_repo": "boj"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/1934.png"
+  },
+  "created_date": "2025-05-19",
+  "author_display": "Gyeongrok-Oh/boj"
+}

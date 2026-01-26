@@ -1,0 +1,22 @@
+{
+  "id": "1946",
+  "title": "digram.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1946"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "pojokcodeid",
+    "github_repo": "php-tutorial"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/digram.png"
+  },
+  "created_date": "2024-03-19",
+  "author_display": "pojokcodeid/php-tutorial"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "13842",
+  "title": "cluster_ip.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13842"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "liupeng0518",
+    "github_repo": "yann-hexo-blog"
+  },
+  "_links": {
+    "download": "/download/MAVEN/cluster_ip.png"
+  },
+  "created_date": "2024-11-26",
+  "author_display": "liupeng0518/yann-hexo-blog"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2132",
+  "title": "crashed_spaceship.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2132"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "dannystaple",
+    "github_repo": "blasting_meteors"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/crashed_spaceship.png"
+  },
+  "created_date": "2024-09-27",
+  "author_display": "dannystaple/blasting_meteors"
+}

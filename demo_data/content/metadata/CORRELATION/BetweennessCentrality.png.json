@@ -1,0 +1,22 @@
+{
+  "id": "17809",
+  "title": "BetweennessCentrality.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17809"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Qantas94Heavy",
+    "github_repo": "COMP2521-20T3"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/BetweennessCentrality.png"
+  },
+  "created_date": "2025-10-21",
+  "author_display": "Qantas94Heavy/COMP2521-20T3"
+}

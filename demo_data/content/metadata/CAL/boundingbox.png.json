@@ -1,0 +1,22 @@
+{
+  "id": "11732",
+  "title": "boundingbox.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11732"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "donglinkang2021",
+    "github_repo": "Dive_into_cv_d2l_from_scratch"
+  },
+  "_links": {
+    "download": "/download/CAL/boundingbox.png"
+  },
+  "created_date": "2025-01-26",
+  "author_display": "donglinkang2021/Dive_into_cv_d2l_from_scratch"
+}

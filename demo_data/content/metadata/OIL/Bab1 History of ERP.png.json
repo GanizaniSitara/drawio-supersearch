@@ -1,0 +1,22 @@
+{
+  "id": "20342",
+  "title": "Bab1 History of ERP.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20342"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "ariesharry",
+    "github_repo": "S-ERP"
+  },
+  "_links": {
+    "download": "/download/OIL/Bab1 History of ERP.png"
+  },
+  "created_date": "2025-10-30",
+  "author_display": "ariesharry/S-ERP"
+}

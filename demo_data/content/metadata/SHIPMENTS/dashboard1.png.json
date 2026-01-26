@@ -1,0 +1,22 @@
+{
+  "id": "2045",
+  "title": "dashboard1.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2045"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "ramishshabbir",
+    "github_repo": "sqa"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/dashboard1.png"
+  },
+  "created_date": "2024-11-18",
+  "author_display": "ramishshabbir/sqa"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "19972",
+  "title": "cde.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19972"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "saman-core",
+    "github_repo": "docs"
+  },
+  "_links": {
+    "download": "/download/SEITE/cde.png"
+  },
+  "created_date": "2024-09-06",
+  "author_display": "saman-core/docs"
+}

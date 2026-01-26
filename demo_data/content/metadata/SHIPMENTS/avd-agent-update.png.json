@@ -1,0 +1,22 @@
+{
+  "id": "2054",
+  "title": "avd-agent-update.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2054"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "srozemuller",
+    "github_repo": "rozemuller_blog"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/avd-agent-update.png"
+  },
+  "created_date": "2024-05-06",
+  "author_display": "srozemuller/rozemuller_blog"
+}

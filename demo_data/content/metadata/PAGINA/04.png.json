@@ -1,0 +1,22 @@
+{
+  "id": "9415",
+  "title": "04.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9415"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "m-kraus",
+    "github_repo": "prometheus_training"
+  },
+  "_links": {
+    "download": "/download/PAGINA/04.png"
+  },
+  "created_date": "2024-04-22",
+  "author_display": "m-kraus/prometheus_training"
+}

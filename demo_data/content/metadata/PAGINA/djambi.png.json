@@ -1,0 +1,22 @@
+{
+  "id": "9321",
+  "title": "djambi.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9321"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "mabdelaal86",
+    "github_repo": "djambi"
+  },
+  "_links": {
+    "download": "/download/PAGINA/djambi.png"
+  },
+  "created_date": "2024-05-09",
+  "author_display": "mabdelaal86/djambi"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "12421",
+  "title": "Alerts-Design.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12421"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "DEFRA",
+    "github_repo": "ffc-diagrams"
+  },
+  "_links": {
+    "download": "/download/CRASH/Alerts-Design.png"
+  },
+  "created_date": "2024-07-16",
+  "author_display": "DEFRA/ffc-diagrams"
+}

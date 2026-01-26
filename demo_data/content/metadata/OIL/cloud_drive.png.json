@@ -1,0 +1,22 @@
+{
+  "id": "20340",
+  "title": "cloud_drive.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20340"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "lasarojc",
+    "github_repo": "ds_notes"
+  },
+  "_links": {
+    "download": "/download/OIL/cloud_drive.png"
+  },
+  "created_date": "2024-09-20",
+  "author_display": "lasarojc/ds_notes"
+}

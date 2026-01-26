@@ -1,0 +1,22 @@
+{
+  "id": "10195",
+  "title": "CSU06_UploadImagem.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10195"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "lucasgmagalhaes",
+    "github_repo": "Achei"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/CSU06_UploadImagem.png"
+  },
+  "created_date": "2025-04-07",
+  "author_display": "lucasgmagalhaes/Achei"
+}

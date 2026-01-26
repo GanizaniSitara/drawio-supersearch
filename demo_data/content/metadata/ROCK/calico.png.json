@@ -1,0 +1,22 @@
+{
+  "id": "23606",
+  "title": "calico.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23606"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "NatureLR",
+    "github_repo": "blog"
+  },
+  "_links": {
+    "download": "/download/ROCK/calico.png"
+  },
+  "created_date": "2025-07-14",
+  "author_display": "NatureLR/blog"
+}

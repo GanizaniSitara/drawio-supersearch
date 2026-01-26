@@ -1,0 +1,22 @@
+{
+  "id": "15449",
+  "title": "aroz version backup.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15449"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "tltangliang",
+    "github_repo": "arozos"
+  },
+  "_links": {
+    "download": "/download/LISTED/aroz version backup.png"
+  },
+  "created_date": "2025-02-18",
+  "author_display": "tltangliang/arozos"
+}

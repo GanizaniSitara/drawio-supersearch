@@ -1,0 +1,22 @@
+{
+  "id": "20314",
+  "title": "buffer-step-3.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20314"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "lsj9383",
+    "github_repo": "blog"
+  },
+  "_links": {
+    "download": "/download/OIL/buffer-step-3.png"
+  },
+  "created_date": "2024-03-26",
+  "author_display": "lsj9383/blog"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "11710",
+  "title": "AmogusCinemaUseCase.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11710"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "Doremi203",
+    "github_repo": "GrandCinemogus"
+  },
+  "_links": {
+    "download": "/download/CAL/AmogusCinemaUseCase.png"
+  },
+  "created_date": "2024-03-09",
+  "author_display": "Doremi203/GrandCinemogus"
+}

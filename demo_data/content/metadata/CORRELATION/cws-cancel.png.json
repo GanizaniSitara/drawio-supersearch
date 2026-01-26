@@ -1,0 +1,22 @@
+{
+  "id": "17722",
+  "title": "cws-cancel.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17722"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "addap",
+    "github_repo": "master-thesis"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/cws-cancel.png"
+  },
+  "created_date": "2025-08-31",
+  "author_display": "addap/master-thesis"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1871",
+  "title": "3glava.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1871"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "mbayzhanova",
+    "github_repo": "nyx_react_project"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/3glava.png"
+  },
+  "created_date": "2024-04-22",
+  "author_display": "mbayzhanova/nyx_react_project"
+}

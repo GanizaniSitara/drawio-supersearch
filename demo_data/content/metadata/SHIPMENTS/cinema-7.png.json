@@ -1,0 +1,22 @@
+{
+  "id": "2089",
+  "title": "cinema-7.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2089"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "filibuster-testing",
+    "github_repo": "filibuster-documentation"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/cinema-7.png"
+  },
+  "created_date": "2025-11-03",
+  "author_display": "filibuster-testing/filibuster-documentation"
+}

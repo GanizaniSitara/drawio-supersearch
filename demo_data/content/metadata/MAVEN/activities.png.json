@@ -1,0 +1,22 @@
+{
+  "id": "13622",
+  "title": "activities.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13622"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "Evolveum",
+    "github_repo": "midpoint"
+  },
+  "_links": {
+    "download": "/download/MAVEN/activities.png"
+  },
+  "created_date": "2025-04-08",
+  "author_display": "Evolveum/midpoint"
+}

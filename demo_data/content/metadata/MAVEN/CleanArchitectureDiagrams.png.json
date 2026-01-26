@@ -1,0 +1,22 @@
+{
+  "id": "13664",
+  "title": "CleanArchitectureDiagrams.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13664"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "LuisCarlosRojasTorres",
+    "github_repo": "Books"
+  },
+  "_links": {
+    "download": "/download/MAVEN/CleanArchitectureDiagrams.png"
+  },
+  "created_date": "2025-08-05",
+  "author_display": "LuisCarlosRojasTorres/Books"
+}

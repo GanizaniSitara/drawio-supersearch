@@ -1,0 +1,22 @@
+{
+  "id": "13850",
+  "title": "dapp-basic-architecture.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13850"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "gtoborges",
+    "github_repo": "pupilometro-ethereum-dapp"
+  },
+  "_links": {
+    "download": "/download/MAVEN/dapp-basic-architecture.png"
+  },
+  "created_date": "2024-03-09",
+  "author_display": "gtoborges/pupilometro-ethereum-dapp"
+}

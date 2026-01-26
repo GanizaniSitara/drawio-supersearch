@@ -1,0 +1,22 @@
+{
+  "id": "12397",
+  "title": "BLT_model_v1.1.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12397"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "edmizac",
+    "github_repo": "BLT_IBM-Model"
+  },
+  "_links": {
+    "download": "/download/CRASH/BLT_model_v1.1.png"
+  },
+  "created_date": "2025-03-17",
+  "author_display": "edmizac/BLT_IBM-Model"
+}

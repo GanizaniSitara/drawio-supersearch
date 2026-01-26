@@ -1,0 +1,22 @@
+{
+  "id": "12437",
+  "title": "ConnectionManagerInteractions.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12437"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "IntersectMBO",
+    "github_repo": "ouroboros-network"
+  },
+  "_links": {
+    "download": "/download/CRASH/ConnectionManagerInteractions.png"
+  },
+  "created_date": "2025-04-04",
+  "author_display": "IntersectMBO/ouroboros-network"
+}

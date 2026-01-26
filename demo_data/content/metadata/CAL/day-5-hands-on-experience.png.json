@@ -1,0 +1,22 @@
+{
+  "id": "11574",
+  "title": "day-5-hands-on-experience.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11574"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "PauliusMacernis",
+    "github_repo": "KnowledgeBase"
+  },
+  "_links": {
+    "download": "/download/CAL/day-5-hands-on-experience.png"
+  },
+  "created_date": "2024-01-29",
+  "author_display": "PauliusMacernis/KnowledgeBase"
+}

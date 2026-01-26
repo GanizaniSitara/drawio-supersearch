@@ -1,0 +1,22 @@
+{
+  "id": "2060",
+  "title": "BundleSendBuffer_create_buffer.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2060"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "PEASEC",
+    "github_repo": "LoRaWAN-DTN"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/BundleSendBuffer_create_buffer.png"
+  },
+  "created_date": "2024-06-11",
+  "author_display": "PEASEC/LoRaWAN-DTN"
+}

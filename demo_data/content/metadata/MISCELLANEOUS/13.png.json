@@ -1,0 +1,22 @@
+{
+  "id": "1339",
+  "title": "13.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1339"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "CNDvn",
+    "github_repo": "Learn-Microservice-with-NodeJS-and-React"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/13.png"
+  },
+  "created_date": "2024-06-03",
+  "author_display": "CNDvn/Learn-Microservice-with-NodeJS-and-React"
+}

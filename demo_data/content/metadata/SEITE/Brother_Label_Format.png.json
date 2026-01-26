@@ -1,0 +1,22 @@
+{
+  "id": "19993",
+  "title": "Brother_Label_Format.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19993"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "erichiller",
+    "github_repo": "inventory-manager-server"
+  },
+  "_links": {
+    "download": "/download/SEITE/Brother_Label_Format.png"
+  },
+  "created_date": "2025-08-06",
+  "author_display": "erichiller/inventory-manager-server"
+}

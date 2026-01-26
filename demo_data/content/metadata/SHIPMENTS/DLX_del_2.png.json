@@ -1,0 +1,22 @@
+{
+  "id": "2108",
+  "title": "DLX_del_2.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2108"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Tiphereth-A",
+    "github_repo": "Tiphereth-A.github.io"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/DLX_del_2.png"
+  },
+  "created_date": "2026-01-09",
+  "author_display": "Tiphereth-A/Tiphereth-A.github.io"
+}

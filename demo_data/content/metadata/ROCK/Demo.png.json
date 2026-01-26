@@ -1,0 +1,22 @@
+{
+  "id": "23715",
+  "title": "Demo.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23715"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Floreno12",
+    "github_repo": "Education"
+  },
+  "_links": {
+    "download": "/download/ROCK/Demo.png"
+  },
+  "created_date": "2025-05-10",
+  "author_display": "Floreno12/Education"
+}

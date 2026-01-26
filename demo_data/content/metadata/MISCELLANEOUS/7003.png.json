@@ -1,0 +1,22 @@
+{
+  "id": "1193",
+  "title": "7003.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1193"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "jackchen1210",
+    "github_repo": "7003"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/7003.png"
+  },
+  "created_date": "2025-11-13",
+  "author_display": "jackchen1210/7003"
+}

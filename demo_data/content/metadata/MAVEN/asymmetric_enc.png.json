@@ -1,0 +1,22 @@
+{
+  "id": "13659",
+  "title": "asymmetric_enc.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13659"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "aditya109",
+    "github_repo": "journey-CKA"
+  },
+  "_links": {
+    "download": "/download/MAVEN/asymmetric_enc.png"
+  },
+  "created_date": "2024-03-31",
+  "author_display": "aditya109/journey-CKA"
+}

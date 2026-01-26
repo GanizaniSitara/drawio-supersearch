@@ -1,0 +1,22 @@
+{
+  "id": "1409",
+  "title": "0011.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1409"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "codecopypaste-studio",
+    "github_repo": "Container"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/0011.png"
+  },
+  "created_date": "2026-01-04",
+  "author_display": "codecopypaste-studio/Container"
+}

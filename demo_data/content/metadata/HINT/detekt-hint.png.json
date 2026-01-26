@@ -1,0 +1,22 @@
+{
+  "id": "20772",
+  "title": "detekt-hint.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20772"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "Mkohm",
+    "github_repo": "detekt-hint"
+  },
+  "_links": {
+    "download": "/download/HINT/detekt-hint.png"
+  },
+  "created_date": "2025-11-27",
+  "author_display": "Mkohm/detekt-hint"
+}

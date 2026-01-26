@@ -1,0 +1,22 @@
+{
+  "id": "9362",
+  "title": "architecture_bus_simulation_fmu.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9362"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "modelica",
+    "github_repo": "fmi-ls-bus"
+  },
+  "_links": {
+    "download": "/download/PAGINA/architecture_bus_simulation_fmu.png"
+  },
+  "created_date": "2024-09-07",
+  "author_display": "modelica/fmi-ls-bus"
+}

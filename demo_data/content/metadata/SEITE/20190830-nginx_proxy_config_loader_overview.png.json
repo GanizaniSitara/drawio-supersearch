@@ -1,0 +1,22 @@
+{
+  "id": "20169",
+  "title": "20190830-nginx_proxy_config_loader_overview.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20169"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "Bayer-Group",
+    "github_repo": "COLID-Documentation"
+  },
+  "_links": {
+    "download": "/download/SEITE/20190830-nginx_proxy_config_loader_overview.png"
+  },
+  "created_date": "2025-12-26",
+  "author_display": "Bayer-Group/COLID-Documentation"
+}

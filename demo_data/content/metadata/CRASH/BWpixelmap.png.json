@@ -1,0 +1,22 @@
+{
+  "id": "12400",
+  "title": "BWpixelmap.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12400"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Mast3rwaf1z",
+    "github_repo": "p4"
+  },
+  "_links": {
+    "download": "/download/CRASH/BWpixelmap.png"
+  },
+  "created_date": "2025-03-08",
+  "author_display": "Mast3rwaf1z/p4"
+}

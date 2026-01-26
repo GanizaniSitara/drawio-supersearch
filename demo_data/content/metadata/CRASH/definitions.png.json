@@ -1,0 +1,22 @@
+{
+  "id": "12477",
+  "title": "definitions.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12477"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Evolveum",
+    "github_repo": "docs"
+  },
+  "_links": {
+    "download": "/download/CRASH/definitions.png"
+  },
+  "created_date": "2025-03-17",
+  "author_display": "Evolveum/docs"
+}

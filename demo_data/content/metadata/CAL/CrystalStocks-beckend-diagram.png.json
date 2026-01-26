@@ -1,0 +1,22 @@
+{
+  "id": "11751",
+  "title": "CrystalStocks-beckend-diagram.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11751"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "hongjie94",
+    "github_repo": "CrystalStocks-mern-backend"
+  },
+  "_links": {
+    "download": "/download/CAL/CrystalStocks-beckend-diagram.png"
+  },
+  "created_date": "2025-10-04",
+  "author_display": "hongjie94/CrystalStocks-mern-backend"
+}

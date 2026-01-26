@@ -1,0 +1,22 @@
+{
+  "id": "11621",
+  "title": "curriculum_loop.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11621"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "confusedSerge",
+    "github_repo": "pinn-curriculum-learning"
+  },
+  "_links": {
+    "download": "/download/CAL/curriculum_loop.png"
+  },
+  "created_date": "2024-05-10",
+  "author_display": "confusedSerge/pinn-curriculum-learning"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "13773",
+  "title": "DAG.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13773"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "ksd11",
+    "github_repo": "charts"
+  },
+  "_links": {
+    "download": "/download/MAVEN/DAG.png"
+  },
+  "created_date": "2025-03-24",
+  "author_display": "ksd11/charts"
+}

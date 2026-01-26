@@ -1,0 +1,22 @@
+{
+  "id": "9702",
+  "title": "before-work-in-three-branches-simulation.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9702"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "unahur-desapp",
+    "github_repo": "unahur-desapp-site"
+  },
+  "_links": {
+    "download": "/download/SELESAI/before-work-in-three-branches-simulation.png"
+  },
+  "created_date": "2024-12-26",
+  "author_display": "unahur-desapp/unahur-desapp-site"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "19989",
+  "title": "deepvm-mem-block-structure-sorted-block.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19989"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "deeplang-org",
+    "github_repo": "deeplang"
+  },
+  "_links": {
+    "download": "/download/SEITE/deepvm-mem-block-structure-sorted-block.png"
+  },
+  "created_date": "2024-08-01",
+  "author_display": "deeplang-org/deeplang"
+}

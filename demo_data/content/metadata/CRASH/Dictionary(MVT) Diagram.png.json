@@ -1,0 +1,22 @@
+{
+  "id": "12348",
+  "title": "Dictionary(MVT) Diagram.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12348"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "CO-ADD",
+    "github_repo": "adjCOADD"
+  },
+  "_links": {
+    "download": "/download/CRASH/Dictionary(MVT) Diagram.png"
+  },
+  "created_date": "2025-11-24",
+  "author_display": "CO-ADD/adjCOADD"
+}

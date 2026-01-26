@@ -1,0 +1,22 @@
+{
+  "id": "1307",
+  "title": "AufgabeFunktionen.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1307"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Xairooo",
+    "github_repo": "pap-test"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/AufgabeFunktionen.png"
+  },
+  "created_date": "2024-09-18",
+  "author_display": "Xairooo/pap-test"
+}

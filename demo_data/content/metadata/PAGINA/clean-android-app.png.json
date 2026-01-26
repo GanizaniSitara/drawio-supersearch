@@ -1,0 +1,22 @@
+{
+  "id": "9412",
+  "title": "clean-android-app.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9412"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "NeoSOFT-Technologies",
+    "github_repo": "mobile-android"
+  },
+  "_links": {
+    "download": "/download/PAGINA/clean-android-app.png"
+  },
+  "created_date": "2025-10-25",
+  "author_display": "NeoSOFT-Technologies/mobile-android"
+}

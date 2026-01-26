@@ -1,0 +1,22 @@
+{
+  "id": "17818",
+  "title": "base-gradle-modules.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17818"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "rico-projects",
+    "github_repo": "rico"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/base-gradle-modules.png"
+  },
+  "created_date": "2025-07-04",
+  "author_display": "rico-projects/rico"
+}

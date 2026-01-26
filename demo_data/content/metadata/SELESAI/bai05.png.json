@@ -1,0 +1,22 @@
+{
+  "id": "9616",
+  "title": "bai05.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9616"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "KhanhNguyen9872",
+    "github_repo": "DH_Gia_Dinh_K16"
+  },
+  "_links": {
+    "download": "/download/SELESAI/bai05.png"
+  },
+  "created_date": "2025-05-31",
+  "author_display": "KhanhNguyen9872/DH_Gia_Dinh_K16"
+}

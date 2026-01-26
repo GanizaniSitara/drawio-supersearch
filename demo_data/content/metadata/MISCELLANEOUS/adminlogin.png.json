@@ -1,0 +1,22 @@
+{
+  "id": "1368",
+  "title": "adminlogin.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1368"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "KevinHoxhalli",
+    "github_repo": "Group4"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/adminlogin.png"
+  },
+  "created_date": "2025-09-07",
+  "author_display": "KevinHoxhalli/Group4"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "19958",
+  "title": "Automatisierte Ablaufsteuerung.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19958"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "INCYDE-GmbH",
+    "github_repo": "attackgraphs"
+  },
+  "_links": {
+    "download": "/download/SEITE/Automatisierte Ablaufsteuerung.png"
+  },
+  "created_date": "2024-09-09",
+  "author_display": "INCYDE-GmbH/attackgraphs"
+}

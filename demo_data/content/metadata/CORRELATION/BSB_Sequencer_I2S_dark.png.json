@@ -1,0 +1,22 @@
+{
+  "id": "17854",
+  "title": "BSB_Sequencer_I2S_dark.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17854"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "s-grundner",
+    "github_repo": "HWEP-Sequencer"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/BSB_Sequencer_I2S_dark.png"
+  },
+  "created_date": "2025-03-10",
+  "author_display": "s-grundner/HWEP-Sequencer"
+}

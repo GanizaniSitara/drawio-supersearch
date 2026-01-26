@@ -1,0 +1,22 @@
+{
+  "id": "2027",
+  "title": "Asdf.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2027"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "Phil-Win",
+    "github_repo": "GradleTest"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Asdf.png"
+  },
+  "created_date": "2024-09-05",
+  "author_display": "Phil-Win/GradleTest"
+}

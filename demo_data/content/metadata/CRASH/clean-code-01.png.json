@@ -1,0 +1,22 @@
+{
+  "id": "12404",
+  "title": "clean-code-01.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12404"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "redheads",
+    "github_repo": "clean-code-csharp"
+  },
+  "_links": {
+    "download": "/download/CRASH/clean-code-01.png"
+  },
+  "created_date": "2026-01-13",
+  "author_display": "redheads/clean-code-csharp"
+}

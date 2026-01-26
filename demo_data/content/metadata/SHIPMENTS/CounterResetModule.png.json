@@ -1,0 +1,22 @@
+{
+  "id": "1904",
+  "title": "CounterResetModule.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1904"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "softspiders",
+    "github_repo": "ca-react-rest-api-starter"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/CounterResetModule.png"
+  },
+  "created_date": "2024-11-25",
+  "author_display": "softspiders/ca-react-rest-api-starter"
+}

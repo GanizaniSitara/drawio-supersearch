@@ -1,0 +1,22 @@
+{
+  "id": "11959",
+  "title": "board.png",
+  "space": {
+    "key": "COMPRESS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11959"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "Malvin222",
+    "github_repo": "study"
+  },
+  "_links": {
+    "download": "/download/COMPRESS/board.png"
+  },
+  "created_date": "2025-06-23",
+  "author_display": "Malvin222/study"
+}

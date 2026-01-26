@@ -1,0 +1,22 @@
+{
+  "id": "12337",
+  "title": "Clusters.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12337"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "KTH-SSAS",
+    "github_repo": "pentest-SLR-appendix"
+  },
+  "_links": {
+    "download": "/download/CRASH/Clusters.png"
+  },
+  "created_date": "2024-08-09",
+  "author_display": "KTH-SSAS/pentest-SLR-appendix"
+}

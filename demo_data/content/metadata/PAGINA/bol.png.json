@@ -1,0 +1,22 @@
+{
+  "id": "9249",
+  "title": "bol.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9249"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "StefanRolink",
+    "github_repo": "AdIAR_Programmeren2_dictaat"
+  },
+  "_links": {
+    "download": "/download/PAGINA/bol.png"
+  },
+  "created_date": "2025-08-05",
+  "author_display": "StefanRolink/AdIAR_Programmeren2_dictaat"
+}

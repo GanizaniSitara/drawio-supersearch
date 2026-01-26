@@ -1,0 +1,22 @@
+{
+  "id": "13770",
+  "title": "current_pj_env.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13770"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "reizist",
+    "github_repo": "blog.reizist.com"
+  },
+  "_links": {
+    "download": "/download/MAVEN/current_pj_env.png"
+  },
+  "created_date": "2025-02-13",
+  "author_display": "reizist/blog.reizist.com"
+}

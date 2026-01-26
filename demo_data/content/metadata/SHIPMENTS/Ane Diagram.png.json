@@ -1,0 +1,22 @@
+{
+  "id": "2025",
+  "title": "Ane Diagram.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2025"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "MarczalTSIGP",
+    "github_repo": "TSI31C-Flowcharts"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Ane Diagram.png"
+  },
+  "created_date": "2024-10-05",
+  "author_display": "MarczalTSIGP/TSI31C-Flowcharts"
+}

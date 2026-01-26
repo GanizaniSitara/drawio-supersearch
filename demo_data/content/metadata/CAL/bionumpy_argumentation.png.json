@@ -1,0 +1,22 @@
+{
+  "id": "11587",
+  "title": "bionumpy_argumentation.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11587"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "bionumpy",
+    "github_repo": "bionumpy"
+  },
+  "_links": {
+    "download": "/download/CAL/bionumpy_argumentation.png"
+  },
+  "created_date": "2024-04-21",
+  "author_display": "bionumpy/bionumpy"
+}

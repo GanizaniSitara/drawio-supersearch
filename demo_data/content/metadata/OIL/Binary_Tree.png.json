@@ -1,0 +1,22 @@
+{
+  "id": "20354",
+  "title": "Binary_Tree.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20354"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "jcausey-astate",
+    "github_repo": "CS50x2_lecture_notes"
+  },
+  "_links": {
+    "download": "/download/OIL/Binary_Tree.png"
+  },
+  "created_date": "2025-05-18",
+  "author_display": "jcausey-astate/CS50x2_lecture_notes"
+}

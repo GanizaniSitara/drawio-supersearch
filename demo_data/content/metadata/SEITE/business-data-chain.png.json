@@ -1,0 +1,22 @@
+{
+  "id": "19981",
+  "title": "business-data-chain.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19981"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "dantezhao",
+    "github_repo": "data-warehouse"
+  },
+  "_links": {
+    "download": "/download/SEITE/business-data-chain.png"
+  },
+  "created_date": "2025-02-13",
+  "author_display": "dantezhao/data-warehouse"
+}

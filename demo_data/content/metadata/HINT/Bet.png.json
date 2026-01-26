@@ -1,0 +1,22 @@
+{
+  "id": "20927",
+  "title": "Bet.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20927"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "GawronDev",
+    "github_repo": "lottery-web-app"
+  },
+  "_links": {
+    "download": "/download/HINT/Bet.png"
+  },
+  "created_date": "2024-03-23",
+  "author_display": "GawronDev/lottery-web-app"
+}

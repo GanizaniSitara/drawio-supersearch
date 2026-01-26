@@ -1,0 +1,22 @@
+{
+  "id": "1952",
+  "title": "BFS.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1952"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Wandalen",
+    "github_repo": "wGraphExtra"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/BFS.png"
+  },
+  "created_date": "2025-08-26",
+  "author_display": "Wandalen/wGraphExtra"
+}

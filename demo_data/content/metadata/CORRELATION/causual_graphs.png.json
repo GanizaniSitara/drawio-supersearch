@@ -1,0 +1,22 @@
+{
+  "id": "17691",
+  "title": "causual_graphs.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17691"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "AlanGanem",
+    "github_repo": "MO444"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/causual_graphs.png"
+  },
+  "created_date": "2025-05-16",
+  "author_display": "AlanGanem/MO444"
+}

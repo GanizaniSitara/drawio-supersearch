@@ -1,0 +1,22 @@
+{
+  "id": "11749",
+  "title": "busticketreservation.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11749"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "DeepakSG-0210",
+    "github_repo": "bus-ticket-reservation-erd"
+  },
+  "_links": {
+    "download": "/download/CAL/busticketreservation.png"
+  },
+  "created_date": "2025-08-10",
+  "author_display": "DeepakSG-0210/bus-ticket-reservation-erd"
+}

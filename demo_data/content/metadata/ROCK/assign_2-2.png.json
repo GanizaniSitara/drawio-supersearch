@@ -1,0 +1,22 @@
+{
+  "id": "23533",
+  "title": "assign_2-2.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23533"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Ventura-CSV",
+    "github_repo": "assignment-2-2-DanielCruz45"
+  },
+  "_links": {
+    "download": "/download/ROCK/assign_2-2.png"
+  },
+  "created_date": "2024-11-30",
+  "author_display": "Ventura-CSV/assignment-2-2-DanielCruz45"
+}

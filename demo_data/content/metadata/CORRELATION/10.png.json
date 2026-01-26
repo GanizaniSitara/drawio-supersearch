@@ -1,0 +1,22 @@
+{
+  "id": "17823",
+  "title": "10.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17823"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "christseng89",
+    "github_repo": "Microservices-with-Node-JS-and-React"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/10.png"
+  },
+  "created_date": "2024-04-27",
+  "author_display": "christseng89/Microservices-with-Node-JS-and-React"
+}

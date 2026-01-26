@@ -1,0 +1,22 @@
+{
+  "id": "11722",
+  "title": "downstream.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11722"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "lord-seam",
+    "github_repo": "dos-attack-lorawan-dataset"
+  },
+  "_links": {
+    "download": "/download/CAL/downstream.png"
+  },
+  "created_date": "2024-09-29",
+  "author_display": "lord-seam/dos-attack-lorawan-dataset"
+}

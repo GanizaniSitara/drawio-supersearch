@@ -1,0 +1,22 @@
+{
+  "id": "20854",
+  "title": "avl_tree_rotation.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20854"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "burpeesDaily",
+    "github_repo": "forest-python"
+  },
+  "_links": {
+    "download": "/download/HINT/avl_tree_rotation.png"
+  },
+  "created_date": "2024-07-02",
+  "author_display": "burpeesDaily/forest-python"
+}

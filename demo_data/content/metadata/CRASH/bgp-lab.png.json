@@ -1,0 +1,22 @@
+{
+  "id": "12401",
+  "title": "bgp-lab.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12401"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "cilium",
+    "github_repo": "cilium"
+  },
+  "_links": {
+    "download": "/download/CRASH/bgp-lab.png"
+  },
+  "created_date": "2025-04-03",
+  "author_display": "cilium/cilium"
+}

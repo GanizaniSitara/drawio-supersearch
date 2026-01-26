@@ -1,0 +1,22 @@
+{
+  "id": "11715",
+  "title": "Bienestar_social_UMSA.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11715"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "tomyivan",
+    "github_repo": "diagramas-DB"
+  },
+  "_links": {
+    "download": "/download/CAL/Bienestar_social_UMSA.png"
+  },
+  "created_date": "2024-09-12",
+  "author_display": "tomyivan/diagramas-DB"
+}

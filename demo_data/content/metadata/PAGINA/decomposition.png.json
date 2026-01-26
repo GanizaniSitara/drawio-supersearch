@@ -1,0 +1,22 @@
+{
+  "id": "9431",
+  "title": "decomposition.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9431"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "phyloviz",
+    "github_repo": "phyloDB"
+  },
+  "_links": {
+    "download": "/download/PAGINA/decomposition.png"
+  },
+  "created_date": "2025-02-14",
+  "author_display": "phyloviz/phyloDB"
+}

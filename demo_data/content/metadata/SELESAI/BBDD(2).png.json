@@ -1,0 +1,22 @@
+{
+  "id": "9689",
+  "title": "BBDD(2).png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9689"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "No-Country",
+    "github_repo": "c16-84-ft-java"
+  },
+  "_links": {
+    "download": "/download/SELESAI/BBDD(2).png"
+  },
+  "created_date": "2025-07-09",
+  "author_display": "No-Country/c16-84-ft-java"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "11547",
+  "title": "adce.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11547"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "JennahF",
+    "github_repo": "USTC"
+  },
+  "_links": {
+    "download": "/download/CAL/adce.png"
+  },
+  "created_date": "2024-11-20",
+  "author_display": "JennahF/USTC"
+}

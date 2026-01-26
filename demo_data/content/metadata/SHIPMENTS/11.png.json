@@ -1,0 +1,22 @@
+{
+  "id": "1856",
+  "title": "11.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1856"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "mbayzhanova",
+    "github_repo": "nyx_react_project"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/11.png"
+  },
+  "created_date": "2024-10-04",
+  "author_display": "mbayzhanova/nyx_react_project"
+}

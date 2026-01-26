@@ -1,0 +1,22 @@
+{
+  "id": "17934",
+  "title": "aossoa.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17934"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "joeljeske",
+    "github_repo": "umbrella"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/aossoa.png"
+  },
+  "created_date": "2024-10-29",
+  "author_display": "joeljeske/umbrella"
+}

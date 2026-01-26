@@ -1,0 +1,22 @@
+{
+  "id": "17907",
+  "title": "customers_erd.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17907"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "dudhwalas",
+    "github_repo": "dudhwala"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/customers_erd.png"
+  },
+  "created_date": "2024-08-13",
+  "author_display": "dudhwalas/dudhwala"
+}

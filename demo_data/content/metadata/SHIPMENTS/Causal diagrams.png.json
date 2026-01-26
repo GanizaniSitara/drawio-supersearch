@@ -1,0 +1,22 @@
+{
+  "id": "1914",
+  "title": "Causal diagrams.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1914"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "whg-training",
+    "github_repo": "statistics-course"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Causal diagrams.png"
+  },
+  "created_date": "2025-06-21",
+  "author_display": "whg-training/statistics-course"
+}

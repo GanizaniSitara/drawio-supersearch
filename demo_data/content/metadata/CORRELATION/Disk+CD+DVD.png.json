@@ -1,0 +1,22 @@
+{
+  "id": "17883",
+  "title": "Disk+CD+DVD.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17883"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "ucudal",
+    "github_repo": "PII_Conceptos_de_POO"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/Disk+CD+DVD.png"
+  },
+  "created_date": "2024-10-27",
+  "author_display": "ucudal/PII_Conceptos_de_POO"
+}

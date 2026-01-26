@@ -1,0 +1,22 @@
+{
+  "id": "11835",
+  "title": "act.png",
+  "space": {
+    "key": "COMPRESS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11835"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "ytliu74",
+    "github_repo": "OptCnnAccelerator"
+  },
+  "_links": {
+    "download": "/download/COMPRESS/act.png"
+  },
+  "created_date": "2025-10-24",
+  "author_display": "ytliu74/OptCnnAccelerator"
+}

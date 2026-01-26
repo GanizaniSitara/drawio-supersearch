@@ -1,0 +1,22 @@
+{
+  "id": "1029",
+  "title": "1274.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1029"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "cyber-punk20",
+    "github_repo": "drawio"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/1274.png"
+  },
+  "created_date": "2024-07-13",
+  "author_display": "cyber-punk20/drawio"
+}

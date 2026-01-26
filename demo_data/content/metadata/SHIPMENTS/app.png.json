@@ -1,0 +1,22 @@
+{
+  "id": "2026",
+  "title": "app.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2026"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "VozSoldat",
+    "github_repo": "Kuliah-Yes"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/app.png"
+  },
+  "created_date": "2025-07-22",
+  "author_display": "VozSoldat/Kuliah-Yes"
+}

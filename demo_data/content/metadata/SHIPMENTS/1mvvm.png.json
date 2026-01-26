@@ -1,0 +1,22 @@
+{
+  "id": "2151",
+  "title": "1mvvm.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2151"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Vlas1d",
+    "github_repo": "BasePatterns"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/1mvvm.png"
+  },
+  "created_date": "2025-01-01",
+  "author_display": "Vlas1d/BasePatterns"
+}

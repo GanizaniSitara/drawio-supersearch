@@ -1,0 +1,22 @@
+{
+  "id": "9647",
+  "title": "AmazonEC2CrossAccountAMICopy.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9647"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "jeftegoes",
+    "github_repo": "AwsOverview"
+  },
+  "_links": {
+    "download": "/download/SELESAI/AmazonEC2CrossAccountAMICopy.png"
+  },
+  "created_date": "2025-04-05",
+  "author_display": "jeftegoes/AwsOverview"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "24043",
+  "title": "ariel.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24043"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "KpihX",
+    "github_repo": "my-way"
+  },
+  "_links": {
+    "download": "/download/ROCK/ariel.png"
+  },
+  "created_date": "2025-07-03",
+  "author_display": "KpihX/my-way"
+}

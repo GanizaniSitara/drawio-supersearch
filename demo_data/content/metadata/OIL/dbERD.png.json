@@ -1,0 +1,22 @@
+{
+  "id": "20380",
+  "title": "dbERD.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20380"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "revmo-p3-220613-pwa-ext",
+    "github_repo": "java-backend"
+  },
+  "_links": {
+    "download": "/download/OIL/dbERD.png"
+  },
+  "created_date": "2025-04-25",
+  "author_display": "revmo-p3-220613-pwa-ext/java-backend"
+}

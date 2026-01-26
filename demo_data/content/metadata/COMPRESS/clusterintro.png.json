@@ -1,0 +1,22 @@
+{
+  "id": "11828",
+  "title": "clusterintro.png",
+  "space": {
+    "key": "COMPRESS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11828"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "khalidabuhakmeh",
+    "github_repo": "protoactor-website"
+  },
+  "_links": {
+    "download": "/download/COMPRESS/clusterintro.png"
+  },
+  "created_date": "2025-11-05",
+  "author_display": "khalidabuhakmeh/protoactor-website"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9481",
+  "title": "db.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9481"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "sohey-dr",
+    "github_repo": "foreapere-backend-rust"
+  },
+  "_links": {
+    "download": "/download/PAGINA/db.png"
+  },
+  "created_date": "2025-01-09",
+  "author_display": "sohey-dr/foreapere-backend-rust"
+}

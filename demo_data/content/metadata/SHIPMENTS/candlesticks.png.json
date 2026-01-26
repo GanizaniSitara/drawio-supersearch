@@ -1,0 +1,22 @@
+{
+  "id": "1999",
+  "title": "candlesticks.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1999"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "nferrante1",
+    "github_repo": "lsmsd2"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/candlesticks.png"
+  },
+  "created_date": "2024-04-21",
+  "author_display": "nferrante1/lsmsd2"
+}

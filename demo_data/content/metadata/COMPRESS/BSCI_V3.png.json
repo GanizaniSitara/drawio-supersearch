@@ -1,0 +1,22 @@
+{
+  "id": "11856",
+  "title": "BSCI_V3.png",
+  "space": {
+    "key": "COMPRESS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11856"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "gorondan",
+    "github_repo": "geb-simulations"
+  },
+  "_links": {
+    "download": "/download/COMPRESS/BSCI_V3.png"
+  },
+  "created_date": "2024-10-10",
+  "author_display": "gorondan/geb-simulations"
+}

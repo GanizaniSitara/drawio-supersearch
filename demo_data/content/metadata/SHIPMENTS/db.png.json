@@ -1,0 +1,22 @@
+{
+  "id": "1945",
+  "title": "db.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1945"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "cyberlytics",
+    "github_repo": "Filmilox"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/db.png"
+  },
+  "created_date": "2025-12-07",
+  "author_display": "cyberlytics/Filmilox"
+}

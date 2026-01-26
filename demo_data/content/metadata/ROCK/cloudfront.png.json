@@ -1,0 +1,22 @@
+{
+  "id": "23626",
+  "title": "cloudfront.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23626"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "satadrubasu",
+    "github_repo": "aws-play"
+  },
+  "_links": {
+    "download": "/download/ROCK/cloudfront.png"
+  },
+  "created_date": "2024-01-31",
+  "author_display": "satadrubasu/aws-play"
+}

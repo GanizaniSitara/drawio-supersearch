@@ -1,0 +1,22 @@
+{
+  "id": "12360",
+  "title": "apppackagesdeps.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12360"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "nglogic",
+    "github_repo": "go-application-guide"
+  },
+  "_links": {
+    "download": "/download/CRASH/apppackagesdeps.png"
+  },
+  "created_date": "2024-08-07",
+  "author_display": "nglogic/go-application-guide"
+}

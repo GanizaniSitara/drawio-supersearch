@@ -1,0 +1,22 @@
+{
+  "id": "11665",
+  "title": "BoundedContextCanvas.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11665"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "routeCsharp256",
+    "github_repo": "galkina"
+  },
+  "_links": {
+    "download": "/download/CAL/BoundedContextCanvas.png"
+  },
+  "created_date": "2024-11-27",
+  "author_display": "routeCsharp256/galkina"
+}

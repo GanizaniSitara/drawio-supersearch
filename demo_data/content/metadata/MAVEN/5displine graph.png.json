@@ -1,0 +1,22 @@
+{
+  "id": "13641",
+  "title": "5displine graph.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13641"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "NLPXAI",
+    "github_repo": "Twitter-Altmetrics-Sentiments-Analysis"
+  },
+  "_links": {
+    "download": "/download/MAVEN/5displine graph.png"
+  },
+  "created_date": "2024-04-06",
+  "author_display": "NLPXAI/Twitter-Altmetrics-Sentiments-Analysis"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "10064",
+  "title": "cassandra_hibrido.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10064"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "lasarojc",
+    "github_repo": "ds_notes"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/cassandra_hibrido.png"
+  },
+  "created_date": "2024-11-12",
+  "author_display": "lasarojc/ds_notes"
+}

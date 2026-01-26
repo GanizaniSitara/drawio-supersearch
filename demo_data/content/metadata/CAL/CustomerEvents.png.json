@@ -1,0 +1,22 @@
+{
+  "id": "11622",
+  "title": "CustomerEvents.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11622"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "adam-crowther",
+    "github_repo": "microservice-starter"
+  },
+  "_links": {
+    "download": "/download/CAL/CustomerEvents.png"
+  },
+  "created_date": "2025-10-09",
+  "author_display": "adam-crowther/microservice-starter"
+}

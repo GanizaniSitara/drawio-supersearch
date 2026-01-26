@@ -1,0 +1,22 @@
+{
+  "id": "17825",
+  "title": "aim_code_schema.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17825"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "wjakew",
+    "github_repo": "aim"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/aim_code_schema.png"
+  },
+  "created_date": "2025-06-21",
+  "author_display": "wjakew/aim"
+}

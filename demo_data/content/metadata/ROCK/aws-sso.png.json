@@ -1,0 +1,22 @@
+{
+  "id": "23567",
+  "title": "aws-sso.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23567"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "comp9447-team4",
+    "github_repo": "soar"
+  },
+  "_links": {
+    "download": "/download/ROCK/aws-sso.png"
+  },
+  "created_date": "2024-12-19",
+  "author_display": "comp9447-team4/soar"
+}

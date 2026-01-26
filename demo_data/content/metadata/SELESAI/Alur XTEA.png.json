@@ -1,0 +1,22 @@
+{
+  "id": "9513",
+  "title": "Alur XTEA.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9513"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "goldwinsonick",
+    "github_repo": "tubes-sisdig-2023"
+  },
+  "_links": {
+    "download": "/download/SELESAI/Alur XTEA.png"
+  },
+  "created_date": "2025-02-20",
+  "author_display": "goldwinsonick/tubes-sisdig-2023"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "20464",
+  "title": "Dense.png",
+  "space": {
+    "key": "OIL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20464"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "LucaCappelletti94",
+    "github_repo": "Master-in-Bioinformatics-and-Functional-genomics"
+  },
+  "_links": {
+    "download": "/download/OIL/Dense.png"
+  },
+  "created_date": "2025-03-20",
+  "author_display": "LucaCappelletti94/Master-in-Bioinformatics-and-Functional-genomics"
+}

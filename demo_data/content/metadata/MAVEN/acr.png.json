@@ -1,0 +1,22 @@
+{
+  "id": "13677",
+  "title": "acr.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13677"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "DEFRA",
+    "github_repo": "ffc-diagrams"
+  },
+  "_links": {
+    "download": "/download/MAVEN/acr.png"
+  },
+  "created_date": "2025-05-24",
+  "author_display": "DEFRA/ffc-diagrams"
+}

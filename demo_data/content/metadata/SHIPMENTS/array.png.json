@@ -1,0 +1,22 @@
+{
+  "id": "2074",
+  "title": "array.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2074"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "zero2080",
+    "github_repo": "WebDeveloperStudy"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/array.png"
+  },
+  "created_date": "2024-04-30",
+  "author_display": "zero2080/WebDeveloperStudy"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1337",
+  "title": "bus_design.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1337"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "KondeU",
+    "github_repo": "EventBus"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/bus_design.png"
+  },
+  "created_date": "2025-03-28",
+  "author_display": "KondeU/EventBus"
+}

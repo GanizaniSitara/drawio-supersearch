@@ -1,0 +1,22 @@
+{
+  "id": "1407",
+  "title": "dictionary005.png",
+  "space": {
+    "key": "MISCELLANEOUS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1407"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "tiangolo",
+    "github_repo": "sqlmodel"
+  },
+  "_links": {
+    "download": "/download/MISCELLANEOUS/dictionary005.png"
+  },
+  "created_date": "2025-10-05",
+  "author_display": "tiangolo/sqlmodel"
+}

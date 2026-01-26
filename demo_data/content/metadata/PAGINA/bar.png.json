@@ -1,0 +1,22 @@
+{
+  "id": "9493",
+  "title": "bar.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9493"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "Bilal59170",
+    "github_repo": "TDLOG_Space_Wars"
+  },
+  "_links": {
+    "download": "/download/PAGINA/bar.png"
+  },
+  "created_date": "2024-12-11",
+  "author_display": "Bilal59170/TDLOG_Space_Wars"
+}

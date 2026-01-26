@@ -1,0 +1,22 @@
+{
+  "id": "13603",
+  "title": "docker-mysql-arch.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13603"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "Training360",
+    "github_repo": "javax-mcr-public"
+  },
+  "_links": {
+    "download": "/download/MAVEN/docker-mysql-arch.png"
+  },
+  "created_date": "2024-12-02",
+  "author_display": "Training360/javax-mcr-public"
+}

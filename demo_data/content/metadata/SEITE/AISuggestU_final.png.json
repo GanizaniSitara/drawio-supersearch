@@ -1,0 +1,22 @@
+{
+  "id": "20159",
+  "title": "AISuggestU_final.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20159"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "josura",
+    "github_repo": "AISuggestU"
+  },
+  "_links": {
+    "download": "/download/SEITE/AISuggestU_final.png"
+  },
+  "created_date": "2024-06-18",
+  "author_display": "josura/AISuggestU"
+}

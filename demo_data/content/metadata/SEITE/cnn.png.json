@@ -1,0 +1,22 @@
+{
+  "id": "20038",
+  "title": "cnn.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20038"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "johnstef99",
+    "github_repo": "tech_of_sound_and_image"
+  },
+  "_links": {
+    "download": "/download/SEITE/cnn.png"
+  },
+  "created_date": "2025-09-06",
+  "author_display": "johnstef99/tech_of_sound_and_image"
+}

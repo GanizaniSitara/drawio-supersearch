@@ -1,0 +1,22 @@
+{
+  "id": "19968",
+  "title": "Dock-Connector.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/19968"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "jakkra",
+    "github_repo": "ZSWatch-Dock"
+  },
+  "_links": {
+    "download": "/download/SEITE/Dock-Connector.png"
+  },
+  "created_date": "2024-01-31",
+  "author_display": "jakkra/ZSWatch-Dock"
+}

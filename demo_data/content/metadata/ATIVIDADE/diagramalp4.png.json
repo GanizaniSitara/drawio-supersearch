@@ -1,0 +1,22 @@
+{
+  "id": "10202",
+  "title": "diagramalp4.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10202"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "prpontes",
+    "github_repo": "lp4_appusuarios"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/diagramalp4.png"
+  },
+  "created_date": "2024-12-27",
+  "author_display": "prpontes/lp4_appusuarios"
+}

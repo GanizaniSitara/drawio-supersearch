@@ -1,0 +1,22 @@
+{
+  "id": "9327",
+  "title": "dictionary003.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9327"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "honglei",
+    "github_repo": "sqlmodel"
+  },
+  "_links": {
+    "download": "/download/PAGINA/dictionary003.png"
+  },
+  "created_date": "2024-03-31",
+  "author_display": "honglei/sqlmodel"
+}

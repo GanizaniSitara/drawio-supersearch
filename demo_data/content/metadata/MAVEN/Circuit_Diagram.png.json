@@ -1,0 +1,22 @@
+{
+  "id": "13834",
+  "title": "Circuit_Diagram.png",
+  "space": {
+    "key": "MAVEN"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/13834"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "NoBizz",
+    "github_repo": "Coffie-Machine"
+  },
+  "_links": {
+    "download": "/download/MAVEN/Circuit_Diagram.png"
+  },
+  "created_date": "2024-08-04",
+  "author_display": "NoBizz/Coffie-Machine"
+}

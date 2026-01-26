@@ -1,0 +1,22 @@
+{
+  "id": "9755",
+  "title": "Dan Final DFD for Stevedore (not reviewed).png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9755"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "com619-2021",
+    "github_repo": "StevedoreAppB"
+  },
+  "_links": {
+    "download": "/download/SELESAI/Dan Final DFD for Stevedore (not reviewed).png"
+  },
+  "created_date": "2025-09-12",
+  "author_display": "com619-2021/StevedoreAppB"
+}

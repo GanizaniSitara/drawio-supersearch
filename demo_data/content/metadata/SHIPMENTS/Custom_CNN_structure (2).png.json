@@ -1,0 +1,22 @@
+{
+  "id": "2053",
+  "title": "Custom_CNN_structure (2).png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2053"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "EfkTur",
+    "github_repo": "py_projects"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/Custom_CNN_structure (2).png"
+  },
+  "created_date": "2025-02-10",
+  "author_display": "EfkTur/py_projects"
+}

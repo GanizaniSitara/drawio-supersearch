@@ -1,0 +1,22 @@
+{
+  "id": "15595",
+  "title": "cpu_scaling_driver_2.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15595"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "ShikharJain97",
+    "github_repo": "MTP"
+  },
+  "_links": {
+    "download": "/download/LISTED/cpu_scaling_driver_2.png"
+  },
+  "created_date": "2025-10-13",
+  "author_display": "ShikharJain97/MTP"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9698",
+  "title": "Buzzmi_Navigation.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9698"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Adityacs001",
+    "github_repo": "snippet"
+  },
+  "_links": {
+    "download": "/download/SELESAI/Buzzmi_Navigation.png"
+  },
+  "created_date": "2025-10-14",
+  "author_display": "Adityacs001/snippet"
+}

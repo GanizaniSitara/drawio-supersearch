@@ -1,0 +1,22 @@
+{
+  "id": "9653",
+  "title": "Acquisition and storage system.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9653"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "Illusion12315",
+    "github_repo": "Verilog_base_module"
+  },
+  "_links": {
+    "download": "/download/SELESAI/Acquisition and storage system.png"
+  },
+  "created_date": "2025-10-04",
+  "author_display": "Illusion12315/Verilog_base_module"
+}

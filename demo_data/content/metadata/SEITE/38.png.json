@@ -1,0 +1,22 @@
+{
+  "id": "20059",
+  "title": "38.png",
+  "space": {
+    "key": "SEITE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/20059"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "sahinhurcan",
+    "github_repo": "solve.NET"
+  },
+  "_links": {
+    "download": "/download/SEITE/38.png"
+  },
+  "created_date": "2024-06-22",
+  "author_display": "sahinhurcan/solve.NET"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "15424",
+  "title": "dictionary-s.png",
+  "space": {
+    "key": "LISTED"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/15424"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "pestsov-v",
+    "github_repo": "documentation"
+  },
+  "_links": {
+    "download": "/download/LISTED/dictionary-s.png"
+  },
+  "created_date": "2025-02-04",
+  "author_display": "pestsov-v/documentation"
+}

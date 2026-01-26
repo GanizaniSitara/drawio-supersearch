@@ -1,0 +1,22 @@
+{
+  "id": "9595",
+  "title": "color_red.png",
+  "space": {
+    "key": "SELESAI"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9595"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "tsypuk",
+    "github_repo": "multicloud-diagrams"
+  },
+  "_links": {
+    "download": "/download/SELESAI/color_red.png"
+  },
+  "created_date": "2025-12-26",
+  "author_display": "tsypuk/multicloud-diagrams"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17729",
+  "title": "blind_auction.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17729"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "APachecoDiSanti",
+    "github_repo": "100daysOfCodePython"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/blind_auction.png"
+  },
+  "created_date": "2025-10-07",
+  "author_display": "APachecoDiSanti/100daysOfCodePython"
+}

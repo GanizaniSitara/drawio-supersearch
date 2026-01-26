@@ -1,0 +1,22 @@
+{
+  "id": "9424",
+  "title": "cash.png",
+  "space": {
+    "key": "PAGINA"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/9424"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "DigItAnt",
+    "github_repo": "CASH-server"
+  },
+  "_links": {
+    "download": "/download/PAGINA/cash.png"
+  },
+  "created_date": "2025-04-19",
+  "author_display": "DigItAnt/CASH-server"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "11760",
+  "title": "data-processing-arch.png",
+  "space": {
+    "key": "CAL"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/11760"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "open-v2x",
+    "github_repo": "docs"
+  },
+  "_links": {
+    "download": "/download/CAL/data-processing-arch.png"
+  },
+  "created_date": "2024-10-18",
+  "author_display": "open-v2x/docs"
+}
