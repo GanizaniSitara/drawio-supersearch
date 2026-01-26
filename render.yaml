@@ -3,7 +3,7 @@ services:
   - type: web
     name: drawio-supersearch
     runtime: python
-    buildCommand: pip install -r requirements.txt && python scripts/use_demo_data.py && python scripts/index.py --rebuild
+    buildCommand: pip install -r requirements.txt && cp settings.ini.example settings.ini && python scripts/use_demo_data.py && python scripts/index.py --rebuild
     startCommand: gunicorn browser.app:app --bind 0.0.0.0:$PORT
     envVars:
       - key: PYTHON_VERSION
