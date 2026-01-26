@@ -399,7 +399,7 @@ class LucidchartScreenshotter:
 
                     # Generate unique name for this diagram
                     safe_title = re.sub(r'[^\w\s-]', '', page_title).strip()[:50]
-                    diagram_name = f"{safe_title}_lucid_{idx+1}" if idx > 0 else f"{safe_title}_lucid"
+                    diagram_name = f"{safe_title}_{idx+1}" if idx > 0 else safe_title
 
                     # Screenshot the element
                     png_path = os.path.join(dirs['images'], f"{diagram_name}.png")
