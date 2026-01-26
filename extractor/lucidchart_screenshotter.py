@@ -150,6 +150,41 @@ class LucidchartScreenshotter:
 
         return ' '.join(filtered_words)
 
+    def _extract_lucidchart_names(self, storage_xml):
+        """
+        Extract Lucidchart diagram names from Confluence storage format.
+
+        Lucidchart macros in storage format look like:
+        <ac:structured-macro ac:name="lucidchart" ...>
+          <ac:parameter ac:name="documentName">My Diagram Name</ac:parameter>
+          ...
+        </ac:structured-macro>
+
+        Returns list of diagram names found (in order of appearance).
+        """
+        if not storage_xml:
+            return []
+
+        names = []
+
+        # Find all lucidchart macros and their documentName parameters
+        # Pattern matches: <ac:parameter ac:name="documentName">NAME</ac:parameter>
+        # Only within lucidchart macro context
+        macro_pattern = r'<ac:structured-macro[^>]*ac:name="lucidchart"[^>]*>(.*?)</ac:structured-macro>'
+        param_pattern = r'<ac:parameter\s+ac:name="documentName"[^>]*>([^<]+)</ac:parameter>'
+
+        for macro_match in re.finditer(macro_pattern, storage_xml, re.DOTALL | re.IGNORECASE):
+            macro_content = macro_match.group(1)
+            param_match = re.search(param_pattern, macro_content, re.IGNORECASE)
+            if param_match:
+                name = param_match.group(1).strip()
+                if name:
+                    names.append(name)
+            else:
+                names.append(None)  # No name found for this macro
+
+        return names
+
     def _ensure_directories(self, space_key):
         """Create output directories for a space."""
         dirs = {
@@ -186,7 +221,7 @@ class LucidchartScreenshotter:
                 f"{self.confluence_url}/rest/api/content/search"
                 f"?cql={requests.utils.quote(cql)}"
                 f"&start={start}"
-                f"&expand=space,body.view,_links"
+                f"&expand=space,body.view,body.storage,_links"
             )
 
             response = self._rate_limited_request(url)
@@ -211,12 +246,17 @@ class LucidchartScreenshotter:
                 body_html = page.get('body', {}).get('view', {}).get('value', '')
                 body_text = self._extract_text_from_html(body_html) if body_html else ''
 
+                # Extract diagram names from storage format (Lucidchart macro parameters)
+                storage_xml = page.get('body', {}).get('storage', {}).get('value', '')
+                diagram_names = self._extract_lucidchart_names(storage_xml)
+
                 pages.append({
                     'id': page['id'],
                     'title': page.get('title', 'Untitled'),
                     'space_key': space,
                     '_links': page.get('_links', {}),
                     'body_text': body_text,
+                    'diagram_names': diagram_names,
                 })
 
                 # Check limit
@@ -332,6 +372,7 @@ class LucidchartScreenshotter:
         space_key = page_info['space_key']
         page_link = page_info.get('_links', {}).get('webui', '')
         body_text = page_info.get('body_text', '')
+        diagram_names = page_info.get('diagram_names', [])
 
         # Navigate to page
         page_url = f"{self.confluence_url}/pages/viewpage.action?pageId={page_id}"
@@ -398,8 +439,20 @@ class LucidchartScreenshotter:
                         pass
 
                     # Generate unique name for this diagram
-                    safe_title = re.sub(r'[^\w\s-]', '', page_title).strip()[:50]
-                    diagram_name = f"{safe_title}_{idx+1}" if idx > 0 else safe_title
+                    # First try to use diagram name from Lucidchart macro (documentName parameter)
+                    # Use diagrams_captured as index since we track actual captures, not element index
+                    macro_name = None
+                    if diagrams_captured < len(diagram_names) and diagram_names[diagrams_captured]:
+                        macro_name = diagram_names[diagrams_captured]
+
+                    if macro_name:
+                        # Use the Lucidchart document name from the macro
+                        safe_name = re.sub(r'[^\w\s-]', '', macro_name).strip()[:80]
+                        diagram_name = safe_name if safe_name else re.sub(r'[^\w\s-]', '', page_title).strip()[:50]
+                    else:
+                        # Fallback to page title
+                        safe_title = re.sub(r'[^\w\s-]', '', page_title).strip()[:50]
+                        diagram_name = f"{safe_title}_{idx+1}" if idx > 0 else safe_title
 
                     # Screenshot the element
                     png_path = os.path.join(dirs['images'], f"{diagram_name}.png")
