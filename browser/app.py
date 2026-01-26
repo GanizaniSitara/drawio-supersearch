@@ -263,6 +263,11 @@ def index_all_diagrams(progress_callback=None):
                 webui = meta.get('_links', {}).get('webui', '') or meta.get('page_link', '')
                 page_title = meta.get('page_title', '')  # Lucidchart saves this directly
                 confluence_page_url = ''
+
+                # Extract page ID from container (DrawIO) or direct page_id (Lucidchart)
+                container = meta.get('_expandable', {}).get('container', '')
+                page_id = container.split('/')[-1] if container else meta.get('page_id', '')
+
                 if webui:
                     # Store the path (without query params) for linking to Confluence
                     confluence_page_url = webui.split('?')[0]
@@ -272,10 +277,9 @@ def index_all_diagrams(progress_callback=None):
                         if len(parts) >= 4:
                             page_part = parts[3].split('?')[0]
                             page_title = unquote(page_part.replace('+', ' '))
-
-                # Extract page ID from container (DrawIO) or direct page_id (Lucidchart)
-                container = meta.get('_expandable', {}).get('container', '')
-                page_id = container.split('/')[-1] if container else meta.get('page_id', '')
+                elif page_id:
+                    # Fallback: construct URL from page_id if webui link not available
+                    confluence_page_url = f'/pages/viewpage.action?pageId={page_id}'
 
                 # Author info
                 version = meta.get('version', {})
