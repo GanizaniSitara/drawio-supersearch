@@ -1,0 +1,64 @@
+<mxfile host="Electron" modified="2024-01-23T08:59:38.292Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="_XlLbTepsbYPrhcXNrXk" version="21.6.1" type="device">
+  <diagram name="第 1 页" id="Wk8UgBUMTNgCo4TwP9Yh">
+    <mxGraphModel dx="1418" dy="820" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="147" y="78" width="540" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-6" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="6YsNNzeXZhslWJvLqwgh-26">
+          <mxGeometry width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-1" value="TotalWriteTimes(4Bytes)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6YsNNzeXZhslWJvLqwgh-26">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-2" value="56(4Bytes)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6YsNNzeXZhslWJvLqwgh-26">
+          <mxGeometry x="140" y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-5" value="Time(14Bytes) : &quot;yyyyMMddhhmmss&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6YsNNzeXZhslWJvLqwgh-26">
+          <mxGeometry x="280" y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-7" value="Head" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6YsNNzeXZhslWJvLqwgh-26">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-8" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="6YsNNzeXZhslWJvLqwgh-26">
+          <mxGeometry y="60" width="540" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-10" value="Body * N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6YsNNzeXZhslWJvLqwgh-26">
+          <mxGeometry y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-11" value="22 Bytes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6YsNNzeXZhslWJvLqwgh-26">
+          <mxGeometry x="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-13" value="EncoderLen(4Bytes)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6YsNNzeXZhslWJvLqwgh-26">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-14" value="InfoLen(4Bytes)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6YsNNzeXZhslWJvLqwgh-26">
+          <mxGeometry x="140" y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-15" value="SCREEN(520Bytes)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6YsNNzeXZhslWJvLqwgh-26">
+          <mxGeometry x="280" y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-17" value="858 Bytes *N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6YsNNzeXZhslWJvLqwgh-26">
+          <mxGeometry x="440" y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-18" value="Not Used(42Bytes)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6YsNNzeXZhslWJvLqwgh-26">
+          <mxGeometry x="420" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-19" value="PARAM_DAC_DAT(52Bytes)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6YsNNzeXZhslWJvLqwgh-26">
+          <mxGeometry y="120" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-20" value="PARAM_AVG_DAT(64Bytes)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6YsNNzeXZhslWJvLqwgh-26">
+          <mxGeometry x="170" y="120" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-21" value="PARAM_CHANEL_DAT(172Bytes)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6YsNNzeXZhslWJvLqwgh-26">
+          <mxGeometry x="340" y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YsNNzeXZhslWJvLqwgh-25" value="LDAT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6YsNNzeXZhslWJvLqwgh-26">
+          <mxGeometry x="231" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

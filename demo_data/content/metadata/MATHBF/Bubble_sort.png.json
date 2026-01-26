@@ -1,0 +1,22 @@
+{
+  "id": "16625",
+  "title": "Bubble_sort.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16625"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "JaroslavHolecek",
+    "github_repo": "SPS_for_students"
+  },
+  "_links": {
+    "download": "/download/MATHBF/Bubble_sort.png"
+  },
+  "created_date": "2024-04-16",
+  "author_display": "JaroslavHolecek/SPS_for_students"
+}

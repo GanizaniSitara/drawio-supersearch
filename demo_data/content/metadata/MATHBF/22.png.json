@@ -1,0 +1,22 @@
+{
+  "id": "16464",
+  "title": "22.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16464"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "LegendaryMouse",
+    "github_repo": "ZvonkovAndreyAlgoritmization"
+  },
+  "_links": {
+    "download": "/download/MATHBF/22.png"
+  },
+  "created_date": "2025-02-10",
+  "author_display": "LegendaryMouse/ZvonkovAndreyAlgoritmization"
+}

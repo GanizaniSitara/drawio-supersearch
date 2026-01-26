@@ -1,0 +1,22 @@
+{
+  "id": "16564",
+  "title": "buttons.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16564"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "devleaks",
+    "github_repo": "cockpitdecks-docs"
+  },
+  "_links": {
+    "download": "/download/MATHBF/buttons.png"
+  },
+  "created_date": "2025-05-16",
+  "author_display": "devleaks/cockpitdecks-docs"
+}

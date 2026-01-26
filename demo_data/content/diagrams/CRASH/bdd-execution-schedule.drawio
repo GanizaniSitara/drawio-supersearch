@@ -1,0 +1,52 @@
+<mxfile host="Electron" modified="2024-03-15T00:31:06.981Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="eBd0UDHWmSO2frAZvUGp" version="23.1.5" type="device">
+  <diagram name="Page-1" id="6JFTuhXAX5A5z9w-y8QN">
+    <mxGraphModel dx="844" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PZ8QMNFM-fA0sixPna7i-5" value="scenario pickup timeline" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="240" y="620" width="440" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ8QMNFM-fA0sixPna7i-6" value="$$hold(isLocated(obj, ws), t_1)$$" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;verticalAlign=middle;labelPosition=center;verticalLabelPosition=top;align=center;strokeColor=#000000;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="240" y="540" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ8QMNFM-fA0sixPna7i-10" value="f3 tc" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;verticalAlign=middle;labelPosition=center;verticalLabelPosition=top;align=center;" parent="1" vertex="1">
+          <mxGeometry x="360" y="760" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ8QMNFM-fA0sixPna7i-12" value="$$hold(\neg{}collide(robot, ws), t_3)&lt;br&gt;$$" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;verticalAlign=middle;labelPosition=center;verticalLabelPosition=top;align=center;strokeColor=#000000;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="240" y="590" width="440" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ8QMNFM-fA0sixPna7i-13" value="$$hold(isHeldBy(obj, robot), t_2)$$" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;verticalAlign=middle;labelPosition=center;verticalLabelPosition=top;align=center;strokeColor=#000000;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="480" y="540" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ8QMNFM-fA0sixPna7i-14" value="&lt;h1&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 16px;&quot;&gt;bdd_step(scenario_data)&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;given_check()&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; background-color: initial;&quot;&gt;then_check()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="510" y="100" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ8QMNFM-fA0sixPna7i-16" value="scenario arm 2 approach timeline" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="680" width="440" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ8QMNFM-fA0sixPna7i-17" value="&lt;h1&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 16px;&quot;&gt;bdd_orchestration(scenarios_data)&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;while (in scenarios_timeline) {&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 12px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; behaviour_step()&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 12px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Courier New&quot;&gt;&amp;nbsp; sim_step() // or communication for real world&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp; current_scenarios;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp; collect_measurements(current_scenarios);&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp; for s in current_scenarios {&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp; &amp;nbsp; bdd_step(scenarios_data)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp; }&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;}&lt;/font&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="100" width="380" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ8QMNFM-fA0sixPna7i-18" value="scnr. place" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="680" y="620" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bbWoWWyiVMskqU1mX_R6-3" value="pickup behaviour" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="240" y="460" width="440" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bbWoWWyiVMskqU1mX_R6-4" value="place" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="680" y="460" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bbWoWWyiVMskqU1mX_R6-6" value="lift" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="480" y="490" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bbWoWWyiVMskqU1mX_R6-7" value="approach" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="240" y="490" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bbWoWWyiVMskqU1mX_R6-8" value="grasp" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="420" y="490" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

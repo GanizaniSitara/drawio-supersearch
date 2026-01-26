@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2023-04-26T00:15:15.368Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="AjWchCpvtI6an8T4gu9L" version="21.2.0" type="google">
+  <diagram name="Page-1" id="I3RWU4zPKk68Wvwm248Q">
+    <mxGraphModel dx="1377" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B1nhBaKosbreUqbryDoH-1" value="Journal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="50" y="80" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="B1nhBaKosbreUqbryDoH-2" value="&lt;b&gt;entries: List&amp;lt;Entry&amp;gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B1nhBaKosbreUqbryDoH-1" vertex="1">
+          <mxGeometry y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1nhBaKosbreUqbryDoH-3" value="&lt;b&gt;DisplayJourneyEntries()&lt;br&gt;CreateJuornalEntry()&lt;br&gt;SaveToCSV()&lt;br&gt;LoadFormCSV()&lt;br&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B1nhBaKosbreUqbryDoH-1" vertex="1">
+          <mxGeometry y="90" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="B1nhBaKosbreUqbryDoH-5" value="Entry" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="320" y="80" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="B1nhBaKosbreUqbryDoH-6" value="&lt;b&gt;prompt: string&lt;br&gt;&lt;/b&gt;response: string&lt;br&gt;date: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B1nhBaKosbreUqbryDoH-5" vertex="1">
+          <mxGeometry y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1nhBaKosbreUqbryDoH-7" value="&lt;b&gt;DisplayEntry()&lt;br&gt;getEntryAsCSV&lt;br&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B1nhBaKosbreUqbryDoH-5" vertex="1">
+          <mxGeometry y="90" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B1nhBaKosbreUqbryDoH-8" value="Prompt Generator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="620" y="80" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="B1nhBaKosbreUqbryDoH-9" value="&lt;b&gt;prompts: List&amp;lt;string&amp;gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B1nhBaKosbreUqbryDoH-8" vertex="1">
+          <mxGeometry y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1nhBaKosbreUqbryDoH-10" value="&lt;b&gt;GetRandomPrompt()&lt;br&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B1nhBaKosbreUqbryDoH-8" vertex="1">
+          <mxGeometry y="90" width="200" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

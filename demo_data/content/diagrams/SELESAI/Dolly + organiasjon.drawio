@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" modified="2020-11-09T21:02:34.854Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="q76Zpu1GWu8iEbdyreRn" version="13.9.2" type="github" pages="2">
+  <diagram id="hbxZGUvLwL_-EFp0uSxd" name="Dolly front page empty">
+    <mxGraphModel dx="1363" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KragSXY-6KX24kDOneIi-1" value="ID, Navn, Hensikt, Personer, Antall brukt, Favoritt, Låst" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="1080" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KragSXY-6KX24kDOneIi-2" value="...." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="1080" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KragSXY-6KX24kDOneIi-4" value="Testdatagruppper" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="120" y="50" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KragSXY-6KX24kDOneIi-5" value="NY GRUPPE" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KragSXY-6KX24kDOneIi-7" value="NY ORGANIASJONSTRUKTUR" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KragSXY-6KX24kDOneIi-8" value="Organisasjonstruktur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="1080" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Z_x49EqKcpa4W3hzHGaB" name="Dolly forside: detaljert">
+    <mxGraphModel dx="1363" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="pPCy-O2eU7qGbJJpHSlJ-0" />
+        <mxCell id="pPCy-O2eU7qGbJJpHSlJ-1" parent="pPCy-O2eU7qGbJJpHSlJ-0" />
+        <mxCell id="pPCy-O2eU7qGbJJpHSlJ-2" value="NY ORGANIASJONSTRUKTUR" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pPCy-O2eU7qGbJJpHSlJ-1">
+          <mxGeometry x="40" y="40" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pPCy-O2eU7qGbJJpHSlJ-3" value="Organisasjonstruktur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pPCy-O2eU7qGbJJpHSlJ-1">
+          <mxGeometry x="40" y="90" width="1080" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pPCy-O2eU7qGbJJpHSlJ-6" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;" vertex="1" parent="pPCy-O2eU7qGbJJpHSlJ-1">
+          <mxGeometry x="40" y="140" width="1080" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="pPCy-O2eU7qGbJJpHSlJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="pPCy-O2eU7qGbJJpHSlJ-1" source="pPCy-O2eU7qGbJJpHSlJ-8" target="pPCy-O2eU7qGbJJpHSlJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pPCy-O2eU7qGbJJpHSlJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="pPCy-O2eU7qGbJJpHSlJ-1" source="pPCy-O2eU7qGbJJpHSlJ-8" target="pPCy-O2eU7qGbJJpHSlJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pPCy-O2eU7qGbJJpHSlJ-8" value="Dolly AS" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;" vertex="1" parent="pPCy-O2eU7qGbJJpHSlJ-1">
+          <mxGeometry x="520" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pPCy-O2eU7qGbJJpHSlJ-9" value="Saueklipp AS" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;" vertex="1" parent="pPCy-O2eU7qGbJJpHSlJ-1">
+          <mxGeometry x="400" y="334" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pPCy-O2eU7qGbJJpHSlJ-10" value="Smalahove AS" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;" vertex="1" parent="pPCy-O2eU7qGbJJpHSlJ-1">
+          <mxGeometry x="640" y="334" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pPCy-O2eU7qGbJJpHSlJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="pPCy-O2eU7qGbJJpHSlJ-1" source="pPCy-O2eU7qGbJJpHSlJ-6" target="pPCy-O2eU7qGbJJpHSlJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kfSsmjeAhg_zoFgE55VK-0" value="ENDRE" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pPCy-O2eU7qGbJJpHSlJ-1">
+          <mxGeometry x="960" y="460" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

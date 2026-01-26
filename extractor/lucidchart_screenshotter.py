@@ -186,7 +186,7 @@ class LucidchartScreenshotter:
                 f"{self.confluence_url}/rest/api/content/search"
                 f"?cql={requests.utils.quote(cql)}"
                 f"&start={start}"
-                f"&expand=space,body.view"
+                f"&expand=space,body.view,_links"
             )
 
             response = self._rate_limited_request(url)

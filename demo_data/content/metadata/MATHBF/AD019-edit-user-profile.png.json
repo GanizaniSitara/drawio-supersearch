@@ -1,0 +1,22 @@
+{
+  "id": "16432",
+  "title": "AD019-edit-user-profile.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16432"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "JonMukaj",
+    "github_repo": "TechPlaza"
+  },
+  "_links": {
+    "download": "/download/MATHBF/AD019-edit-user-profile.png"
+  },
+  "created_date": "2025-12-16",
+  "author_display": "JonMukaj/TechPlaza"
+}

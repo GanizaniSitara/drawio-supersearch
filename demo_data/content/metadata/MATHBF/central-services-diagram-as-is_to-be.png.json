@@ -1,0 +1,22 @@
+{
+  "id": "16602",
+  "title": "central-services-diagram-as-is_to-be.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16602"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "coilhq",
+    "github_repo": "mucoa"
+  },
+  "_links": {
+    "download": "/download/MATHBF/central-services-diagram-as-is_to-be.png"
+  },
+  "created_date": "2025-12-10",
+  "author_display": "coilhq/mucoa"
+}

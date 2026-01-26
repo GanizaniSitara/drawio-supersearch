@@ -1,0 +1,22 @@
+{
+  "id": "16623",
+  "title": "actors-diagram.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16623"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "ignas-sakalauskas",
+    "github_repo": "ProtoActorUserManagementApi"
+  },
+  "_links": {
+    "download": "/download/MATHBF/actors-diagram.png"
+  },
+  "created_date": "2025-04-10",
+  "author_display": "ignas-sakalauskas/ProtoActorUserManagementApi"
+}

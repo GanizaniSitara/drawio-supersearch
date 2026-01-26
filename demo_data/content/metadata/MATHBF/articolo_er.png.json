@@ -1,0 +1,22 @@
+{
+  "id": "16644",
+  "title": "articolo_er.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16644"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "EndriDomiUni",
+    "github_repo": "E-commerce"
+  },
+  "_links": {
+    "download": "/download/MATHBF/articolo_er.png"
+  },
+  "created_date": "2024-08-08",
+  "author_display": "EndriDomiUni/E-commerce"
+}

@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2023-12-11T09:41:56.838Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="la2P_CzYK5Mz3zMyvlV5" version="22.1.7" type="device">
+  <diagram name="Messager" id="K9UwocGBezyKPCz4aMCd">
+    <mxGraphModel dx="1430" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dcOo2OyChb1f9SJ6VaIf-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="1090" as="sourcePoint" />
+            <mxPoint x="360" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcOo2OyChb1f9SJ6VaIf-11" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e51400;strokeColor=#B20000;endArrow=box;endFill=0;entryX=0.04;entryY=0.507;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dcOo2OyChb1f9SJ6VaIf-2" target="dcOo2OyChb1f9SJ6VaIf-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcOo2OyChb1f9SJ6VaIf-2" value="/api/v1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="38" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dcOo2OyChb1f9SJ6VaIf-3" value="Methods" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="38" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dcOo2OyChb1f9SJ6VaIf-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1090" as="sourcePoint" />
+            <mxPoint x="520" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dcOo2OyChb1f9SJ6VaIf-5" value="/chats" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dcOo2OyChb1f9SJ6VaIf-6" value="/:chatId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="118" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dcOo2OyChb1f9SJ6VaIf-7" value="GET" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dcOo2OyChb1f9SJ6VaIf-8" value="GET POST" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="118" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dcOo2OyChb1f9SJ6VaIf-14" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e51400;strokeColor=#B20000;endArrow=oval;endFill=0;entryX=0.066;entryY=0.512;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dcOo2OyChb1f9SJ6VaIf-5" target="dcOo2OyChb1f9SJ6VaIf-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="133" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" modified="2024-03-24T16:04:17.154Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="eDRqNnHtwP2SWhRl75Dp" version="22.1.18" type="device">
+  <diagram name="Stránka-1" id="ZHAFxHoDx0JPJDKoarUn">
+    <mxGraphModel dx="983" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="400" pageHeight="300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S07mSTWvowMOiQuGpupf-2" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;fillColor=strokeColor;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.electrical.miscellaneous.monocell_battery;" vertex="1" parent="1">
+          <mxGeometry x="75" y="190" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-3" value="BMS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-4" value="Charging board" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-5" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;fillColor=strokeColor;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.electrical.miscellaneous.monocell_battery;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="75" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="S07mSTWvowMOiQuGpupf-2" target="S07mSTWvowMOiQuGpupf-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-15" y="230" as="sourcePoint" />
+            <mxPoint x="35" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="55" y="220" />
+              <mxPoint x="55" y="156" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-7" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="S07mSTWvowMOiQuGpupf-27" target="S07mSTWvowMOiQuGpupf-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5" y="130" as="sourcePoint" />
+            <mxPoint x="45" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="55" y="144" />
+              <mxPoint x="55" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="S07mSTWvowMOiQuGpupf-2" target="S07mSTWvowMOiQuGpupf-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="125" y="320" as="sourcePoint" />
+            <mxPoint x="175" y="270" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="S07mSTWvowMOiQuGpupf-24" target="S07mSTWvowMOiQuGpupf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="135" as="sourcePoint" />
+            <mxPoint x="275" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="S07mSTWvowMOiQuGpupf-26" target="S07mSTWvowMOiQuGpupf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="165" as="sourcePoint" />
+            <mxPoint x="285" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-17" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="S07mSTWvowMOiQuGpupf-21" target="S07mSTWvowMOiQuGpupf-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245" y="60" as="sourcePoint" />
+            <mxPoint x="245" y="135" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="205" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-18" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="S07mSTWvowMOiQuGpupf-20" target="S07mSTWvowMOiQuGpupf-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245" y="240" as="sourcePoint" />
+            <mxPoint x="245" y="165" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="205" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-20" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=ellipse;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="197.5" y="195" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-21" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=ellipse;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="197.5" y="90" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-22" value="Load -" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="197.5" y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-23" value="Load +" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="197.5" y="70" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-24" value="B+" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="120" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="S07mSTWvowMOiQuGpupf-24" target="S07mSTWvowMOiQuGpupf-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="140" as="sourcePoint" />
+            <mxPoint x="185" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-26" value="B-" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="160" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S07mSTWvowMOiQuGpupf-27" value="BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="137.5" width="25" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

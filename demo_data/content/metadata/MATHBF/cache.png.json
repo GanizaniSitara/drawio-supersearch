@@ -1,0 +1,22 @@
+{
+  "id": "16497",
+  "title": "cache.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16497"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "Blizz1800",
+    "github_repo": "visuales-dl"
+  },
+  "_links": {
+    "download": "/download/MATHBF/cache.png"
+  },
+  "created_date": "2026-01-01",
+  "author_display": "Blizz1800/visuales-dl"
+}

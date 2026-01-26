@@ -1,0 +1,22 @@
+{
+  "id": "16657",
+  "title": "bookstore app.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16657"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "ihudak",
+    "github_repo": "bookstore"
+  },
+  "_links": {
+    "download": "/download/MATHBF/bookstore app.png"
+  },
+  "created_date": "2025-01-21",
+  "author_display": "ihudak/bookstore"
+}

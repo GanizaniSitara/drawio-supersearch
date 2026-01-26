@@ -1,0 +1,22 @@
+{
+  "id": "16430",
+  "title": "Avantel Architecture.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16430"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "rizwanrockzz",
+    "github_repo": "vrsec"
+  },
+  "_links": {
+    "download": "/download/MATHBF/Avantel Architecture.png"
+  },
+  "created_date": "2024-05-03",
+  "author_display": "rizwanrockzz/vrsec"
+}

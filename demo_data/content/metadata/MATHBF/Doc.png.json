@@ -1,0 +1,22 @@
+{
+  "id": "16440",
+  "title": "Doc.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16440"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "JackGuiding",
+    "github_repo": "PhxTutorial"
+  },
+  "_links": {
+    "download": "/download/MATHBF/Doc.png"
+  },
+  "created_date": "2024-09-02",
+  "author_display": "JackGuiding/PhxTutorial"
+}

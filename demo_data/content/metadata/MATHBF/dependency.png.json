@@ -1,0 +1,22 @@
+{
+  "id": "16503",
+  "title": "dependency.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16503"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "zzu-andrew",
+    "github_repo": "linux-sys"
+  },
+  "_links": {
+    "download": "/download/MATHBF/dependency.png"
+  },
+  "created_date": "2025-09-25",
+  "author_display": "zzu-andrew/linux-sys"
+}

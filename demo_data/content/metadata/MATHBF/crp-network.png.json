@@ -1,0 +1,22 @@
+{
+  "id": "16496",
+  "title": "crp-network.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16496"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "sujeet-pro",
+    "github_repo": "v2.sujeet.pro"
+  },
+  "_links": {
+    "download": "/download/MATHBF/crp-network.png"
+  },
+  "created_date": "2024-07-14",
+  "author_display": "sujeet-pro/v2.sujeet.pro"
+}

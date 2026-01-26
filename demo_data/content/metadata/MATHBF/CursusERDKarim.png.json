@@ -1,0 +1,22 @@
+{
+  "id": "16444",
+  "title": "CursusERDKarim.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16444"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "Avans2023-JGKJ",
+    "github_repo": "CodeAcademy-JGKJ"
+  },
+  "_links": {
+    "download": "/download/MATHBF/CursusERDKarim.png"
+  },
+  "created_date": "2024-04-14",
+  "author_display": "Avans2023-JGKJ/CodeAcademy-JGKJ"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "16487",
+  "title": "commonwork-diagram.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16487"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "dcmi",
+    "github_repo": "openwemi"
+  },
+  "_links": {
+    "download": "/download/MATHBF/commonwork-diagram.png"
+  },
+  "created_date": "2025-03-28",
+  "author_display": "dcmi/openwemi"
+}

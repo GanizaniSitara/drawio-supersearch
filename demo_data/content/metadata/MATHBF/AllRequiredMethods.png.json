@@ -1,0 +1,22 @@
+{
+  "id": "16445",
+  "title": "AllRequiredMethods.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16445"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "Bronstein0x113c1c3",
+    "github_repo": "CS255"
+  },
+  "_links": {
+    "download": "/download/MATHBF/AllRequiredMethods.png"
+  },
+  "created_date": "2025-05-14",
+  "author_display": "Bronstein0x113c1c3/CS255"
+}

@@ -1,0 +1,34 @@
+<mxfile host="Electron" modified="2024-04-07T16:26:26.588Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="HGm_iuaPQBJGfIjcs2Q4" version="24.1.0" type="device">
+  <diagram id="F4ygIfhEsgCp19a4eeYL" name="remake">
+    <mxGraphModel dx="2736" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BYvvmub5tSyFbPhWnXfY-1" value="Le site web" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="250" width="880" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-wyT6Q7vaBbO7pq2VOsx-1" value="l&#39;utilisateur clique sur le bouton deconnexion&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;en y accédant depuis la page &quot;mon compte&quot;&lt;/i&gt;&lt;/div&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" parent="BYvvmub5tSyFbPhWnXfY-1" vertex="1">
+          <mxGeometry x="130" y="40" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-wyT6Q7vaBbO7pq2VOsx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="BYvvmub5tSyFbPhWnXfY-1" source="-wyT6Q7vaBbO7pq2VOsx-2" target="-wyT6Q7vaBbO7pq2VOsx-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-wyT6Q7vaBbO7pq2VOsx-2" value="le déconnecte du compte&lt;br&gt;&lt;br&gt;&lt;i&gt;en supprimant la variable de session qui stocke l&#39;email&lt;/i&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" parent="BYvvmub5tSyFbPhWnXfY-1" vertex="1">
+          <mxGeometry x="290" y="30" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-wyT6Q7vaBbO7pq2VOsx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="BYvvmub5tSyFbPhWnXfY-1" source="-wyT6Q7vaBbO7pq2VOsx-1" target="-wyT6Q7vaBbO7pq2VOsx-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-wyT6Q7vaBbO7pq2VOsx-4" value="rediriger vers l&#39;accueil" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" parent="BYvvmub5tSyFbPhWnXfY-1" vertex="1">
+          <mxGeometry x="570" y="30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-wyT6Q7vaBbO7pq2VOsx-6" value="l&#39;utilisateur est deconnecté" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" parent="BYvvmub5tSyFbPhWnXfY-1" vertex="1">
+          <mxGeometry x="770" y="40" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-wyT6Q7vaBbO7pq2VOsx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="BYvvmub5tSyFbPhWnXfY-1" source="-wyT6Q7vaBbO7pq2VOsx-4" target="-wyT6Q7vaBbO7pq2VOsx-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

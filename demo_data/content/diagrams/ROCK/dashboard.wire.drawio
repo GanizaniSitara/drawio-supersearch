@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Wireframe">
+    <mxGraphModel dx="1165" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="ロゴ" style="shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/png;base64,..." vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="ユーザー名" style="text" vertex="1" parent="1">
+          <mxGeometry x="100" y="20" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="訪問へ行く" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0033cc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="カレンダー" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ff66ff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="利用者情報" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99ff99;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="24時間体制" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ff33cc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="訪問予定管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66ccff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="シフト登録" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="看護記録" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="ファイル" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="掲示板" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="レセプト処理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="iBowレセプト" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="オン請求お試しiBowレセプト" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="統計" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="300" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="帳票" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="300" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="訪問記録情報" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="サポート" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="今日の日時" style="text" vertex="1" parent="1">
+          <mxGeometry x="20" y="400" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="本日の予定" style="text" vertex="1" parent="1">
+          <mxGeometry x="20" y="450" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="お知らせリスト" style="text" vertex="1" parent="1">
+          <mxGeometry x="20" y="500" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="24時間体制リスト" style="text" vertex="1" parent="1">
+          <mxGeometry x="20" y="610" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="未提出書類リスト" style="text" vertex="1" parent="1">
+          <mxGeometry x="20" y="680" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="メインメニュー編集" style="text" vertex="1" parent="1">
+          <mxGeometry x="20" y="750" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="カレンダーをみる" style="text" vertex="1" parent="1">
+          <mxGeometry x="320" y="450" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="お知らせ一覧をみる" style="text" vertex="1" parent="1">
+          <mxGeometry x="320" y="500" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

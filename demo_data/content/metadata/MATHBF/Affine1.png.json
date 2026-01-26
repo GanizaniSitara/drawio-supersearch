@@ -1,0 +1,22 @@
+{
+  "id": "16401",
+  "title": "Affine1.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16401"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "TadaTeruki",
+    "github_repo": "slides"
+  },
+  "_links": {
+    "download": "/download/MATHBF/Affine1.png"
+  },
+  "created_date": "2025-07-17",
+  "author_display": "TadaTeruki/slides"
+}

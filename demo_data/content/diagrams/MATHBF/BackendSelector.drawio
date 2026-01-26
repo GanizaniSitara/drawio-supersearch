@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" modified="2023-10-30T08:47:15.492Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="DbB6CXBCmwWZQyxZy-Jj" version="22.0.8" type="device">
+  <diagram name="第 1 页" id="BZLgtAxlJXVd-FImA3iX">
+    <mxGraphModel dx="2074" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i2-hz05Schlm4xUQR7tr-1" value="interface BackendSelector" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="370" width="320" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="i2-hz05Schlm4xUQR7tr-4" value="+ void computeScanRangeAssignment&lt;span style=&quot;background-color: initial;&quot;&gt;()&amp;nbsp;&lt;/span&gt;throws&amp;nbsp;Exception" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i2-hz05Schlm4xUQR7tr-1">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i2-hz05Schlm4xUQR7tr-5" value="ColocatedBackendSelector" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="20" y="520" width="270" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="i2-hz05Schlm4xUQR7tr-6" value="+&amp;nbsp;scanNode:&amp;nbsp; OlapScanNode" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i2-hz05Schlm4xUQR7tr-5">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i2-hz05Schlm4xUQR7tr-7" value="+&amp;nbsp;assignment:&amp;nbsp;FragmentScanRangeAssignment" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i2-hz05Schlm4xUQR7tr-5">
+          <mxGeometry y="52" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i2-hz05Schlm4xUQR7tr-8" value="NormalBackendSelector" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="334" y="520" width="270" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="i2-hz05Schlm4xUQR7tr-9" value="+&amp;nbsp;scanNode:&amp;nbsp;&amp;nbsp;ScanNode" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i2-hz05Schlm4xUQR7tr-8">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i2-hz05Schlm4xUQR7tr-11" value="+&amp;nbsp;locations&lt;span style=&quot;background-color: initial;&quot;&gt;: List&amp;lt;&lt;/span&gt;TScanRangeLocations&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i2-hz05Schlm4xUQR7tr-8">
+          <mxGeometry y="52" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i2-hz05Schlm4xUQR7tr-10" value="+&amp;nbsp;assignment:&amp;nbsp;FragmentScanRangeAssignment" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i2-hz05Schlm4xUQR7tr-8">
+          <mxGeometry y="78" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i2-hz05Schlm4xUQR7tr-12" value="HDFSBackendSelector" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="970" y="520" width="150" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="i2-hz05Schlm4xUQR7tr-16" value="ReplicatedBackendSelector" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="650" y="520" width="270" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="i2-hz05Schlm4xUQR7tr-17" value="+&amp;nbsp;scanNode:&amp;nbsp;&amp;nbsp;ScanNode" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i2-hz05Schlm4xUQR7tr-16">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i2-hz05Schlm4xUQR7tr-18" value="+&amp;nbsp;locations&lt;span style=&quot;background-color: initial;&quot;&gt;: List&amp;lt;&lt;/span&gt;TScanRangeLocations&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i2-hz05Schlm4xUQR7tr-16">
+          <mxGeometry y="52" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i2-hz05Schlm4xUQR7tr-19" value="+&amp;nbsp;assignment:&amp;nbsp;FragmentScanRangeAssignment" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i2-hz05Schlm4xUQR7tr-16">
+          <mxGeometry y="78" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i2-hz05Schlm4xUQR7tr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.438;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i2-hz05Schlm4xUQR7tr-5" target="i2-hz05Schlm4xUQR7tr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2-hz05Schlm4xUQR7tr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.479;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="520" as="sourcePoint" />
+            <mxPoint x="583.2800000000002" y="422.01199999999994" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="465" y="480" />
+              <mxPoint x="583" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i2-hz05Schlm4xUQR7tr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="520" as="sourcePoint" />
+            <mxPoint x="594" y="422" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="785" y="480" />
+              <mxPoint x="594" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i2-hz05Schlm4xUQR7tr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.543;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i2-hz05Schlm4xUQR7tr-12" target="i2-hz05Schlm4xUQR7tr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

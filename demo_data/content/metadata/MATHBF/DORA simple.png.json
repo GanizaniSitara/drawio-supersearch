@@ -1,0 +1,22 @@
+{
+  "id": "16580",
+  "title": "DORA simple.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16580"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "JacobInwald",
+    "github_repo": "DORA"
+  },
+  "_links": {
+    "download": "/download/MATHBF/DORA simple.png"
+  },
+  "created_date": "2025-08-03",
+  "author_display": "JacobInwald/DORA"
+}

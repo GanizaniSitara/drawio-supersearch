@@ -1,0 +1,22 @@
+{
+  "id": "16433",
+  "title": "buyerFuncSD.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16433"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "Enxhiroci",
+    "github_repo": "LOB-Luxury-Outlet-Brands"
+  },
+  "_links": {
+    "download": "/download/MATHBF/buyerFuncSD.png"
+  },
+  "created_date": "2024-12-04",
+  "author_display": "Enxhiroci/LOB-Luxury-Outlet-Brands"
+}

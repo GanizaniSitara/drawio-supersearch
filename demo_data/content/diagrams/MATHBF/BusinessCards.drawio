@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" modified="2024-01-24T03:36:52.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="SvKhp9RN3cP8mjoo46Z9" version="23.0.0" type="device">
+  <diagram name="Page-1" id="My04iPDE87iwI_xUb_gP">
+    <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rnctsSZvIO_tBq5Yz8C5-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="370" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="rnctsSZvIO_tBq5Yz8C5-3" value="Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="135" y="360" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rnctsSZvIO_tBq5Yz8C5-5" value="Profile Picture" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="50" width="350" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="rnctsSZvIO_tBq5Yz8C5-6" value="Email" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="175" y="410" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jhtOF-ou6-nYdhYKJSAq-1" value="Phone Number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="460" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jhtOF-ou6-nYdhYKJSAq-2" value="Base Screen" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jhtOF-ou6-nYdhYKJSAq-3" value="GitHub" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="500" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

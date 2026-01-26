@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" modified="2024-01-16T04:44:55.803Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="D1_oLJcpKwXVWdft-34I" version="22.1.18" type="github">
+  <diagram name="第 1 页" id="iAE7AngIT5HuACfvcEyp">
+    <mxGraphModel dx="3413" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5rICe0u5YL-ZhFPdPBOT-12" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="5rICe0u5YL-ZhFPdPBOT-9" target="5rICe0u5YL-ZhFPdPBOT-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rICe0u5YL-ZhFPdPBOT-9" value="ads_trs_sal_bsn_prxy_ord_dtl_df&lt;br&gt;(业代出货下单汇总表)&lt;br&gt;&lt;br&gt;&lt;b&gt;job:&lt;br&gt;&lt;/b&gt;job_trsf_ads_trs_sal_bsn_prxy_ord_dtl_df_4312&lt;br&gt;&lt;br&gt;处理过程：&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=15;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="370" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5rICe0u5YL-ZhFPdPBOT-11" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;dws_trs_sal_bsn_prxy_ord_df&lt;/div&gt;(业代出货订单汇总表)&lt;br&gt;&lt;br&gt;&lt;b&gt;job:&lt;br&gt;&lt;/b&gt;job_trsf_dws_trs_sal_bsn_prxy_ord_df_3880&lt;br&gt;&lt;br&gt;&lt;b&gt;处理过程：&lt;/b&gt;&lt;br&gt;从&amp;nbsp;dwd_trs_sal_bsn_prxy_ord_dtl_df 业代订单明细，dwd_trs_sal_ord_deliv_dtl_df 业代发货明细 mtd 自然箱，mtd 标箱数，已发货自然箱数，已发货标准箱数，订单金额，发货金额" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=15;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="360" width="660" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

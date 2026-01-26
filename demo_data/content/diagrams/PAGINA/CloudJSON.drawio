@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" modified="2023-10-12T08:52:05.204Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="J3lT3nuxx5k4fRRz_nFb" version="21.6.7" type="github">
+  <diagram name="Page-1" id="amFG-4uqAcwjyuL5grmp">
+    <mxGraphModel dx="1434" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fn2KTukHNkkNAbUks9pq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fn2KTukHNkkNAbUks9pq-1" target="Fn2KTukHNkkNAbUks9pq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn2KTukHNkkNAbUks9pq-1" value="UUID _ File&lt;br&gt;1323-RM4HealthECG.json&lt;br&gt;...&lt;br&gt;1329-DanielPPG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="160" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn2KTukHNkkNAbUks9pq-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fn2KTukHNkkNAbUks9pq-2" target="Fn2KTukHNkkNAbUks9pq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn2KTukHNkkNAbUks9pq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fn2KTukHNkkNAbUks9pq-2" target="Fn2KTukHNkkNAbUks9pq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn2KTukHNkkNAbUks9pq-2" value="DeviceType: ECG&lt;br&gt;Variable: Acceleration&lt;br&gt;Description:&lt;br&gt;NA&lt;br&gt;FileParse: Acceleration25sample2bytes.json&lt;br&gt;GraphType: LineChart&lt;br&gt;&lt;br&gt;&lt;br&gt;Variable: ECG&lt;br&gt;Description: Lead 1&lt;br&gt;FileParse: ECG50samples4Bytes.json&lt;br&gt;GraphType:&lt;br&gt;LineChart&lt;br&gt;&lt;br&gt;Variable: ECG&lt;br&gt;Description: Lead 2&lt;br&gt;FileParse: ECG25samples4Bytes.json&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;GraphType:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;LineChart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="80" width="160" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn2KTukHNkkNAbUks9pq-4" value="FileParse: Acceleration25sample2bytes.json&lt;br&gt;&lt;br&gt;FirstByte: DataType&lt;br&gt;Byte2-5: TimeTick&lt;br&gt;Byte6-125: 2byteX 2byteY 2 byteZ&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="30" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn2KTukHNkkNAbUks9pq-6" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="390" width="200" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,22 @@
+{
+  "id": "16473",
+  "title": "abstraction_W2.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16473"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "yjohnson67",
+    "github_repo": "cse210_hw"
+  },
+  "_links": {
+    "download": "/download/MATHBF/abstraction_W2.png"
+  },
+  "created_date": "2024-08-07",
+  "author_display": "yjohnson67/cse210_hw"
+}

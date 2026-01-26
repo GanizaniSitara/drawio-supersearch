@@ -1,0 +1,22 @@
+{
+  "id": "16489",
+  "title": "collab-psv.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16489"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "fsteff",
+    "github_repo": "certacrypt"
+  },
+  "_links": {
+    "download": "/download/MATHBF/collab-psv.png"
+  },
+  "created_date": "2025-02-20",
+  "author_display": "fsteff/certacrypt"
+}

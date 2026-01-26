@@ -1,0 +1,22 @@
+{
+  "id": "16603",
+  "title": "binar.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16603"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "rizkyjackbar",
+    "github_repo": "binar-main"
+  },
+  "_links": {
+    "download": "/download/MATHBF/binar.png"
+  },
+  "created_date": "2024-05-03",
+  "author_display": "rizkyjackbar/binar-main"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "16524",
+  "title": "assignments.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16524"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "learn-co-curriculum",
+    "github_repo": "west-se-042522-class-sessions"
+  },
+  "_links": {
+    "download": "/download/MATHBF/assignments.png"
+  },
+  "created_date": "2025-06-01",
+  "author_display": "learn-co-curriculum/west-se-042522-class-sessions"
+}

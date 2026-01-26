@@ -1,0 +1,22 @@
+{
+  "id": "16499",
+  "title": "defense_figures.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16499"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "morteza",
+    "github_repo": "thesis"
+  },
+  "_links": {
+    "download": "/download/MATHBF/defense_figures.png"
+  },
+  "created_date": "2024-03-14",
+  "author_display": "morteza/thesis"
+}

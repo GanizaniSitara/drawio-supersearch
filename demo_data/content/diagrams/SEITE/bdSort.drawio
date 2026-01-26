@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2021-10-07T04:54:16.827Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 SLBrowser/7.0.0.6241 SLBChan/30" etag="SWMtmEofLRx2RK6lDqI7" version="15.4.1" type="github">
+  <diagram id="jqt50fl-MRmz82jPBsF7" name="第 1 页">
+    <mxGraphModel dx="782" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="cuxdXZbSRFRjtJqR8UAa-1" target="cuxdXZbSRFRjtJqR8UAa-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cuxdXZbSRFRjtJqR8UAa-1" target="cuxdXZbSRFRjtJqR8UAa-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="cuxdXZbSRFRjtJqR8UAa-1" target="cuxdXZbSRFRjtJqR8UAa-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="cuxdXZbSRFRjtJqR8UAa-1" target="cuxdXZbSRFRjtJqR8UAa-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-1" value="bd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="170" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;shape=link;" edge="1" parent="1" source="cuxdXZbSRFRjtJqR8UAa-2" target="cuxdXZbSRFRjtJqR8UAa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-2" value="RootBeanDefinition" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-3" value="Spring内置6个bd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="100" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-13" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="cuxdXZbSRFRjtJqR8UAa-4" target="cuxdXZbSRFRjtJqR8UAa-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-4" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 9.8pt;&quot;&gt;AnnotatedGenericBeanDefinition&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="140" y="150" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-5" value="通过register()注册进工厂&lt;br&gt;被Import的类" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="380" y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-14" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="cuxdXZbSRFRjtJqR8UAa-6" target="cuxdXZbSRFRjtJqR8UAa-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-6" value="ConfigurationClassBeanDefinition" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-8" value="@Bean定义的bean" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="380" y="200" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-17" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="cuxdXZbSRFRjtJqR8UAa-15" target="cuxdXZbSRFRjtJqR8UAa-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-15" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 9.8pt;&quot;&gt;ScannedGenericBeanDefinition&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-16" value="通过scan扫描出来的类&lt;br&gt;就是spring自己通过包路径扫描的类" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="380" y="240" width="190" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

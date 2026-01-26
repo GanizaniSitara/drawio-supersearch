@@ -1,0 +1,22 @@
+{
+  "id": "16626",
+  "title": "CurrentSupplyChainManagementProcess.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16626"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "dwnatwick",
+    "github_repo": "Industry-Supply-Chain-Optimization"
+  },
+  "_links": {
+    "download": "/download/MATHBF/CurrentSupplyChainManagementProcess.png"
+  },
+  "created_date": "2025-10-21",
+  "author_display": "dwnatwick/Industry-Supply-Chain-Optimization"
+}

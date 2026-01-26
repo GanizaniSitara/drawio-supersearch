@@ -1,0 +1,22 @@
+{
+  "id": "16494",
+  "title": "CreateNewFire.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16494"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "saya-rbt",
+    "github_repo": "firecloud-monitor"
+  },
+  "_links": {
+    "download": "/download/MATHBF/CreateNewFire.png"
+  },
+  "created_date": "2024-10-11",
+  "author_display": "saya-rbt/firecloud-monitor"
+}

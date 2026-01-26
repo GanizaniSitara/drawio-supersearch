@@ -1,0 +1,39 @@
+<mxfile host="app.diagrams.net" modified="2023-05-31T13:35:19.650Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="iUNlKcCzGd-FxMslsX_G" version="21.3.6" type="google">
+  <diagram name="Page-1" id="NAG809S8j7YOH0peloBy">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gl1RXLci-dCNB1zIW5Oz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gl1RXLci-dCNB1zIW5Oz-1" target="Gl1RXLci-dCNB1zIW5Oz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gl1RXLci-dCNB1zIW5Oz-1" value="client or vendor&amp;nbsp; logs in (AD001)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gl1RXLci-dCNB1zIW5Oz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gl1RXLci-dCNB1zIW5Oz-2" target="Gl1RXLci-dCNB1zIW5Oz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gl1RXLci-dCNB1zIW5Oz-2" value="navigates to order history" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="200" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gl1RXLci-dCNB1zIW5Oz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gl1RXLci-dCNB1zIW5Oz-4" target="Gl1RXLci-dCNB1zIW5Oz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gl1RXLci-dCNB1zIW5Oz-4" value="user views order history (purchases for client, or sells for vendors)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="290" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gl1RXLci-dCNB1zIW5Oz-6" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="380" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gl1RXLci-dCNB1zIW5Oz-8" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="155" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gl1RXLci-dCNB1zIW5Oz-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gl1RXLci-dCNB1zIW5Oz-8" target="Gl1RXLci-dCNB1zIW5Oz-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

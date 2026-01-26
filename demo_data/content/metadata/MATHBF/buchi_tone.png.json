@@ -1,0 +1,22 @@
+{
+  "id": "16425",
+  "title": "buchi_tone.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16425"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "cd-public",
+    "github_repo": "cd-public.github.io"
+  },
+  "_links": {
+    "download": "/download/MATHBF/buchi_tone.png"
+  },
+  "created_date": "2024-04-30",
+  "author_display": "cd-public/cd-public.github.io"
+}

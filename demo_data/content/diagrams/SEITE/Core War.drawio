@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2024-03-11T13:56:53.625Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="rdhctyEFcdqbZPVu61-d" version="23.1.6" type="github">
+  <diagram name="Page-1" id="EovrdektjfxC4TGX15qM">
+    <mxGraphModel dx="1002" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x-68b9pd7ZiG6m4a_QSg-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="390" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="x-68b9pd7ZiG6m4a_QSg-2" value="VM" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x-68b9pd7ZiG6m4a_QSg-3" value="Circular memory array.&amp;nbsp; The binary instructions from each program (champion) are loaded into the VM to be executed" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="70" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="x-68b9pd7ZiG6m4a_QSg-5" value="&lt;b&gt;QUESTIONS:&lt;br&gt;- Registers (define, how to use)&lt;br&gt;- How to load and run multiple programs in same VM&lt;br&gt;- How to execute the binary code&lt;br&gt;- Order of operations (memory gets overwritten)&lt;br&gt;- How do we know what memory to read?- How do we know exactly what do execute?&lt;br&gt;- How do we know WHERE to execute it?&lt;br&gt;- Data structures?&lt;br&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="310" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="x-68b9pd7ZiG6m4a_QSg-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="460" y="40" width="370" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="x-68b9pd7ZiG6m4a_QSg-7" value="Assembler" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x-68b9pd7ZiG6m4a_QSg-8" value="Each program (champion) is loaded from a .cor file.&amp;nbsp; The assembler needs to read these files and translate the machine code instructions into binary.&amp;nbsp; These binary files are then read and executed by the VM.&lt;br&gt;&lt;br&gt;&lt;b&gt;Questions&lt;br&gt;&lt;/b&gt;- Language?&lt;br&gt;- How to Parse champions?&lt;br&gt;- Storage?&amp;nbsp; Directly into VM?&amp;nbsp; Another file?" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="90" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="x-68b9pd7ZiG6m4a_QSg-9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="450" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="x-68b9pd7ZiG6m4a_QSg-10" value="Warrior (Champion)&lt;div&gt;A file containing instructions to be parsed (assembler) and then executed (VM)&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="460" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x-68b9pd7ZiG6m4a_QSg-11" value="Questions: format?&amp;nbsp; language?&amp;nbsp; Instructions and what they actually mean?&amp;nbsp; Storage -&amp;gt; additional data structure or directly load into VM?" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="550" width="170" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

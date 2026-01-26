@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" modified="2024-03-10T16:31:10.407Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ma_SdQqEnQtJY_KtRYhK" version="24.0.4" type="device">
+  <diagram name="Page-1" id="OuUt4WEekQ0QjlNE6xVR">
+    <mxGraphModel dx="880" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xPMnnify6aLQSRHWBxHd-1" value="Title" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="20" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPMnnify6aLQSRHWBxHd-2" value="Check In:" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="285" y="100" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xPMnnify6aLQSRHWBxHd-3" value="Check Out:" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="100" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xPMnnify6aLQSRHWBxHd-4" value="Number of Guest:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="280" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPMnnify6aLQSRHWBxHd-5" value="Number of Campsites:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="360" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPMnnify6aLQSRHWBxHd-6" value="Reserve&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xPMnnify6aLQSRHWBxHd-7" value="Results" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="560" width="150" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,22 @@
+{
+  "id": "16443",
+  "title": "1122.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16443"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "Muhozhukov",
+    "github_repo": "online-store"
+  },
+  "_links": {
+    "download": "/download/MATHBF/1122.png"
+  },
+  "created_date": "2025-05-22",
+  "author_display": "Muhozhukov/online-store"
+}

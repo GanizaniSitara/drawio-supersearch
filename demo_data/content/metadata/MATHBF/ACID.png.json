@@ -1,0 +1,22 @@
+{
+  "id": "16596",
+  "title": "ACID.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16596"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "Snailclimb",
+    "github_repo": "JavaGuide"
+  },
+  "_links": {
+    "download": "/download/MATHBF/ACID.png"
+  },
+  "created_date": "2025-02-26",
+  "author_display": "Snailclimb/JavaGuide"
+}

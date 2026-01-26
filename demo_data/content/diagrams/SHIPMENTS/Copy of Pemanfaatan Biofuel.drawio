@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" modified="2022-11-20T02:09:41.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="il9zN0GHV741O-fJd65L" version="20.5.3" type="github">
+  <diagram id="y6l0wHEc_zwmr4esPKSV" name="Page-1">
+    <mxGraphModel dx="865" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hnPN2Cyi5QHsvFxq4lUZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hnPN2Cyi5QHsvFxq4lUZ-3" target="hnPN2Cyi5QHsvFxq4lUZ-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnPN2Cyi5QHsvFxq4lUZ-3" value="Refinery" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XbUi8zp3qOoDoqqDQjyT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hnPN2Cyi5QHsvFxq4lUZ-5" target="hnPN2Cyi5QHsvFxq4lUZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnPN2Cyi5QHsvFxq4lUZ-5" value="CPO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="275" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hnPN2Cyi5QHsvFxq4lUZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="hnPN2Cyi5QHsvFxq4lUZ-6" target="hnPN2Cyi5QHsvFxq4lUZ-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnPN2Cyi5QHsvFxq4lUZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hnPN2Cyi5QHsvFxq4lUZ-6" target="hnPN2Cyi5QHsvFxq4lUZ-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnPN2Cyi5QHsvFxq4lUZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hnPN2Cyi5QHsvFxq4lUZ-6" target="hnPN2Cyi5QHsvFxq4lUZ-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnPN2Cyi5QHsvFxq4lUZ-6" value="RBDPO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="275" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XbUi8zp3qOoDoqqDQjyT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="hnPN2Cyi5QHsvFxq4lUZ-7" target="XbUi8zp3qOoDoqqDQjyT-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnPN2Cyi5QHsvFxq4lUZ-7" value="OLEIN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="275" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XbUi8zp3qOoDoqqDQjyT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hnPN2Cyi5QHsvFxq4lUZ-8" target="XbUi8zp3qOoDoqqDQjyT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnPN2Cyi5QHsvFxq4lUZ-8" value="PFAD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XbUi8zp3qOoDoqqDQjyT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=9;" edge="1" parent="1" source="hnPN2Cyi5QHsvFxq4lUZ-9" target="XbUi8zp3qOoDoqqDQjyT-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnPN2Cyi5QHsvFxq4lUZ-9" value="STEARIN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="335" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XbUi8zp3qOoDoqqDQjyT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=7;" edge="1" parent="1" source="XbUi8zp3qOoDoqqDQjyT-2" target="XbUi8zp3qOoDoqqDQjyT-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XbUi8zp3qOoDoqqDQjyT-2" value="Pabrik Biodiesel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="205" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XbUi8zp3qOoDoqqDQjyT-3" value="Mesin diesel untuk transportasi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XbUi8zp3qOoDoqqDQjyT-8" value="Biodiesel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="720" y="220" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XbUi8zp3qOoDoqqDQjyT-11" value="Dapat digunakan sebagai bahan bakar biodiesel putaran renda, seperti genset, motor perahu nelayan" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="275" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XbUi8zp3qOoDoqqDQjyT-13" value="Digunakan sebagai minyak bakar, seperti boiler, pengerin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="335" width="290" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

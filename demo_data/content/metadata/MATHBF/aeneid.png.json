@@ -1,0 +1,22 @@
+{
+  "id": "16554",
+  "title": "aeneid.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16554"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "GeorgeShvab",
+    "github_repo": "diagrams"
+  },
+  "_links": {
+    "download": "/download/MATHBF/aeneid.png"
+  },
+  "created_date": "2025-07-31",
+  "author_display": "GeorgeShvab/diagrams"
+}

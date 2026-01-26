@@ -1,0 +1,22 @@
+{
+  "id": "16501",
+  "title": "dekomposisi-function.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16501"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "raflialkindhi",
+    "github_repo": "graph-save"
+  },
+  "_links": {
+    "download": "/download/MATHBF/dekomposisi-function.png"
+  },
+  "created_date": "2025-08-21",
+  "author_display": "raflialkindhi/graph-save"
+}

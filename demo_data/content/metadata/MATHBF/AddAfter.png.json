@@ -1,0 +1,22 @@
+{
+  "id": "16601",
+  "title": "AddAfter.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16601"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "MOHAMMEDALMASHHOR",
+    "github_repo": "DataStructureAndAlgorithms"
+  },
+  "_links": {
+    "download": "/download/MATHBF/AddAfter.png"
+  },
+  "created_date": "2025-11-25",
+  "author_display": "MOHAMMEDALMASHHOR/DataStructureAndAlgorithms"
+}

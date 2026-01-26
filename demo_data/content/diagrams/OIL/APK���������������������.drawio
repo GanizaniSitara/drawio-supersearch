@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" modified="2024-03-13T05:00:35.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="_FBFtBWOqoPaQ6Leu5Lz" version="24.0.4" type="github">
+  <diagram name="第 1 页" id="BrtlBp_-f-LWdGb7xtbo">
+    <mxGraphModel dx="1221" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Fp73FmaeuoHfy41DeVbZ-2" target="Fp73FmaeuoHfy41DeVbZ-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-2" value="上传APK并解压缩" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="152" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Fp73FmaeuoHfy41DeVbZ-5" target="Fp73FmaeuoHfy41DeVbZ-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-5" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="92" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Fp73FmaeuoHfy41DeVbZ-6" target="Fp73FmaeuoHfy41DeVbZ-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-6" value="解析APK基本信息、提取权限申明、提取四大组件的配置信息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="335" y="300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Fp73FmaeuoHfy41DeVbZ-7" target="Fp73FmaeuoHfy41DeVbZ-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Fp73FmaeuoHfy41DeVbZ-7" target="Fp73FmaeuoHfy41DeVbZ-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-7" value="判断文件类型" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-13" value="是manifest文件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="398" y="267" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Fp73FmaeuoHfy41DeVbZ-14" target="Fp73FmaeuoHfy41DeVbZ-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-14" value="将文件解析为smali代码" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="220" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Fp73FmaeuoHfy41DeVbZ-15" target="Fp73FmaeuoHfy41DeVbZ-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-15" value="提取API和函数调用、提取网络地址信息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-18" value="是dex文件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="214" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Fp73FmaeuoHfy41DeVbZ-22" target="Fp73FmaeuoHfy41DeVbZ-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-22" value="汇总全部静态特征" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="347.5" y="375" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Fp73FmaeuoHfy41DeVbZ-23" target="Fp73FmaeuoHfy41DeVbZ-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-23" value="将文本信息编码成特征向量" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="347.5" y="431" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Fp73FmaeuoHfy41DeVbZ-24" target="Fp73FmaeuoHfy41DeVbZ-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-24" value="计算APK间的余弦相似度" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="347.5" y="487" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Fp73FmaeuoHfy41DeVbZ-25" target="Fp73FmaeuoHfy41DeVbZ-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-25" value="选取相似度TOP 5的样本" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="347.5" y="541.5" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp73FmaeuoHfy41DeVbZ-26" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

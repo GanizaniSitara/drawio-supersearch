@@ -1,0 +1,22 @@
+{
+  "id": "16569",
+  "title": "BusinessCards.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16569"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "ThomasJWolf",
+    "github_repo": "IST-236"
+  },
+  "_links": {
+    "download": "/download/MATHBF/BusinessCards.png"
+  },
+  "created_date": "2025-09-06",
+  "author_display": "ThomasJWolf/IST-236"
+}

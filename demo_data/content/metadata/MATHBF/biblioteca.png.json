@@ -1,0 +1,22 @@
+{
+  "id": "16480",
+  "title": "biblioteca.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16480"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "danubiabcamargo",
+    "github_repo": "Logica-Programacao-Senac"
+  },
+  "_links": {
+    "download": "/download/MATHBF/biblioteca.png"
+  },
+  "created_date": "2025-11-26",
+  "author_display": "danubiabcamargo/Logica-Programacao-Senac"
+}

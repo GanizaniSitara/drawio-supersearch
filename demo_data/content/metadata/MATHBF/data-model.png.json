@@ -1,0 +1,22 @@
+{
+  "id": "16462",
+  "title": "data-model.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16462"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "AMWA-TV",
+    "github_repo": "is-04"
+  },
+  "_links": {
+    "download": "/download/MATHBF/data-model.png"
+  },
+  "created_date": "2025-11-22",
+  "author_display": "AMWA-TV/is-04"
+}

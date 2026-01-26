@@ -1,0 +1,22 @@
+{
+  "id": "16622",
+  "title": "audio_bash.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16622"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "jhyrkas",
+    "github_repo": "sms-tools-audio-bashing"
+  },
+  "_links": {
+    "download": "/download/MATHBF/audio_bash.png"
+  },
+  "created_date": "2024-03-05",
+  "author_display": "jhyrkas/sms-tools-audio-bashing"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "16405",
+  "title": "attention.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16405"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "afflint",
+    "github_repo": "textsent"
+  },
+  "_links": {
+    "download": "/download/MATHBF/attention.png"
+  },
+  "created_date": "2024-04-08",
+  "author_display": "afflint/textsent"
+}

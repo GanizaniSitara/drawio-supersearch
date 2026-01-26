@@ -1,0 +1,22 @@
+{
+  "id": "16540",
+  "title": "BioSim diagram.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16540"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "navjordj",
+    "github_repo": "BioSim_G10_Eirik_Jorgen"
+  },
+  "_links": {
+    "download": "/download/MATHBF/BioSim diagram.png"
+  },
+  "created_date": "2025-08-08",
+  "author_display": "navjordj/BioSim_G10_Eirik_Jorgen"
+}

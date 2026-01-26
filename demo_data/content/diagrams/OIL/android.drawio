@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" modified="2023-11-29T13:25:27.291Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="KumdQasHT57ef023Jo1w" version="22.1.4" type="device">
+  <diagram name="Page-1" id="YioNUb_3Ysis0YQiG01y">
+    <mxGraphModel dx="574" dy="316" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kUe6ipNcY31H6709LlPs-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8AAADv7+8PDw/19fUqKirl5eVRUVFOTk5hYWFVVVXs7OxkZGTZ2dlXV1dfX19GRkZ9fX0ZGRmqqqpAQEDd3d2kpKRqamqXl5e9vb21tbUvLy/S0tKRkZF1dXUiIiLIyMiampomJiaDg4MMDAw4ODjMzMxvb2+BgYFLdjh8AAADR0lEQVR4nO3aa3OaQBjFcdQVNQSQi4Ag3k38/p+wMZe2iakz0HN2O/b83yQv2PH5ZQExo+cRMiYIl3VWFG1SRvMmHYy/PawcpM08KpO2KLJ6GwbGMIYBNvRXWXtex/lm8LXUD75pcnXcJo/X5zZb+UPXmK+ZbRvP06uBf2t03a3D03ncbv+dLa2nt4b9i6a1a9qlYULivXV2fb6aiuq7tHN6sj7dvPZApSt3wMyC71J270BnxNAacDAInQhvvqGBS10AC4tAN+fp2KqwsQ9cWQW6uBL5b/Wf21kXPloWltaFrKftPxXdvfBBQpJwbKHGqdA3/N4enlwJrXw+lZCUhMAkJHX/wsndC7WHwCQkJSEwCUlJCExCUhICk5CUhMAkJPUgIS4JSUkITEJSEgKTkJSEwCQkJSEwCUndvzCSEJeEpCQEJiEpCYFJSEpCYBKSkhCYhKQkBCYhKQmBSUhKQmASkpIQmISk7l8YWxZObLzSpyQEJiEpCYFJSEpCYBKSkhCYhKQkBCYhKQmBSUhKQmASkpIQmISkJATmSDiTEJeEpCQEJiEpCYFJSEpCYBKSkhCYhKQkBCYhKQmBSUhKQmASkpIQmISkJAQmISkJgUlIyrZwauOVPqU9BCYhKQmBSUhKQmASkpIQ2H8ivP/nUgnxSQhMQlKPEuKSkJSEwCQkJSEwCUlJCExCUhICk5CUhMAkJCUhMAlJSQhMQlISApOQlITAJCQlITAJSUkITEJSEgKTkNSbMPT5DZ0K7WVfWFoW2v9+6dqycGZdeOg36P5p2m9haV2Y9Zrz2WSm6rXyYF0Y9hmzHuaDNOy1dGldaNLOQ+bB8vVnZXrcphbWhV7SdcbEfNydJkHRdXFuH+gtug4Z/tq5xu+6OHMgfP+WcAdh/PPXfec/jwugF3QVJvn8vair0P595rVltynrRfjRYtttaeIG2Pc9sXuRK6DnddyKnjnbwUs+/yPGpnYJfGk14QJ3xjHwpaA6kXRp6egeep152j1PG6Qtjw9LBw9qtzP+Ylkl8d9BT7OkrUPfyv9/emdMsFpmRVG1h+T5MZrMT00z3m/SdDQ6Hl8Qx+MoTTeb/bg55dNoVq7PbVUUWb1dGEO46H4Ay3tDsuXHiT0AAAAASUVORK5CYII=;" vertex="1" parent="1">
+          <mxGeometry x="220" y="230" width="225" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="kUe6ipNcY31H6709LlPs-2" value="Application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="254" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kUe6ipNcY31H6709LlPs-3" value="Android" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="291" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kUe6ipNcY31H6709LlPs-4" value="Recovery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="328" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kUe6ipNcY31H6709LlPs-5" value="Bootloader" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="365" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kUe6ipNcY31H6709LlPs-6" value="SoC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="402" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,22 @@
+{
+  "id": "16461",
+  "title": "credit_social.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16461"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "jaixan",
+    "github_repo": "bd2"
+  },
+  "_links": {
+    "download": "/download/MATHBF/credit_social.png"
+  },
+  "created_date": "2024-09-12",
+  "author_display": "jaixan/bd2"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "16629",
+  "title": "DachsburgGraphDVTheoretical.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16629"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "pascalreiss",
+    "github_repo": "draw_io_stuff"
+  },
+  "_links": {
+    "download": "/download/MATHBF/DachsburgGraphDVTheoretical.png"
+  },
+  "created_date": "2025-05-29",
+  "author_display": "pascalreiss/draw_io_stuff"
+}

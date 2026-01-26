@@ -1,0 +1,22 @@
+{
+  "id": "16476",
+  "title": "abstractfactory_structure.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16476"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "dominikcebula",
+    "github_repo": "gof-design-patterns"
+  },
+  "_links": {
+    "download": "/download/MATHBF/abstractfactory_structure.png"
+  },
+  "created_date": "2025-10-21",
+  "author_display": "dominikcebula/gof-design-patterns"
+}

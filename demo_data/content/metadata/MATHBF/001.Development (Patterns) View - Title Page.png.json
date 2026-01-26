@@ -1,0 +1,22 @@
+{
+  "id": "16523",
+  "title": "001.Development (Patterns) View - Title Page.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16523"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "skysgh",
+    "github_repo": "SysDelivery.Guidance"
+  },
+  "_links": {
+    "download": "/download/MATHBF/001.Development (Patterns) View - Title Page.png"
+  },
+  "created_date": "2024-02-29",
+  "author_display": "skysgh/SysDelivery.Guidance"
+}

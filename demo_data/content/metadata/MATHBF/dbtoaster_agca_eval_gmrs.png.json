@@ -1,0 +1,22 @@
+{
+  "id": "16415",
+  "title": "dbtoaster_agca_eval_gmrs.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16415"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "OliverKillane",
+    "github_repo": "emDB"
+  },
+  "_links": {
+    "download": "/download/MATHBF/dbtoaster_agca_eval_gmrs.png"
+  },
+  "created_date": "2024-06-17",
+  "author_display": "OliverKillane/emDB"
+}

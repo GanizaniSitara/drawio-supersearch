@@ -1,0 +1,91 @@
+<mxfile host="Electron" modified="2023-06-28T08:59:01.643Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="TBgm6ubPnDnu7k9q46r0" version="21.5.0" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1418" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j2kc7Oip9wlwYq-TMwCC-0" target="j2kc7Oip9wlwYq-TMwCC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-0" value="Create the GUI Windows and link them together where needed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="60" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j2kc7Oip9wlwYq-TMwCC-1" target="j2kc7Oip9wlwYq-TMwCC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-1" value="Create a &quot;Account&quot; class&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="60" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j2kc7Oip9wlwYq-TMwCC-3" target="j2kc7Oip9wlwYq-TMwCC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-3" value="Create a class file to handle all the reading of data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="60" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j2kc7Oip9wlwYq-TMwCC-5" target="j2kc7Oip9wlwYq-TMwCC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-5" value="Behind the second window write the code for the functionality, test and check if everything works" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="55" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j2kc7Oip9wlwYq-TMwCC-7" target="j2kc7Oip9wlwYq-TMwCC-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-7" value="Add comments and make sure the second window aspect and functionality is user friendly&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="665" y="170" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j2kc7Oip9wlwYq-TMwCC-9" target="j2kc7Oip9wlwYq-TMwCC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-9" value="Create a &quot;Transaction&quot; class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="170" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j2kc7Oip9wlwYq-TMwCC-11" target="j2kc7Oip9wlwYq-TMwCC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-11" value="Write and test each method one by one" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="170" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j2kc7Oip9wlwYq-TMwCC-13" target="j2kc7Oip9wlwYq-TMwCC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-13" value="First we will write a method to display the transactions from a selected account" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="35" y="170" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j2kc7Oip9wlwYq-TMwCC-15" target="j2kc7Oip9wlwYq-TMwCC-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-15" value="In the same method we will calculate the balance, and the cash flow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="35" y="290" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j2kc7Oip9wlwYq-TMwCC-17" target="j2kc7Oip9wlwYq-TMwCC-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-17" value="Ensure the method can be called even if a filter is used to sort" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="290" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j2kc7Oip9wlwYq-TMwCC-19" target="j2kc7Oip9wlwYq-TMwCC-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-19" value="Now work on 2 filters to sort the transactions either by date or by reason" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="290" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j2kc7Oip9wlwYq-TMwCC-21" target="j2kc7Oip9wlwYq-TMwCC-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-21" value="In the end we need to create a method that will allow the user to print all the transactions from the chosen account" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="290" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="j2kc7Oip9wlwYq-TMwCC-23" target="j2kc7Oip9wlwYq-TMwCC-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-23" value="Test the app to ensure every method works properly. Add more comments where needed." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="440" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j2kc7Oip9wlwYq-TMwCC-25" value="END" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="465" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

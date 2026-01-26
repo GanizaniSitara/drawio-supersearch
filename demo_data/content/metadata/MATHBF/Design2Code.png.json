@@ -1,0 +1,22 @@
+{
+  "id": "16500",
+  "title": "Design2Code.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16500"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "hikumealan",
+    "github_repo": "draw-io-diagrams"
+  },
+  "_links": {
+    "download": "/download/MATHBF/Design2Code.png"
+  },
+  "created_date": "2024-02-11",
+  "author_display": "hikumealan/draw-io-diagrams"
+}

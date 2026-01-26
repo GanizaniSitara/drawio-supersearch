@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2024-01-24T00:52:59.902Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-ZknxLR2wIbVHcgGlLwe" version="23.0.0" type="github" pages="2">
+  <diagram name="Page-1" id="csNKROTMpLTAjLFFiV4P">
+    <mxGraphModel dx="1018" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QuyA2ZuFfsk4fhcYd_FC-1" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;spacing=10;" edge="1" parent="1" source="QuyA2ZuFfsk4fhcYd_FC-2" target="QuyA2ZuFfsk4fhcYd_FC-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QuyA2ZuFfsk4fhcYd_FC-2" value="repo locally installed&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QuyA2ZuFfsk4fhcYd_FC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;spacing=10;" edge="1" parent="1" source="QuyA2ZuFfsk4fhcYd_FC-6" target="QuyA2ZuFfsk4fhcYd_FC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QuyA2ZuFfsk4fhcYd_FC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;spacing=10;" edge="1" parent="1" source="QuyA2ZuFfsk4fhcYd_FC-6" target="QuyA2ZuFfsk4fhcYd_FC-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QuyA2ZuFfsk4fhcYd_FC-5" value="Updates" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];spacingRight=4;spacing=10;labelBackgroundColor=#eebef4;" connectable="0" vertex="1" parent="QuyA2ZuFfsk4fhcYd_FC-4">
+          <mxGeometry x="-0.4152" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QuyA2ZuFfsk4fhcYd_FC-6" value="execute RUNMEFIRST.sh" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="250" y="90" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QuyA2ZuFfsk4fhcYd_FC-7" value="" style="group;spacing=10;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="185" y="280" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QuyA2ZuFfsk4fhcYd_FC-8" value=".env" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;spacing=10;" vertex="1" parent="QuyA2ZuFfsk4fhcYd_FC-7">
+          <mxGeometry x="130" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QuyA2ZuFfsk4fhcYd_FC-9" value="config.py" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;spacing=10;" vertex="1" parent="QuyA2ZuFfsk4fhcYd_FC-7">
+          <mxGeometry width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="playlist process" id="G6XXLA106h_w7RU2fjvx">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7g-1DmuyMUT9Fnnjx7ss-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="87.15" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7g-1DmuyMUT9Fnnjx7ss-4" value="Liked Songs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ed760;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7g-1DmuyMUT9Fnnjx7ss-5" value="in beta" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ed760;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="176.42000000000002" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7g-1DmuyMUT9Fnnjx7ss-6" value="Queued" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ed760;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="306.42" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7g-1DmuyMUT9Fnnjx7ss-7" value="Shazam Tracks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ed760;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="176.42000000000002" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7g-1DmuyMUT9Fnnjx7ss-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_lastfm-512.png;" vertex="1" parent="1">
+          <mxGeometry x="570" y="50" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="7g-1DmuyMUT9Fnnjx7ss-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ed760;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="200" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7g-1DmuyMUT9Fnnjx7ss-22" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="53.58" y="-220" width="456.42" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7g-1DmuyMUT9Fnnjx7ss-20" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="7g-1DmuyMUT9Fnnjx7ss-22">
+          <mxGeometry width="456.42" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7g-1DmuyMUT9Fnnjx7ss-21" value="Key Spotify Playlist" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ed760;opacity=70;" vertex="1" parent="7g-1DmuyMUT9Fnnjx7ss-22">
+          <mxGeometry x="26.420000000000087" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

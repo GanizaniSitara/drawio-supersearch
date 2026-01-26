@@ -1,0 +1,22 @@
+{
+  "id": "16527",
+  "title": "codengu.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16527"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "JinHuynh",
+    "github_repo": "project.shop"
+  },
+  "_links": {
+    "download": "/download/MATHBF/codengu.png"
+  },
+  "created_date": "2025-09-19",
+  "author_display": "JinHuynh/project.shop"
+}

@@ -1,0 +1,46 @@
+<mxfile host="Electron" modified="2024-01-06T00:02:12.525Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="oNPBKl5B8-knE5R60syk" version="22.1.16" type="device">
+  <diagram name="Page-1" id="ImGA_BU5cl2Fdo_qvqDq">
+    <mxGraphModel dx="863" dy="505" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zeqLb9sDKWrayDaI19oI-2" value="Gateway Microservice" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFF48C;" vertex="1" parent="1">
+          <mxGeometry x="352" y="260" width="156" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="zeqLb9sDKWrayDaI19oI-3" value="User Management Microservice" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFF48C;" vertex="1" parent="1">
+          <mxGeometry x="107" y="148" width="156" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="zeqLb9sDKWrayDaI19oI-4" value="GitHub IntegrationMicroservice" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="558" y="99" width="156" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="zeqLb9sDKWrayDaI19oI-5" value="Score Computation Microservice" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="119" y="334" width="156" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="zeqLb9sDKWrayDaI19oI-6" value="Tournament Microservice" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="526" y="430" width="156" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="zeqLb9sDKWrayDaI19oI-7" value="Battle Microservice" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="237" y="466" width="156" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="zeqLb9sDKWrayDaI19oI-8" value="Notification Microservice" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="614" y="267" width="156" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="zeqLb9sDKWrayDaI19oI-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=156;exitDy=49;exitPerimeter=0;entryX=-0.012;entryY=0.335;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zeqLb9sDKWrayDaI19oI-3" target="zeqLb9sDKWrayDaI19oI-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="406" y="276" as="sourcePoint" />
+            <mxPoint x="456" y="226" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zeqLb9sDKWrayDaI19oI-11" value="DBMS" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFF48C;" vertex="1" parent="1">
+          <mxGeometry x="343" y="87" width="124" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="zeqLb9sDKWrayDaI19oI-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=-0.011;exitY=0.911;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=156;entryDy=31.5;entryPerimeter=0;" edge="1" parent="1" source="zeqLb9sDKWrayDaI19oI-11" target="zeqLb9sDKWrayDaI19oI-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="352" y="175.86" as="sourcePoint" />
+            <mxPoint x="439" y="266.86" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

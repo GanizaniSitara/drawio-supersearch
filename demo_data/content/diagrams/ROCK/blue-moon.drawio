@@ -1,0 +1,73 @@
+<mxfile host="Electron" modified="2023-08-28T14:04:21.507Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="h04zF9yn-XBXDhE1U4vA" version="21.6.8" type="device">
+  <diagram id="dX7Dphyso45SB9-RoEhv" name="Page-1">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nfxZPmU7g6QgWNAvG-ER-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=5;strokeColor=#FFFFFF;fillColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="210" y="90" width="600" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="8b6ggLF4gSHIukh4vJdm-18" value="&lt;font face=&quot;xkcd&quot;&gt;&lt;span style=&quot;font-size: 40px&quot;&gt;blue moon&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="215" y="130" width="590" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8b6ggLF4gSHIukh4vJdm-24" value="&lt;font face=&quot;xkcd&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;is it that rare&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="210" y="170" width="600" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8b6ggLF4gSHIukh4vJdm-30" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;labelBackgroundColor=none;fontColor=#FFFFFF;strokeColor=#FFFFFF;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="796.5" y="210" as="sourcePoint" />
+            <mxPoint x="221.5" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k-dpR7HA_-HZ3Fbqk2lw-16" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;labelBackgroundColor=none;fontColor=#FFFFFF;strokeColor=#FFFFFF;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="797.5" y="580" as="sourcePoint" />
+            <mxPoint x="222.5" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k-dpR7HA_-HZ3Fbqk2lw-17" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px; font-family: xkcd; background-color: initial;&quot;&gt;side note&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px; font-family: xkcd; background-color: initial;&quot;&gt;a full moon on a given day is rarer than taking a red king from a deck of cards&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px; font-family: xkcd; background-color: initial;&quot;&gt;and&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-size: 13px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;xkcd&quot;&gt;there is an active rover on the blue moon right now&lt;/font&gt;&lt;span style=&quot;font-family: xkcd; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="220" y="598" width="580" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="euaHSMH8fYii958cPEId-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="661" y="451" as="sourcePoint" />
+            <mxPoint x="661" y="451" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKVuHFSoDqtFi99w7tCS-15" value="&lt;font face=&quot;xkcd&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;ink is blue water. sort of.&lt;br&gt;&lt;/span&gt;#thecontentwriter #sbenstewart&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="630" y="388" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Xhbkpn-6mWl12xEbtcSc-7" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;xkcd&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;rare&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="535" y="265" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ewSCSC30HjqfYDTTpNZa-1" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;xkcd&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;full moon&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="345" y="265" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ewSCSC30HjqfYDTTpNZa-2" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;xkcd&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;rarer&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="535" y="323" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ewSCSC30HjqfYDTTpNZa-3" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;xkcd&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;blue moon&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="345" y="323" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ewSCSC30HjqfYDTTpNZa-4" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;xkcd&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;rarerer&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="535" y="381" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ewSCSC30HjqfYDTTpNZa-5" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;xkcd&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;active rover on moon&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="381" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ewSCSC30HjqfYDTTpNZa-6" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;xkcd&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;rarererer&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="535" y="441" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ewSCSC30HjqfYDTTpNZa-7" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;xkcd&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;active rover on full moon&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="441" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ewSCSC30HjqfYDTTpNZa-8" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;xkcd&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;rarerererer&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="535" y="501" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ewSCSC30HjqfYDTTpNZa-9" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;xkcd&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;active rover on blue moon&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="501" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

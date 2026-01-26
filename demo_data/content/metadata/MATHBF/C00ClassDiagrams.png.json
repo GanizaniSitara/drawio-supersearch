@@ -1,0 +1,22 @@
+{
+  "id": "16556",
+  "title": "C00ClassDiagrams.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16556"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "EM-ORG-2023-12-27",
+    "github_repo": "05_JAVA_ECLIPSE"
+  },
+  "_links": {
+    "download": "/download/MATHBF/C00ClassDiagrams.png"
+  },
+  "created_date": "2025-08-08",
+  "author_display": "EM-ORG-2023-12-27/05_JAVA_ECLIPSE"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "16557",
+  "title": "crc-2.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16557"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "omusitasks",
+    "github_repo": "Assignment-5"
+  },
+  "_links": {
+    "download": "/download/MATHBF/crc-2.png"
+  },
+  "created_date": "2024-03-11",
+  "author_display": "omusitasks/Assignment-5"
+}

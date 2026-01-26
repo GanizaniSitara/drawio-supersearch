@@ -1,0 +1,22 @@
+{
+  "id": "16542",
+  "title": "build process workflow.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16542"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "nutonomy",
+    "github_repo": "AVCDL"
+  },
+  "_links": {
+    "download": "/download/MATHBF/build process workflow.png"
+  },
+  "created_date": "2024-06-21",
+  "author_display": "nutonomy/AVCDL"
+}

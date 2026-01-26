@@ -1,0 +1,22 @@
+{
+  "id": "16511",
+  "title": "auction.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16511"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "tony-plop-renegade",
+    "github_repo": "susan"
+  },
+  "_links": {
+    "download": "/download/MATHBF/auction.png"
+  },
+  "created_date": "2025-02-05",
+  "author_display": "tony-plop-renegade/susan"
+}

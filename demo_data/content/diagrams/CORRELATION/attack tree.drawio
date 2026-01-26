@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2024-03-15T16:05:39.110Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="9L-MfwGXIt6sScNAwEr5" version="24.0.7" type="github">
+  <diagram name="Page-1" id="i0uBFhyr9sTJ3_YORYAO">
+    <mxGraphModel dx="1302" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hRf2zBdF-A7y0g8oZ042-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4nOqq2tdTD6MsqtiIIv1-1" target="UjHeSYL5kDZ6qDYkqjq2-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRf2zBdF-A7y0g8oZ042-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4nOqq2tdTD6MsqtiIIv1-1" target="hRf2zBdF-A7y0g8oZ042-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRf2zBdF-A7y0g8oZ042-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="4nOqq2tdTD6MsqtiIIv1-1" target="hRf2zBdF-A7y0g8oZ042-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRf2zBdF-A7y0g8oZ042-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4nOqq2tdTD6MsqtiIIv1-1" target="hRf2zBdF-A7y0g8oZ042-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4nOqq2tdTD6MsqtiIIv1-1" value="Stock Analysis AI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="490" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iKMSLqYyijzgNoYZz81F-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UjHeSYL5kDZ6qDYkqjq2-1" target="hRf2zBdF-A7y0g8oZ042-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UjHeSYL5kDZ6qDYkqjq2-1" value="Data Manipulation Attacks" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="170" y="330" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iKMSLqYyijzgNoYZz81F-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hRf2zBdF-A7y0g8oZ042-2" target="iKMSLqYyijzgNoYZz81F-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRf2zBdF-A7y0g8oZ042-2" value="Unauthorized Access Attacks" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="380" y="330" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iKMSLqYyijzgNoYZz81F-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hRf2zBdF-A7y0g8oZ042-3" target="iKMSLqYyijzgNoYZz81F-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRf2zBdF-A7y0g8oZ042-3" value="Model Poisoning Attacks" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="800" y="330" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iKMSLqYyijzgNoYZz81F-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hRf2zBdF-A7y0g8oZ042-4" target="iKMSLqYyijzgNoYZz81F-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRf2zBdF-A7y0g8oZ042-4" value="Denial of Service (DoS) Attacks" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="590" y="330" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hRf2zBdF-A7y0g8oZ042-10" value="Manipulate Training Data" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="175" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iKMSLqYyijzgNoYZz81F-2" value="Brute Force Login Attempts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iKMSLqYyijzgNoYZz81F-4" value="Network Layer DoS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iKMSLqYyijzgNoYZz81F-6" value="Inject Malicious Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

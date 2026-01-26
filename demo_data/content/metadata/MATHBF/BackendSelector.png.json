@@ -1,0 +1,22 @@
+{
+  "id": "16655",
+  "title": "BackendSelector.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16655"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "szza",
+    "github_repo": "szza.github.io.images"
+  },
+  "_links": {
+    "download": "/download/MATHBF/BackendSelector.png"
+  },
+  "created_date": "2025-10-30",
+  "author_display": "szza/szza.github.io.images"
+}

@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" modified="2023-06-18T16:08:06.272Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PgVKWwDkprskkZovypKG" version="21.3.5" type="github">
+  <diagram name="第 1 页" id="si5tOaVGu7U_KrCoZ2yR">
+    <mxGraphModel dx="1050" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AtCL6Hfeg8npzJrU5NYe-1" target="AtCL6Hfeg8npzJrU5NYe-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-1" value="torch.add(a, b)&lt;br&gt;torch.randperm(n, generator)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70.5" y="140" width="159" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AtCL6Hfeg8npzJrU5NYe-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="240" as="sourcePoint" />
+            <mxPoint x="810" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-4" value="C++" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="242" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-5" value="Python" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AtCL6Hfeg8npzJrU5NYe-7" target="AtCL6Hfeg8npzJrU5NYe-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-7" value="DispatchKey Python = 1?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="280" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AtCL6Hfeg8npzJrU5NYe-8" target="AtCL6Hfeg8npzJrU5NYe-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-8" value="opkernel func&lt;br&gt;args&lt;br&gt;转为PyObject" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AtCL6Hfeg8npzJrU5NYe-9" target="AtCL6Hfeg8npzJrU5NYe-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="170" />
+              <mxPoint x="520" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-9" value="class xxx(TorchDispatchMode)&lt;br&gt;&lt;br&gt;def __torch_dispatch__():&lt;br&gt;.........." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-13" value="cpu kernel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="280" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-15" value="xpu kernel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="300" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-17" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="83" y="240" width="26" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-19" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="283" y="280" width="26" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-20" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="394" y="240" width="26" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-21" value="4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="517" y="205" width="26" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AtCL6Hfeg8npzJrU5NYe-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.63;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AtCL6Hfeg8npzJrU5NYe-4" target="AtCL6Hfeg8npzJrU5NYe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

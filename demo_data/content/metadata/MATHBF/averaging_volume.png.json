@@ -1,0 +1,22 @@
+{
+  "id": "16408",
+  "title": "averaging_volume.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16408"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "akapet00",
+    "github_repo": "phd-thesis"
+  },
+  "_links": {
+    "download": "/download/MATHBF/averaging_volume.png"
+  },
+  "created_date": "2025-06-11",
+  "author_display": "akapet00/phd-thesis"
+}

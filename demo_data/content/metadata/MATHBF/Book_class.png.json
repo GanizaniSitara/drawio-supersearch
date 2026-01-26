@@ -1,0 +1,22 @@
+{
+  "id": "16435",
+  "title": "Book_class.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16435"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "GPSPic",
+    "github_repo": "CodeClan_homework"
+  },
+  "_links": {
+    "download": "/download/MATHBF/Book_class.png"
+  },
+  "created_date": "2024-07-18",
+  "author_display": "GPSPic/CodeClan_homework"
+}

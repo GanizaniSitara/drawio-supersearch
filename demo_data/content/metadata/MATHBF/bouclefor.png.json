@@ -1,0 +1,22 @@
+{
+  "id": "16530",
+  "title": "bouclefor.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16530"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "vkeller",
+    "github_repo": "modulo-gybe"
+  },
+  "_links": {
+    "download": "/download/MATHBF/bouclefor.png"
+  },
+  "created_date": "2025-11-13",
+  "author_display": "vkeller/modulo-gybe"
+}

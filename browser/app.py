@@ -259,22 +259,23 @@ def index_all_diagrams(progress_callback=None):
                 diagram_name = title.replace('.png', '') if title.endswith('.png') else title
 
                 # Extract page title and URL from webui link
-                webui = meta.get('_links', {}).get('webui', '')
-                page_title = ''
+                # Check both DrawIO format (_links.webui) and Lucidchart format (page_link)
+                webui = meta.get('_links', {}).get('webui', '') or meta.get('page_link', '')
+                page_title = meta.get('page_title', '')  # Lucidchart saves this directly
                 confluence_page_url = ''
                 if webui:
                     # Store the path (without query params) for linking to Confluence
                     confluence_page_url = webui.split('?')[0]
-                    # Extract page title from the path
-                    if '/display/' in webui:
+                    # Extract page title from the path if not already set
+                    if not page_title and '/display/' in webui:
                         parts = webui.split('/')
                         if len(parts) >= 4:
                             page_part = parts[3].split('?')[0]
                             page_title = unquote(page_part.replace('+', ' '))
 
-                # Extract page ID from container
+                # Extract page ID from container (DrawIO) or direct page_id (Lucidchart)
                 container = meta.get('_expandable', {}).get('container', '')
-                page_id = container.split('/')[-1] if container else ''
+                page_id = container.split('/')[-1] if container else meta.get('page_id', '')
 
                 # Author info
                 version = meta.get('version', {})

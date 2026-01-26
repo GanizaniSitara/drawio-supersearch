@@ -1,0 +1,22 @@
+{
+  "id": "16526",
+  "title": "adv_io.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16526"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "LittleBee1024",
+    "github_repo": "learning_book"
+  },
+  "_links": {
+    "download": "/download/MATHBF/adv_io.png"
+  },
+  "created_date": "2025-09-01",
+  "author_display": "LittleBee1024/learning_book"
+}

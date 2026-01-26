@@ -1,0 +1,22 @@
+{
+  "id": "16475",
+  "title": "double_scahf5datastore.png",
+  "space": {
+    "key": "MATHBF"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/16475"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "ANSSI-FR",
+    "github_repo": "Faults_analyzer"
+  },
+  "_links": {
+    "download": "/download/MATHBF/double_scahf5datastore.png"
+  },
+  "created_date": "2025-10-09",
+  "author_display": "ANSSI-FR/Faults_analyzer"
+}
