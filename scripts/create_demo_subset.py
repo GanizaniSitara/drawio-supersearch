@@ -1,184 +1,162 @@
 #!/usr/bin/env python3
 """
-Create a lightweight demo subset for cloud deployment.
-Selects a subset of spaces/diagrams to keep the total size under 200MB.
+Create Demo Data Subset with 100% PNG Coverage
+
+Creates demo_data/ from data/ by selecting only diagrams that have:
+1. PNG image file
+2. Metadata JSON file
+3. DrawIO source file (optional)
+
+Ensures every diagram in the demo has a preview image.
 """
 
 import os
 import shutil
-import sqlite3
-import random
+from collections import defaultdict
 
 # Paths
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR = os.path.join(BASE_DIR, 'data')
-CONTENT_DIR = os.path.join(DATA_DIR, 'content')
-IMAGES_DIR = os.path.join(CONTENT_DIR, 'images')
-DB_PATH = os.path.join(DATA_DIR, 'diagrams.db')
+PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(PROJECT_DIR, "data", "content")
+DEMO_DIR = os.path.join(PROJECT_DIR, "demo_data", "content")
 
-# Output
-DEMO_DIR = os.path.join(BASE_DIR, 'demo_data')
-DEMO_CONTENT_DIR = os.path.join(DEMO_DIR, 'content')
-DEMO_IMAGES_DIR = os.path.join(DEMO_CONTENT_DIR, 'images')
-DEMO_DB_PATH = os.path.join(DEMO_DIR, 'diagrams.db')
-
-# Config - aim for ~100-200MB total
-MAX_SPACES = 15
-MAX_DIAGRAMS_PER_SPACE = 50
-TARGET_SIZE_MB = 150
+# Target configuration
+TARGET_SPACES = 15  # Number of spaces to include
+MAX_DIAGRAMS_PER_SPACE = 100  # Cap per space for demo size
 
 
-def get_space_sizes():
-    """Get size of each space's images folder."""
-    sizes = {}
-    if os.path.exists(IMAGES_DIR):
-        for space in os.listdir(IMAGES_DIR):
-            space_path = os.path.join(IMAGES_DIR, space)
-            if os.path.isdir(space_path):
-                total = sum(
-                    os.path.getsize(os.path.join(space_path, f))
-                    for f in os.listdir(space_path)
-                    if os.path.isfile(os.path.join(space_path, f))
-                )
-                count = len([f for f in os.listdir(space_path) if f.endswith('.png')])
-                sizes[space] = {'size': total, 'count': count}
-    return sizes
+def find_complete_diagrams():
+    """Find diagrams that have both PNG and metadata JSON."""
+    images_dir = os.path.join(DATA_DIR, "images")
+    metadata_dir = os.path.join(DATA_DIR, "metadata")
+    diagrams_dir = os.path.join(DATA_DIR, "diagrams")
+
+    if not os.path.exists(images_dir):
+        print(f"Error: {images_dir} not found")
+        return {}
+
+    results = defaultdict(list)
+
+    for space_key in os.listdir(images_dir):
+        space_images = os.path.join(images_dir, space_key)
+        space_metadata = os.path.join(metadata_dir, space_key)
+        space_diagrams = os.path.join(diagrams_dir, space_key)
+
+        if not os.path.isdir(space_images):
+            continue
+
+        for png_file in os.listdir(space_images):
+            if not png_file.endswith('.png'):
+                continue
+
+            diagram_name = png_file[:-4]  # Remove .png
+
+            # Check files exist
+            png_path = os.path.join(space_images, png_file)
+            meta_path = os.path.join(space_metadata, f"{diagram_name}.png.json")
+            drawio_path = os.path.join(space_diagrams, f"{diagram_name}.drawio")
+
+            # PNG is required, metadata is required, drawio is optional
+            if os.path.exists(png_path) and os.path.exists(meta_path):
+                results[space_key].append({
+                    'name': diagram_name,
+                    'png': png_path,
+                    'metadata': meta_path,
+                    'drawio': drawio_path if os.path.exists(drawio_path) else None,
+                    'size': os.path.getsize(png_path)
+                })
+
+    return results
 
 
-def select_spaces(space_sizes, max_spaces, target_mb):
-    """Select diverse spaces that fit within size budget."""
-    # Sort by count (prefer spaces with moderate counts)
-    sorted_spaces = sorted(space_sizes.items(), key=lambda x: x[1]['count'], reverse=True)
+def select_best_spaces(diagrams_by_space, target_spaces, max_per_space):
+    """Select spaces with most complete diagrams."""
+    sorted_spaces = sorted(
+        diagrams_by_space.items(),
+        key=lambda x: len(x[1]),
+        reverse=True
+    )
 
-    selected = []
-    total_size = 0
-    target_bytes = target_mb * 1024 * 1024
-
-    for space, info in sorted_spaces:
-        if len(selected) >= max_spaces:
-            break
-        if total_size + info['size'] < target_bytes:
-            selected.append(space)
-            total_size += info['size']
+    selected = {}
+    for space_key, diagrams in sorted_spaces[:target_spaces]:
+        # Take up to max_per_space diagrams, preferring smaller files
+        sorted_diagrams = sorted(diagrams, key=lambda x: x['size'])[:max_per_space]
+        selected[space_key] = sorted_diagrams
 
     return selected
 
 
-def copy_space_images(space, max_diagrams):
-    """Copy images for a space (limited count)."""
-    src_dir = os.path.join(IMAGES_DIR, space)
-    dst_dir = os.path.join(DEMO_IMAGES_DIR, space)
+def create_demo_structure(selected_spaces):
+    """Create the demo_data directory structure."""
+    if os.path.exists(DEMO_DIR):
+        print(f"Removing existing {DEMO_DIR}...")
+        shutil.rmtree(DEMO_DIR)
 
-    os.makedirs(dst_dir, exist_ok=True)
+    images_dir = os.path.join(DEMO_DIR, "images")
+    metadata_dir = os.path.join(DEMO_DIR, "metadata")
+    diagrams_dir = os.path.join(DEMO_DIR, "diagrams")
 
-    files = [f for f in os.listdir(src_dir) if f.endswith('.png')]
-    if len(files) > max_diagrams:
-        files = random.sample(files, max_diagrams)
+    os.makedirs(images_dir, exist_ok=True)
+    os.makedirs(metadata_dir, exist_ok=True)
+    os.makedirs(diagrams_dir, exist_ok=True)
 
-    copied = []
-    for f in files:
-        shutil.copy2(os.path.join(src_dir, f), os.path.join(dst_dir, f))
-        copied.append(f)
-
-    return copied
-
-
-def create_demo_database(selected_spaces, copied_files_by_space):
-    """Create a subset database with only the selected diagrams."""
-    # Connect to source
-    src_conn = sqlite3.connect(DB_PATH)
-    src_conn.row_factory = sqlite3.Row
-
-    # Create destination
-    if os.path.exists(DEMO_DB_PATH):
-        os.remove(DEMO_DB_PATH)
-    dst_conn = sqlite3.connect(DEMO_DB_PATH)
-
-    # Get schema
-    schema = src_conn.execute(
-        "SELECT sql FROM sqlite_master WHERE type='table' AND name='diagrams'"
-    ).fetchone()
-
-    if schema:
-        dst_conn.execute(schema['sql'])
-
-    # Copy matching rows
     total_copied = 0
-    for space in selected_spaces:
-        copied_files = copied_files_by_space.get(space, [])
-        # Extract diagram names from filenames (remove .png)
-        diagram_names = [f[:-4] if f.endswith('.png') else f for f in copied_files]
 
-        for name in diagram_names:
-            row = src_conn.execute(
-                "SELECT * FROM diagrams WHERE space_key = ? AND diagram_name = ?",
-                (space, name)
-            ).fetchone()
+    for space_key, diagrams in selected_spaces.items():
+        os.makedirs(os.path.join(images_dir, space_key), exist_ok=True)
+        os.makedirs(os.path.join(metadata_dir, space_key), exist_ok=True)
+        os.makedirs(os.path.join(diagrams_dir, space_key), exist_ok=True)
 
-            if row:
-                cols = list(row.keys())
-                placeholders = ','.join(['?' for _ in cols])
-                dst_conn.execute(
-                    f"INSERT INTO diagrams ({','.join(cols)}) VALUES ({placeholders})",
-                    list(row)
-                )
-                total_copied += 1
+        for diagram in diagrams:
+            name = diagram['name']
 
-    dst_conn.commit()
-    src_conn.close()
-    dst_conn.close()
+            # Copy PNG
+            dst_png = os.path.join(images_dir, space_key, f"{name}.png")
+            shutil.copy2(diagram['png'], dst_png)
+
+            # Copy metadata
+            dst_meta = os.path.join(metadata_dir, space_key, f"{name}.png.json")
+            shutil.copy2(diagram['metadata'], dst_meta)
+
+            # Copy drawio if exists
+            if diagram['drawio']:
+                dst_drawio = os.path.join(diagrams_dir, space_key, f"{name}.drawio")
+                shutil.copy2(diagram['drawio'], dst_drawio)
+
+            total_copied += 1
+
+        print(f"  {space_key}: {len(diagrams)} diagrams")
 
     return total_copied
 
 
 def main():
     print("=" * 60)
-    print("Creating Demo Subset for Cloud Deployment")
+    print("Create Demo Data Subset (100% PNG Coverage)")
     print("=" * 60)
+    print(f"\nSource: {DATA_DIR}")
+    print(f"Output: {DEMO_DIR}")
+    print(f"Target: {TARGET_SPACES} spaces, max {MAX_DIAGRAMS_PER_SPACE} per space")
 
-    # Clean output
-    if os.path.exists(DEMO_DIR):
-        shutil.rmtree(DEMO_DIR)
-    os.makedirs(DEMO_IMAGES_DIR, exist_ok=True)
+    print("\nScanning for complete diagrams (with PNG)...")
+    diagrams_by_space = find_complete_diagrams()
 
-    # Analyze spaces
-    print("\nAnalyzing spaces...")
-    space_sizes = get_space_sizes()
-    print(f"  Found {len(space_sizes)} spaces")
+    total_diagrams = sum(len(d) for d in diagrams_by_space.values())
+    print(f"  Found {total_diagrams} complete diagrams across {len(diagrams_by_space)} spaces")
 
-    # Select spaces
-    selected = select_spaces(space_sizes, MAX_SPACES, TARGET_SIZE_MB)
-    print(f"\nSelected {len(selected)} spaces:")
-    for s in selected:
-        info = space_sizes[s]
-        print(f"  {s}: {info['count']} diagrams, {info['size']/1024/1024:.1f} MB")
+    if not diagrams_by_space:
+        print("Error: No complete diagrams found. Run generate_demo_data.py first.")
+        return
 
-    # Copy images
-    print("\nCopying images...")
-    copied_by_space = {}
-    for space in selected:
-        copied = copy_space_images(space, MAX_DIAGRAMS_PER_SPACE)
-        copied_by_space[space] = copied
-        print(f"  {space}: {len(copied)} images")
+    print(f"\nSelecting top {TARGET_SPACES} spaces...")
+    selected = select_best_spaces(diagrams_by_space, TARGET_SPACES, MAX_DIAGRAMS_PER_SPACE)
 
-    # Create database
-    print("\nCreating database subset...")
-    db_count = create_demo_database(selected, copied_by_space)
-    print(f"  Copied {db_count} database records")
+    print(f"\nCreating demo data structure...")
+    total = create_demo_structure(selected)
 
-    # Calculate total size
-    total_size = 0
-    for root, dirs, files in os.walk(DEMO_DIR):
-        for f in files:
-            total_size += os.path.getsize(os.path.join(root, f))
-
-    print(f"\n" + "=" * 60)
-    print(f"Demo subset created: {DEMO_DIR}")
-    print(f"  Total size: {total_size / 1024 / 1024:.1f} MB")
-    print(f"  Spaces: {len(selected)}")
-    print(f"  Diagrams: {sum(len(v) for v in copied_by_space.values())}")
+    print(f"\n{'=' * 60}")
+    print(f"Created demo_data with {total} diagrams across {len(selected)} spaces")
+    print(f"All diagrams have PNG previews (100% coverage)")
     print("=" * 60)
-    print("\nNext: Copy demo_data/* to data/ and rebuild index")
 
 
 if __name__ == '__main__':
