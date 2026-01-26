@@ -1,0 +1,60 @@
+<mxfile host="Electron" modified="2023-12-19T02:27:48.638Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="QjGcwUnM7r_HrE8v7rcy" version="22.1.2" type="device">
+  <diagram name="Page-1" id="2CYfv3F3mXRHUTfYbSiP">
+    <mxGraphModel dx="1036" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#28400F" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hQLZ_GexM7wEGeoBwCH--1" value="Verilmiş M ədədindən verilmiş N ədədinədək olan ədədlərin cəmini tapan alqoritm" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hQLZ_GexM7wEGeoBwCH--4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQLZ_GexM7wEGeoBwCH--2" target="hQLZ_GexM7wEGeoBwCH--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQLZ_GexM7wEGeoBwCH--2" value="START" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="55" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hQLZ_GexM7wEGeoBwCH--6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQLZ_GexM7wEGeoBwCH--3" target="hQLZ_GexM7wEGeoBwCH--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQLZ_GexM7wEGeoBwCH--3" value="M, N" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQLZ_GexM7wEGeoBwCH--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQLZ_GexM7wEGeoBwCH--5" target="hQLZ_GexM7wEGeoBwCH--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQLZ_GexM7wEGeoBwCH--5" value="SUM = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQLZ_GexM7wEGeoBwCH--10" value="TRUE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQLZ_GexM7wEGeoBwCH--7" target="hQLZ_GexM7wEGeoBwCH--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQLZ_GexM7wEGeoBwCH--13" value="FALSE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQLZ_GexM7wEGeoBwCH--7" target="hQLZ_GexM7wEGeoBwCH--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQLZ_GexM7wEGeoBwCH--7" value="M &amp;lt;= N" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hQLZ_GexM7wEGeoBwCH--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hQLZ_GexM7wEGeoBwCH--9" target="hQLZ_GexM7wEGeoBwCH--7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="570" />
+              <mxPoint x="520" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQLZ_GexM7wEGeoBwCH--9" value="SUM += M&lt;br&gt;M++" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQLZ_GexM7wEGeoBwCH--15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQLZ_GexM7wEGeoBwCH--12" target="hQLZ_GexM7wEGeoBwCH--14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQLZ_GexM7wEGeoBwCH--12" value="SUM" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hQLZ_GexM7wEGeoBwCH--14" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

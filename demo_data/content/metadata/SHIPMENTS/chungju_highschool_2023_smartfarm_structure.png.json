@@ -1,0 +1,22 @@
+{
+  "id": "2117",
+  "title": "chungju_highschool_2023_smartfarm_structure.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2117"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "chungjuhsNobel21",
+    "github_repo": "chungju_highschool_smartfarm_2023"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/chungju_highschool_2023_smartfarm_structure.png"
+  },
+  "created_date": "2025-01-10",
+  "author_display": "chungjuhsNobel21/chungju_highschool_smartfarm_2023"
+}

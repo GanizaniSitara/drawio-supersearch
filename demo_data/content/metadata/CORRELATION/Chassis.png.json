@@ -1,0 +1,22 @@
+{
+  "id": "17866",
+  "title": "Chassis.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17866"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "dorsic",
+    "github_repo": "PicoPET"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/Chassis.png"
+  },
+  "created_date": "2024-12-18",
+  "author_display": "dorsic/PicoPET"
+}

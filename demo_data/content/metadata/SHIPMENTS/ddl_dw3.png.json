@@ -1,0 +1,22 @@
+{
+  "id": "2135",
+  "title": "ddl_dw3.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2135"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "SzymkowskiDev",
+    "github_repo": "data-warehouse-webinar"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/ddl_dw3.png"
+  },
+  "created_date": "2024-06-26",
+  "author_display": "SzymkowskiDev/data-warehouse-webinar"
+}

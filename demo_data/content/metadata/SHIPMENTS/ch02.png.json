@@ -1,0 +1,22 @@
+{
+  "id": "1943",
+  "title": "ch02.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1943"
+  },
+  "version": {
+    "number": 7
+  },
+  "metadata": {
+    "github_owner": "abunuwas",
+    "github_repo": "microservices-apis-img"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/ch02.png"
+  },
+  "created_date": "2025-09-10",
+  "author_display": "abunuwas/microservices-apis-img"
+}

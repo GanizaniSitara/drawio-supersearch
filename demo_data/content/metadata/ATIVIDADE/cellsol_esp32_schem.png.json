@@ -1,0 +1,22 @@
+{
+  "id": "10282",
+  "title": "cellsol_esp32_schem.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10282"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "RbtsEvrwhr-Riley",
+    "github_repo": "CellSol"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/cellsol_esp32_schem.png"
+  },
+  "created_date": "2026-01-10",
+  "author_display": "RbtsEvrwhr-Riley/CellSol"
+}

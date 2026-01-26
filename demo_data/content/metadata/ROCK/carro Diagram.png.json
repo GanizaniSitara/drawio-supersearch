@@ -1,0 +1,22 @@
+{
+  "id": "23733",
+  "title": "carro Diagram.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23733"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "DaniloCorreia07",
+    "github_repo": "PA2022"
+  },
+  "_links": {
+    "download": "/download/ROCK/carro Diagram.png"
+  },
+  "created_date": "2025-11-22",
+  "author_display": "DaniloCorreia07/PA2022"
+}

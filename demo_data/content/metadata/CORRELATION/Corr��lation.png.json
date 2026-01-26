@@ -1,0 +1,22 @@
+{
+  "id": "17813",
+  "title": "Corr\ufffd\ufffdlation.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17813"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "oxabz",
+    "github_repo": "ENSEEIHT-Statistics"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/Corr\ufffd\ufffdlation.png"
+  },
+  "created_date": "2025-09-19",
+  "author_display": "oxabz/ENSEEIHT-Statistics"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "23560",
+  "title": "abp.V.1.0.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23560"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "spatialy",
+    "github_repo": "knowledge_base"
+  },
+  "_links": {
+    "download": "/download/ROCK/abp.V.1.0.png"
+  },
+  "created_date": "2025-07-04",
+  "author_display": "spatialy/knowledge_base"
+}

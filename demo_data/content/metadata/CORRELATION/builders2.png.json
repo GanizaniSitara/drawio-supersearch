@@ -1,0 +1,22 @@
+{
+  "id": "17726",
+  "title": "builders2.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17726"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "4z0t",
+    "github_repo": "Design-Patterns-Learning"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/builders2.png"
+  },
+  "created_date": "2024-11-25",
+  "author_display": "4z0t/Design-Patterns-Learning"
+}

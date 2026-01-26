@@ -1,0 +1,22 @@
+{
+  "id": "17926",
+  "title": "ce100-week-10-graphs-mst.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17926"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "ucoruh",
+    "github_repo": "ce100-algorithms-and-programming-II"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/ce100-week-10-graphs-mst.png"
+  },
+  "created_date": "2024-10-20",
+  "author_display": "ucoruh/ce100-algorithms-and-programming-II"
+}

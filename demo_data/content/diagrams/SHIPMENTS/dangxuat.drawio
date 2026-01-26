@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2024-03-26T15:47:53.746Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="3_n7EdwBCGJhPnfGXYpD" version="24.0.7" type="github">
+  <diagram name="Page-1" id="wWNTJLllPXBl38Xm8qPU">
+    <mxGraphModel dx="911" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZEPTEJNSNI3MPuJXUIYD-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="310" y="300" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEPTEJNSNI3MPuJXUIYD-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.499;exitY=0.92;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="ZEPTEJNSNI3MPuJXUIYD-3" source="ZEPTEJNSNI3MPuJXUIYD-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="380" as="targetPoint" />
+            <mxPoint x="330" y="340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZEPTEJNSNI3MPuJXUIYD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZEPTEJNSNI3MPuJXUIYD-3" target="ZEPTEJNSNI3MPuJXUIYD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEPTEJNSNI3MPuJXUIYD-3" value="Chọn đăng xuất" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="270" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEPTEJNSNI3MPuJXUIYD-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZEPTEJNSNI3MPuJXUIYD-4" target="ZEPTEJNSNI3MPuJXUIYD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEPTEJNSNI3MPuJXUIYD-4" value="Xác nhận đăng xuất" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="269.99999999999994" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEPTEJNSNI3MPuJXUIYD-6" value="" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="540" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEPTEJNSNI3MPuJXUIYD-7" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="ZEPTEJNSNI3MPuJXUIYD-6" parent="1" target="ZEPTEJNSNI3MPuJXUIYD-11">
+          <mxGeometry x="-0.6021" y="10" relative="1" as="geometry">
+            <mxPoint x="420" y="560" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZEPTEJNSNI3MPuJXUIYD-8" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="ZEPTEJNSNI3MPuJXUIYD-6" parent="1" target="ZEPTEJNSNI3MPuJXUIYD-10">
+          <mxGeometry x="-1" y="10" relative="1" as="geometry">
+            <mxPoint x="330" y="620" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZEPTEJNSNI3MPuJXUIYD-10" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="315" y="625" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEPTEJNSNI3MPuJXUIYD-11" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="545" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEPTEJNSNI3MPuJXUIYD-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZEPTEJNSNI3MPuJXUIYD-14" target="ZEPTEJNSNI3MPuJXUIYD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEPTEJNSNI3MPuJXUIYD-14" value="đăng xuất thành công" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="620" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEPTEJNSNI3MPuJXUIYD-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZEPTEJNSNI3MPuJXUIYD-18" target="ZEPTEJNSNI3MPuJXUIYD-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEPTEJNSNI3MPuJXUIYD-18" value="đăng xuất không thành công" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="540" width="110" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,108 @@
+<mxfile host="Electron" modified="2023-04-26T11:23:03.341Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="7LYzIn6b8dMgTtYG1664" version="21.2.1" type="device">
+  <diagram name="Page-1" id="16vWiy-wB-ud1axXoYQZ">
+    <mxGraphModel dx="1467" dy="2156" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RNL18w_joaWgRKOxXDmb-138" value="Escolher equipe" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;align=left;spacing=15;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="8" y="-42" width="1313" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-1" value="Usuário" style="swimlane;whiteSpace=wrap;spacing=5;swimlaneFillColor=#FFF2CC;fillColor=#FFF2CC;" parent="RNL18w_joaWgRKOxXDmb-138" vertex="1">
+          <mxGeometry x="57" y="50" width="399" height="700" as="geometry">
+            <mxRectangle x="164.5" y="128" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=8;" parent="RNL18w_joaWgRKOxXDmb-1" source="RNL18w_joaWgRKOxXDmb-133" target="RNL18w_joaWgRKOxXDmb-139" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-133" value="Escolher uma equipe" style="strokeColor=default;whiteSpace=wrap;rounded=1;glass=0;spacing=11;" parent="RNL18w_joaWgRKOxXDmb-1" vertex="1">
+          <mxGeometry x="130" y="431" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=8;" parent="RNL18w_joaWgRKOxXDmb-1" source="RNL18w_joaWgRKOxXDmb-139" target="RNL18w_joaWgRKOxXDmb-133" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-139" value="Alguma equipe foi escolhida?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="RNL18w_joaWgRKOxXDmb-1" vertex="1">
+          <mxGeometry x="100" y="541" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-143" value="[Sim]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RNL18w_joaWgRKOxXDmb-1" vertex="1">
+          <mxGeometry x="201" y="582" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-145" value="[Não]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RNL18w_joaWgRKOxXDmb-1" vertex="1">
+          <mxGeometry x="39" y="499" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-146" value="[Uma equipe foi escolhida]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RNL18w_joaWgRKOxXDmb-1" vertex="1">
+          <mxGeometry x="125" y="654" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-140" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" parent="RNL18w_joaWgRKOxXDmb-1" vertex="1">
+          <mxGeometry x="185" y="621" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=8;" parent="RNL18w_joaWgRKOxXDmb-138" source="RNL18w_joaWgRKOxXDmb-139" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="257" y="671" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-11" value="Front-end" style="swimlane;whiteSpace=wrap;spacing=5;swimlaneFillColor=#FFCCFF;fillColor=#FFCCFF;" parent="RNL18w_joaWgRKOxXDmb-138" vertex="1">
+          <mxGeometry x="456" y="50" width="400" height="700" as="geometry">
+            <mxRectangle x="164.5" y="128" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-92" value="Exibir a tela de escolha de equipe" style="strokeColor=default;whiteSpace=wrap;rounded=1;glass=0;spacing=11;" parent="RNL18w_joaWgRKOxXDmb-11" vertex="1">
+          <mxGeometry x="130" y="132" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=8;" parent="RNL18w_joaWgRKOxXDmb-11" source="RNL18w_joaWgRKOxXDmb-112" target="RNL18w_joaWgRKOxXDmb-92" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-112" value="" style="ellipse;fillColor=strokeColor;html=1;" parent="RNL18w_joaWgRKOxXDmb-11" vertex="1">
+          <mxGeometry x="185" y="52" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=8;" parent="RNL18w_joaWgRKOxXDmb-11" source="RNL18w_joaWgRKOxXDmb-122" target="RNL18w_joaWgRKOxXDmb-126" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=8;" parent="RNL18w_joaWgRKOxXDmb-11" source="RNL18w_joaWgRKOxXDmb-122" target="RNL18w_joaWgRKOxXDmb-127" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-122" value="Foi encontrada alguma equipe?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="RNL18w_joaWgRKOxXDmb-11" vertex="1">
+          <mxGeometry x="100" y="242" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-126" value="Exibir as equipes encontradas" style="strokeColor=default;whiteSpace=wrap;rounded=1;glass=0;spacing=11;" parent="RNL18w_joaWgRKOxXDmb-11" vertex="1">
+          <mxGeometry x="45" y="322" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=8;" parent="RNL18w_joaWgRKOxXDmb-11" source="RNL18w_joaWgRKOxXDmb-127" target="RNL18w_joaWgRKOxXDmb-134" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-127" value="Solicitar ao usuário que crie uma equipe na tela inicial" style="strokeColor=default;whiteSpace=wrap;rounded=1;glass=0;spacing=11;" parent="RNL18w_joaWgRKOxXDmb-11" vertex="1">
+          <mxGeometry x="215" y="322" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-83" value="[Sim]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RNL18w_joaWgRKOxXDmb-11" vertex="1">
+          <mxGeometry x="40" y="284" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-131" value="[Não]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RNL18w_joaWgRKOxXDmb-11" vertex="1">
+          <mxGeometry x="320" y="284" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-134" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" parent="RNL18w_joaWgRKOxXDmb-11" vertex="1">
+          <mxGeometry x="270" y="446" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-136" value="[Não existem equipes a serem escolhidas]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RNL18w_joaWgRKOxXDmb-11" vertex="1">
+          <mxGeometry x="216" y="478" width="144" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-16" value="Back-end" style="swimlane;whiteSpace=wrap;spacing=5;swimlaneFillColor=#CCCCFF;fillColor=#CCCCFF;" parent="RNL18w_joaWgRKOxXDmb-138" vertex="1">
+          <mxGeometry x="856" y="50" width="400" height="700" as="geometry">
+            <mxRectangle x="164.5" y="128" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-100" value="Encontrar todas as equipes, ordenadas pela data de criação em ordem decrescente" style="strokeColor=default;whiteSpace=wrap;rounded=1;glass=0;spacing=11;" parent="RNL18w_joaWgRKOxXDmb-16" vertex="1">
+          <mxGeometry x="125" y="132" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=8;" parent="RNL18w_joaWgRKOxXDmb-138" source="RNL18w_joaWgRKOxXDmb-126" target="RNL18w_joaWgRKOxXDmb-133" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=8;" parent="RNL18w_joaWgRKOxXDmb-138" source="RNL18w_joaWgRKOxXDmb-100" target="RNL18w_joaWgRKOxXDmb-122" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RNL18w_joaWgRKOxXDmb-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=8;" parent="RNL18w_joaWgRKOxXDmb-138" source="RNL18w_joaWgRKOxXDmb-92" target="RNL18w_joaWgRKOxXDmb-100" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

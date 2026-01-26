@@ -1,0 +1,22 @@
+{
+  "id": "2013",
+  "title": "certs-list.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2013"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "rohithegde",
+    "github_repo": "rohithegde.github.com"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/certs-list.png"
+  },
+  "created_date": "2025-12-18",
+  "author_display": "rohithegde/rohithegde.github.com"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17805",
+  "title": "button-icons.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17805"
+  },
+  "version": {
+    "number": 10
+  },
+  "metadata": {
+    "github_owner": "boytchev",
+    "github_repo": "scorm"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/button-icons.png"
+  },
+  "created_date": "2025-07-05",
+  "author_display": "boytchev/scorm"
+}

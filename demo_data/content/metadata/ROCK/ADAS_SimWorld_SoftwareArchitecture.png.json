@@ -1,0 +1,22 @@
+{
+  "id": "23731",
+  "title": "ADAS_SimWorld_SoftwareArchitecture.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23731"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "R-MR-Adao",
+    "github_repo": "ADAS_SimWorld"
+  },
+  "_links": {
+    "download": "/download/ROCK/ADAS_SimWorld_SoftwareArchitecture.png"
+  },
+  "created_date": "2025-05-22",
+  "author_display": "R-MR-Adao/ADAS_SimWorld"
+}

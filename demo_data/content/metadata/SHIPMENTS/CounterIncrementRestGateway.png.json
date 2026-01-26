@@ -1,0 +1,22 @@
+{
+  "id": "2077",
+  "title": "CounterIncrementRestGateway.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2077"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "softspiders",
+    "github_repo": "ca-react-rest-api-starter"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/CounterIncrementRestGateway.png"
+  },
+  "created_date": "2025-02-17",
+  "author_display": "softspiders/ca-react-rest-api-starter"
+}

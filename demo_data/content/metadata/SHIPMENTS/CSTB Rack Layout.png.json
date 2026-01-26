@@ -1,0 +1,22 @@
+{
+  "id": "2087",
+  "title": "CSTB Rack Layout.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2087"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "carlosgj",
+    "github_repo": "FRC-CSSTB"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/CSTB Rack Layout.png"
+  },
+  "created_date": "2025-07-16",
+  "author_display": "carlosgj/FRC-CSSTB"
+}

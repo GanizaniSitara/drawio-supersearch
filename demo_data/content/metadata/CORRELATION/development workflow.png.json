@@ -1,0 +1,22 @@
+{
+  "id": "17742",
+  "title": "development workflow.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17742"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "bioexcel",
+    "github_repo": "2022-02-07-CSC-gromacs-cp2k-tutorial"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/development workflow.png"
+  },
+  "created_date": "2025-01-23",
+  "author_display": "bioexcel/2022-02-07-CSC-gromacs-cp2k-tutorial"
+}

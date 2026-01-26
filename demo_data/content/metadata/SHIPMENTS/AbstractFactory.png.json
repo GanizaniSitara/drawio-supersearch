@@ -1,0 +1,22 @@
+{
+  "id": "2065",
+  "title": "AbstractFactory.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2065"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "matheus-rubio",
+    "github_repo": "DCC078-Ufjf"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/AbstractFactory.png"
+  },
+  "created_date": "2025-08-03",
+  "author_display": "matheus-rubio/DCC078-Ufjf"
+}

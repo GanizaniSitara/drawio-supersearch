@@ -1,0 +1,22 @@
+{
+  "id": "2119",
+  "title": "class_coupling.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2119"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "brampat",
+    "github_repo": "security"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/class_coupling.png"
+  },
+  "created_date": "2025-07-06",
+  "author_display": "brampat/security"
+}

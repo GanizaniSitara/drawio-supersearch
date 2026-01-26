@@ -1,0 +1,22 @@
+{
+  "id": "23709",
+  "title": "Analysis_lab_v1.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23709"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "stevescally",
+    "github_repo": "WaxedHexagon"
+  },
+  "_links": {
+    "download": "/download/ROCK/Analysis_lab_v1.png"
+  },
+  "created_date": "2025-08-09",
+  "author_display": "stevescally/WaxedHexagon"
+}

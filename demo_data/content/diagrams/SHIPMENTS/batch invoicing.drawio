@@ -1,0 +1,141 @@
+<mxfile host="app.diagrams.net" modified="2022-12-09T09:50:36.954Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vnIjZsoEfLcLxpdN6IWt" version="20.6.0" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="LARAInvoiceManagement.cs" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="100" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="75" y="70" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="btnBatchInvoicing_Click" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-55" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="BatchInvoicing" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="335" y="100" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="43" y="80" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="btnSubmit_Click" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="200" as="sourcePoint" />
+            <mxPoint x="380" y="200" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-1" value="employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="518" y="181" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-3" value="Invoicing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="h9GIYV5VxG4CIKe3gou5-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="210" />
+              <mxPoint x="510" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-4" value="TInvoiceBiz" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="473" y="101" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="h9GIYV5VxG4CIKe3gou5-4">
+          <mxGeometry x="50" y="170" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-7" value="doInvoicing" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="h9GIYV5VxG4CIKe3gou5-6" parent="h9GIYV5VxG4CIKe3gou5-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-8" value="invoicing" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="673" y="221" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="h9GIYV5VxG4CIKe3gou5-6" target="h9GIYV5VxG4CIKe3gou5-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="263" y="311" as="sourcePoint" />
+            <mxPoint x="423" y="311" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-25" value="LARAInvoiceManagement.cs" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="487" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-26" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="h9GIYV5VxG4CIKe3gou5-25">
+          <mxGeometry x="75" y="70" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-27" value="BatchNcc" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="h9GIYV5VxG4CIKe3gou5-25" target="h9GIYV5VxG4CIKe3gou5-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-55" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-28" value="BatchInvoicing" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="487" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-29" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="h9GIYV5VxG4CIKe3gou5-28">
+          <mxGeometry x="43" y="80" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-30" value="btnSubmit_Click" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="587" as="sourcePoint" />
+            <mxPoint x="385" y="587" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-31" value="employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="517" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-32" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="523" y="568" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-33" value="Invoicing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h9GIYV5VxG4CIKe3gou5-29" target="h9GIYV5VxG4CIKe3gou5-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="515" y="597" />
+              <mxPoint x="515" y="597" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-34" value="TInvoiceBiz" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="478" y="488" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="h9GIYV5VxG4CIKe3gou5-34">
+          <mxGeometry x="50" y="170" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-36" value="doInvoicing" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="h9GIYV5VxG4CIKe3gou5-34" target="h9GIYV5VxG4CIKe3gou5-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-37" value="invoicing" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="678" y="608" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-38" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="h9GIYV5VxG4CIKe3gou5-35" target="h9GIYV5VxG4CIKe3gou5-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="268" y="698" as="sourcePoint" />
+            <mxPoint x="428" y="698" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-39" value="ncc only&lt;br&gt;不会走生成fapiao逻辑" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="629" y="475" width="89" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="h9GIYV5VxG4CIKe3gou5-40" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="h9GIYV5VxG4CIKe3gou5-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="602" as="sourcePoint" />
+            <mxPoint x="501" y="509" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

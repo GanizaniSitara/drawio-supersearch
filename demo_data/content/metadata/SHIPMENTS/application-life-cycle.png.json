@@ -1,0 +1,22 @@
+{
+  "id": "2128",
+  "title": "application-life-cycle.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2128"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "theforeman",
+    "github_repo": "foreman-documentation"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/application-life-cycle.png"
+  },
+  "created_date": "2025-03-06",
+  "author_display": "theforeman/foreman-documentation"
+}

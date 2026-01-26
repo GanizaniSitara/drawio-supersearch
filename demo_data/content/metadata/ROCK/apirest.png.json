@@ -1,0 +1,22 @@
+{
+  "id": "23604",
+  "title": "apirest.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23604"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "MrXploder",
+    "github_repo": "bootcamp"
+  },
+  "_links": {
+    "download": "/download/ROCK/apirest.png"
+  },
+  "created_date": "2025-02-05",
+  "author_display": "MrXploder/bootcamp"
+}

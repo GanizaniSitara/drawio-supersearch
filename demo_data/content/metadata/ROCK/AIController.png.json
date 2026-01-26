@@ -1,0 +1,22 @@
+{
+  "id": "23572",
+  "title": "AIController.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23572"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "ZazaSaki",
+    "github_repo": "ILIA"
+  },
+  "_links": {
+    "download": "/download/ROCK/AIController.png"
+  },
+  "created_date": "2025-03-30",
+  "author_display": "ZazaSaki/ILIA"
+}

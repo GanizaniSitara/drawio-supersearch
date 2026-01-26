@@ -1,0 +1,22 @@
+{
+  "id": "2050",
+  "title": "diccionario_suma.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2050"
+  },
+  "version": {
+    "number": 3
+  },
+  "metadata": {
+    "github_owner": "pacoDan",
+    "github_repo": "diccionario"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/diccionario_suma.png"
+  },
+  "created_date": "2025-10-06",
+  "author_display": "pacoDan/diccionario"
+}

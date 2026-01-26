@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2024-05-07T00:49:23.150Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="XXNEB1QA84hQBZkvo4Xo" version="24.3.0" type="github">
+  <diagram name="Page-1" id="gvLxUHFnU8IZa0GzhTcP">
+    <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pdy4eW7sVPkmAU9u-iMV-1" value="Invasor consegue acesso indevido ao sistema, podendo roubar dados ou&amp;nbsp;&lt;div&gt;derrubar a disponibilidade do serviço&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="120" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pdy4eW7sVPkmAU9u-iMV-2" value="O projeto agora&lt;div&gt;&amp;nbsp;está com um problema crítico.&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry y="480" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pdy4eW7sVPkmAU9u-iMV-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pdy4eW7sVPkmAU9u-iMV-10" target="pdy4eW7sVPkmAU9u-iMV-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="410" as="sourcePoint" />
+            <mxPoint x="430" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdy4eW7sVPkmAU9u-iMV-4" value="O sistema acaba executando um script malicioso e agora está vulnerável." style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="480" y="320" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pdy4eW7sVPkmAU9u-iMV-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="pdy4eW7sVPkmAU9u-iMV-4" target="pdy4eW7sVPkmAU9u-iMV-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="410" as="sourcePoint" />
+            <mxPoint x="430" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdy4eW7sVPkmAU9u-iMV-8" value="Input de dados não realiza validação do conteúdo fornecido nos campos de texto" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="480" y="480" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pdy4eW7sVPkmAU9u-iMV-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="pdy4eW7sVPkmAU9u-iMV-8" target="pdy4eW7sVPkmAU9u-iMV-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="410" as="sourcePoint" />
+            <mxPoint x="460" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdy4eW7sVPkmAU9u-iMV-10" value="O atacante rouba todos os dados da aplicação e disponibiliza informações sensíveis online." style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry y="320" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pdy4eW7sVPkmAU9u-iMV-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="pdy4eW7sVPkmAU9u-iMV-12" target="pdy4eW7sVPkmAU9u-iMV-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="530" as="sourcePoint" />
+            <mxPoint x="140" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdy4eW7sVPkmAU9u-iMV-12" value="Aplicação é derrubada, o projeto e os usuários são prejudicados" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="160" y="320" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pdy4eW7sVPkmAU9u-iMV-13" value="O projeto agora&lt;div&gt;&amp;nbsp;está com um problema crítico.&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="160" y="480" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pdy4eW7sVPkmAU9u-iMV-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="pdy4eW7sVPkmAU9u-iMV-13" target="pdy4eW7sVPkmAU9u-iMV-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="530" as="sourcePoint" />
+            <mxPoint x="430" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdy4eW7sVPkmAU9u-iMV-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="pdy4eW7sVPkmAU9u-iMV-10" target="pdy4eW7sVPkmAU9u-iMV-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="330" as="sourcePoint" />
+            <mxPoint x="330" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

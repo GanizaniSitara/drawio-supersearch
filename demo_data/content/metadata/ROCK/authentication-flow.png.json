@@ -1,0 +1,22 @@
+{
+  "id": "23526",
+  "title": "authentication-flow.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23526"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "mosip",
+    "github_repo": "documentation"
+  },
+  "_links": {
+    "download": "/download/ROCK/authentication-flow.png"
+  },
+  "created_date": "2024-07-22",
+  "author_display": "mosip/documentation"
+}

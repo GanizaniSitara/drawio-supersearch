@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" modified="2023-10-27T16:35:03.988Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="mm9pf2gy-Anmi4Al2D9A" version="22.0.8" type="github">
+  <diagram name="Page-1" id="ydgzedy_VkxwKU0zGz_Y">
+    <mxGraphModel dx="1434" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3" value="Atomicidade" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fixedWidth=0;aspect=fixed;gradientColor=#7ea6e0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="20" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Consistência" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="140" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Isolamento" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="260" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Durabilidade" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="380" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7" style="endArrow=none;fontStyle=1;exitX=0;exitY=1;exitDx=0;exitDy=-15;exitPerimeter=0;" parent="1" source="9og4h5ZDFNJ4oRa0KRMt-10" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="224.96910325665021" y="52.976241008343095" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" style="endArrow=none;fontStyle=1;exitX=0.145;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;" parent="1" source="9og4h5ZDFNJ4oRa0KRMt-10" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="237" y="65" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" style="endArrow=none;fontStyle=1;exitX=0.855;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;" parent="1" source="9og4h5ZDFNJ4oRa0KRMt-10" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="271" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" style="endArrow=none;fontStyle=1;exitX=1;exitY=1;exitDx=0;exitDy=-15;exitPerimeter=0;" parent="1" source="9og4h5ZDFNJ4oRa0KRMt-10" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="284.6181494031364" y="53.648464439011605" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9og4h5ZDFNJ4oRa0KRMt-10" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Comic Sans MS&amp;quot;; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;ACID&lt;/span&gt;&#xa;&#xa;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#cce5ff;strokeColor=#36393d;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="10" width="60" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

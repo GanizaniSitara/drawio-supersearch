@@ -1,0 +1,22 @@
+{
+  "id": "17829",
+  "title": "bodim.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17829"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "cepdnaclk",
+    "github_repo": "e16-CO328-bodim-management-system"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/bodim.png"
+  },
+  "created_date": "2024-07-18",
+  "author_display": "cepdnaclk/e16-CO328-bodim-management-system"
+}

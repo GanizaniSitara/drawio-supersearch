@@ -1,0 +1,22 @@
+{
+  "id": "2143",
+  "title": "bcs-webhook-server-plugin.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2143"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "TencentBlueKing",
+    "github_repo": "bk-bcs"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/bcs-webhook-server-plugin.png"
+  },
+  "created_date": "2024-03-07",
+  "author_display": "TencentBlueKing/bk-bcs"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "10267",
+  "title": "A3.png",
+  "space": {
+    "key": "ATIVIDADE"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/10267"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "cortex359",
+    "github_repo": "matse-aachen.ws23"
+  },
+  "_links": {
+    "download": "/download/ATIVIDADE/A3.png"
+  },
+  "created_date": "2024-04-25",
+  "author_display": "cortex359/matse-aachen.ws23"
+}

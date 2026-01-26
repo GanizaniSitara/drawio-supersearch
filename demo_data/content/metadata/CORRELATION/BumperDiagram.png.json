@@ -1,0 +1,22 @@
+{
+  "id": "17711",
+  "title": "BumperDiagram.png",
+  "space": {
+    "key": "CORRELATION"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/17711"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "bmartin5692",
+    "github_repo": "bumper"
+  },
+  "_links": {
+    "download": "/download/CORRELATION/BumperDiagram.png"
+  },
+  "created_date": "2025-06-05",
+  "author_display": "bmartin5692/bumper"
+}

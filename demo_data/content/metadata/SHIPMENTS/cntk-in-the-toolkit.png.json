@@ -1,0 +1,22 @@
+{
+  "id": "1973",
+  "title": "cntk-in-the-toolkit.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/1973"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "csantanapr",
+    "github_repo": "ibm-garage-developer-guide"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/cntk-in-the-toolkit.png"
+  },
+  "created_date": "2024-05-31",
+  "author_display": "csantanapr/ibm-garage-developer-guide"
+}

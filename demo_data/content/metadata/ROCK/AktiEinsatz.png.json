@@ -1,0 +1,22 @@
+{
+  "id": "24044",
+  "title": "AktiEinsatz.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24044"
+  },
+  "version": {
+    "number": 9
+  },
+  "metadata": {
+    "github_owner": "SGSE-2020",
+    "github_repo": "Spezifikation"
+  },
+  "_links": {
+    "download": "/download/ROCK/AktiEinsatz.png"
+  },
+  "created_date": "2024-10-14",
+  "author_display": "SGSE-2020/Spezifikation"
+}

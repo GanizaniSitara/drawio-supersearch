@@ -21,7 +21,9 @@ DEMO_DIR = os.path.join(PROJECT_DIR, "demo_data", "content")
 
 # Target configuration
 TARGET_SPACES = 15  # Number of spaces to include
-MAX_DIAGRAMS_PER_SPACE = 100  # Cap per space for demo size
+# Variable caps per space rank to make "By Count" sorting meaningful
+# First space gets 200, second 180, etc. down to ~50 for last
+DIAGRAM_CAPS = [200, 180, 160, 140, 120, 110, 100, 90, 80, 70, 65, 60, 55, 50, 45]
 
 
 def find_complete_diagrams():
@@ -68,8 +70,8 @@ def find_complete_diagrams():
     return results
 
 
-def select_best_spaces(diagrams_by_space, target_spaces, max_per_space):
-    """Select spaces with most complete diagrams."""
+def select_best_spaces(diagrams_by_space, target_spaces, diagram_caps):
+    """Select spaces with most complete diagrams, using variable caps."""
     sorted_spaces = sorted(
         diagrams_by_space.items(),
         key=lambda x: len(x[1]),
@@ -77,9 +79,11 @@ def select_best_spaces(diagrams_by_space, target_spaces, max_per_space):
     )
 
     selected = {}
-    for space_key, diagrams in sorted_spaces[:target_spaces]:
-        # Take up to max_per_space diagrams, preferring smaller files
-        sorted_diagrams = sorted(diagrams, key=lambda x: x['size'])[:max_per_space]
+    for i, (space_key, diagrams) in enumerate(sorted_spaces[:target_spaces]):
+        # Use variable cap based on rank - top spaces get more diagrams
+        cap = diagram_caps[i] if i < len(diagram_caps) else diagram_caps[-1]
+        # Take up to cap diagrams, preferring smaller files
+        sorted_diagrams = sorted(diagrams, key=lambda x: x['size'])[:cap]
         selected[space_key] = sorted_diagrams
 
     return selected
@@ -135,7 +139,7 @@ def main():
     print("=" * 60)
     print(f"\nSource: {DATA_DIR}")
     print(f"Output: {DEMO_DIR}")
-    print(f"Target: {TARGET_SPACES} spaces, max {MAX_DIAGRAMS_PER_SPACE} per space")
+    print(f"Target: {TARGET_SPACES} spaces, variable caps: {DIAGRAM_CAPS[0]} to {DIAGRAM_CAPS[-1]} per space")
 
     print("\nScanning for complete diagrams (with PNG)...")
     diagrams_by_space = find_complete_diagrams()
@@ -148,7 +152,7 @@ def main():
         return
 
     print(f"\nSelecting top {TARGET_SPACES} spaces...")
-    selected = select_best_spaces(diagrams_by_space, TARGET_SPACES, MAX_DIAGRAMS_PER_SPACE)
+    selected = select_best_spaces(diagrams_by_space, TARGET_SPACES, DIAGRAM_CAPS)
 
     print(f"\nCreating demo data structure...")
     total = create_demo_structure(selected)

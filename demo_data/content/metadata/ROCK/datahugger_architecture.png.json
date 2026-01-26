@@ -1,0 +1,22 @@
+{
+  "id": "23590",
+  "title": "datahugger_architecture.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23590"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "J535D165",
+    "github_repo": "datahugger"
+  },
+  "_links": {
+    "download": "/download/ROCK/datahugger_architecture.png"
+  },
+  "created_date": "2025-01-07",
+  "author_display": "J535D165/datahugger"
+}

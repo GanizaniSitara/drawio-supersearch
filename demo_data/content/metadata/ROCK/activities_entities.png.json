@@ -1,0 +1,22 @@
+{
+  "id": "23646",
+  "title": "activities_entities.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23646"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "swiss",
+    "github_repo": "paf-link"
+  },
+  "_links": {
+    "download": "/download/ROCK/activities_entities.png"
+  },
+  "created_date": "2025-06-16",
+  "author_display": "swiss/paf-link"
+}

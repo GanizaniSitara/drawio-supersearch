@@ -1,0 +1,22 @@
+{
+  "id": "24073",
+  "title": "data_and_var_source.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24073"
+  },
+  "version": {
+    "number": 2
+  },
+  "metadata": {
+    "github_owner": "OHDSI",
+    "github_repo": "GIS"
+  },
+  "_links": {
+    "download": "/download/ROCK/data_and_var_source.png"
+  },
+  "created_date": "2025-05-19",
+  "author_display": "OHDSI/GIS"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2123",
+  "title": "accessbox-scheme.png",
+  "space": {
+    "key": "SHIPMENTS"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/2123"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "nspcc-dev",
+    "github_repo": "neofs-spec"
+  },
+  "_links": {
+    "download": "/download/SHIPMENTS/accessbox-scheme.png"
+  },
+  "created_date": "2024-05-22",
+  "author_display": "nspcc-dev/neofs-spec"
+}

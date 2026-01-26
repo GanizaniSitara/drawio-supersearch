@@ -1,0 +1,22 @@
+{
+  "id": "12495",
+  "title": "DER Gym.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12495"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "Nemo3003",
+    "github_repo": "devlights-bootcamp"
+  },
+  "_links": {
+    "download": "/download/CRASH/DER Gym.png"
+  },
+  "created_date": "2026-01-03",
+  "author_display": "Nemo3003/devlights-bootcamp"
+}

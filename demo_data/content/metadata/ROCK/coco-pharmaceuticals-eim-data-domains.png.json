@@ -1,0 +1,22 @@
+{
+  "id": "23581",
+  "title": "coco-pharmaceuticals-eim-data-domains.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23581"
+  },
+  "version": {
+    "number": 8
+  },
+  "metadata": {
+    "github_owner": "odpi",
+    "github_repo": "data-governance"
+  },
+  "_links": {
+    "download": "/download/ROCK/coco-pharmaceuticals-eim-data-domains.png"
+  },
+  "created_date": "2025-06-28",
+  "author_display": "odpi/data-governance"
+}

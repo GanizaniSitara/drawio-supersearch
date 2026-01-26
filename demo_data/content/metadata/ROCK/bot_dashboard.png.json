@@ -1,0 +1,22 @@
+{
+  "id": "23736",
+  "title": "bot_dashboard.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23736"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "benjamin852",
+    "github_repo": "Dashboard"
+  },
+  "_links": {
+    "download": "/download/ROCK/bot_dashboard.png"
+  },
+  "created_date": "2024-02-27",
+  "author_display": "benjamin852/Dashboard"
+}

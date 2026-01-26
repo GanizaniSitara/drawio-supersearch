@@ -1,0 +1,22 @@
+{
+  "id": "12522",
+  "title": "CDP_destroy.png",
+  "space": {
+    "key": "CRASH"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/12522"
+  },
+  "version": {
+    "number": 5
+  },
+  "metadata": {
+    "github_owner": "rwblokzijl",
+    "github_repo": "stablecoin-survey"
+  },
+  "_links": {
+    "download": "/download/CRASH/CDP_destroy.png"
+  },
+  "created_date": "2025-08-03",
+  "author_display": "rwblokzijl/stablecoin-survey"
+}

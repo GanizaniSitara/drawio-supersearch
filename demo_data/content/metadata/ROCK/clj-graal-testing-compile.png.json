@@ -1,0 +1,22 @@
+{
+  "id": "23739",
+  "title": "clj-graal-testing-compile.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23739"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "justone",
+    "github_repo": "clj-graal-docs"
+  },
+  "_links": {
+    "download": "/download/ROCK/clj-graal-testing-compile.png"
+  },
+  "created_date": "2024-10-02",
+  "author_display": "justone/clj-graal-docs"
+}

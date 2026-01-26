@@ -1,0 +1,22 @@
+{
+  "id": "24101",
+  "title": "blackjack.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/24101"
+  },
+  "version": {
+    "number": 1
+  },
+  "metadata": {
+    "github_owner": "hnnhpdll",
+    "github_repo": "CCINCOML_EXERCISES_COM23P"
+  },
+  "_links": {
+    "download": "/download/ROCK/blackjack.png"
+  },
+  "created_date": "2025-12-24",
+  "author_display": "hnnhpdll/CCINCOML_EXERCISES_COM23P"
+}

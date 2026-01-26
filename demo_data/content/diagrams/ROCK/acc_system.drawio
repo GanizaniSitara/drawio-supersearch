@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2023-09-26T19:10:40.344Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="lRQidsr1CCV4jgfVNqIj" version="21.8.2" type="github">
+  <diagram name="Page-1" id="ksd6yEclr_CNuHs9PnJI">
+    <mxGraphModel dx="1062" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jF4vMIIaupyfPtniEKmE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jF4vMIIaupyfPtniEKmE-2" target="jF4vMIIaupyfPtniEKmE-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF4vMIIaupyfPtniEKmE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jF4vMIIaupyfPtniEKmE-2" target="jF4vMIIaupyfPtniEKmE-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF4vMIIaupyfPtniEKmE-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jF4vMIIaupyfPtniEKmE-2" target="jF4vMIIaupyfPtniEKmE-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF4vMIIaupyfPtniEKmE-2" value="ACCSubsystem" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="294" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF4vMIIaupyfPtniEKmE-3" value="GameData" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF4vMIIaupyfPtniEKmE-4" value="ParamHandlerMgr" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="295" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF4vMIIaupyfPtniEKmE-5" value="OwnedManagers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF4vMIIaupyfPtniEKmE-11" value="Contain all game data setting for ACC&lt;br&gt;Example: All know species in the system" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelPadding=0;spacing=7;" parent="1" vertex="1">
+          <mxGeometry x="105" y="450" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jF4vMIIaupyfPtniEKmE-12" value="Singleton of all param handlers&lt;br&gt;System which allow do stuff from creation data&lt;br&gt;&lt;br&gt;Example : HeadStyle = 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelPadding=0;spacing=7;" parent="1" vertex="1">
+          <mxGeometry x="280" y="450" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jF4vMIIaupyfPtniEKmE-13" value="SubManagers of ACC&lt;br&gt;You can add your own while it&#39;s ACCObjectMgr parent&lt;br&gt;&lt;br&gt;And access it&#39;s thanks to&amp;nbsp;GetManagerByClass function" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelPadding=0;spacing=7;" parent="1" vertex="1">
+          <mxGeometry x="455" y="450" width="205" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jF4vMIIaupyfPtniEKmE-14" value="&lt;h1&gt;Why subsystem&lt;/h1&gt;&lt;p&gt;Thanks to subsytem you don&#39;t need to override gameinstance or doing heavy gameinstance stuff to use ACC System&lt;/p&gt;&lt;p&gt;You just need to setting it from &lt;b&gt;ProjectSettings&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;u&gt;It&#39;s good especially for people se a complete template from marketplace&lt;/u&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="550" y="170" width="260" height="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

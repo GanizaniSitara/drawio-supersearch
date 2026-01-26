@@ -1,0 +1,22 @@
+{
+  "id": "23605",
+  "title": "Aula-09.png",
+  "space": {
+    "key": "ROCK"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/23605"
+  },
+  "version": {
+    "number": 4
+  },
+  "metadata": {
+    "github_owner": "isel-leic-tds",
+    "github_repo": "2122i-LEIC31D"
+  },
+  "_links": {
+    "download": "/download/ROCK/Aula-09.png"
+  },
+  "created_date": "2025-03-18",
+  "author_display": "isel-leic-tds/2122i-LEIC31D"
+}

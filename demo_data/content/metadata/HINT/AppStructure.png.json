@@ -1,0 +1,22 @@
+{
+  "id": "21026",
+  "title": "AppStructure.png",
+  "space": {
+    "key": "HINT"
+  },
+  "_expandable": {
+    "container": "/rest/api/content/21026"
+  },
+  "version": {
+    "number": 6
+  },
+  "metadata": {
+    "github_owner": "NitishGadangi",
+    "github_repo": "Android-TV-Prototpe"
+  },
+  "_links": {
+    "download": "/download/HINT/AppStructure.png"
+  },
+  "created_date": "2024-04-29",
+  "author_display": "NitishGadangi/Android-TV-Prototpe"
+}
