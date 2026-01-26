@@ -82,6 +82,7 @@ def load_settings(settings_path=None):
         'host': config.get('Browser', 'host', fallback='127.0.0.1'),
         'port': config.getint('Browser', 'port', fallback=5000),
         'debug': config.getboolean('Browser', 'debug', fallback=False),
+        'show_edit_buttons': config.getboolean('Browser', 'show_edit_buttons', fallback=True),
 
         # Extractor settings
         'rate_limit': config.getint('Extractor', 'rate_limit', fallback=5),

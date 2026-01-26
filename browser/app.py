@@ -451,13 +451,15 @@ def diagram_view(diagram_id):
 
     conn.close()
 
-    # Get Confluence URL for "View in Confluence" button
+    # Get settings for template
     settings = get_settings()
     confluence_url = settings.get('confluence_url', '')
+    show_edit_buttons = settings.get('show_edit_buttons', True)
 
     return render_template('diagram.html',
                          diagram=diagram,
                          confluence_url=confluence_url,
+                         show_edit_buttons=show_edit_buttons,
                          prev_id=prev_diagram['id'] if prev_diagram else None,
                          next_id=next_diagram['id'] if next_diagram else None,
                          position=position,

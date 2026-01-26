@@ -44,6 +44,7 @@
                 View in Confluence
             </a>
             {% endif %}
+            {% if show_edit_buttons %}
             <a href="/download/{{ diagram.space_key }}/{{ diagram.diagram_name }}.drawio"
                class="action-btn action-btn-primary">
                 Download .drawio
@@ -56,6 +57,7 @@
                     class="action-btn action-btn-secondary">
                 Edit in Browser
             </button>
+            {% endif %}
         </div>
 
         <div class="info-grid">
