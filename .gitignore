@@ -10,8 +10,11 @@ ENV/
 
 # Data (generated at runtime)
 data/
-*.db
 whoosh_index/
+
+# Demo data for cloud deployment (include this)
+!demo_data/
+!demo_data/**
 
 # Config with credentials
 settings.ini

@@ -1,0 +1,10 @@
+# Render.com deployment config
+services:
+  - type: web
+    name: drawio-supersearch
+    runtime: python
+    buildCommand: pip install -r requirements.txt && python scripts/index.py --rebuild
+    startCommand: gunicorn browser.app:app --bind 0.0.0.0:$PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11"
