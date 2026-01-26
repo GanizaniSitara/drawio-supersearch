@@ -195,6 +195,58 @@ class LucidchartScreenshotter:
             os.makedirs(path, exist_ok=True)
         return dirs
 
+    def get_all_spaces(self):
+        """
+        Get list of all global space keys from Confluence.
+
+        Returns:
+            List of space key strings
+        """
+        spaces = []
+        start = 0
+
+        print("Fetching list of all spaces...")
+
+        while True:
+            url = (
+                f"{self.confluence_url}/rest/api/space"
+                f"?type=global"
+                f"&start={start}"
+                f"&limit=100"
+            )
+
+            response = self._rate_limited_request(url)
+
+            if response.status_code != 200:
+                print(f"Warning: Failed to fetch spaces: {response.status_code}")
+                break
+
+            data = response.json()
+            results = data.get('results', [])
+
+            if not results:
+                break
+
+            for space in results:
+                space_key = space.get('key', '')
+                # Skip personal spaces if configured
+                if self.skip_personal and space_key.startswith('~'):
+                    continue
+                spaces.append(space_key)
+
+            start += len(results)
+
+            # Print progress
+            if start % 500 == 0:
+                print(f"  Found {len(spaces)} spaces so far...", flush=True)
+
+            # Check if more results
+            if len(results) < 100:
+                break
+
+        print(f"  Found {len(spaces)} global spaces total")
+        return spaces
+
     def get_pages_with_lucidchart(self, space_key=None, limit=None):
         """
         Find all pages containing Lucidchart macros.
@@ -216,6 +268,11 @@ class LucidchartScreenshotter:
         else:
             cql = 'macro=lucidchart and type=page'
 
+        # Progress indicator for "all spaces" mode (no space_key)
+        if not space_key:
+            print("Searching for Lucidchart pages across all spaces...")
+            import sys
+
         while True:
             url = (
                 f"{self.confluence_url}/rest/api/content/search"
@@ -228,6 +285,12 @@ class LucidchartScreenshotter:
 
             if response.status_code != 200:
                 print(f"Warning: Search failed: {response.status_code}")
+                # Print response body for debugging
+                try:
+                    error_detail = response.text[:500]
+                    print(f"  Response: {error_detail}")
+                except:
+                    pass
                 break
 
             data = response.json()
@@ -235,6 +298,11 @@ class LucidchartScreenshotter:
 
             if not results:
                 break
+
+            # Progress output for "all spaces" mode
+            if not space_key:
+                total_size = data.get('totalSize', data.get('size', '?'))
+                print(f"  Fetched batch {start//25 + 1}: {len(pages) + len(results)} pages so far (total: {total_size})", flush=True)
 
             for page in results:
                 # Skip personal spaces if configured
@@ -601,33 +669,44 @@ class LucidchartScreenshotter:
                 if spaces:
                     # Process specified spaces
                     total = 0
-                    for space_key in spaces:
-                        print(f"\nProcessing space: {space_key}")
+                    for idx, space_key in enumerate(spaces):
+                        print(f"\n[Space {idx+1}/{len(spaces)}] Processing: {space_key}")
                         total += self.extract_space(space_key, limit=limit, dry_run=dry_run)
                     return total
                 else:
-                    # Find all pages with Lucidchart across all spaces
-                    pages = self.get_pages_with_lucidchart(limit=limit)
-                    print(f"\nFound {len(pages)} pages with Lucidchart")
+                    # Get all spaces first, then process each one
+                    # This is more reliable than loading all pages across all spaces at once
+                    all_spaces = self.get_all_spaces()
 
-                    # Group by space
-                    spaces_found = {}
-                    for page in pages:
-                        sk = page['space_key']
-                        if sk not in spaces_found:
-                            spaces_found[sk] = []
-                        spaces_found[sk].append(page)
+                    if not all_spaces:
+                        print("No spaces found or accessible.")
+                        return 0
+
+                    print(f"\nWill check {len(all_spaces)} spaces for Lucidchart content...")
 
                     total = 0
-                    for space_key, space_pages in spaces_found.items():
-                        dirs = self._ensure_directories(space_key)
-                        print(f"\nProcessing space: {space_key} ({len(space_pages)} pages)")
+                    spaces_with_content = 0
 
-                        for idx, page in enumerate(space_pages):
-                            print(f"  [{idx+1}/{len(space_pages)}] {page['title'][:50]}...")
+                    for idx, space_key in enumerate(all_spaces):
+                        print(f"\n[Space {idx+1}/{len(all_spaces)}] Checking: {space_key}")
+
+                        # Get pages with Lucidchart in this space
+                        pages = self.get_pages_with_lucidchart(space_key, limit=limit)
+
+                        if not pages:
+                            print(f"  No Lucidchart content found")
+                            continue
+
+                        spaces_with_content += 1
+                        dirs = self._ensure_directories(space_key)
+                        print(f"  Found {len(pages)} pages with Lucidchart")
+
+                        for page_idx, page in enumerate(pages):
+                            print(f"  [{page_idx+1}/{len(pages)}] {page['title'][:50]}...")
                             count = self.screenshot_page_diagrams(page, dirs, dry_run)
                             total += count
 
+                    print(f"\n  Summary: Found Lucidchart content in {spaces_with_content} of {len(all_spaces)} spaces")
                     return total
 
             finally:
