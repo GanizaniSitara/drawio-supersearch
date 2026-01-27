@@ -649,7 +649,19 @@ class LucidchartScreenshotter:
 
         return total_diagrams
 
-    def extract_all(self, spaces=None, limit=None, dry_run=False, headless=True):
+    def _get_completed_spaces(self):
+        """Scan metadata directory to find spaces that have already been processed."""
+        metadata_dir = os.path.join(self.content_dir, 'metadata')
+        if not os.path.exists(metadata_dir):
+            return set()
+        completed = set()
+        for entry in os.listdir(metadata_dir):
+            entry_path = os.path.join(metadata_dir, entry)
+            if os.path.isdir(entry_path) and os.listdir(entry_path):
+                completed.add(entry)
+        return completed
+
+    def extract_all(self, spaces=None, limit=None, dry_run=False, headless=True, resume=False):
         """
         Extract Lucidchart diagrams from all (or specified) spaces.
 
@@ -658,6 +670,7 @@ class LucidchartScreenshotter:
             limit: Max pages per space (for testing)
             dry_run: If True, don't capture
             headless: Run browser in headless mode
+            resume: If True, skip spaces that already have metadata
 
         Returns:
             int: Total diagrams captured
@@ -666,10 +679,17 @@ class LucidchartScreenshotter:
             self._init_browser(playwright, headless=headless)
 
             try:
+                completed_spaces = self._get_completed_spaces() if resume else set()
+                if completed_spaces:
+                    print(f"\nResume mode: {len(completed_spaces)} spaces already completed, will be skipped")
+
                 if spaces:
                     # Process specified spaces
                     total = 0
                     for idx, space_key in enumerate(spaces):
+                        if space_key in completed_spaces:
+                            print(f"\n[Space {idx+1}/{len(spaces)}] Skipping (already completed): {space_key}")
+                            continue
                         print(f"\n[Space {idx+1}/{len(spaces)}] Processing: {space_key}")
                         total += self.extract_space(space_key, limit=limit, dry_run=dry_run)
                     return total
@@ -688,6 +708,10 @@ class LucidchartScreenshotter:
                     spaces_with_content = 0
 
                     for idx, space_key in enumerate(all_spaces):
+                        if space_key in completed_spaces:
+                            print(f"\n[Space {idx+1}/{len(all_spaces)}] Skipping (already completed): {space_key}")
+                            continue
+
                         print(f"\n[Space {idx+1}/{len(all_spaces)}] Checking: {space_key}")
 
                         # Get pages with Lucidchart in this space
@@ -732,6 +756,8 @@ def main():
                         help='Run browser in headless mode (default: True)')
     parser.add_argument('--no-headless', action='store_false', dest='headless',
                         help='Show browser window (useful for debugging)')
+    parser.add_argument('--resume', action='store_true',
+                        help='Resume from checkpoint: skip spaces that already have metadata')
 
     args = parser.parse_args()
 
@@ -760,13 +786,15 @@ def main():
     print(f"Spaces: {spaces or 'all'}")
     print(f"Test mode: {args.test}")
     print(f"Dry run: {args.dry_run}")
+    print(f"Resume: {args.resume}")
     print("=" * 60)
 
     total = screenshotter.extract_all(
         spaces=spaces,
         limit=limit,
         dry_run=args.dry_run,
-        headless=args.headless
+        headless=args.headless,
+        resume=args.resume
     )
 
     print("\n" + "=" * 60)
