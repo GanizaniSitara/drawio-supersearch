@@ -269,8 +269,12 @@ def index_all_diagrams(progress_callback=None):
                 page_id = container.split('/')[-1] if container else meta.get('page_id', '')
 
                 if webui:
-                    # Store the path (without query params) for linking to Confluence
-                    confluence_page_url = webui.split('?')[0]
+                    if 'viewpage.action' in webui:
+                        # pageId-based URL — keep the full path including query params
+                        confluence_page_url = webui
+                    else:
+                        # Display-based URL — strip query params
+                        confluence_page_url = webui.split('?')[0]
                     # Extract page title from the path if not already set
                     if not page_title and '/display/' in webui:
                         parts = webui.split('/')
