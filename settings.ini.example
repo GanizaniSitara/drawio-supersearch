@@ -18,7 +18,7 @@ index_directory = ./data/whoosh_index
 
 [Browser]
 # Web server host (0.0.0.0 for all interfaces)
-host = 127.0.0.1
+host = 0.0.0.0
 # Web server port
 port = 5000
 # Debug mode (disable in production)
