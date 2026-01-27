@@ -77,6 +77,9 @@ def load_settings(settings_path=None):
         'index_directory': resolve_path(
             config.get('Local', 'index_directory', fallback='./data/whoosh_index')
         ),
+        'applications_file': resolve_path(
+            config.get('Local', 'applications_file', fallback='')
+        ),
 
         # Browser settings
         'host': config.get('Browser', 'host', fallback='127.0.0.1'),

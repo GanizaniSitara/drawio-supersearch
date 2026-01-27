@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}DrawIO Browser - Browse Spaces{% endblock %}
+{% block title %}DrawIO Browser - Browse {% if view == 'apps' %}Applications{% else %}Spaces{% endif %}{% endblock %}
 
 {% block content %}
 <div class="search-bar">
@@ -15,20 +15,33 @@
         <div class="stat-label">Total Diagrams</div>
     </div>
     <div class="stat-box">
-        <div class="stat-value">{{ spaces|length }}</div>
-        <div class="stat-label">Spaces</div>
+        <div class="stat-value">{% if view == 'apps' %}{{ applications|length }}{% else %}{{ spaces|length }}{% endif %}</div>
+        <div class="stat-label">{% if view == 'apps' %}Applications{% else %}Spaces{% endif %}</div>
     </div>
 </div>
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-    <h2 style="margin: 0; color: #2c3e50;">Browse by Space</h2>
     <div style="display: flex; gap: 8px;">
-        <a href="/?sort=count"
+        <a href="/?view=spaces&sort={{ sort }}"
+           style="padding: 10px 24px; border-radius: 4px; text-decoration: none; font-size: 1.2em; font-weight: 700;
+                  {% if view != 'apps' %}background: #2c3e50; color: white;{% else %}background: #e0e0e0; color: #333;{% endif %}">
+            Browse by Space
+        </a>
+        {% if has_apps %}
+        <a href="/?view=apps&sort={{ sort }}"
+           style="padding: 10px 24px; border-radius: 4px; text-decoration: none; font-size: 1.2em; font-weight: 700;
+                  {% if view == 'apps' %}background: #2c3e50; color: white;{% else %}background: #e0e0e0; color: #333;{% endif %}">
+            Browse by Application
+        </a>
+        {% endif %}
+    </div>
+    <div style="display: flex; gap: 8px;">
+        <a href="/?view={{ view }}&sort=count"
            style="padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9em;
                   {% if sort != 'alpha' %}background: #3498db; color: white;{% else %}background: #e0e0e0; color: #333;{% endif %}">
             By Count
         </a>
-        <a href="/?sort=alpha"
+        <a href="/?view={{ view }}&sort=alpha"
            style="padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9em;
                   {% if sort == 'alpha' %}background: #3498db; color: white;{% else %}background: #e0e0e0; color: #333;{% endif %}">
             A-Z
@@ -36,6 +49,16 @@
     </div>
 </div>
 
+{% if view == 'apps' %}
+<div class="space-list">
+    {% for app in applications %}
+    <a href="/application/{{ app.id }}" class="space-item">
+        <div class="space-key">{{ app.name }}</div>
+        <div class="space-count">{{ app.count }} diagrams</div>
+    </a>
+    {% endfor %}
+</div>
+{% else %}
 <div class="space-list">
     {% for space in spaces %}
     <a href="/space/{{ space.space_key }}" class="space-item">
@@ -44,4 +67,5 @@
     </a>
     {% endfor %}
 </div>
+{% endif %}
 {% endblock %}

@@ -146,6 +146,26 @@ def init_db():
     ''')
     c.execute('CREATE INDEX IF NOT EXISTS idx_space ON diagrams(space_key)')
     c.execute('CREATE INDEX IF NOT EXISTS idx_name ON diagrams(diagram_name)')
+
+    # Applications tables
+    c.execute('''
+        CREATE TABLE IF NOT EXISTS applications (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            name TEXT NOT NULL UNIQUE
+        )
+    ''')
+    c.execute('''
+        CREATE TABLE IF NOT EXISTS diagram_applications (
+            diagram_id INTEGER NOT NULL,
+            application_id INTEGER NOT NULL,
+            PRIMARY KEY (diagram_id, application_id),
+            FOREIGN KEY (diagram_id) REFERENCES diagrams(id),
+            FOREIGN KEY (application_id) REFERENCES applications(id)
+        )
+    ''')
+    c.execute('CREATE INDEX IF NOT EXISTS idx_da_diagram ON diagram_applications(diagram_id)')
+    c.execute('CREATE INDEX IF NOT EXISTS idx_da_app ON diagram_applications(application_id)')
+
     conn.commit()
     conn.close()
 
@@ -206,6 +226,33 @@ def index_is_populated():
 
 
 # =============================================================================
+# Application Helpers
+# =============================================================================
+
+def load_applications():
+    """Read application names from the configured file.
+    Skips blank lines and lines starting with #."""
+    settings = get_settings()
+    filepath = settings.get('applications_file', '')
+    if not filepath or not os.path.exists(filepath):
+        return []
+    names = []
+    with open(filepath, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith('#'):
+                names.append(line)
+    return names
+
+
+def applications_enabled():
+    """Check whether an applications file is configured and exists."""
+    settings = get_settings()
+    filepath = settings.get('applications_file', '')
+    return bool(filepath) and os.path.exists(filepath)
+
+
+# =============================================================================
 # Indexing Functions
 # =============================================================================
 
@@ -223,7 +270,16 @@ def index_all_diagrams(progress_callback=None):
 
     conn = get_db()
     c = conn.cursor()
+    c.execute('DELETE FROM diagram_applications')
+    c.execute('DELETE FROM applications')
     c.execute('DELETE FROM diagrams')  # Clear existing data
+
+    # Load applications and build lookup map
+    app_names = load_applications()
+    app_id_map = {}  # {lowercase_name: id}
+    for name in app_names:
+        c.execute('INSERT INTO applications (name) VALUES (?)', (name,))
+        app_id_map[name.lower()] = c.lastrowid
 
     ix = open_dir(get_index_dir())
     writer = ix.writer()
@@ -319,6 +375,19 @@ def index_all_diagrams(progress_callback=None):
 
                 diagram_id = c.lastrowid
 
+                # Match diagram to applications
+                searchable_text = ' '.join([
+                    diagram_name or '',
+                    page_title or '',
+                    content_text or ''
+                ]).lower()
+                for app_lower, app_db_id in app_id_map.items():
+                    if app_lower in searchable_text:
+                        c.execute(
+                            'INSERT INTO diagram_applications (diagram_id, application_id) VALUES (?, ?)',
+                            (diagram_id, app_db_id)
+                        )
+
                 # Add to Whoosh index
                 writer.add_document(
                     id=str(diagram_id),
@@ -348,33 +417,95 @@ def index_all_diagrams(progress_callback=None):
 
 @app.route('/')
 def index():
-    """Home page - show spaces overview."""
+    """Home page - show spaces or applications overview."""
     if not db_is_populated():
         return render_template('needs_index.html')
 
     sort = request.args.get('sort', 'count')  # 'count' or 'alpha'
+    view = request.args.get('view', 'spaces')  # 'spaces' or 'apps'
+    has_apps = applications_enabled()
 
     conn = get_db()
-
-    if sort == 'alpha':
-        spaces = conn.execute('''
-            SELECT space_key, COUNT(*) as count
-            FROM diagrams
-            GROUP BY space_key
-            ORDER BY space_key ASC
-        ''').fetchall()
-    else:
-        spaces = conn.execute('''
-            SELECT space_key, COUNT(*) as count
-            FROM diagrams
-            GROUP BY space_key
-            ORDER BY count DESC
-        ''').fetchall()
-
     total = conn.execute('SELECT COUNT(*) FROM diagrams').fetchone()[0]
+
+    if view == 'apps' and has_apps:
+        if sort == 'alpha':
+            applications = conn.execute('''
+                SELECT a.id, a.name, COUNT(da.diagram_id) as count
+                FROM applications a
+                LEFT JOIN diagram_applications da ON a.id = da.application_id
+                GROUP BY a.id
+                ORDER BY a.name ASC
+            ''').fetchall()
+        else:
+            applications = conn.execute('''
+                SELECT a.id, a.name, COUNT(da.diagram_id) as count
+                FROM applications a
+                LEFT JOIN diagram_applications da ON a.id = da.application_id
+                GROUP BY a.id
+                ORDER BY count DESC
+            ''').fetchall()
+        conn.close()
+        return render_template('index.html', applications=applications, spaces=[],
+                             total=total, sort=sort, view=view, has_apps=has_apps)
+    else:
+        if sort == 'alpha':
+            spaces = conn.execute('''
+                SELECT space_key, COUNT(*) as count
+                FROM diagrams
+                GROUP BY space_key
+                ORDER BY space_key ASC
+            ''').fetchall()
+        else:
+            spaces = conn.execute('''
+                SELECT space_key, COUNT(*) as count
+                FROM diagrams
+                GROUP BY space_key
+                ORDER BY count DESC
+            ''').fetchall()
+        conn.close()
+        return render_template('index.html', spaces=spaces, applications=[],
+                             total=total, sort=sort, view='spaces', has_apps=has_apps)
+
+
+@app.route('/application/<int:app_id>')
+def application_view(app_id):
+    """View all diagrams matched to an application."""
+    conn = get_db()
+
+    application = conn.execute(
+        'SELECT * FROM applications WHERE id = ?', (app_id,)
+    ).fetchone()
+    if not application:
+        conn.close()
+        return "Application not found", 404
+
+    page = request.args.get('page', 1, type=int)
+    per_page = 50
+    offset = (page - 1) * per_page
+
+    diagrams = conn.execute('''
+        SELECT d.* FROM diagrams d
+        JOIN diagram_applications da ON d.id = da.diagram_id
+        WHERE da.application_id = ?
+        ORDER BY d.diagram_name
+        LIMIT ? OFFSET ?
+    ''', (app_id, per_page, offset)).fetchall()
+
+    total = conn.execute('''
+        SELECT COUNT(*) FROM diagram_applications WHERE application_id = ?
+    ''', (app_id,)).fetchone()[0]
+
     conn.close()
 
-    return render_template('index.html', spaces=spaces, total=total, sort=sort)
+    total_pages = (total + per_page - 1) // per_page
+
+    return render_template('application.html',
+                         application=application,
+                         diagrams=diagrams,
+                         page=page,
+                         total_pages=total_pages,
+                         total=total)
 
 
 @app.route('/space/<space_key>')
