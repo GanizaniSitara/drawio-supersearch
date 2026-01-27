@@ -15,6 +15,8 @@ content_directory = ./data/content
 database_path = ./data/diagrams.db
 # Whoosh index directory
 index_directory = ./data/whoosh_index
+# Applications file for "Browse by Application" feature (one app name per line)
+applications_file = ./applications.txt
 
 [Browser]
 # Web server host (0.0.0.0 for all interfaces)
