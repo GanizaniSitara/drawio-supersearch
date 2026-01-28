@@ -1,0 +1,25 @@
+# Applications list for "Browse by Application" feature
+# One application name per line
+# Lines starting with # are comments
+# Matching is case-insensitive substring search across diagram name, page title, and content
+
+Kubernetes
+Docker
+AWS
+Azure
+Jenkins
+Kafka
+Nginx
+Redis
+Elasticsearch
+PostgreSQL
+MongoDB
+RabbitMQ
+Grafana
+Prometheus
+Terraform
+Ansible
+GitLab
+API Gateway
+Microservices
+Load Balancer
