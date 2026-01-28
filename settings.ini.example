@@ -16,6 +16,7 @@ database_path = ./data/diagrams.db
 # Whoosh index directory
 index_directory = ./data/whoosh_index
 # Applications file for "Browse by Application" feature (one app name per line)
+# Copy applications.txt.example to applications.txt and customize for your environment
 applications_file = ./applications.txt
 
 [Browser]
