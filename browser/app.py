@@ -357,10 +357,13 @@ def index_all_diagrams(progress_callback=None):
                 drawio_path = os.path.join(diagrams_dir, space_key, f'{diagram_name}.drawio')
                 image_path = os.path.join(images_dir, space_key, f'{diagram_name}.png')
 
-                # Extract text content from .drawio file
+                # Extract text content from .drawio file, or use body_text from metadata (Lucidchart)
                 content_text = ''
                 if os.path.exists(drawio_path):
                     content_text = extract_text_from_drawio(drawio_path)
+                if not content_text:
+                    # Fallback to body_text from metadata (used by Lucidchart screenshotter)
+                    content_text = meta.get('body_text', '')
 
                 # Insert into database
                 c.execute('''
