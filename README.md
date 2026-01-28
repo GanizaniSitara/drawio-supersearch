@@ -4,6 +4,8 @@
 
 See every diagram in your Confluence instance at a glance. Search inside diagram content. Browse visually with thumbnails. No more hunting through page hierarchies.
 
+See live demo here https://drawio-supersearch.onrender.com/
+
 ## Why SuperSearch?
 
 | Without SuperSearch | With SuperSearch |
