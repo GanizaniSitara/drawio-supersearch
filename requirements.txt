@@ -17,3 +17,7 @@ urllib3>=1.26.0
 
 # Production WSGI server (optional)
 gunicorn>=20.1.0
+
+# OCR for extracting text from Lucidchart screenshots
+pytesseract>=0.3.10
+Pillow>=9.0.0
