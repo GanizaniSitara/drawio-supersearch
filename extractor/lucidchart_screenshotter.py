@@ -727,12 +727,10 @@ class LucidchartScreenshotter:
                                 was_maximized = self._try_maximize_lucidchart(element)
                                 if was_maximized:
                                     logger.info(f"    Maximized view for better screenshot")
-                                    # Re-query the element or use fullscreen capture
                                     time.sleep(1)  # Wait for maximize animation
 
                                 # Screenshot element directly (or page if maximized)
                                 if was_maximized:
-                                    # In maximized mode, capture the viewport/fullscreen area
                                     self._page.screenshot(path=png_path, full_page=False)
                                 else:
                                     element.screenshot(path=png_path)
@@ -742,12 +740,6 @@ class LucidchartScreenshotter:
                                 if was_maximized:
                                     self._restore_from_maximize()
 
-                                # Extract text from screenshot using OCR
-                                ocr_text = self._extract_text_with_ocr(png_path)
-
-                                # Use OCR text as primary content, fall back to page body_text
-                                content_text = ocr_text if ocr_text else body_text
-
                                 # Save metadata
                                 metadata = {
                                     'title': f"{diagram_name}.png",
@@ -755,8 +747,7 @@ class LucidchartScreenshotter:
                                     'page_id': page_id,
                                     'page_title': page_title,
                                     'page_link': page_link,
-                                    'body_text': content_text,
-                                    'ocr_text': ocr_text,  # Store OCR text separately too
+                                    'body_text': body_text,
                                     'source': 'lucidchart',
                                     'selector_used': selector,
                                     'dimensions': {'width': box['width'], 'height': box['height']},
@@ -806,20 +797,13 @@ class LucidchartScreenshotter:
                             content_area.screenshot(path=png_path)
                             logger.info(f"    CAPTURED fullpage via {content_sel}: {diagram_name}")
 
-                            # Extract text from screenshot using OCR
-                            ocr_text = self._extract_text_with_ocr(png_path)
-
-                            # Use OCR text as primary content, fall back to page body_text
-                            content_text = ocr_text if ocr_text else body_text
-
                             metadata = {
                                 'title': f"{diagram_name}.png",
                                 'space': {'key': space_key},
                                 'page_id': page_id,
                                 'page_title': page_title,
                                 'page_link': page_link,
-                                'body_text': content_text,
-                                'ocr_text': ocr_text,  # Store OCR text separately too
+                                'body_text': body_text,
                                 'source': 'lucidchart-fullpage',
                                 'selector_used': content_sel,
                                 '_expandable': {
@@ -975,8 +959,6 @@ def main():
                         help='Show browser window (useful for debugging)')
     parser.add_argument('--resume', action='store_true',
                         help='Resume from checkpoint: skip spaces that already have metadata')
-    parser.add_argument('--no-ocr', action='store_true',
-                        help='Disable OCR text extraction from screenshots')
 
     args = parser.parse_args()
 
@@ -997,17 +979,6 @@ def main():
 
     screenshotter = LucidchartScreenshotter()
 
-    # Handle OCR disable flag
-    if args.no_ocr:
-        global OCR_AVAILABLE
-        OCR_AVAILABLE = False
-
-    # Determine OCR status
-    if not OCR_AVAILABLE:
-        ocr_status = "disabled" if args.no_ocr else "unavailable (install: pip install pytesseract Pillow)"
-    else:
-        ocr_status = "enabled"
-
     print("=" * 60)
     print("LUCIDCHART SCREENSHOT EXTRACTOR")
     print("=" * 60)
@@ -1017,7 +988,6 @@ def main():
     print(f"Test mode: {args.test}")
     print(f"Dry run: {args.dry_run}")
     print(f"Resume: {args.resume}")
-    print(f"OCR: {ocr_status}")
     print(f"Maximize: enabled (attempts to maximize charts before capture)")
     print("=" * 60)
 
