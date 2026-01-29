@@ -43,6 +43,16 @@ except ImportError:
     sync_playwright = None
     PlaywrightTimeout = Exception
 
+# Check for OCR dependencies
+try:
+    import pytesseract
+    from PIL import Image
+    OCR_AVAILABLE = True
+except ImportError:
+    OCR_AVAILABLE = False
+    pytesseract = None
+    Image = None
+
 import requests
 from urllib3.exceptions import InsecureRequestWarning
 from .config import Settings
@@ -383,6 +393,175 @@ class LucidchartScreenshotter:
             self._context = None
             self._page = None
 
+    def _try_maximize_lucidchart(self, element):
+        """
+        Try to maximize a Lucidchart diagram view before screenshotting.
+
+        Looks for and clicks maximize/fullscreen buttons on Lucidchart embeds.
+        Returns True if maximize was successful, False otherwise.
+        """
+        # Selectors for maximize/fullscreen buttons in Lucidchart embeds
+        maximize_selectors = [
+            # Lucidchart viewer buttons
+            'button[aria-label*="maximize" i]',
+            'button[aria-label*="fullscreen" i]',
+            'button[aria-label*="expand" i]',
+            'button[title*="maximize" i]',
+            'button[title*="fullscreen" i]',
+            'button[title*="expand" i]',
+            # Icon-based buttons
+            '.maximize-button',
+            '.fullscreen-button',
+            '.expand-button',
+            '[data-testid="maximize-button"]',
+            '[data-testid="fullscreen-button"]',
+            # SVG icons commonly used for maximize
+            'button:has(svg[data-icon="expand"])',
+            'button:has(svg[data-icon="maximize"])',
+            # Lucidchart specific
+            '.lucid-toolbar button[aria-label*="full" i]',
+            '.lucidchart-toolbar button[aria-label*="full" i]',
+            # Generic expand icons
+            '[class*="expand"]',
+            '[class*="maximize"]',
+            '[class*="fullscreen"]',
+        ]
+
+        try:
+            # First, hover over the element to reveal toolbar buttons
+            element.hover()
+            time.sleep(0.5)  # Wait for toolbar to appear
+
+            # Try to find maximize button within the element or nearby
+            for selector in maximize_selectors:
+                try:
+                    # Try within the element first
+                    max_btn = element.query_selector(selector)
+                    if max_btn and max_btn.is_visible():
+                        logger.info(f"    Found maximize button: {selector}")
+                        max_btn.click()
+                        time.sleep(1.5)  # Wait for animation
+                        return True
+                except Exception:
+                    pass
+
+                # Try in the page context (for floating toolbars)
+                try:
+                    max_btn = self._page.query_selector(selector)
+                    if max_btn and max_btn.is_visible():
+                        logger.info(f"    Found maximize button (page level): {selector}")
+                        max_btn.click()
+                        time.sleep(1.5)  # Wait for animation
+                        return True
+                except Exception:
+                    pass
+
+            # Try iframe-specific approach if element is/contains an iframe
+            try:
+                iframe = element if element.evaluate('el => el.tagName') == 'IFRAME' else element.query_selector('iframe')
+                if iframe:
+                    frame = iframe.content_frame()
+                    if frame:
+                        for selector in maximize_selectors:
+                            try:
+                                max_btn = frame.query_selector(selector)
+                                if max_btn and max_btn.is_visible():
+                                    logger.info(f"    Found maximize button in iframe: {selector}")
+                                    max_btn.click()
+                                    time.sleep(1.5)
+                                    return True
+                            except Exception:
+                                pass
+            except Exception as e:
+                logger.debug(f"    Could not access iframe content: {e}")
+
+            logger.debug("    No maximize button found")
+            return False
+
+        except Exception as e:
+            logger.debug(f"    Error trying to maximize: {e}")
+            return False
+
+    def _restore_from_maximize(self):
+        """
+        Try to restore/exit from maximized view after screenshot.
+
+        Looks for close/minimize/exit fullscreen buttons or uses Escape key.
+        """
+        restore_selectors = [
+            'button[aria-label*="close" i]',
+            'button[aria-label*="minimize" i]',
+            'button[aria-label*="exit" i]',
+            'button[aria-label*="restore" i]',
+            'button[title*="close" i]',
+            'button[title*="exit" i]',
+            '.close-button',
+            '.minimize-button',
+            '[data-testid="close-button"]',
+            '[data-testid="exit-fullscreen"]',
+        ]
+
+        try:
+            # Try clicking restore/close buttons
+            for selector in restore_selectors:
+                try:
+                    btn = self._page.query_selector(selector)
+                    if btn and btn.is_visible():
+                        btn.click()
+                        time.sleep(0.5)
+                        return True
+                except Exception:
+                    pass
+
+            # Fallback: press Escape key to exit fullscreen
+            self._page.keyboard.press('Escape')
+            time.sleep(0.5)
+            return True
+
+        except Exception as e:
+            logger.debug(f"    Error restoring from maximize: {e}")
+            return False
+
+    def _extract_text_with_ocr(self, image_path):
+        """
+        Extract text from an image using OCR.
+
+        Args:
+            image_path: Path to the image file
+
+        Returns:
+            str: Extracted text, or empty string if OCR fails/unavailable
+        """
+        if not OCR_AVAILABLE:
+            logger.debug("    OCR not available (pytesseract not installed)")
+            return ''
+
+        try:
+            # Open the image
+            image = Image.open(image_path)
+
+            # Run OCR with Tesseract
+            # Use config for better accuracy on diagrams
+            custom_config = r'--oem 3 --psm 6'
+            text = pytesseract.image_to_string(image, config=custom_config)
+
+            # Clean up the extracted text
+            # Remove excessive whitespace while preserving some structure
+            lines = [line.strip() for line in text.split('\n') if line.strip()]
+            cleaned_text = ' '.join(lines)
+
+            # Filter out very short results (likely noise)
+            if len(cleaned_text) < 10:
+                logger.debug(f"    OCR result too short ({len(cleaned_text)} chars), discarding")
+                return ''
+
+            logger.info(f"    OCR extracted {len(cleaned_text)} characters")
+            return cleaned_text
+
+        except Exception as e:
+            logger.warning(f"    OCR failed: {e}")
+            return ''
+
     def _dump_page_structure(self, page_title, dirs):
         """Dump page HTML structure for debugging Lucidchart selectors."""
         try:
@@ -536,9 +715,30 @@ class LucidchartScreenshotter:
                                 element.scroll_into_view_if_needed()
                                 time.sleep(0.5)  # Brief pause after scroll
 
-                                # Screenshot element directly
-                                element.screenshot(path=png_path)
+                                # Try to maximize the Lucidchart view before screenshot
+                                was_maximized = self._try_maximize_lucidchart(element)
+                                if was_maximized:
+                                    logger.info(f"    Maximized view for better screenshot")
+                                    # Re-query the element or use fullscreen capture
+                                    time.sleep(1)  # Wait for maximize animation
+
+                                # Screenshot element directly (or page if maximized)
+                                if was_maximized:
+                                    # In maximized mode, capture the viewport/fullscreen area
+                                    self._page.screenshot(path=png_path, full_page=False)
+                                else:
+                                    element.screenshot(path=png_path)
                                 logger.info(f"    CAPTURED: {diagram_name} ({box['width']}x{box['height']})")
+
+                                # Restore from maximized view if we maximized
+                                if was_maximized:
+                                    self._restore_from_maximize()
+
+                                # Extract text from screenshot using OCR
+                                ocr_text = self._extract_text_with_ocr(png_path)
+
+                                # Use OCR text as primary content, fall back to page body_text
+                                content_text = ocr_text if ocr_text else body_text
 
                                 # Save metadata
                                 metadata = {
@@ -547,10 +747,12 @@ class LucidchartScreenshotter:
                                     'page_id': page_id,
                                     'page_title': page_title,
                                     'page_link': page_link,
-                                    'body_text': body_text,
+                                    'body_text': content_text,
+                                    'ocr_text': ocr_text,  # Store OCR text separately too
                                     'source': 'lucidchart',
                                     'selector_used': selector,
                                     'dimensions': {'width': box['width'], 'height': box['height']},
+                                    'was_maximized': was_maximized,
                                     '_expandable': {
                                         'container': f"/rest/api/content/{page_id}"
                                     }
@@ -596,13 +798,20 @@ class LucidchartScreenshotter:
                             content_area.screenshot(path=png_path)
                             logger.info(f"    CAPTURED fullpage via {content_sel}: {diagram_name}")
 
+                            # Extract text from screenshot using OCR
+                            ocr_text = self._extract_text_with_ocr(png_path)
+
+                            # Use OCR text as primary content, fall back to page body_text
+                            content_text = ocr_text if ocr_text else body_text
+
                             metadata = {
                                 'title': f"{diagram_name}.png",
                                 'space': {'key': space_key},
                                 'page_id': page_id,
                                 'page_title': page_title,
                                 'page_link': page_link,
-                                'body_text': body_text,
+                                'body_text': content_text,
+                                'ocr_text': ocr_text,  # Store OCR text separately too
                                 'source': 'lucidchart-fullpage',
                                 'selector_used': content_sel,
                                 '_expandable': {
@@ -758,6 +967,8 @@ def main():
                         help='Show browser window (useful for debugging)')
     parser.add_argument('--resume', action='store_true',
                         help='Resume from checkpoint: skip spaces that already have metadata')
+    parser.add_argument('--no-ocr', action='store_true',
+                        help='Disable OCR text extraction from screenshots')
 
     args = parser.parse_args()
 
@@ -778,6 +989,17 @@ def main():
 
     screenshotter = LucidchartScreenshotter()
 
+    # Handle OCR disable flag
+    if args.no_ocr:
+        global OCR_AVAILABLE
+        OCR_AVAILABLE = False
+
+    # Determine OCR status
+    if not OCR_AVAILABLE:
+        ocr_status = "disabled" if args.no_ocr else "unavailable (install: pip install pytesseract Pillow)"
+    else:
+        ocr_status = "enabled"
+
     print("=" * 60)
     print("LUCIDCHART SCREENSHOT EXTRACTOR")
     print("=" * 60)
@@ -787,6 +1009,8 @@ def main():
     print(f"Test mode: {args.test}")
     print(f"Dry run: {args.dry_run}")
     print(f"Resume: {args.resume}")
+    print(f"OCR: {ocr_status}")
+    print(f"Maximize: enabled (attempts to maximize charts before capture)")
     print("=" * 60)
 
     total = screenshotter.extract_all(
