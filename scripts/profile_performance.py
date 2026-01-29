@@ -69,29 +69,48 @@ def get_index_stats():
         conn = sqlite3.connect(db_path)
         c = conn.cursor()
 
-        c.execute('SELECT COUNT(*) FROM diagrams')
-        stats['diagram_count'] = c.fetchone()[0]
+        try:
+            c.execute('SELECT COUNT(*) FROM diagrams')
+            stats['diagram_count'] = c.fetchone()[0]
+        except sqlite3.OperationalError:
+            stats['diagram_count'] = 0
 
-        c.execute('SELECT COUNT(*) FROM applications')
-        stats['app_count'] = c.fetchone()[0]
+        try:
+            c.execute('SELECT COUNT(*) FROM applications')
+            stats['app_count'] = c.fetchone()[0]
+        except sqlite3.OperationalError:
+            stats['app_count'] = 0
 
-        c.execute('SELECT COUNT(*) FROM diagram_applications')
-        stats['app_links'] = c.fetchone()[0]
+        try:
+            c.execute('SELECT COUNT(*) FROM diagram_applications')
+            stats['app_links'] = c.fetchone()[0]
+        except sqlite3.OperationalError:
+            stats['app_links'] = 0
 
         # Get average content_text length
-        c.execute('SELECT AVG(LENGTH(content_text)) FROM diagrams WHERE content_text IS NOT NULL')
-        avg_len = c.fetchone()[0]
-        stats['avg_content_length'] = int(avg_len) if avg_len else 0
+        try:
+            c.execute('SELECT AVG(LENGTH(content_text)) FROM diagrams WHERE content_text IS NOT NULL')
+            avg_len = c.fetchone()[0]
+            stats['avg_content_length'] = int(avg_len) if avg_len else 0
+        except sqlite3.OperationalError:
+            stats['avg_content_length'] = 0
 
         # Get total content size
-        c.execute('SELECT SUM(LENGTH(content_text)) FROM diagrams')
-        total = c.fetchone()[0]
-        stats['total_content_size'] = total if total else 0
+        try:
+            c.execute('SELECT SUM(LENGTH(content_text)) FROM diagrams')
+            total = c.fetchone()[0]
+            stats['total_content_size'] = total if total else 0
+        except sqlite3.OperationalError:
+            stats['total_content_size'] = 0
 
         conn.close()
     else:
         stats['db_size'] = 0
         stats['diagram_count'] = 0
+        stats['app_count'] = 0
+        stats['app_links'] = 0
+        stats['avg_content_length'] = 0
+        stats['total_content_size'] = 0
 
     # Whoosh index stats
     index_dir = os.path.join(settings['content_directory'], 'whoosh_index')
