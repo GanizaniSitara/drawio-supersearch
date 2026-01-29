@@ -144,9 +144,18 @@ class LucidchartScreenshotter:
         if not html:
             return ''
 
+        # Remove base64 encoded images and data URIs (these can be huge)
+        html = re.sub(r'data:[^;]+;base64,[A-Za-z0-9+/=]+', '', html, flags=re.IGNORECASE)
+
         # Remove script and style elements
         html = re.sub(r'<script[^>]*>.*?</script>', '', html, flags=re.DOTALL | re.IGNORECASE)
         html = re.sub(r'<style[^>]*>.*?</style>', '', html, flags=re.DOTALL | re.IGNORECASE)
+
+        # Remove SVG elements (can contain lots of path data)
+        html = re.sub(r'<svg[^>]*>.*?</svg>', '', html, flags=re.DOTALL | re.IGNORECASE)
+
+        # Remove any remaining long base64-like strings (safety net)
+        html = re.sub(r'[A-Za-z0-9+/=]{100,}', '', html)
 
         # Remove HTML tags
         text = re.sub(r'<[^>]+>', ' ', html)
