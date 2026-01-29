@@ -55,7 +55,15 @@ except ImportError:
 
 import requests
 from urllib3.exceptions import InsecureRequestWarning
-from .config import Settings
+
+# Handle imports for both module and script execution
+try:
+    from .config import Settings
+except ImportError:
+    # Running as script - add parent directory to path
+    import sys
+    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    from extractor.config import Settings
 
 
 def check_playwright_installed():
