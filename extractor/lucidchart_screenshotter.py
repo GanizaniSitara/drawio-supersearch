@@ -570,8 +570,8 @@ class LucidchartScreenshotter:
             logger.warning(f"    OCR failed: {e}")
             return ''
 
-    def _dump_page_structure(self, page_title, dirs):
-        """Dump page HTML structure for debugging Lucidchart selectors."""
+    def _dump_page_structure(self, page_title):
+        """Log page HTML structure for debugging Lucidchart selectors (console only, no files)."""
         try:
             # Get all iframes
             iframes = self._page.query_selector_all('iframe')
@@ -597,15 +597,6 @@ class LucidchartScreenshotter:
                 macro_name = el.get_attribute('data-macro-name') or ''
                 tag = el.evaluate('el => el.tagName')
                 logger.debug(f"  macro[{i}]: <{tag}> data-macro-name={macro_name}")
-
-            # Save full HTML for deep analysis (only in debug mode)
-            if logger.level <= logging.DEBUG:
-                safe_title = re.sub(r'[^\w\s-]', '', page_title).strip()[:30]
-                debug_path = os.path.join(dirs['metadata'], f"_debug_{safe_title}.html")
-                html = self._page.content()
-                with open(debug_path, 'w', encoding='utf-8') as f:
-                    f.write(html)
-                logger.debug(f"Saved page HTML to {debug_path}")
 
         except Exception as e:
             logger.warning(f"Error dumping page structure: {e}")
@@ -648,8 +639,9 @@ class LucidchartScreenshotter:
         logger.debug("Waiting 3s for iframes/dynamic content...")
         time.sleep(3)
 
-        # Dump page structure for debugging
-        self._dump_page_structure(page_title, dirs)
+        # Dump page structure for debugging (only in debug mode)
+        if logger.level <= logging.DEBUG:
+            self._dump_page_structure(page_title)
 
         # Find Lucidchart iframes/embeds
         diagrams_captured = 0
