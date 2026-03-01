@@ -1,0 +1,95 @@
+{
+    "c4_level": "container",
+    "title": "Order Processing System",
+    "description": "Container diagram showing the Order Processing System's internal architecture",
+    "systems": [
+        {
+            "id": "web_browser",
+            "name": "Web Browser",
+            "type": "person",
+            "description": "End user accessing the system",
+            "technology": "",
+            "is_external": false,
+            "tags": ["user"]
+        },
+        {
+            "id": "api_gateway",
+            "name": "API Gateway",
+            "type": "container",
+            "description": "Routes and load-balances API requests",
+            "technology": "Nginx",
+            "is_external": false,
+            "tags": ["infrastructure"]
+        },
+        {
+            "id": "order_service",
+            "name": "Order Service",
+            "type": "container",
+            "description": "Core order processing logic",
+            "technology": "Java/Spring",
+            "is_external": false,
+            "tags": ["core", "backend"]
+        },
+        {
+            "id": "order_db",
+            "name": "Order DB",
+            "type": "database",
+            "description": "Stores order records and history",
+            "technology": "PostgreSQL",
+            "is_external": false,
+            "tags": ["data"]
+        },
+        {
+            "id": "payment_gateway",
+            "name": "Payment Gateway",
+            "type": "external_system",
+            "description": "Third-party payment processing",
+            "technology": "Stripe",
+            "is_external": true,
+            "tags": ["external", "payment"]
+        }
+    ],
+    "relationships": [
+        {
+            "source_id": "web_browser",
+            "target_id": "api_gateway",
+            "description": "Sends HTTP requests",
+            "technology": "HTTPS",
+            "is_bidirectional": false
+        },
+        {
+            "source_id": "api_gateway",
+            "target_id": "order_service",
+            "description": "Proxies API calls",
+            "technology": "REST/JSON",
+            "is_bidirectional": false
+        },
+        {
+            "source_id": "order_service",
+            "target_id": "order_db",
+            "description": "Reads/writes order data",
+            "technology": "JDBC",
+            "is_bidirectional": false
+        },
+        {
+            "source_id": "order_service",
+            "target_id": "payment_gateway",
+            "description": "Processes payments",
+            "technology": "REST/HTTPS",
+            "is_bidirectional": false
+        }
+    ],
+    "boundaries": [
+        {
+            "id": "order_system",
+            "name": "Order Processing System",
+            "type": "system",
+            "contains": ["api_gateway", "order_service", "order_db"]
+        }
+    ],
+    "metadata": {
+        "confidence": 0.85,
+        "notes": "Sample C4 model for testing",
+        "unmapped_elements": []
+    }
+}

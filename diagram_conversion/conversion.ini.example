@@ -1,0 +1,43 @@
+[Conversion]
+# Input: directory containing Lucidchart screenshots from extraction
+screenshots_dir = ./data/content/images
+# Input: metadata directory from extraction
+metadata_dir = ./data/content/metadata
+# Output: converted diagrams
+output_dir = ./data/converted
+# Database for tracking conversion state
+db_path = ./data/converted/conversion.db
+
+[API]
+# Anthropic API key (or set ANTHROPIC_API_KEY env var)
+anthropic_api_key =
+# Model for text-based tasks (classification, C4 conversion)
+model = claude-sonnet-4-20250514
+# Model for vision tasks (screenshot → DrawIO)
+vision_model = claude-sonnet-4-20250514
+# Max tokens per API call
+max_tokens = 8192
+
+[Batch]
+# Diagrams to process per batch
+batch_size = 10
+# Concurrent API calls (be mindful of rate limits)
+max_concurrent = 3
+
+[Quality]
+# Minimum confidence to keep a conversion (below = rejected)
+min_confidence_score = 0.5
+# Auto-accept threshold (above = no review needed)
+auto_accept_threshold = 0.8
+# Review threshold (between min and auto_accept = needs review)
+review_threshold = 0.5
+
+[Server]
+# FastAPI server host
+host = 127.0.0.1
+# FastAPI server port
+port = 8000
+
+[Confluence]
+# Confluence base URL for linkback (optional)
+url =

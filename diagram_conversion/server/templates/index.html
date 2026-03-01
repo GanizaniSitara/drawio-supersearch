@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+{% block title %}Dashboard - Diagram Conversion Browser{% endblock %}
+
+{% block content %}
+<h1>Conversion Pipeline Dashboard</h1>
+
+<div class="stat-grid">
+    <div class="stat-card">
+        <div class="value">{{ stats.total_conversions }}</div>
+        <div class="label">Total Diagrams</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">{{ stats.by_status.get('success', 0) }}</div>
+        <div class="label">Converted</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">{{ stats.by_status.get('pending', 0) }}</div>
+        <div class="label">Pending</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">{{ stats.by_status.get('error', 0) }}</div>
+        <div class="label">Errors</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">{{ stats.c4_models }}</div>
+        <div class="label">C4 Models</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">{{ stats.unique_systems }}</div>
+        <div class="label">Systems Found</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">{{ stats.unique_technologies }}</div>
+        <div class="label">Technologies</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">{{ "%.1f"|format(stats.avg_confidence * 100) }}%</div>
+        <div class="label">Avg Confidence</div>
+    </div>
+</div>
+
+<div class="grid">
+    <div class="card">
+        <h3>By Diagram Type</h3>
+        <table>
+            <tr><th>Type</th><th>Count</th></tr>
+            {% for type, count in stats.by_type.items() %}
+            <tr>
+                <td><a href="/browse?type={{ type }}">{{ type }}</a></td>
+                <td>{{ count }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+    <div class="card">
+        <h3>Review Status</h3>
+        <table>
+            <tr><th>Status</th><th>Count</th></tr>
+            {% for status, count in stats.by_review.items() %}
+            <tr>
+                <td>
+                    {% if status == 'accepted' %}
+                    <span class="badge badge-success">{{ status }}</span>
+                    {% elif status == 'needs_review' %}
+                    <span class="badge badge-warning">{{ status }}</span>
+                    {% elif status == 'rejected' %}
+                    <span class="badge badge-error">{{ status }}</span>
+                    {% else %}
+                    <span class="badge badge-gray">{{ status }}</span>
+                    {% endif %}
+                </td>
+                <td>{{ count }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+    <div class="card">
+        <h3>C4 Models by Level</h3>
+        <table>
+            <tr><th>Level</th><th>Count</th></tr>
+            {% for level, count in stats.c4_by_level.items() %}
+            <tr>
+                <td><span class="badge badge-purple">{{ level }}</span></td>
+                <td>{{ count }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+    <div class="card">
+        <h3>API Usage</h3>
+        <dl class="meta-grid">
+            <dt>Total Tokens</dt>
+            <dd>{{ "{:,}".format(stats.total_tokens) }}</dd>
+            <dt>Est. Cost</dt>
+            <dd>${{ "%.2f"|format(stats.total_tokens * 0.000003) }}</dd>
+        </dl>
+    </div>
+</div>
+
+<div style="margin-top: 1rem;">
+    <a href="/browse" class="btn btn-primary">Browse All Diagrams</a>
+    <a href="/c4" class="btn">View C4 Models</a>
+    <a href="/review" class="btn">Review Queue</a>
+</div>
+{% endblock %}

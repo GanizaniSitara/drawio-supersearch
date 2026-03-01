@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}System Index - C4 Repository{% endblock %}
+
+{% block content %}
+<div class="breadcrumb">
+    <a href="/">Home</a> <span>/</span>
+    <a href="/c4">C4 Models</a> <span>/</span>
+    Systems
+</div>
+
+<h1>System Index</h1>
+<p style="color: var(--text-muted); margin-bottom: 1rem;">
+    All systems discovered across {{ systems|length }} unique entries from C4 model conversions.
+</p>
+
+{% if systems %}
+<table>
+    <thead>
+        <tr>
+            <th>System Name</th>
+            <th>Type</th>
+            <th>Technology</th>
+            <th>External</th>
+            <th>Appears In</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for sys in systems %}
+        <tr>
+            <td>
+                <strong>{{ sys.name }}</strong>
+                {% if sys.description %}
+                <br><small style="color: var(--text-muted);">{{ sys.description }}</small>
+                {% endif %}
+            </td>
+            <td><span class="badge badge-info">{{ sys.type }}</span></td>
+            <td>{{ sys.technology or '-' }}</td>
+            <td>{% if sys.is_external %}<span class="badge badge-gray">external</span>{% endif %}</td>
+            <td>
+                {% for m in sys.appears_in %}
+                <a href="/c4/model/{{ m.model_id }}">{{ m.model_title or m.source_name }}</a>
+                <span class="badge badge-purple" style="font-size: 0.65rem;">{{ m.c4_level }}</span>
+                {% if not loop.last %}<br>{% endif %}
+                {% endfor %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<div class="empty-state">
+    <p>No systems found. Run the C4 conversion pipeline first.</p>
+</div>
+{% endif %}
+{% endblock %}

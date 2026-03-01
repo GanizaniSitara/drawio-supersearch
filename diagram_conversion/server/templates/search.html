@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Search - Diagram Conversion Browser{% endblock %}
+
+{% block content %}
+<h1>Search Diagrams</h1>
+
+<form action="/search" method="get" style="margin-bottom: 1.5rem;">
+    <div style="display: flex; gap: 0.5rem;">
+        <input type="text" name="q" value="{{ query }}" placeholder="Search by name, type, page title..."
+               style="flex: 1; padding: 0.6rem 1rem; border: 1px solid var(--border); border-radius: 4px; font-size: 1rem;">
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+</form>
+
+{% if query %}
+<p style="color: var(--text-muted); margin-bottom: 1rem;">{{ results|length }} results for "{{ query }}"</p>
+{% endif %}
+
+{% if results %}
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Space</th>
+            <th>Type</th>
+            <th>Status</th>
+            <th>Confidence</th>
+            <th>Page Title</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for r in results %}
+        <tr>
+            <td><a href="/diagram/{{ r.id }}">{{ r.source_name }}</a></td>
+            <td>{{ r.space_key }}</td>
+            <td><span class="badge badge-info">{{ r.diagram_type }}</span></td>
+            <td>
+                {% if r.drawio_status == 'success' %}
+                <span class="badge badge-success">success</span>
+                {% elif r.drawio_status == 'error' %}
+                <span class="badge badge-error">error</span>
+                {% else %}
+                <span class="badge badge-gray">{{ r.drawio_status }}</span>
+                {% endif %}
+            </td>
+            <td>{{ "%.0f"|format(r.drawio_confidence * 100) }}%</td>
+            <td>{{ r.page_title }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% elif query %}
+<div class="empty-state">
+    <p>No results found for "{{ query }}"</p>
+</div>
+{% endif %}
+{% endblock %}
