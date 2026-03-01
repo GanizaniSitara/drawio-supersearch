@@ -785,6 +785,181 @@ def api_build_index():
 
 
 # =============================================================================
+# C4 Model Routes
+# =============================================================================
+
+def _get_c4_dir():
+    """Get the C4 models directory."""
+    settings = get_settings()
+    return os.path.join(settings['content_directory'], 'c4')
+
+
+def _load_c4_models():
+    """Load all C4 model JSON files from the c4 directory."""
+    c4_dir = _get_c4_dir()
+    models = []
+
+    if not os.path.exists(c4_dir):
+        return models
+
+    for space_key in sorted(os.listdir(c4_dir)):
+        space_dir = os.path.join(c4_dir, space_key)
+        if not os.path.isdir(space_dir):
+            continue
+
+        for filename in sorted(os.listdir(space_dir)):
+            if not filename.endswith('.c4.json'):
+                continue
+
+            filepath = os.path.join(space_dir, filename)
+            try:
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+
+                diagram_name = filename.replace('.c4.json', '')
+                data['space_key'] = space_key
+                data['diagram_name'] = diagram_name
+                data['filepath'] = filepath
+
+                # Check for companion DrawIO C4 diagram
+                c4_drawio_path = os.path.join(space_dir, f'{diagram_name}.c4.drawio')
+                data['has_c4_drawio'] = os.path.exists(c4_drawio_path)
+
+                # Check for original screenshot
+                images_dir = get_settings()['images_directory']
+                original_image = os.path.join(images_dir, space_key, f'{diagram_name}.png')
+                data['has_original_image'] = os.path.exists(original_image)
+
+                models.append(data)
+            except (json.JSONDecodeError, IOError):
+                continue
+
+    return models
+
+
+@app.route('/c4')
+def c4_index():
+    """Browse C4 architecture models."""
+    models = _load_c4_models()
+
+    if not models:
+        return render_template('c4_index.html', models=[], spaces={},
+                             total=0, total_systems=0, total_relationships=0)
+
+    # Aggregate stats
+    total_systems = sum(len(m.get('systems', [])) for m in models)
+    total_relationships = sum(len(m.get('relationships', [])) for m in models)
+
+    # Group by space
+    spaces = {}
+    for m in models:
+        space = m['space_key']
+        if space not in spaces:
+            spaces[space] = []
+        spaces[space].append(m)
+
+    sort = request.args.get('sort', 'count')
+    if sort == 'alpha':
+        spaces = dict(sorted(spaces.items()))
+    else:
+        spaces = dict(sorted(spaces.items(), key=lambda x: -len(x[1])))
+
+    return render_template('c4_index.html',
+                         models=models,
+                         spaces=spaces,
+                         total=len(models),
+                         total_systems=total_systems,
+                         total_relationships=total_relationships,
+                         sort=sort)
+
+
+@app.route('/c4/<space_key>/<diagram_name>')
+def c4_detail(space_key, diagram_name):
+    """View a single C4 model."""
+    c4_dir = _get_c4_dir()
+    json_path = os.path.join(c4_dir, space_key, f'{diagram_name}.c4.json')
+
+    if not os.path.exists(json_path):
+        return "C4 model not found", 404
+
+    with open(json_path, 'r', encoding='utf-8') as f:
+        model = json.load(f)
+
+    model['space_key'] = space_key
+    model['diagram_name'] = diagram_name
+
+    # Check for C4 DrawIO diagram
+    c4_drawio_path = os.path.join(c4_dir, space_key, f'{diagram_name}.c4.drawio')
+    model['has_c4_drawio'] = os.path.exists(c4_drawio_path)
+
+    # Check for original image
+    images_dir = get_settings()['images_directory']
+    original_image = os.path.join(images_dir, space_key, f'{diagram_name}.png')
+    model['has_original_image'] = os.path.exists(original_image)
+
+    return render_template('c4_detail.html', model=model)
+
+
+@app.route('/c4/download/<space_key>/<path:filename>')
+def download_c4(space_key, filename):
+    """Download C4 DrawIO diagram."""
+    c4_dir = _get_c4_dir()
+    filepath = os.path.join(c4_dir, space_key, filename)
+
+    if os.path.exists(filepath):
+        return send_file(filepath,
+                        mimetype='application/xml' if filename.endswith('.drawio') else 'application/json')
+    return "File not found", 404
+
+
+@app.route('/api/c4/stats')
+def api_c4_stats():
+    """API endpoint for C4 model statistics."""
+    models = _load_c4_models()
+
+    all_systems = []
+    all_technologies = set()
+    for m in models:
+        for s in m.get('systems', []):
+            all_systems.append(s)
+            if s.get('technology'):
+                all_technologies.add(s['technology'])
+        for c in m.get('containers', []):
+            if c.get('technology'):
+                all_technologies.add(c['technology'])
+
+    return jsonify({
+        'total_models': len(models),
+        'total_systems': len(all_systems),
+        'total_technologies': len(all_technologies),
+        'technologies': sorted(all_technologies),
+        'spaces_with_c4': len(set(m['space_key'] for m in models)),
+    })
+
+
+# =============================================================================
+# Conversion Report Route
+# =============================================================================
+
+@app.route('/conversion-report')
+def conversion_report():
+    """View the batch conversion report."""
+    settings = get_settings()
+    report_path = os.path.join(
+        os.path.dirname(settings['content_directory']),
+        'conversion_report.json'
+    )
+
+    if not os.path.exists(report_path):
+        return render_template('conversion_report.html', report=None)
+
+    with open(report_path, 'r', encoding='utf-8') as f:
+        report = json.load(f)
+
+    return render_template('conversion_report.html', report=report)
+
+
+# =============================================================================
 # Main
 # =============================================================================
 

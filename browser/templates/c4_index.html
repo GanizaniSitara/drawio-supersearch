@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block title %}Diagrams SuperSearch - C4 Architecture Models{% endblock %}
+
+{% block content %}
+<div class="search-bar">
+    <form action="/search" method="get">
+        <input type="text" name="q" placeholder="Search diagrams by name, content, or author...">
+        <button type="submit">Search</button>
+    </form>
+</div>
+
+<div class="stats">
+    <div class="stat-box">
+        <div class="stat-value">{{ total }}</div>
+        <div class="stat-label">C4 Models</div>
+    </div>
+    <div class="stat-box">
+        <div class="stat-value">{{ total_systems }}</div>
+        <div class="stat-label">Systems Identified</div>
+    </div>
+    <div class="stat-box">
+        <div class="stat-value">{{ total_relationships }}</div>
+        <div class="stat-label">Relationships</div>
+    </div>
+    <div class="stat-box">
+        <div class="stat-value">{{ spaces|length }}</div>
+        <div class="stat-label">Spaces</div>
+    </div>
+</div>
+
+{% if not models %}
+<div class="alert alert-info">
+    No C4 models found. Run the conversion pipeline to generate C4 models from architecture diagrams:
+    <br><br>
+    <code>python scripts/convert_batch.py --c4</code>
+</div>
+{% else %}
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+    <h2 style="color: #2c3e50;">C4 Architecture Models by Space</h2>
+    <div style="display: flex; gap: 8px;">
+        <a href="/c4?sort=count"
+           style="padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9em;
+                  {% if sort != 'alpha' %}background: #3498db; color: white;{% else %}background: #e0e0e0; color: #333;{% endif %}">
+            By Count
+        </a>
+        <a href="/c4?sort=alpha"
+           style="padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9em;
+                  {% if sort == 'alpha' %}background: #3498db; color: white;{% else %}background: #e0e0e0; color: #333;{% endif %}">
+            A-Z
+        </a>
+    </div>
+</div>
+
+{% for space_key, space_models in spaces.items() %}
+<div style="margin-bottom: 30px;">
+    <h3 style="color: #2c3e50; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 8px;">
+        {{ space_key }}
+        <span style="color: #7f8c8d; font-weight: normal; font-size: 0.8em;">({{ space_models|length }} models)</span>
+    </h3>
+    <div class="grid">
+        {% for model in space_models %}
+        <a href="/c4/{{ model.space_key }}/{{ model.diagram_name }}" class="card" style="text-decoration: none; color: inherit;">
+            {% if model.has_original_image %}
+            <img src="/image/{{ model.space_key }}/{{ model.diagram_name }}.png"
+                 alt="{{ model.title }}"
+                 class="card-image">
+            {% else %}
+            <div class="card-image" style="display: flex; align-items: center; justify-content: center; color: #438DD5; font-size: 2em;">
+                C4
+            </div>
+            {% endif %}
+            <div class="card-body">
+                <div class="card-title">{{ model.title or model.diagram_name }}</div>
+                <div class="card-meta">
+                    <span>Level: {{ model.level|capitalize }}</span>
+                    <span>{{ model.systems|length }} systems, {{ model.relationships|length }} relationships</span>
+                    {% if model.containers %}
+                    <span>{{ model.containers|length }} containers</span>
+                    {% endif %}
+                </div>
+                <div style="margin-top: 8px;">
+                    {% if model.confidence is defined %}
+                    <span style="display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.75em;
+                                 {% if model.confidence >= 0.7 %}background: #e8f8e8; color: #27ae60;
+                                 {% elif model.confidence >= 0.4 %}background: #fff3e0; color: #e65100;
+                                 {% else %}background: #f8e8e8; color: #c0392b;{% endif %}">
+                        {{ (model.confidence * 100)|int }}% confidence
+                    </span>
+                    {% endif %}
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}
+
+{% endif %}
+{% endblock %}

@@ -1,0 +1,166 @@
+{% extends "base.html" %}
+{% block title %}C4 Model - {{ model.title or model.diagram_name }}{% endblock %}
+
+{% block content %}
+<div class="breadcrumb">
+    <a href="/">Home</a>
+    <span>/</span>
+    <a href="/c4">C4 Models</a>
+    <span>/</span>
+    <a href="/c4">{{ model.space_key }}</a>
+    <span>/</span>
+    {{ model.diagram_name }}
+</div>
+
+<div class="diagram-detail">
+    {% if model.has_original_image %}
+    <div class="diagram-image-container">
+        <img src="/image/{{ model.space_key }}/{{ model.diagram_name }}.png"
+             alt="{{ model.title }}">
+    </div>
+    {% endif %}
+
+    <div class="diagram-info">
+        <h1>{{ model.title or model.diagram_name }}</h1>
+
+        <div class="action-buttons">
+            {% if model.has_c4_drawio %}
+            <a href="/c4/download/{{ model.space_key }}/{{ model.diagram_name }}.c4.drawio"
+               class="action-btn action-btn-primary">Download C4 DrawIO</a>
+            {% endif %}
+            <a href="/c4/download/{{ model.space_key }}/{{ model.diagram_name }}.c4.json"
+               class="action-btn action-btn-secondary">Download JSON Model</a>
+        </div>
+
+        <div class="info-grid" style="margin-bottom: 30px;">
+            <div class="info-item">
+                <label>C4 Level</label>
+                <value>{{ model.level|capitalize }}</value>
+            </div>
+            <div class="info-item">
+                <label>Space</label>
+                <value>{{ model.space_key }}</value>
+            </div>
+            <div class="info-item">
+                <label>Confidence</label>
+                <value>
+                    <span style="padding: 2px 8px; border-radius: 10px; font-size: 0.85em;
+                                 {% if model.confidence >= 0.7 %}background: #e8f8e8; color: #27ae60;
+                                 {% elif model.confidence >= 0.4 %}background: #fff3e0; color: #e65100;
+                                 {% else %}background: #f8e8e8; color: #c0392b;{% endif %}">
+                        {{ (model.confidence * 100)|int }}%
+                    </span>
+                </value>
+            </div>
+            {% if model.source_diagram %}
+            <div class="info-item">
+                <label>Source</label>
+                <value style="font-size: 0.85em; word-break: break-all;">{{ model.source_diagram }}</value>
+            </div>
+            {% endif %}
+        </div>
+
+        {% if model.persons %}
+        <h3 style="color: #08427B; margin-bottom: 12px; margin-top: 20px;">People</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; margin-bottom: 20px;">
+            {% for person in model.persons %}
+            <div style="background: #08427B; color: white; padding: 15px; border-radius: 8px;">
+                <div style="font-weight: 600; font-size: 1.1em;">{{ person.name }}</div>
+                <div style="font-size: 0.8em; opacity: 0.8; margin-top: 2px;">[Person]{% if person.external %} - External{% endif %}</div>
+                {% if person.description %}
+                <div style="margin-top: 8px; font-size: 0.9em;">{{ person.description }}</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if model.systems %}
+        <h3 style="color: #438DD5; margin-bottom: 12px; margin-top: 20px;">Software Systems</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; margin-bottom: 20px;">
+            {% for system in model.systems %}
+            <div style="background: {% if system.external %}#999999{% else %}#438DD5{% endif %}; color: white; padding: 15px; border-radius: 8px;">
+                <div style="font-weight: 600; font-size: 1.1em;">{{ system.name }}</div>
+                <div style="font-size: 0.8em; opacity: 0.8; margin-top: 2px;">
+                    [{% if system.external %}External {% endif %}Software System]
+                </div>
+                {% if system.description %}
+                <div style="margin-top: 8px; font-size: 0.9em;">{{ system.description }}</div>
+                {% endif %}
+                {% if system.technology %}
+                <div style="margin-top: 4px; font-size: 0.8em; font-style: italic;">{{ system.technology }}</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if model.containers %}
+        <h3 style="color: #438DD5; margin-bottom: 12px; margin-top: 20px;">Containers</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; margin-bottom: 20px;">
+            {% for container in model.containers %}
+            <div style="background: {% if container.container_type == 'database' %}#438DD5{% else %}#85BBF0{% endif %}; color: white; padding: 15px; border-radius: 8px;">
+                <div style="font-weight: 600; font-size: 1.1em;">{{ container.name }}</div>
+                <div style="font-size: 0.8em; opacity: 0.8; margin-top: 2px;">
+                    [Container: {{ container.container_type }}]
+                    {% if container.system %} in {{ container.system }}{% endif %}
+                </div>
+                {% if container.description %}
+                <div style="margin-top: 8px; font-size: 0.9em;">{{ container.description }}</div>
+                {% endif %}
+                {% if container.technology %}
+                <div style="margin-top: 4px; font-size: 0.8em; font-style: italic;">{{ container.technology }}</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if model.components %}
+        <h3 style="color: #85BBF0; margin-bottom: 12px; margin-top: 20px;">Components</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; margin-bottom: 20px;">
+            {% for component in model.components %}
+            <div style="background: #85BBF0; color: white; padding: 15px; border-radius: 8px;">
+                <div style="font-weight: 600; font-size: 1.1em;">{{ component.name }}</div>
+                <div style="font-size: 0.8em; opacity: 0.8; margin-top: 2px;">
+                    [Component]
+                    {% if component.container %} in {{ component.container }}{% endif %}
+                </div>
+                {% if component.description %}
+                <div style="margin-top: 8px; font-size: 0.9em;">{{ component.description }}</div>
+                {% endif %}
+                {% if component.technology %}
+                <div style="margin-top: 4px; font-size: 0.8em; font-style: italic;">{{ component.technology }}</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if model.relationships %}
+        <h3 style="color: #707070; margin-bottom: 12px; margin-top: 20px;">Relationships</h3>
+        <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden;">
+            <thead>
+                <tr style="background: #f5f5f5; text-align: left;">
+                    <th style="padding: 12px 15px; border-bottom: 2px solid #ddd;">Source</th>
+                    <th style="padding: 12px 15px; border-bottom: 2px solid #ddd;">Target</th>
+                    <th style="padding: 12px 15px; border-bottom: 2px solid #ddd;">Description</th>
+                    <th style="padding: 12px 15px; border-bottom: 2px solid #ddd;">Technology</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for rel in model.relationships %}
+                <tr style="border-bottom: 1px solid #eee;">
+                    <td style="padding: 10px 15px;">{{ rel.source }}</td>
+                    <td style="padding: 10px 15px;">{{ rel.target }}</td>
+                    <td style="padding: 10px 15px;">{{ rel.description }}</td>
+                    <td style="padding: 10px 15px; font-style: italic; color: #7f8c8d;">{{ rel.technology }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% endif %}
+
+    </div>
+</div>
+{% endblock %}
