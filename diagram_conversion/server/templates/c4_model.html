@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+{% block title %}{{ model.title or 'C4 Model' }} - C4 Viewer{% endblock %}
+
+{% block content %}
+<div class="breadcrumb">
+    <a href="/">Home</a> <span>/</span>
+    <a href="/c4">C4 Models</a> <span>/</span>
+    {{ model.title or 'Untitled' }}
+</div>
+
+<h1>{{ model.title or 'Untitled C4 Model' }}</h1>
+
+<div class="grid" style="grid-template-columns: 1fr 350px;">
+    <div>
+        {% if model.drawio_c4_path %}
+        <div class="card">
+            <h3>C4 Diagram</h3>
+            <iframe
+                class="diagram-viewer"
+                src="https://viewer.diagrams.net/?highlight=0000ff&nav=1"
+                frameborder="0"
+                allowfullscreen>
+            </iframe>
+        </div>
+        {% endif %}
+
+        <div class="card">
+            <h3>Systems ({{ model.model.systems|length }})</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Technology</th>
+                        <th>External</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for sys in model.model.systems %}
+                    <tr>
+                        <td>
+                            <strong>{{ sys.name }}</strong>
+                            {% if sys.description %}
+                            <br><small style="color: var(--text-muted);">{{ sys.description }}</small>
+                            {% endif %}
+                        </td>
+                        <td><span class="badge badge-info">{{ sys.type }}</span></td>
+                        <td>{{ sys.technology or '-' }}</td>
+                        <td>{% if sys.is_external %}<span class="badge badge-gray">external</span>{% endif %}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <h3>Relationships ({{ model.model.relationships|length }})</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Source</th>
+                        <th>Target</th>
+                        <th>Description</th>
+                        <th>Technology</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for rel in model.model.relationships %}
+                    <tr>
+                        <td>{{ rel.source_id }}</td>
+                        <td>{{ rel.target_id }}</td>
+                        <td>{{ rel.description or '-' }}</td>
+                        <td>{{ rel.technology or '-' }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div>
+        <div class="card">
+            <h3>Model Info</h3>
+            <dl class="meta-grid">
+                <dt>Level</dt>
+                <dd><span class="badge badge-purple">{{ model.c4_level }}</span></dd>
+                <dt>Systems</dt>
+                <dd>{{ model.model.systems|length }}</dd>
+                <dt>Relations</dt>
+                <dd>{{ model.model.relationships|length }}</dd>
+                <dt>Boundaries</dt>
+                <dd>{{ model.model.boundaries|length }}</dd>
+            </dl>
+        </div>
+
+        {% if model.model.description %}
+        <div class="card">
+            <h3>Description</h3>
+            <p>{{ model.model.description }}</p>
+        </div>
+        {% endif %}
+
+        {% if model.model.boundaries %}
+        <div class="card">
+            <h3>Boundaries</h3>
+            {% for b in model.model.boundaries %}
+            <div style="margin-bottom: 0.5rem;">
+                <strong>{{ b.name }}</strong>
+                <span class="badge badge-gray">{{ b.type }}</span>
+                <br><small>Contains: {{ b.contains|join(', ') }}</small>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if model.model.metadata %}
+        <div class="card">
+            <h3>Conversion Notes</h3>
+            {% if model.model.metadata.notes %}
+            <p>{{ model.model.metadata.notes }}</p>
+            {% endif %}
+            {% if model.model.metadata.unmapped_elements %}
+            <p style="color: var(--warning); margin-top: 0.5rem;">
+                Unmapped: {{ model.model.metadata.unmapped_elements|join(', ') }}
+            </p>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

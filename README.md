@@ -225,6 +225,85 @@ Lucidchart embeds can be tricky (iframes, dynamic loading, zoom issues). Use deb
 
 If diagrams aren't being captured correctly, the debug HTML files will show the actual DOM structure so you can tune the selectors.
 
+## Diagram Conversion Pipeline (Lucidchart → DrawIO → C4)
+
+Converts Lucidchart screenshot extractions into editable DrawIO XML diagrams, classifies them by type, and generates C4 architecture models for application/system diagrams. Includes a FastAPI search server for browsing and reviewing results.
+
+### Setup
+
+```bash
+pip install -r diagram_conversion/requirements.txt
+
+# Configure
+cp diagram_conversion/conversion.ini.example conversion.ini
+# Set your Anthropic API key:
+export ANTHROPIC_API_KEY=sk-ant-...
+```
+
+### Pipeline Commands
+
+```bash
+# Step-by-step execution
+python -m diagram_conversion discover           # Find extracted screenshots
+python -m diagram_conversion classify            # Classify diagram types (heuristic)
+python -m diagram_conversion classify --vision   # Classify with Claude Vision API
+python -m diagram_conversion convert             # Convert screenshots → DrawIO XML
+python -m diagram_conversion convert --limit 20  # Convert a test batch of 20
+python -m diagram_conversion c4                  # Generate C4 models from app diagrams
+
+# Or run all stages at once
+python -m diagram_conversion pipeline
+python -m diagram_conversion pipeline --limit 50 --no-vision  # Test run, heuristic classify
+
+# Check progress
+python -m diagram_conversion stats
+```
+
+### Search Server
+
+```bash
+python -m diagram_conversion serve               # http://127.0.0.1:8000
+python -m diagram_conversion serve --port 8080   # Custom port
+```
+
+The server provides:
+
+- **Dashboard** — conversion stats, quality metrics, API usage
+- **Browse** — filter by space, diagram type, conversion status
+- **Search** — full-text search across diagram names, page titles, extracted text
+- **Diagram viewer** — embedded diagrams.net rendering with source screenshot comparison
+- **Review queue** — accept/reject low-confidence conversions
+- **C4 repository** — system index, technology inventory, relationship graph, drill-down navigation
+
+### Pipeline Architecture
+
+```
+Screenshots (PNG) → Classify → Convert to DrawIO XML → Convert to C4 Models
+                     ↓              ↓                       ↓
+                 8 types        Quality scored          JSON + DrawIO C4
+                 tagged         Review queue            System index
+                                                        Tech inventory
+```
+
+**Diagram types detected:** network, application, process, data_flow, org_chart, sequence, er_diagram, other
+
+**C4 levels generated:** Context, Container, Component (per Simon Brown's C4 model)
+
+### Cost Estimates
+
+| Stage | Model | Est. per diagram | 4,000 diagrams |
+|-------|-------|------------------|----------------|
+| Classification (vision) | Sonnet | ~$0.01 | ~$40 |
+| Classification (heuristic) | None | $0 | $0 |
+| DrawIO conversion | Sonnet | ~$0.05-0.15 | ~$200-600 |
+| C4 conversion | Sonnet | ~$0.03-0.10 | ~$30-100 (subset) |
+
+### Testing
+
+```bash
+python -m pytest diagram_conversion/tests/ -v    # 34 tests, no API calls needed
+```
+
 ## Security Notes
 
 - Store Confluence credentials securely (consider environment variables for production)

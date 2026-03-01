@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+{% block title %}Browse Diagrams{% endblock %}
+
+{% block content %}
+<h1>Browse Converted Diagrams</h1>
+
+<div class="filters">
+    <form action="/browse" method="get" style="display:flex;gap:0.5rem;flex-wrap:wrap;align-items:center;">
+        <select name="space" onchange="this.form.submit()">
+            <option value="">All Spaces</option>
+            {% for s in spaces %}
+            <option value="{{ s }}" {% if s == current_space %}selected{% endif %}>{{ s }}</option>
+            {% endfor %}
+        </select>
+        <select name="type" onchange="this.form.submit()">
+            <option value="">All Types</option>
+            {% for t in types %}
+            <option value="{{ t }}" {% if t == current_type %}selected{% endif %}>{{ t }}</option>
+            {% endfor %}
+        </select>
+        <select name="status" onchange="this.form.submit()">
+            <option value="">All Status</option>
+            <option value="success" {% if current_status == 'success' %}selected{% endif %}>Success</option>
+            <option value="pending" {% if current_status == 'pending' %}selected{% endif %}>Pending</option>
+            <option value="error" {% if current_status == 'error' %}selected{% endif %}>Error</option>
+        </select>
+    </form>
+</div>
+
+{% if conversions %}
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Space</th>
+            <th>Type</th>
+            <th>Status</th>
+            <th>Confidence</th>
+            <th>Shapes</th>
+            <th>C4</th>
+            <th>Review</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for c in conversions %}
+        <tr>
+            <td><a href="/diagram/{{ c.id }}">{{ c.source_name }}</a></td>
+            <td>{{ c.space_key }}</td>
+            <td><span class="badge badge-info">{{ c.diagram_type }}</span></td>
+            <td>
+                {% if c.drawio_status == 'success' %}
+                <span class="badge badge-success">success</span>
+                {% elif c.drawio_status == 'error' %}
+                <span class="badge badge-error">error</span>
+                {% else %}
+                <span class="badge badge-gray">{{ c.drawio_status }}</span>
+                {% endif %}
+            </td>
+            <td>
+                <div class="confidence-bar">
+                    <div class="fill" style="width:{{ (c.drawio_confidence * 100)|int }}%;background:{% if c.drawio_confidence >= 0.8 %}var(--success){% elif c.drawio_confidence >= 0.5 %}var(--warning){% else %}var(--error){% endif %};"></div>
+                </div>
+                {{ "%.0f"|format(c.drawio_confidence * 100) }}%
+            </td>
+            <td>{{ c.shape_count }}/{{ c.connection_count }}</td>
+            <td>
+                {% if c.c4_status == 'success' %}
+                <span class="badge badge-purple">C4</span>
+                {% elif c.c4_convertible %}
+                <span class="badge badge-gray">eligible</span>
+                {% endif %}
+            </td>
+            <td>
+                {% if c.review_status == 'accepted' %}
+                <span class="badge badge-success">accepted</span>
+                {% elif c.review_status == 'needs_review' %}
+                <span class="badge badge-warning">review</span>
+                {% elif c.review_status == 'rejected' %}
+                <span class="badge badge-error">rejected</span>
+                {% else %}
+                <span class="badge badge-gray">{{ c.review_status }}</span>
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<div style="margin-top: 1rem; display: flex; gap: 0.5rem;">
+    {% if page > 1 %}
+    <a href="/browse?space={{ current_space }}&type={{ current_type }}&status={{ current_status }}&page={{ page - 1 }}" class="btn">Previous</a>
+    {% endif %}
+    <span style="padding: 0.4rem; color: var(--text-muted);">Page {{ page }}</span>
+    {% if conversions|length == 50 %}
+    <a href="/browse?space={{ current_space }}&type={{ current_type }}&status={{ current_status }}&page={{ page + 1 }}" class="btn">Next</a>
+    {% endif %}
+</div>
+{% else %}
+<div class="empty-state">
+    <p>No converted diagrams found.</p>
+    <p style="margin-top: 0.5rem;">Run the conversion pipeline to populate this view.</p>
+</div>
+{% endif %}
+{% endblock %}

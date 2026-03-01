@@ -1,0 +1,154 @@
+{% extends "base.html" %}
+{% block title %}{{ diagram.source_name }} - Diagram Viewer{% endblock %}
+
+{% block content %}
+<div class="breadcrumb">
+    <a href="/">Home</a> <span>/</span>
+    <a href="/browse">Browse</a> <span>/</span>
+    {% if diagram.space_key %}<a href="/browse?space={{ diagram.space_key }}">{{ diagram.space_key }}</a> <span>/</span>{% endif %}
+    {{ diagram.source_name }}
+</div>
+
+<h1>{{ diagram.source_name }}</h1>
+
+<div class="grid" style="grid-template-columns: 1fr 350px;">
+    <div>
+        {% if diagram.drawio_path and diagram.drawio_status == 'success' %}
+        <div class="card">
+            <h3>DrawIO Diagram</h3>
+            <iframe
+                class="diagram-viewer"
+                src="https://viewer.diagrams.net/?highlight=0000ff&nav=1&url={{ request.url_for('serve_drawio', space_key=diagram.space_key, filename=diagram.source_name + '.drawio') }}"
+                frameborder="0"
+                allowfullscreen>
+            </iframe>
+            <div style="margin-top: 0.5rem;">
+                <a href="/drawio/{{ diagram.space_key }}/{{ diagram.source_name }}.drawio" class="btn" download>Download .drawio</a>
+                {% if diagram.c4_path %}
+                <a href="/c4file/{{ diagram.space_key }}/{{ diagram.source_name }}_c4.drawio" class="btn" download>Download C4 .drawio</a>
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
+
+        <div class="card">
+            <h3>Original Screenshot</h3>
+            <img src="/image/{{ diagram.space_key }}/{{ diagram.source_name }}.png"
+                 alt="{{ diagram.source_name }}"
+                 class="thumbnail"
+                 style="max-height: 400px; cursor: pointer;"
+                 onclick="this.style.maxHeight = this.style.maxHeight === 'none' ? '400px' : 'none'">
+        </div>
+    </div>
+
+    <div>
+        <div class="card">
+            <h3>Metadata</h3>
+            <dl class="meta-grid">
+                <dt>Space</dt>
+                <dd><a href="/browse?space={{ diagram.space_key }}">{{ diagram.space_key }}</a></dd>
+
+                <dt>Type</dt>
+                <dd><span class="badge badge-info">{{ diagram.diagram_type }}</span></dd>
+
+                <dt>Status</dt>
+                <dd>
+                    {% if diagram.drawio_status == 'success' %}
+                    <span class="badge badge-success">converted</span>
+                    {% elif diagram.drawio_status == 'error' %}
+                    <span class="badge badge-error">error</span>
+                    {% else %}
+                    <span class="badge badge-gray">{{ diagram.drawio_status }}</span>
+                    {% endif %}
+                </dd>
+
+                <dt>Confidence</dt>
+                <dd>
+                    <div class="confidence-bar" style="width: 80px;">
+                        <div class="fill" style="width:{{ (diagram.drawio_confidence * 100)|int }}%;background:{% if diagram.drawio_confidence >= 0.8 %}var(--success){% elif diagram.drawio_confidence >= 0.5 %}var(--warning){% else %}var(--error){% endif %};"></div>
+                    </div>
+                    {{ "%.0f"|format(diagram.drawio_confidence * 100) }}%
+                </dd>
+
+                <dt>Shapes</dt>
+                <dd>{{ diagram.shape_count }}</dd>
+
+                <dt>Connections</dt>
+                <dd>{{ diagram.connection_count }}</dd>
+
+                <dt>Quality</dt>
+                <dd>{{ "%.0f"|format(diagram.quality_score * 100) }}%</dd>
+
+                {% if diagram.page_title %}
+                <dt>Page</dt>
+                <dd>{{ diagram.page_title }}</dd>
+                {% endif %}
+
+                {% if diagram.confluence_url and confluence_url %}
+                <dt>Confluence</dt>
+                <dd><a href="{{ confluence_url }}{{ diagram.confluence_url }}" target="_blank">Open page</a></dd>
+                {% endif %}
+
+                <dt>Review</dt>
+                <dd>
+                    {% if diagram.review_status == 'accepted' %}
+                    <span class="badge badge-success">accepted</span>
+                    {% elif diagram.review_status == 'needs_review' %}
+                    <span class="badge badge-warning">needs review</span>
+                    {% elif diagram.review_status == 'rejected' %}
+                    <span class="badge badge-error">rejected</span>
+                    {% else %}
+                    <span class="badge badge-gray">{{ diagram.review_status }}</span>
+                    {% endif %}
+                </dd>
+
+                <dt>Tokens</dt>
+                <dd>{{ "{:,}".format(diagram.tokens_used or 0) }}</dd>
+            </dl>
+
+            {% if diagram.review_status == 'needs_review' %}
+            <div style="margin-top: 1rem; display: flex; gap: 0.5rem;">
+                <button class="btn btn-primary" onclick="reviewAction({{ diagram.id }}, 'accept')">Accept</button>
+                <button class="btn" onclick="reviewAction({{ diagram.id }}, 'reject')">Reject</button>
+            </div>
+            {% endif %}
+        </div>
+
+        {% if diagram.description %}
+        <div class="card">
+            <h3>Description</h3>
+            <p>{{ diagram.description }}</p>
+        </div>
+        {% endif %}
+
+        {% if diagram.drawio_error %}
+        <div class="card" style="border-color: var(--error);">
+            <h3>Error</h3>
+            <p style="color: var(--error);">{{ diagram.drawio_error }}</p>
+        </div>
+        {% endif %}
+
+        {% if diagram.c4_status == 'success' %}
+        <div class="card">
+            <h3>C4 Model</h3>
+            <dl class="meta-grid">
+                <dt>Level</dt>
+                <dd><span class="badge badge-purple">{{ diagram.c4_level }}</span></dd>
+                <dt>Systems</dt>
+                <dd>{{ diagram.c4_system_count }}</dd>
+                <dt>Relations</dt>
+                <dd>{{ diagram.c4_relationship_count }}</dd>
+            </dl>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<script>
+async function reviewAction(id, action) {
+    const notes = action === 'reject' ? prompt('Rejection reason (optional):') || '' : '';
+    const resp = await fetch(`/api/review/${id}?action=${action}&notes=${encodeURIComponent(notes)}`, {method: 'POST'});
+    if (resp.ok) { location.reload(); }
+}
+</script>
+{% endblock %}

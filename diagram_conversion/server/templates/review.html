@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}Review Queue{% endblock %}
+
+{% block content %}
+<h1>Review Queue</h1>
+<p style="color: var(--text-muted); margin-bottom: 1rem;">
+    Conversions below the auto-accept confidence threshold (80%) are flagged for manual review.
+    Compare the original screenshot with the converted DrawIO output.
+</p>
+
+{% if items %}
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Space</th>
+            <th>Type</th>
+            <th>Confidence</th>
+            <th>Quality</th>
+            <th>Shapes/Conns</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in items %}
+        <tr id="row-{{ item.id }}">
+            <td><a href="/diagram/{{ item.id }}">{{ item.source_name }}</a></td>
+            <td>{{ item.space_key }}</td>
+            <td><span class="badge badge-info">{{ item.diagram_type }}</span></td>
+            <td>
+                <div class="confidence-bar">
+                    <div class="fill" style="width:{{ (item.drawio_confidence * 100)|int }}%;background:{% if item.drawio_confidence >= 0.8 %}var(--success){% elif item.drawio_confidence >= 0.5 %}var(--warning){% else %}var(--error){% endif %};"></div>
+                </div>
+                {{ "%.0f"|format(item.drawio_confidence * 100) }}%
+            </td>
+            <td>{{ "%.0f"|format(item.quality_score * 100) }}%</td>
+            <td>{{ item.shape_count }} / {{ item.connection_count }}</td>
+            <td>
+                <button class="btn btn-primary" onclick="reviewAction({{ item.id }}, 'accept', this)"
+                        style="padding: 0.2rem 0.6rem; font-size: 0.8rem;">Accept</button>
+                <button class="btn" onclick="reviewAction({{ item.id }}, 'reject', this)"
+                        style="padding: 0.2rem 0.6rem; font-size: 0.8rem;">Reject</button>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<div class="empty-state">
+    <p>No items in the review queue.</p>
+</div>
+{% endif %}
+
+<script>
+async function reviewAction(id, action, btn) {
+    const notes = action === 'reject' ? prompt('Reason (optional):') || '' : '';
+    const resp = await fetch(`/api/review/${id}?action=${action}&notes=${encodeURIComponent(notes)}`, {method: 'POST'});
+    if (resp.ok) {
+        const row = document.getElementById('row-' + id);
+        row.style.opacity = '0.4';
+        btn.parentElement.innerHTML = action === 'accept'
+            ? '<span class="badge badge-success">accepted</span>'
+            : '<span class="badge badge-error">rejected</span>';
+    }
+}
+</script>
+{% endblock %}

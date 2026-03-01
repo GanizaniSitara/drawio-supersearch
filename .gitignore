@@ -18,6 +18,10 @@ whoosh_index/
 
 # Config with credentials
 settings.ini
+conversion.ini
+
+# Pytest
+.pytest_cache/
 
 # IDE
 .idea/

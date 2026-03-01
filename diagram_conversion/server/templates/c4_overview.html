@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block title %}C4 Architecture Repository{% endblock %}
+
+{% block content %}
+<h1>C4 Architecture Repository</h1>
+
+<div class="stat-grid">
+    <div class="stat-card">
+        <div class="value">{{ stats.total_models }}</div>
+        <div class="label">C4 Models</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">{{ stats.total_unique_systems }}</div>
+        <div class="label">Unique Systems</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">{{ stats.total_relationships }}</div>
+        <div class="label">Relationships</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">{{ stats.unique_technologies }}</div>
+        <div class="label">Technologies</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">{{ stats.internal_systems }}</div>
+        <div class="label">Internal Systems</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">{{ stats.external_systems }}</div>
+        <div class="label">External Systems</div>
+    </div>
+</div>
+
+<div class="grid">
+    <div class="card">
+        <h3>Models by C4 Level</h3>
+        <table>
+            <tr><th>Level</th><th>Count</th></tr>
+            {% for level, count in stats.by_level.items() %}
+            <tr>
+                <td><span class="badge badge-purple">{{ level }}</span></td>
+                <td>{{ count }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+    <div class="card">
+        <h3>Systems by Type</h3>
+        <table>
+            <tr><th>Type</th><th>Count</th></tr>
+            {% for type, count in stats.systems_by_type.items() %}
+            <tr>
+                <td>{{ type }}</td>
+                <td>{{ count }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
+
+<h2 style="margin-top: 1.5rem;">All C4 Models</h2>
+
+{% if models %}
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Level</th>
+            <th>Source</th>
+            <th>Space</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for m in models %}
+        <tr>
+            <td><a href="/c4/model/{{ m.id }}">{{ m.title or m.source_name }}</a></td>
+            <td><span class="badge badge-purple">{{ m.c4_level }}</span></td>
+            <td>{{ m.source_name }}</td>
+            <td>{{ m.space_key }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<div class="empty-state">
+    <p>No C4 models generated yet. Run the C4 conversion pipeline first.</p>
+</div>
+{% endif %}
+
+<div style="margin-top: 1rem;">
+    <a href="/c4/systems" class="btn btn-primary">Browse Systems</a>
+    <a href="/c4/technologies" class="btn">Technology Inventory</a>
+    <a href="/api/c4/graph" class="btn">Relationship Graph (JSON)</a>
+</div>
+{% endblock %}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="sample" version="1.0">
+  <diagram id="sample" name="Sample Architecture">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Web Browser" style="shape=mxgraph.basic.person;whiteSpace=wrap;html=1;fillColor=#08427B;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="&lt;b&gt;API Gateway&lt;/b&gt;&lt;br&gt;[Nginx]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="&lt;b&gt;Order Service&lt;/b&gt;&lt;br&gt;[Java/Spring]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;b&gt;Order DB&lt;/b&gt;&lt;br&gt;[PostgreSQL]" style="shape=cylinder3;whiteSpace=wrap;html=1;size=15;fillColor=#438DD5;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="380" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;b&gt;Payment Gateway&lt;/b&gt;&lt;br&gt;[External: Stripe]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="560" y="220" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;" edge="1" source="2" target="3" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="REST/JSON" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;" edge="1" source="3" target="4" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="JDBC" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;" edge="1" source="4" target="5" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="REST/HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;" edge="1" source="4" target="6" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

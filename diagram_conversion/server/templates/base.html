@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Diagram Conversion Browser{% endblock %}</title>
+    <style>
+        :root {
+            --primary: #1a73e8;
+            --primary-dark: #1557b0;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --border: #dee2e6;
+            --text: #202124;
+            --text-muted: #5f6368;
+            --success: #34a853;
+            --warning: #fbbc04;
+            --error: #ea4335;
+            --purple: #9334e6;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        nav {
+            background: var(--card-bg);
+            border-bottom: 1px solid var(--border);
+            padding: 0.75rem 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        nav .brand {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--primary);
+            text-decoration: none;
+        }
+        nav a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 0.25rem 0;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+        nav a:hover, nav a.active {
+            color: var(--primary);
+            border-bottom-color: var(--primary);
+        }
+        .search-bar {
+            margin-left: auto;
+        }
+        .search-bar form {
+            display: flex;
+            gap: 0.5rem;
+        }
+        .search-bar input {
+            padding: 0.4rem 0.75rem;
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            width: 250px;
+            outline: none;
+        }
+        .search-bar input:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(26,115,232,0.15);
+        }
+        main {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+        h1 { font-size: 1.5rem; margin-bottom: 1rem; }
+        h2 { font-size: 1.25rem; margin-bottom: 0.75rem; }
+        h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .grid-sm {
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        }
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .stat-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+        }
+        .stat-card .value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        .stat-card .label {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 0.15rem 0.5rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        .badge-success { background: #e6f4ea; color: var(--success); }
+        .badge-warning { background: #fef7e0; color: #e37400; }
+        .badge-error { background: #fce8e6; color: var(--error); }
+        .badge-info { background: #e8f0fe; color: var(--primary); }
+        .badge-purple { background: #f3e8fd; color: var(--purple); }
+        .badge-gray { background: #f1f3f4; color: var(--text-muted); }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+        th, td {
+            padding: 0.6rem 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        th {
+            font-weight: 600;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        tr:hover { background: #f8f9fa; }
+        a { color: var(--primary); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .btn {
+            display: inline-block;
+            padding: 0.4rem 1rem;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            background: var(--card-bg);
+            color: var(--text);
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .btn:hover { background: var(--bg); text-decoration: none; }
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+        .btn-primary:hover { background: var(--primary-dark); }
+        .filters {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .filters select, .filters input {
+            padding: 0.4rem 0.6rem;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            font-size: 0.85rem;
+        }
+        .confidence-bar {
+            width: 60px;
+            height: 6px;
+            background: #e8eaed;
+            border-radius: 3px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .confidence-bar .fill {
+            height: 100%;
+            border-radius: 3px;
+        }
+        .thumbnail {
+            max-width: 100%;
+            max-height: 200px;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+        }
+        .diagram-viewer {
+            width: 100%;
+            height: 600px;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            background: white;
+        }
+        .meta-grid {
+            display: grid;
+            grid-template-columns: 120px 1fr;
+            gap: 0.3rem 1rem;
+            font-size: 0.9rem;
+        }
+        .meta-grid dt { color: var(--text-muted); font-weight: 500; }
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-muted);
+        }
+        .breadcrumb {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+        }
+        .breadcrumb a { color: var(--text-muted); }
+        .breadcrumb span { margin: 0 0.3rem; }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+    </style>
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+    <nav>
+        <a href="/" class="brand">Diagram Converter</a>
+        <a href="/browse">Browse</a>
+        <a href="/search">Search</a>
+        <a href="/c4">C4 Models</a>
+        <a href="/c4/systems">Systems</a>
+        <a href="/c4/technologies">Technologies</a>
+        <a href="/review">Review Queue</a>
+        <div class="search-bar">
+            <form action="/search" method="get">
+                <input type="text" name="q" placeholder="Search diagrams..." value="{{ query|default('') }}">
+            </form>
+        </div>
+    </nav>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        Diagram Conversion Pipeline &mdash; Lucidchart &rarr; DrawIO &rarr; C4
+    </footer>
+    {% block extra_scripts %}{% endblock %}
+</body>
+</html>

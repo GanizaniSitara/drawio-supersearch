@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Technology Inventory - C4 Repository{% endblock %}
+
+{% block content %}
+<div class="breadcrumb">
+    <a href="/">Home</a> <span>/</span>
+    <a href="/c4">C4 Models</a> <span>/</span>
+    Technologies
+</div>
+
+<h1>Technology Inventory</h1>
+<p style="color: var(--text-muted); margin-bottom: 1rem;">
+    {{ inventory|length }} technologies discovered across all C4 models.
+</p>
+
+{% if inventory %}
+<div class="grid">
+    {% for tech, systems in inventory.items() %}
+    <div class="card">
+        <h3>{{ tech }}</h3>
+        {% if systems %}
+        <ul style="list-style: none; padding: 0;">
+            {% for sys in systems %}
+            <li style="padding: 0.2rem 0;">
+                {{ sys.name }}
+                <span class="badge badge-info" style="font-size: 0.65rem;">{{ sys.type }}</span>
+            </li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p style="color: var(--text-muted); font-size: 0.85rem;">Used in relationships only</p>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<div class="empty-state">
+    <p>No technologies found. Run the C4 conversion pipeline first.</p>
+</div>
+{% endif %}
+{% endblock %}
