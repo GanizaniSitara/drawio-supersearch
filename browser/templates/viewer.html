@@ -1,0 +1,607 @@
+{% extends "base.html" %}
+{% block title %}{{ diagram.diagram_name }} - Interactive Viewer{% endblock %}
+
+{% block content %}
+<style>
+    /* Viewer-specific styles */
+    .viewer-container {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        overflow: hidden;
+    }
+    .viewer-toolbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        background: #f8f9fa;
+        border-bottom: 1px solid #eee;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .viewer-toolbar .toolbar-left {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .viewer-toolbar .toolbar-right {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .toolbar-btn {
+        padding: 6px 14px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        background: white;
+        color: #333;
+        cursor: pointer;
+        font-size: 0.85em;
+        transition: all 0.15s;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+    }
+    .toolbar-btn:hover { background: #e8e8e8; border-color: #bbb; }
+    .toolbar-btn.active { background: #3498db; color: white; border-color: #3498db; }
+    .toolbar-btn-primary { background: #3498db; color: white; border-color: #3498db; }
+    .toolbar-btn-primary:hover { background: #2980b9; }
+    .toolbar-sep { width: 1px; height: 24px; background: #ddd; margin: 0 4px; }
+    .zoom-display { font-size: 0.85em; color: #666; min-width: 45px; text-align: center; }
+
+    /* Canvas area */
+    #viewer-canvas {
+        width: 100%;
+        height: 70vh;
+        min-height: 500px;
+        position: relative;
+        overflow: hidden;
+        background: #fafafa;
+        cursor: grab;
+    }
+    #viewer-canvas:active { cursor: grabbing; }
+    #viewer-canvas.loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #999;
+        font-size: 1.1em;
+    }
+
+    /* DrawIO graph rendered via SVG/mxGraph */
+    #graph-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Fallback PNG overlay */
+    .fallback-notice {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: rgba(255, 165, 0, 0.9);
+        color: white;
+        padding: 6px 12px;
+        border-radius: 4px;
+        font-size: 0.8em;
+        z-index: 10;
+    }
+
+    /* Clickthrough tooltip */
+    .click-tooltip {
+        position: fixed;
+        background: rgba(0,0,0,0.8);
+        color: white;
+        padding: 6px 12px;
+        border-radius: 4px;
+        font-size: 0.85em;
+        pointer-events: none;
+        z-index: 1000;
+        display: none;
+    }
+
+    /* Mode toggle */
+    .mode-indicator {
+        font-size: 0.8em;
+        color: #666;
+        padding: 4px 10px;
+        border-radius: 12px;
+        background: #e8f4f8;
+    }
+    .mode-indicator.interactive { background: #e8f8e8; color: #27ae60; }
+    .mode-indicator.image { background: #fff3e0; color: #e65100; }
+
+    /* Info panel below viewer */
+    .viewer-info {
+        padding: 20px;
+        border-top: 1px solid #eee;
+    }
+    .viewer-info h2 { font-size: 1.3em; color: #2c3e50; margin-bottom: 15px; }
+    .viewer-meta {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 15px;
+    }
+    .viewer-meta .meta-item label {
+        display: block;
+        font-size: 0.8em;
+        color: #7f8c8d;
+        margin-bottom: 2px;
+    }
+    .viewer-meta .meta-item span {
+        font-size: 0.95em;
+        color: #2c3e50;
+    }
+</style>
+
+<div class="breadcrumb">
+    <a href="/">Home</a>
+    <span>/</span>
+    <a href="/space/{{ diagram.space_key }}">{{ diagram.space_key }}</a>
+    <span>/</span>
+    <a href="/diagram/{{ diagram.id }}">{{ diagram.diagram_name }}</a>
+    <span>/</span>
+    <strong>Interactive Viewer</strong>
+</div>
+
+<div class="viewer-container">
+    <!-- Toolbar -->
+    <div class="viewer-toolbar">
+        <div class="toolbar-left">
+            {% if prev_id %}
+            <a href="/viewer/{{ prev_id }}" class="toolbar-btn" title="Previous (Left arrow)">&#x2190; Prev</a>
+            {% endif %}
+            {% if next_id %}
+            <a href="/viewer/{{ next_id }}" class="toolbar-btn" title="Next (Right arrow)">Next &#x2192;</a>
+            {% endif %}
+            {% if total_in_space > 1 %}
+            <span class="zoom-display">{{ position }}/{{ total_in_space }}</span>
+            {% endif %}
+            <div class="toolbar-sep"></div>
+            <button onclick="zoomIn()" class="toolbar-btn" title="Zoom in (+)">+</button>
+            <span class="zoom-display" id="zoom-level">100%</span>
+            <button onclick="zoomOut()" class="toolbar-btn" title="Zoom out (-)">-</button>
+            <button onclick="zoomFit()" class="toolbar-btn" title="Fit to screen (0)">Fit</button>
+            <button onclick="zoomReset()" class="toolbar-btn" title="Reset zoom (1)">1:1</button>
+        </div>
+        <div class="toolbar-right">
+            <span id="mode-label" class="mode-indicator image">PNG Mode</span>
+            <div class="toolbar-sep"></div>
+            <a href="/diagram/{{ diagram.id }}" class="toolbar-btn">Detail View</a>
+            <a href="/download/{{ diagram.space_key }}/{{ diagram.diagram_name }}.drawio"
+               class="toolbar-btn toolbar-btn-primary">Download</a>
+            {% if confluence_url and diagram.confluence_page_url %}
+            <a href="{{ confluence_url }}{{ diagram.confluence_page_url }}"
+               target="_blank" class="toolbar-btn">Confluence</a>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Canvas -->
+    <div id="viewer-canvas" class="loading">
+        Loading diagram...
+    </div>
+
+    <!-- Info panel -->
+    <div class="viewer-info">
+        <h2>{{ diagram.diagram_name }}</h2>
+        <div class="viewer-meta">
+            <div class="meta-item">
+                <label>Space</label>
+                <span><a href="/space/{{ diagram.space_key }}">{{ diagram.space_key }}</a></span>
+            </div>
+            {% if diagram.page_title %}
+            <div class="meta-item">
+                <label>Page</label>
+                <span>{{ diagram.page_title }}</span>
+            </div>
+            {% endif %}
+            {% if diagram.author_display %}
+            <div class="meta-item">
+                <label>Author</label>
+                <span>{{ diagram.author_display }}</span>
+            </div>
+            {% endif %}
+            {% if diagram.created_date %}
+            <div class="meta-item">
+                <label>Created</label>
+                <span>{{ diagram.created_date }}</span>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<!-- Clickthrough tooltip -->
+<div class="click-tooltip" id="click-tooltip"></div>
+
+<script>
+// Diagram configuration
+var DIAGRAM_ID = {{ diagram.id }};
+var SPACE_KEY = {{ diagram.space_key | tojson }};
+var DIAGRAM_NAME = {{ diagram.diagram_name | tojson }};
+var HAS_DRAWIO = {{ has_drawio | tojson }};
+var CLICKTHROUGH_MAP = {{ clickthrough_map | safe }};
+
+// Viewer state
+var viewerState = {
+    zoom: 1.0,
+    panX: 0,
+    panY: 0,
+    isPanning: false,
+    lastMouseX: 0,
+    lastMouseY: 0,
+    mode: 'image',  // 'image' or 'interactive'
+    svgElement: null,
+    imgElement: null
+};
+
+// --- Initialization ---
+
+function initViewer() {
+    var canvas = document.getElementById('viewer-canvas');
+    canvas.classList.remove('loading');
+    canvas.innerHTML = '';
+
+    if (HAS_DRAWIO) {
+        // Try to load the interactive SVG viewer via the DrawIO XML
+        loadInteractiveViewer(canvas);
+    } else {
+        // Fall back to PNG image viewer
+        loadImageViewer(canvas);
+    }
+}
+
+// --- Interactive viewer using embedded mxGraph viewer JS ---
+
+function loadInteractiveViewer(canvas) {
+    // Fetch the DrawIO XML and render using the diagrams.net viewer
+    var xmlUrl = '/api/drawio-xml/' + encodeURIComponent(SPACE_KEY) + '/' +
+                 encodeURIComponent(DIAGRAM_NAME) + '.drawio';
+
+    fetch(xmlUrl)
+        .then(function(resp) {
+            if (!resp.ok) throw new Error('Failed to load DrawIO XML');
+            return resp.text();
+        })
+        .then(function(xml) {
+            renderWithEmbeddedViewer(canvas, xml);
+        })
+        .catch(function(err) {
+            console.warn('Interactive viewer failed, falling back to PNG:', err);
+            loadImageViewer(canvas);
+        });
+}
+
+function renderWithEmbeddedViewer(canvas, xmlContent) {
+    // Use the diagrams.net embed viewer to render the XML as an interactive SVG
+    // This creates a hidden div with mxfile content and uses the JS viewer to render it
+    var container = document.createElement('div');
+    container.id = 'graph-container';
+    container.style.cssText = 'width:100%;height:100%;overflow:hidden;position:relative;';
+    canvas.appendChild(container);
+
+    // Parse the mxfile XML and extract the diagram content
+    var parser = new DOMParser();
+    var xmlDoc = parser.parseFromString(xmlContent, 'text/xml');
+
+    // Create an embedded mxGraph viewer div
+    var viewerDiv = document.createElement('div');
+    viewerDiv.className = 'mxgraph';
+    viewerDiv.setAttribute('data-mxgraph', JSON.stringify({
+        highlight: '#0000ff',
+        nav: false,
+        resize: true,
+        toolbar: null,
+        edit: null,
+        xml: xmlContent
+    }));
+    viewerDiv.style.cssText = 'width:100%;height:100%;';
+    container.appendChild(viewerDiv);
+
+    // Load the diagrams.net viewer script
+    var script = document.createElement('script');
+    script.src = 'https://viewer.diagrams.net/js/viewer-static.min.js';
+    script.onload = function() {
+        // Viewer loaded - the script auto-initializes .mxgraph divs
+        viewerState.mode = 'interactive';
+        updateModeLabel();
+
+        // Wait for rendering then attach clickthrough handlers
+        setTimeout(function() {
+            attachClickthroughHandlers(container);
+        }, 1500);
+    };
+    script.onerror = function() {
+        console.warn('Failed to load diagrams.net viewer, falling back to PNG');
+        canvas.innerHTML = '';
+        loadImageViewer(canvas);
+    };
+    document.body.appendChild(script);
+}
+
+// --- PNG Image Viewer (fallback / screenshots) ---
+
+function loadImageViewer(canvas) {
+    viewerState.mode = 'image';
+    updateModeLabel();
+
+    var wrapper = document.createElement('div');
+    wrapper.style.cssText = 'width:100%;height:100%;overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center;';
+    canvas.appendChild(wrapper);
+
+    var img = document.createElement('img');
+    img.src = '/image/' + encodeURIComponent(SPACE_KEY) + '/' +
+              encodeURIComponent(DIAGRAM_NAME) + '.png';
+    img.alt = DIAGRAM_NAME;
+    img.style.cssText = 'max-width:none;transform-origin:0 0;transition:transform 0.1s ease;cursor:grab;';
+    img.draggable = false;
+
+    img.onload = function() {
+        viewerState.imgElement = img;
+        // Initial fit
+        zoomFit();
+    };
+
+    img.onerror = function() {
+        wrapper.innerHTML = '<p style="color:#999;padding:50px;">No preview available for this diagram.</p>';
+    };
+
+    wrapper.appendChild(img);
+
+    // Pan support for image mode
+    setupPanHandlers(wrapper, img);
+}
+
+function setupPanHandlers(wrapper, target) {
+    wrapper.addEventListener('mousedown', function(e) {
+        if (e.button !== 0) return;
+        viewerState.isPanning = true;
+        viewerState.lastMouseX = e.clientX;
+        viewerState.lastMouseY = e.clientY;
+        wrapper.style.cursor = 'grabbing';
+        e.preventDefault();
+    });
+
+    document.addEventListener('mousemove', function(e) {
+        if (!viewerState.isPanning) return;
+        var dx = e.clientX - viewerState.lastMouseX;
+        var dy = e.clientY - viewerState.lastMouseY;
+        viewerState.panX += dx;
+        viewerState.panY += dy;
+        viewerState.lastMouseX = e.clientX;
+        viewerState.lastMouseY = e.clientY;
+        applyTransform(target);
+    });
+
+    document.addEventListener('mouseup', function() {
+        viewerState.isPanning = false;
+        wrapper.style.cursor = 'grab';
+    });
+
+    // Mouse wheel zoom
+    wrapper.addEventListener('wheel', function(e) {
+        e.preventDefault();
+        var delta = e.deltaY > 0 ? 0.9 : 1.1;
+        viewerState.zoom = Math.max(0.1, Math.min(10, viewerState.zoom * delta));
+        applyTransform(target);
+        updateZoomDisplay();
+    });
+}
+
+function applyTransform(element) {
+    if (!element) return;
+    element.style.transform =
+        'translate(' + viewerState.panX + 'px, ' + viewerState.panY + 'px) scale(' + viewerState.zoom + ')';
+}
+
+// --- Zoom controls ---
+
+function zoomIn() {
+    viewerState.zoom = Math.min(10, viewerState.zoom * 1.25);
+    applyZoom();
+}
+
+function zoomOut() {
+    viewerState.zoom = Math.max(0.1, viewerState.zoom / 1.25);
+    applyZoom();
+}
+
+function zoomFit() {
+    var canvas = document.getElementById('viewer-canvas');
+    var target = viewerState.imgElement;
+    if (!target || !canvas) return;
+
+    var cw = canvas.clientWidth;
+    var ch = canvas.clientHeight;
+    var iw = target.naturalWidth || target.clientWidth;
+    var ih = target.naturalHeight || target.clientHeight;
+
+    if (iw && ih) {
+        var scaleX = (cw - 40) / iw;
+        var scaleY = (ch - 40) / ih;
+        viewerState.zoom = Math.min(scaleX, scaleY, 1);
+        viewerState.panX = (cw - iw * viewerState.zoom) / 2;
+        viewerState.panY = (ch - ih * viewerState.zoom) / 2;
+        applyTransform(target);
+        updateZoomDisplay();
+    }
+}
+
+function zoomReset() {
+    viewerState.zoom = 1.0;
+    viewerState.panX = 0;
+    viewerState.panY = 0;
+    applyZoom();
+}
+
+function applyZoom() {
+    var target = viewerState.imgElement;
+    if (target) {
+        applyTransform(target);
+    }
+    updateZoomDisplay();
+}
+
+function updateZoomDisplay() {
+    document.getElementById('zoom-level').textContent = Math.round(viewerState.zoom * 100) + '%';
+}
+
+function updateModeLabel() {
+    var label = document.getElementById('mode-label');
+    if (viewerState.mode === 'interactive') {
+        label.textContent = 'Interactive';
+        label.className = 'mode-indicator interactive';
+    } else {
+        label.textContent = 'PNG Mode';
+        label.className = 'mode-indicator image';
+    }
+}
+
+// --- Clickthrough Navigation ---
+
+function attachClickthroughHandlers(container) {
+    // Find all rendered SVG text elements and shape groups
+    // When a user clicks on a shape whose label matches a diagram name,
+    // navigate to that diagram's viewer
+    var svgs = container.querySelectorAll('svg');
+    if (!svgs.length) return;
+
+    svgs.forEach(function(svg) {
+        // Handle clicks on SVG elements
+        svg.addEventListener('click', function(e) {
+            var target = e.target;
+            var text = '';
+
+            // Walk up to find the nearest text content
+            var el = target;
+            for (var i = 0; i < 5 && el; i++) {
+                if (el.textContent && el.textContent.trim()) {
+                    text = el.textContent.trim();
+                    break;
+                }
+                el = el.parentElement;
+            }
+
+            if (!text) return;
+
+            // Check clickthrough map
+            var key = text.toLowerCase().trim();
+            if (CLICKTHROUGH_MAP[key]) {
+                window.location.href = '/viewer/' + CLICKTHROUGH_MAP[key];
+                return;
+            }
+
+            // Try partial match
+            for (var mapKey in CLICKTHROUGH_MAP) {
+                if (key.indexOf(mapKey) !== -1 || mapKey.indexOf(key) !== -1) {
+                    window.location.href = '/viewer/' + CLICKTHROUGH_MAP[mapKey];
+                    return;
+                }
+            }
+
+            // Try API search for fuzzy match
+            fetch('/api/search-diagram?name=' + encodeURIComponent(text))
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    if (data.found) {
+                        window.location.href = data.url;
+                    }
+                });
+        });
+
+        // Hover tooltip showing clickable items
+        svg.addEventListener('mouseover', function(e) {
+            var target = e.target;
+            var text = '';
+            var el = target;
+            for (var i = 0; i < 5 && el; i++) {
+                if (el.textContent && el.textContent.trim()) {
+                    text = el.textContent.trim();
+                    break;
+                }
+                el = el.parentElement;
+            }
+
+            if (!text) return;
+
+            var key = text.toLowerCase().trim();
+            var isClickable = !!CLICKTHROUGH_MAP[key];
+
+            if (!isClickable) {
+                for (var mapKey in CLICKTHROUGH_MAP) {
+                    if (key.indexOf(mapKey) !== -1 || mapKey.indexOf(key) !== -1) {
+                        isClickable = true;
+                        break;
+                    }
+                }
+            }
+
+            if (isClickable) {
+                var tooltip = document.getElementById('click-tooltip');
+                tooltip.textContent = 'Click to navigate: ' + text;
+                tooltip.style.display = 'block';
+                tooltip.style.left = (e.clientX + 15) + 'px';
+                tooltip.style.top = (e.clientY - 10) + 'px';
+                e.target.style.cursor = 'pointer';
+            }
+        });
+
+        svg.addEventListener('mouseout', function() {
+            document.getElementById('click-tooltip').style.display = 'none';
+        });
+
+        svg.addEventListener('mousemove', function(e) {
+            var tooltip = document.getElementById('click-tooltip');
+            if (tooltip.style.display === 'block') {
+                tooltip.style.left = (e.clientX + 15) + 'px';
+                tooltip.style.top = (e.clientY - 10) + 'px';
+            }
+        });
+    });
+}
+
+// --- Keyboard shortcuts ---
+
+document.addEventListener('keydown', function(e) {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+
+    switch(e.key) {
+        case 'ArrowLeft':
+        case 'Left':
+            {% if prev_id %}
+            window.location.href = '/viewer/{{ prev_id }}';
+            {% endif %}
+            break;
+        case 'ArrowRight':
+        case 'Right':
+            {% if next_id %}
+            window.location.href = '/viewer/{{ next_id }}';
+            {% endif %}
+            break;
+        case '+':
+        case '=':
+            zoomIn();
+            e.preventDefault();
+            break;
+        case '-':
+            zoomOut();
+            e.preventDefault();
+            break;
+        case '0':
+            zoomFit();
+            e.preventDefault();
+            break;
+        case '1':
+            zoomReset();
+            e.preventDefault();
+            break;
+    }
+});
+
+// Initialize on load
+document.addEventListener('DOMContentLoaded', initViewer);
+</script>
+{% endblock %}

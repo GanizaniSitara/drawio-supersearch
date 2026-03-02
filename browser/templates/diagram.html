@@ -37,6 +37,10 @@
         <h1>{{ diagram.diagram_name }}</h1>
 
         <div class="action-buttons">
+            <a href="/viewer/{{ diagram.id }}"
+               class="action-btn action-btn-secondary">
+                Interactive Viewer
+            </a>
             {% if confluence_url and diagram.confluence_page_url %}
             <a href="{{ confluence_url }}{{ diagram.confluence_page_url }}"
                target="_blank"

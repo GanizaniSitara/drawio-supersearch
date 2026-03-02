@@ -741,6 +741,160 @@ def download_drawio_options(space_key, filename):
     return response
 
 
+# =============================================================================
+# Interactive DrawIO Viewer Routes
+# =============================================================================
+
+@app.route('/api/drawio-xml/<space_key>/<path:filename>')
+def api_drawio_xml(space_key, filename):
+    """Serve raw DrawIO XML content for the interactive viewer."""
+    settings = get_settings()
+    diagrams_dir = settings['diagrams_directory']
+
+    if not filename.endswith('.drawio'):
+        filename = f"{filename}.drawio"
+
+    drawio_path = os.path.join(diagrams_dir, space_key, filename)
+    if not os.path.exists(drawio_path):
+        return jsonify({'error': 'Diagram not found'}), 404
+
+    with open(drawio_path, 'r', encoding='utf-8') as f:
+        xml_content = f.read()
+
+    response = make_response(xml_content)
+    response.headers['Content-Type'] = 'application/xml'
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    return response
+
+
+@app.route('/api/drawio-xml/c4/<space_key>/<path:filename>')
+def api_c4_drawio_xml(space_key, filename):
+    """Serve raw C4 DrawIO XML content for the interactive viewer."""
+    c4_dir = _get_c4_dir()
+
+    if not filename.endswith('.drawio'):
+        filename = f"{filename}.c4.drawio"
+
+    filepath = os.path.join(c4_dir, space_key, filename)
+    if not os.path.exists(filepath):
+        return jsonify({'error': 'C4 diagram not found'}), 404
+
+    with open(filepath, 'r', encoding='utf-8') as f:
+        xml_content = f.read()
+
+    response = make_response(xml_content)
+    response.headers['Content-Type'] = 'application/xml'
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    return response
+
+
+@app.route('/viewer/<int:diagram_id>')
+def viewer(diagram_id):
+    """Interactive DrawIO viewer with live rendering and clickthrough."""
+    conn = get_db()
+    diagram = conn.execute(
+        'SELECT * FROM diagrams WHERE id = ?', (diagram_id,)
+    ).fetchone()
+
+    if not diagram:
+        conn.close()
+        return "Diagram not found", 404
+
+    space_key = diagram['space_key']
+    diagram_name = diagram['diagram_name']
+
+    # Check if .drawio file exists (needed for interactive viewer)
+    settings = get_settings()
+    drawio_path = os.path.join(
+        settings['diagrams_directory'], space_key, f'{diagram_name}.drawio'
+    )
+    has_drawio = os.path.exists(drawio_path)
+
+    # Get prev/next for carousel
+    prev_diagram = conn.execute('''
+        SELECT id FROM diagrams
+        WHERE space_key = ? AND diagram_name < ?
+        ORDER BY diagram_name DESC LIMIT 1
+    ''', (space_key, diagram_name)).fetchone()
+
+    next_diagram = conn.execute('''
+        SELECT id FROM diagrams
+        WHERE space_key = ? AND diagram_name > ?
+        ORDER BY diagram_name ASC LIMIT 1
+    ''', (space_key, diagram_name)).fetchone()
+
+    position = conn.execute('''
+        SELECT COUNT(*) FROM diagrams
+        WHERE space_key = ? AND diagram_name <= ?
+    ''', (space_key, diagram_name)).fetchone()[0]
+
+    total_in_space = conn.execute('''
+        SELECT COUNT(*) FROM diagrams WHERE space_key = ?
+    ''', (space_key,)).fetchone()[0]
+
+    # Build a map of all diagram names for clickthrough resolution
+    all_diagrams = conn.execute('''
+        SELECT id, diagram_name, space_key FROM diagrams
+        ORDER BY diagram_name
+    ''').fetchall()
+
+    conn.close()
+
+    # Build clickthrough lookup: shape label text (lowercased) -> diagram ID
+    # Prioritize same-space diagrams
+    clickthrough_map = {}
+    for d in all_diagrams:
+        name = d['diagram_name'].lower().strip()
+        if name not in clickthrough_map or d['space_key'] == space_key:
+            clickthrough_map[name] = d['id']
+
+    confluence_url = settings.get('confluence_url', '')
+
+    return render_template('viewer.html',
+                         diagram=diagram,
+                         has_drawio=has_drawio,
+                         confluence_url=confluence_url,
+                         prev_id=prev_diagram['id'] if prev_diagram else None,
+                         next_id=next_diagram['id'] if next_diagram else None,
+                         position=position,
+                         total_in_space=total_in_space,
+                         clickthrough_map=json.dumps(clickthrough_map))
+
+
+@app.route('/api/search-diagram')
+def api_search_diagram():
+    """API to find a diagram by name for clickthrough resolution."""
+    name = request.args.get('name', '').strip()
+    if not name:
+        return jsonify({'found': False})
+
+    conn = get_db()
+    # Exact match first
+    diagram = conn.execute(
+        'SELECT id, diagram_name, space_key FROM diagrams WHERE LOWER(diagram_name) = ?',
+        (name.lower(),)
+    ).fetchone()
+
+    if not diagram:
+        # Fuzzy match - contains
+        diagram = conn.execute(
+            'SELECT id, diagram_name, space_key FROM diagrams WHERE LOWER(diagram_name) LIKE ? LIMIT 1',
+            (f'%{name.lower()}%',)
+        ).fetchone()
+
+    conn.close()
+
+    if diagram:
+        return jsonify({
+            'found': True,
+            'id': diagram['id'],
+            'name': diagram['diagram_name'],
+            'space': diagram['space_key'],
+            'url': f'/viewer/{diagram["id"]}'
+        })
+    return jsonify({'found': False})
+
+
 @app.route('/api/stats')
 def api_stats():
     """API endpoint for statistics."""
