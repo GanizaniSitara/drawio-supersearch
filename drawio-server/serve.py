@@ -49,8 +49,7 @@ def scan_diagrams(root_dir):
     """
     Scan a directory tree for .drawio files.
 
-    Returns list of dicts:
-        {path, rel_path, name, space, text_content, has_png}
+    Returns list of dicts with path, name, space, text, tab names, mtime, etc.
     """
     root = Path(root_dir).resolve()
     diagrams = []
@@ -63,12 +62,19 @@ def scan_diagrams(root_dir):
         space = parts[0] if len(parts) > 1 else "_root"
         name = drawio_path.stem
 
-        # Extract text content from the drawio XML
-        text_content = extract_text(str(drawio_path))
+        # Extract text content and tab names from the drawio XML
+        text_content, tab_names = extract_metadata(str(drawio_path))
+
+        # File modification time
+        try:
+            mtime = drawio_path.stat().st_mtime
+            from datetime import datetime
+            modified = datetime.fromtimestamp(mtime).strftime("%b %d, %Y %H:%M")
+        except Exception:
+            modified = ""
 
         # Check for companion PNG
         png_path = drawio_path.with_suffix(".png")
-        # Also check in sibling images dir
         if not png_path.exists() and len(parts) > 1:
             alt_png = root / "images" if space == "_root" else root.parent / "images" / space
             alt_png = alt_png / f"{name}.png"
@@ -81,6 +87,8 @@ def scan_diagrams(root_dir):
             "name": name,
             "space": space,
             "text_content": text_content[:500] if text_content else "",
+            "tab_names": tab_names,
+            "modified": modified,
             "has_png": png_path.exists(),
             "png_path": str(png_path) if png_path.exists() else None,
         })
@@ -88,17 +96,22 @@ def scan_diagrams(root_dir):
     return diagrams
 
 
-def extract_text(filepath):
-    """Extract text labels from a .drawio file."""
+def extract_metadata(filepath):
+    """Extract text labels and tab/page names from a .drawio file.
+
+    Returns (text_content, tab_names) tuple.
+    """
     try:
         tree = etree.parse(filepath)
         root = tree.getroot()
         texts = []
+        tab_names = []
 
         for diagram in root.findall(".//diagram"):
             name = diagram.get("name", "")
             if name:
                 texts.append(name)
+                tab_names.append(name)
 
             content = diagram.text
             if content and content.strip() and decode_diagram_data:
@@ -125,9 +138,9 @@ def extract_text(filepath):
                         if clean:
                             texts.append(clean)
 
-        return " ".join(texts)
+        return " ".join(texts), tab_names
     except Exception:
-        return ""
+        return "", []
 
 
 def build_index(diagrams):
@@ -154,99 +167,240 @@ STYLE = """
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: #f5f5f5; color: #333; line-height: 1.6;
+    background: #fff; color: #172b4d; line-height: 1.6;
 }
-a { color: #3498db; text-decoration: none; }
-a:hover { text-decoration: underline; }
-.container { max-width: 1400px; margin: 0 auto; padding: 20px; }
-header {
-    background: #1a5276; color: white; padding: 15px 0; margin-bottom: 30px;
+a { color: #0052cc; text-decoration: none; }
+a:hover { text-decoration: underline; color: #0065ff; }
+
+/* ── Top nav bar (Confluence-like) ── */
+.topnav {
+    background: #0052cc; color: white; height: 48px;
+    display: flex; align-items: center; padding: 0 20px;
+    position: sticky; top: 0; z-index: 100;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
 }
-header .container { display: flex; justify-content: space-between; align-items: center; }
-header h1 { font-size: 1.4em; }
-header h1 a { color: white; text-decoration: none; }
-header nav a { color: #d4e6f1; margin-left: 20px; padding: 8px 15px; border-radius: 4px; }
-header nav a:hover { background: rgba(255,255,255,0.1); text-decoration: none; }
-.stats { display: flex; gap: 25px; margin-bottom: 30px; flex-wrap: wrap; }
+.topnav-logo {
+    font-weight: 700; font-size: 1.05em; color: white;
+    text-decoration: none; display: flex; align-items: center; gap: 8px;
+}
+.topnav-logo:hover { text-decoration: none; color: #deebff; }
+.topnav-logo svg { width: 22px; height: 22px; fill: white; }
+.topnav-links { display: flex; gap: 4px; margin-left: 30px; }
+.topnav-links a {
+    color: #deebff; padding: 6px 14px; border-radius: 4px;
+    font-size: 0.88em; font-weight: 500;
+}
+.topnav-links a:hover { background: rgba(255,255,255,0.15); text-decoration: none; color: white; }
+.topnav-links a.active { background: rgba(255,255,255,0.2); color: white; }
+.topnav-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+.topnav-search {
+    background: rgba(255,255,255,0.15); border: none; color: white;
+    padding: 6px 14px; border-radius: 4px; font-size: 0.85em; width: 200px;
+}
+.topnav-search::placeholder { color: rgba(255,255,255,0.6); }
+.topnav-search:focus { background: white; color: #172b4d; outline: none; }
+
+/* ── Main content container ── */
+.container { max-width: 1200px; margin: 0 auto; padding: 30px 40px; }
+
+/* ── Breadcrumbs (Confluence style) ── */
+.breadcrumb {
+    font-size: 0.82em; color: #6b778c; margin-bottom: 8px;
+    display: flex; align-items: center; gap: 4px;
+}
+.breadcrumb a { color: #6b778c; }
+.breadcrumb a:hover { color: #0052cc; }
+.breadcrumb .sep { color: #c1c7d0; }
+
+/* ── Page title (Confluence style) ── */
+.page-title {
+    font-size: 1.7em; font-weight: 600; color: #172b4d;
+    margin-bottom: 4px; line-height: 1.3;
+}
+
+/* ── Page metadata bar ── */
+.page-meta {
+    display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+    padding: 8px 0 16px; border-bottom: 1px solid #ebecf0;
+    margin-bottom: 24px; font-size: 0.82em; color: #6b778c;
+}
+.page-meta-item { display: flex; align-items: center; gap: 5px; }
+.page-meta-item svg { width: 14px; height: 14px; fill: #97a0af; }
+.page-label {
+    display: inline-block; padding: 2px 8px; border-radius: 3px;
+    background: #dfe1e6; color: #42526e; font-size: 0.85em;
+}
+
+/* ── Stats boxes (home page) ── */
+.stats { display: flex; gap: 20px; margin-bottom: 28px; flex-wrap: wrap; }
 .stat-box {
-    background: white; padding: 18px 28px; border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    background: #f4f5f7; padding: 18px 24px; border-radius: 6px;
+    border: 1px solid #ebecf0;
 }
-.stat-value { font-size: 2em; font-weight: 700; color: #1a5276; }
-.stat-label { color: #7f8c8d; font-size: 0.85em; }
-.breadcrumb { margin-bottom: 20px; font-size: 0.9em; }
-.breadcrumb a { color: #3498db; }
-.breadcrumb .sep { color: #bbb; margin: 0 8px; }
+.stat-value { font-size: 1.8em; font-weight: 700; color: #0052cc; }
+.stat-label { color: #6b778c; font-size: 0.82em; }
+
+/* ── Space cards grid ── */
 .space-grid {
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 15px; margin-bottom: 30px;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 14px; margin-bottom: 28px;
 }
 .space-card {
-    background: white; padding: 20px; border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.08); transition: transform 0.15s;
+    background: white; padding: 18px 20px; border-radius: 6px;
+    border: 1px solid #dfe1e6; transition: box-shadow 0.15s;
 }
-.space-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.12); }
-.space-card a { color: #2c3e50; text-decoration: none; display: block; }
-.space-name { font-size: 1.15em; font-weight: 600; }
-.space-count { color: #7f8c8d; font-size: 0.85em; margin-top: 4px; }
+.space-card:hover { box-shadow: 0 4px 14px rgba(9,30,66,0.12); }
+.space-card a { color: #172b4d; text-decoration: none; display: block; }
+.space-card a:hover { text-decoration: none; }
+.space-icon {
+    width: 36px; height: 36px; border-radius: 6px; background: #0052cc;
+    color: white; display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 1em; margin-bottom: 10px;
+}
+.space-name { font-size: 1.05em; font-weight: 600; }
+.space-count { color: #6b778c; font-size: 0.82em; margin-top: 2px; }
+
+/* ── Diagram card grid ── */
 .diagram-list {
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 16px;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 14px;
 }
 .diagram-card {
-    background: white; border-radius: 8px; overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.08); transition: transform 0.15s;
+    background: white; border-radius: 6px; overflow: hidden;
+    border: 1px solid #dfe1e6; transition: box-shadow 0.15s;
 }
-.diagram-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.12); }
+.diagram-card:hover { box-shadow: 0 4px 14px rgba(9,30,66,0.12); }
 .diagram-card a { text-decoration: none; color: inherit; display: block; }
+.diagram-card a:hover { text-decoration: none; }
 .diagram-thumb {
-    width: 100%; height: 180px; object-fit: contain;
-    background: #f8f9fa; border-bottom: 1px solid #eee;
+    width: 100%; height: 170px; object-fit: contain;
+    background: #fafbfc; border-bottom: 1px solid #ebecf0;
 }
 .diagram-thumb-placeholder {
-    width: 100%; height: 180px; display: flex; align-items: center;
-    justify-content: center; background: #f0f4f8; border-bottom: 1px solid #eee;
-    color: #95a5a6; font-size: 0.9em;
+    width: 100%; height: 170px; display: flex; align-items: center;
+    justify-content: center; background: #fafbfc; border-bottom: 1px solid #ebecf0;
+    color: #97a0af; font-size: 0.85em;
 }
-.diagram-card-body { padding: 14px; }
-.diagram-card-title { font-weight: 600; color: #2c3e50; margin-bottom: 4px; word-break: break-word; }
-.diagram-card-meta { font-size: 0.8em; color: #95a5a6; }
+.diagram-card-body { padding: 12px 14px; }
+.diagram-card-title { font-weight: 600; color: #172b4d; margin-bottom: 2px; word-break: break-word; font-size: 0.92em; }
+.diagram-card-meta { font-size: 0.78em; color: #97a0af; }
 
-/* Viewer page */
+/* ── Sidebar + content layout (viewer pages) ── */
+.layout { display: flex; min-height: calc(100vh - 48px); }
+.sidebar {
+    width: 260px; min-width: 260px; background: #fafbfc;
+    border-right: 1px solid #ebecf0; padding: 0;
+    overflow-y: auto; position: sticky; top: 48px;
+    height: calc(100vh - 48px);
+}
+.sidebar-header {
+    padding: 16px 16px 12px; border-bottom: 1px solid #ebecf0;
+    font-weight: 600; color: #172b4d; font-size: 0.92em;
+    display: flex; align-items: center; gap: 8px;
+}
+.sidebar-header .s-icon {
+    width: 24px; height: 24px; border-radius: 4px; background: #0052cc;
+    color: white; display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 0.72em; flex-shrink: 0;
+}
+.sidebar-search {
+    margin: 10px 12px; padding: 6px 10px; border: 1px solid #dfe1e6;
+    border-radius: 4px; width: calc(100% - 24px); font-size: 0.82em;
+    background: white;
+}
+.sidebar-search:focus { border-color: #4c9aff; outline: none; }
+.sidebar-section {
+    padding: 8px 0;
+}
+.sidebar-section-title {
+    padding: 4px 16px; font-size: 0.72em; font-weight: 600;
+    color: #6b778c; text-transform: uppercase; letter-spacing: 0.5px;
+}
+.sidebar-item {
+    display: block; padding: 5px 16px 5px 24px; font-size: 0.84em;
+    color: #42526e; text-decoration: none; border-left: 3px solid transparent;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.sidebar-item:hover { background: #ebecf0; text-decoration: none; color: #172b4d; }
+.sidebar-item.active {
+    background: #deebff; border-left-color: #0052cc;
+    color: #0052cc; font-weight: 500;
+}
+.content { flex: 1; min-width: 0; }
+.content-inner { max-width: 1000px; padding: 28px 40px; }
+
+/* ── Viewer ── */
 .viewer-wrap {
-    background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.08);
-    overflow: hidden;
+    background: white; border: 1px solid #dfe1e6; border-radius: 6px;
+    overflow: hidden; margin-bottom: 24px;
 }
 .viewer-toolbar {
     display: flex; align-items: center; justify-content: space-between;
-    padding: 10px 16px; background: #f8f9fa; border-bottom: 1px solid #eee;
+    padding: 8px 14px; background: #f4f5f7; border-bottom: 1px solid #ebecf0;
     flex-wrap: wrap; gap: 8px;
 }
 .viewer-toolbar .left, .viewer-toolbar .right { display: flex; align-items: center; gap: 6px; }
 .tbtn {
-    padding: 5px 12px; border: 1px solid #ddd; border-radius: 4px;
-    background: white; color: #333; cursor: pointer; font-size: 0.82em;
+    padding: 4px 12px; border: 1px solid #dfe1e6; border-radius: 4px;
+    background: white; color: #42526e; cursor: pointer; font-size: 0.82em;
     text-decoration: none; display: inline-flex; align-items: center; gap: 4px;
 }
-.tbtn:hover { background: #e8e8e8; border-color: #bbb; text-decoration: none; }
-.tbtn-primary { background: #1a5276; color: white; border-color: #1a5276; }
-.tbtn-primary:hover { background: #154360; }
+.tbtn:hover { background: #ebecf0; text-decoration: none; color: #172b4d; }
+.tbtn-primary { background: #0052cc; color: white; border-color: #0052cc; }
+.tbtn-primary:hover { background: #0065ff; }
 #viewer-canvas {
-    width: 100%; min-height: 70vh; position: relative; background: #fafafa;
+    width: 100%; min-height: 65vh; position: relative; background: #fff;
 }
-.viewer-info { padding: 20px; border-top: 1px solid #eee; }
-.viewer-info h2 { color: #2c3e50; margin-bottom: 10px; }
-.viewer-info .meta { font-size: 0.85em; color: #7f8c8d; }
 
-/* Search */
-.search-box { margin-bottom: 25px; }
-.search-box input {
-    width: 100%; padding: 12px 16px; border: 2px solid #ddd;
-    border-radius: 8px; font-size: 15px; background: white;
+/* ── Page tabs (diagram tabs) ── */
+.page-tabs {
+    display: flex; gap: 0; border-bottom: 2px solid #dfe1e6;
+    margin-bottom: 20px;
 }
-.search-box input:focus { border-color: #3498db; outline: none; }
-.no-results { color: #95a5a6; padding: 40px; text-align: center; }
+.page-tab {
+    padding: 8px 16px; font-size: 0.85em; color: #6b778c;
+    border-bottom: 2px solid transparent; margin-bottom: -2px;
+    cursor: default;
+}
+.page-tab.active { color: #0052cc; border-bottom-color: #0052cc; font-weight: 500; }
+
+/* ── Page properties panel ── */
+.page-properties {
+    background: #f4f5f7; border: 1px solid #ebecf0; border-radius: 6px;
+    padding: 16px 20px; margin-top: 20px;
+}
+.page-properties h3 {
+    font-size: 0.85em; color: #6b778c; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px;
+}
+.page-properties table { width: 100%; border-collapse: collapse; }
+.page-properties td {
+    padding: 6px 0; font-size: 0.88em; border-bottom: 1px solid #ebecf0;
+}
+.page-properties td:first-child { color: #6b778c; width: 120px; font-weight: 500; }
+.page-properties td:last-child { color: #172b4d; }
+
+/* ── Search ── */
+.search-box { margin-bottom: 24px; }
+.search-box input {
+    width: 100%; padding: 10px 14px; border: 2px solid #dfe1e6;
+    border-radius: 6px; font-size: 14px; background: white; color: #172b4d;
+}
+.search-box input:focus { border-color: #4c9aff; outline: none; }
+.no-results { color: #97a0af; padding: 40px; text-align: center; }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+    .sidebar { display: none; }
+    .content-inner { padding: 20px 16px; }
+    .container { padding: 20px 16px; }
+    .topnav-links { display: none; }
+    .topnav-search { width: 140px; }
+}
 """
+
+# SVG icon for the diagram logo
+LOGO_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><line x1="10" y1="6.5" x2="14" y2="6.5"/><line x1="6.5" y1="10" x2="6.5" y2="14"/></svg>'
 
 PAGE_HEADER = """<!DOCTYPE html>
 <html lang="en">
@@ -257,21 +411,57 @@ PAGE_HEADER = """<!DOCTYPE html>
 <style>{style}</style>
 </head>
 <body>
-<header>
-<div class="container">
-<h1><a href="{root}index.html">DrawIO Diagram Viewer</a></h1>
-<nav>
-<a href="{root}index.html">Spaces</a>
-<a href="{root}all.html">All Diagrams</a>
-<a href="{root}search.html">Search</a>
-</nav>
+<div class="topnav">
+  <a href="{root}index.html" class="topnav-logo">{logo} Diagrams</a>
+  <div class="topnav-links">
+    <a href="{root}index.html">Spaces</a>
+    <a href="{root}all.html">All Diagrams</a>
+    <a href="{root}search.html">Search</a>
+  </div>
+  <div class="topnav-right">
+    <input type="text" class="topnav-search" placeholder="Quick search..." onkeydown="if(event.key==='Enter')window.location.href='{root}search.html'">
+  </div>
 </div>
-</header>
 <main class="container">
 """
 
 PAGE_FOOTER = """
 </main>
+</body>
+</html>
+"""
+
+# Viewer pages use a different layout (sidebar + content)
+VIEWER_HEADER = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{title} — DrawIO Viewer</title>
+<style>{style}</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="index.html" class="topnav-logo">{logo} Diagrams</a>
+  <div class="topnav-links">
+    <a href="index.html">Spaces</a>
+    <a href="all.html">All Diagrams</a>
+    <a href="search.html">Search</a>
+  </div>
+  <div class="topnav-right">
+    <input type="text" class="topnav-search" placeholder="Quick search..." onkeydown="if(event.key==='Enter')window.location.href='search.html'">
+  </div>
+</div>
+<div class="layout">
+{sidebar}
+<div class="content">
+<div class="content-inner">
+"""
+
+VIEWER_FOOTER = """
+</div>
+</div>
+</div>
 </body>
 </html>
 """
@@ -282,20 +472,25 @@ def generate_index_page(spaces, total_count):
     space_cards = ""
     for space, diagrams in spaces.items():
         display_name = space if space != "_root" else "Top-level"
+        initial = display_name[0].upper()
         space_cards += f"""
 <div class="space-card">
   <a href="space_{quote(space)}.html">
+    <div class="space-icon">{_h(initial)}</div>
     <div class="space-name">{_h(display_name)}</div>
     <div class="space-count">{len(diagrams)} diagram{"s" if len(diagrams) != 1 else ""}</div>
   </a>
 </div>"""
 
-    return PAGE_HEADER.format(title="Home", style=STYLE, root="") + f"""
+    return PAGE_HEADER.format(title="Home", style=STYLE, root="", logo=LOGO_SVG) + f"""
+<div class="page-title">Diagram Spaces</div>
+<div class="page-meta">
+  <span class="page-meta-item">{total_count} diagrams across {len(spaces)} spaces</span>
+</div>
 <div class="stats">
   <div class="stat-box"><div class="stat-value">{total_count}</div><div class="stat-label">Total Diagrams</div></div>
   <div class="stat-box"><div class="stat-value">{len(spaces)}</div><div class="stat-label">Spaces</div></div>
 </div>
-<h2 style="color:#2c3e50;margin-bottom:18px;">Browse by Space</h2>
 <div class="space-grid">{space_cards}</div>
 """ + PAGE_FOOTER
 
@@ -311,39 +506,72 @@ def generate_space_page(space, diagrams, all_diagram_names):
             thumb = f'<img class="diagram-thumb" src="png/{quote(d["space"])}/{quote(d["name"])}.png" alt="{_h(d["name"])}">'
         else:
             thumb = f'<div class="diagram-thumb-placeholder">DrawIO Diagram</div>'
-
+        tab_info = ""
+        if d.get("tab_names"):
+            tab_info = f' &middot; {len(d["tab_names"])} tab{"s" if len(d["tab_names"]) != 1 else ""}'
         cards += f"""
 <div class="diagram-card">
   <a href="view_{quote(d["space"])}_{slug}.html">
     {thumb}
     <div class="diagram-card-body">
       <div class="diagram-card-title">{_h(d["name"])}</div>
-      <div class="diagram-card-meta">{_h(d["space"])}</div>
+      <div class="diagram-card-meta">{_h(d.get("modified", ""))}{tab_info}</div>
     </div>
   </a>
 </div>"""
 
-    return PAGE_HEADER.format(title=display_name, style=STYLE, root="") + f"""
+    return PAGE_HEADER.format(title=display_name, style=STYLE, root="", logo=LOGO_SVG) + f"""
 <div class="breadcrumb">
-  <a href="index.html">Home</a><span class="sep">/</span><strong>{_h(display_name)}</strong>
+  <a href="index.html">Spaces</a><span class="sep">/</span><strong>{_h(display_name)}</strong>
 </div>
-<h2 style="color:#2c3e50;margin-bottom:18px;">{_h(display_name)} — {len(diagrams)} diagrams</h2>
+<div class="page-title">{_h(display_name)}</div>
+<div class="page-meta">
+  <span class="page-meta-item">{len(diagrams)} diagram{"s" if len(diagrams) != 1 else ""}</span>
+</div>
 <div class="diagram-list">{cards}</div>
 """ + PAGE_FOOTER
 
 
-def generate_viewer_page(diagram, all_diagrams, prev_d=None, next_d=None):
+def _build_sidebar(space, space_diagrams, current_name):
+    """Build the sidebar HTML for a viewer page."""
+    display_space = space if space != "_root" else "Top-level"
+    initial = display_space[0].upper()
+
+    items = ""
+    for d in sorted(space_diagrams, key=lambda x: x["name"].lower()):
+        slug = _slug(d["name"])
+        active = " active" if d["name"] == current_name else ""
+        items += f'<a href="view_{quote(d["space"])}_{slug}.html" class="sidebar-item{active}" title="{_h(d["name"])}">{_h(d["name"])}</a>\n'
+
+    return f"""
+<div class="sidebar">
+  <div class="sidebar-header">
+    <span class="s-icon">{_h(initial)}</span>
+    <a href="space_{quote(space)}.html" style="color:inherit;text-decoration:none;">{_h(display_space)}</a>
+  </div>
+  <input type="text" class="sidebar-search" placeholder="Filter pages..."
+    oninput="var q=this.value.toLowerCase();document.querySelectorAll('.sidebar-item').forEach(function(el){{el.style.display=el.textContent.toLowerCase().indexOf(q)===-1?'none':'block';}});">
+  <div class="sidebar-section">
+    <div class="sidebar-section-title">Pages</div>
+    {items}
+  </div>
+</div>"""
+
+
+def generate_viewer_page(diagram, all_diagrams, spaces, prev_d=None, next_d=None):
     """Generate a single diagram viewer page with embedded diagrams.net viewer."""
     space = diagram["space"]
     name = diagram["name"]
     slug = _slug(name)
     xml_file = f"xml/{quote(space)}/{quote(name)}.drawio"
+    display_space = space if space != "_root" else "Top-level"
 
-    # Build clickthrough map for this diagram
+    # Build clickthrough map
     ct_map = {}
     for d in all_diagrams:
         ct_map[d["name"].lower()] = f"view_{quote(d['space'])}_{_slug(d['name'])}.html"
 
+    # Prev / next links
     prev_link = ""
     next_link = ""
     if prev_d:
@@ -351,12 +579,55 @@ def generate_viewer_page(diagram, all_diagrams, prev_d=None, next_d=None):
     if next_d:
         next_link = f'<a href="view_{quote(next_d["space"])}_{_slug(next_d["name"])}.html" class="tbtn">Next &#x2192;</a>'
 
-    return PAGE_HEADER.format(title=name, style=STYLE, root="") + f"""
+    # Sidebar with page tree for this space
+    space_diagrams = spaces.get(space, [])
+    sidebar_html = _build_sidebar(space, space_diagrams, name)
+
+    # Tab indicators (diagram pages/tabs within the .drawio file)
+    tab_html = ""
+    tab_names = diagram.get("tab_names", [])
+    if tab_names and len(tab_names) > 1:
+        tabs = ""
+        for i, tn in enumerate(tab_names):
+            active = " active" if i == 0 else ""
+            tabs += f'<span class="page-tab{active}">{_h(tn)}</span>'
+        tab_html = f'<div class="page-tabs">{tabs}</div>'
+
+    # Metadata
+    modified = diagram.get("modified", "")
+    modified_html = f'<span class="page-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>{_h(modified)}</span>' if modified else ""
+    tab_count = len(tab_names) if tab_names else 0
+    tab_count_html = f'<span class="page-meta-item">{tab_count} page{"s" if tab_count != 1 else ""}</span>' if tab_count else ""
+
+    # Page properties table
+    props_rows = f'<tr><td>Space</td><td><a href="space_{quote(space)}.html">{_h(display_space)}</a></td></tr>'
+    if modified:
+        props_rows += f'<tr><td>Modified</td><td>{_h(modified)}</td></tr>'
+    if tab_names:
+        props_rows += f'<tr><td>Pages</td><td>{", ".join(_h(t) for t in tab_names)}</td></tr>'
+    props_rows += f'<tr><td>Source</td><td><a href="{xml_file}" download>{_h(name)}.drawio</a></td></tr>'
+
+    # Text excerpt for body content
+    text_excerpt = diagram.get("text_content", "").strip()
+    text_html = ""
+    if text_excerpt:
+        text_html = f'<div style="margin-top:20px;padding:16px 0;border-top:1px solid #ebecf0;color:#42526e;font-size:0.9em;"><strong style="color:#6b778c;font-size:0.82em;text-transform:uppercase;letter-spacing:0.5px;display:block;margin-bottom:6px;">Extracted Content</strong>{_h(text_excerpt)}</div>'
+
+    return VIEWER_HEADER.format(title=name, style=STYLE, logo=LOGO_SVG, sidebar=sidebar_html) + f"""
 <div class="breadcrumb">
-  <a href="index.html">Home</a><span class="sep">/</span>
-  <a href="space_{quote(space)}.html">{_h(space)}</a><span class="sep">/</span>
+  <a href="index.html">Spaces</a><span class="sep">/</span>
+  <a href="space_{quote(space)}.html">{_h(display_space)}</a><span class="sep">/</span>
   <strong>{_h(name)}</strong>
 </div>
+
+<div class="page-title">{_h(name)}</div>
+<div class="page-meta">
+  <span class="page-meta-item"><span class="page-label">{_h(display_space)}</span></span>
+  {modified_html}
+  {tab_count_html}
+</div>
+
+{tab_html}
 
 <div class="viewer-wrap">
   <div class="viewer-toolbar">
@@ -366,32 +637,32 @@ def generate_viewer_page(diagram, all_diagrams, prev_d=None, next_d=None):
     </div>
     <div class="right">
       <a href="{xml_file}" download="{_h(name)}.drawio" class="tbtn tbtn-primary">Download .drawio</a>
-      <a href="space_{quote(space)}.html" class="tbtn">Back to space</a>
     </div>
   </div>
   <div id="viewer-canvas"></div>
-  <div class="viewer-info">
-    <h2>{_h(name)}</h2>
-    <div class="meta">Space: <a href="space_{quote(space)}.html">{_h(space)}</a></div>
-  </div>
 </div>
+
+<div class="page-properties">
+  <h3>Page Properties</h3>
+  <table>{props_rows}</table>
+</div>
+{text_html}
 
 <script>
 var CLICKTHROUGH = {json.dumps(ct_map)};
 
 function initViewer() {{
   var canvas = document.getElementById('viewer-canvas');
-  // Fetch the DrawIO XML and render with diagrams.net viewer
   fetch('{xml_file}')
     .then(function(r) {{ return r.text(); }})
     .then(function(xml) {{
       var div = document.createElement('div');
       div.className = 'mxgraph';
       div.setAttribute('data-mxgraph', JSON.stringify({{
-        highlight: '#0000ff', nav: false, resize: true,
-        toolbar: null, edit: null, xml: xml
+        highlight: '#0052cc', nav: true, resize: true,
+        toolbar: 'pages zoom', edit: null, xml: xml
       }}));
-      div.style.cssText = 'width:100%;min-height:65vh;';
+      div.style.cssText = 'width:100%;min-height:60vh;';
       canvas.appendChild(div);
 
       var s = document.createElement('script');
@@ -402,7 +673,7 @@ function initViewer() {{
       document.body.appendChild(s);
     }})
     .catch(function() {{
-      canvas.innerHTML = '<div style="padding:60px;text-align:center;color:#999;">Could not load diagram. <a href="' + '{xml_file}' + '" download>Download the .drawio file</a> and open in draw.io Desktop.</div>';
+      canvas.innerHTML = '<div style="padding:60px;text-align:center;color:#97a0af;">Could not load diagram. <a href="' + '{xml_file}' + '" download>Download the .drawio file</a> and open in draw.io Desktop.</div>';
     }});
 }}
 
@@ -448,7 +719,6 @@ function attachClickthrough(container) {{
   }});
 }}
 
-// Keyboard: left/right arrows for navigation
 document.addEventListener('keydown', function(e) {{
   if (e.target.tagName === 'INPUT') return;
   if (e.key === 'ArrowLeft') {{
@@ -460,7 +730,7 @@ document.addEventListener('keydown', function(e) {{
 
 document.addEventListener('DOMContentLoaded', initViewer);
 </script>
-""" + PAGE_FOOTER
+""" + VIEWER_FOOTER
 
 
 def generate_all_page(spaces, total_count):
@@ -481,14 +751,15 @@ def generate_all_page(spaces, total_count):
     {thumb}
     <div class="diagram-card-body">
       <div class="diagram-card-title">{_h(d["name"])}</div>
-      <div class="diagram-card-meta">{_h(d["space"])}</div>
+      <div class="diagram-card-meta">{_h(d["space"])}{" &middot; " + _h(d.get("modified","")) if d.get("modified") else ""}</div>
     </div>
   </a>
 </div>"""
 
-    return PAGE_HEADER.format(title="All Diagrams", style=STYLE, root="") + f"""
-<div class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><strong>All Diagrams</strong></div>
-<h2 style="color:#2c3e50;margin-bottom:18px;">All Diagrams ({total_count})</h2>
+    return PAGE_HEADER.format(title="All Diagrams", style=STYLE, root="", logo=LOGO_SVG) + f"""
+<div class="breadcrumb"><a href="index.html">Spaces</a><span class="sep">/</span><strong>All Diagrams</strong></div>
+<div class="page-title">All Diagrams</div>
+<div class="page-meta"><span class="page-meta-item">{total_count} diagrams</span></div>
 <div class="diagram-list">{cards}</div>
 """ + PAGE_FOOTER
 
@@ -506,9 +777,10 @@ def generate_search_page(diagrams):
             "url": f"view_{quote(d['space'])}_{slug}.html",
         })
 
-    return PAGE_HEADER.format(title="Search", style=STYLE, root="") + f"""
-<div class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><strong>Search</strong></div>
-<h2 style="color:#2c3e50;margin-bottom:18px;">Search Diagrams</h2>
+    return PAGE_HEADER.format(title="Search", style=STYLE, root="", logo=LOGO_SVG) + f"""
+<div class="breadcrumb"><a href="index.html">Spaces</a><span class="sep">/</span><strong>Search</strong></div>
+<div class="page-title">Search Diagrams</div>
+<div class="page-meta"><span class="page-meta-item">Search across all spaces and diagram content</span></div>
 <div class="search-box">
   <input type="text" id="search-input" placeholder="Search diagram names and content..." autofocus>
 </div>
@@ -621,7 +893,7 @@ def generate_static_site(diagrams_dir, output_dir):
         prev_d = all_flat[i - 1] if i > 0 else None
         next_d = all_flat[i + 1] if i < len(all_flat) - 1 else None
         slug = _slug(d["name"])
-        html = generate_viewer_page(d, diagrams, prev_d, next_d)
+        html = generate_viewer_page(d, diagrams, spaces, prev_d, next_d)
         (output / f"view_{d['space']}_{slug}.html").write_text(html, encoding="utf-8")
 
     print(f"  Generated {len(all_flat)} viewer pages")
