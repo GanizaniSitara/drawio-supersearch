@@ -558,7 +558,7 @@ def _build_sidebar(space, space_diagrams, current_name):
 </div>"""
 
 
-def generate_viewer_page(diagram, all_diagrams, spaces, prev_d=None, next_d=None):
+def generate_viewer_page(diagram, all_diagrams, spaces, prev_d=None, next_d=None, enrichment=None):
     """Generate a single diagram viewer page with embedded diagrams.net viewer."""
     space = diagram["space"]
     name = diagram["name"]
@@ -607,6 +607,27 @@ def generate_viewer_page(diagram, all_diagrams, spaces, prev_d=None, next_d=None
         props_rows += f'<tr><td>Pages</td><td>{", ".join(_h(t) for t in tab_names)}</td></tr>'
     props_rows += f'<tr><td>Source</td><td><a href="{xml_file}" download>{_h(name)}.drawio</a></td></tr>'
 
+    # Enrichment: about sections for C4 L1 applications
+    enrich_html = ""
+    if enrichment and enrichment.get("applications"):
+        apps_html = ""
+        for app in enrichment["applications"]:
+            about = app.get("about", "")
+            conf_link = ""
+            if app.get("confluence_url"):
+                conf_link = f' <a href="{_h(app["confluence_url"])}" target="_blank" style="font-size:0.82em;color:#0052cc;">View in Confluence &rarr;</a>'
+            c4_badge = ' <span class="page-label" style="background:#e3fcef;color:#006644;">C4</span>' if app.get("is_c4_shape") else ""
+            apps_html += f"""
+<div style="padding:12px 0;border-bottom:1px solid #ebecf0;">
+  <div style="font-weight:600;color:#172b4d;margin-bottom:4px;">{_h(app["name"])}{c4_badge}{conf_link}</div>
+  <div style="color:#42526e;font-size:0.9em;">{_h(about) if about else '<em style="color:#97a0af;">No description available</em>'}</div>
+</div>"""
+        enrich_html = f"""
+<div style="margin-top:24px;background:#f4f5f7;border:1px solid #ebecf0;border-radius:6px;padding:16px 20px;">
+  <h3 style="font-size:0.85em;color:#6b778c;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:6px;">Applications in this Diagram</h3>
+  {apps_html}
+</div>"""
+
     # Text excerpt for body content
     text_excerpt = diagram.get("text_content", "").strip()
     text_html = ""
@@ -646,6 +667,7 @@ def generate_viewer_page(diagram, all_diagrams, spaces, prev_d=None, next_d=None
   <h3>Page Properties</h3>
   <table>{props_rows}</table>
 </div>
+{enrich_html}
 {text_html}
 
 <script>
@@ -832,12 +854,18 @@ def _slug(name):
 # Static site generation
 # =============================================================================
 
-def generate_static_site(diagrams_dir, output_dir):
+def generate_static_site(diagrams_dir, output_dir, enrichments=None):
     """
     Generate a complete static site from a directory of .drawio files.
 
-    The output can be served by any static file server (nginx, python -m http.server, etc).
+    Args:
+        diagrams_dir: Path to directory of .drawio files
+        output_dir: Output directory for static site
+        enrichments: Optional dict from enrich.enrich_diagrams() — maps
+            diagram name -> {applications: [{name, about, confluence_url}]}
     """
+    if enrichments is None:
+        enrichments = {}
     print(f"Scanning {diagrams_dir} for .drawio files...")
     diagrams = scan_diagrams(diagrams_dir)
     print(f"Found {len(diagrams)} diagrams")
@@ -893,7 +921,9 @@ def generate_static_site(diagrams_dir, output_dir):
         prev_d = all_flat[i - 1] if i > 0 else None
         next_d = all_flat[i + 1] if i < len(all_flat) - 1 else None
         slug = _slug(d["name"])
-        html = generate_viewer_page(d, diagrams, spaces, prev_d, next_d)
+        diagram_enrichment = enrichments.get(d["name"])
+        html = generate_viewer_page(d, diagrams, spaces, prev_d, next_d,
+                                    enrichment=diagram_enrichment)
         (output / f"view_{d['space']}_{slug}.html").write_text(html, encoding="utf-8")
 
     print(f"  Generated {len(all_flat)} viewer pages")
@@ -927,12 +957,12 @@ class DiagramHandler(SimpleHTTPRequestHandler):
             super().log_message(format, *args)
 
 
-def run_server(diagrams_dir, port=8080, host="0.0.0.0"):
+def run_server(diagrams_dir, port=8080, host="0.0.0.0", enrichments=None):
     """Generate site and start a live dev server."""
     import tempfile
 
     site_dir = tempfile.mkdtemp(prefix="drawio-server-")
-    generate_static_site(diagrams_dir, site_dir)
+    generate_static_site(diagrams_dir, site_dir, enrichments=enrichments)
 
     print(f"\nStarting server at http://localhost:{port}")
     print("Press Ctrl+C to stop\n")
@@ -979,6 +1009,26 @@ def main():
         "--output", "-o", default="./drawio-site",
         help="Output directory for static generation (default: ./drawio-site)",
     )
+    parser.add_argument(
+        "--enrich", action="store_true",
+        help="Enrich C4 diagrams with Confluence page descriptions (uses settings.ini)",
+    )
+    parser.add_argument(
+        "--confluence-url",
+        help="Confluence base URL for enrichment (overrides settings.ini)",
+    )
+    parser.add_argument(
+        "--confluence-user",
+        help="Confluence username for enrichment (overrides settings.ini)",
+    )
+    parser.add_argument(
+        "--confluence-pass",
+        help="Confluence password for enrichment (overrides settings.ini)",
+    )
+    parser.add_argument(
+        "--confluence-token",
+        help="Confluence API token for Cloud (alternative to user/pass)",
+    )
 
     args = parser.parse_args()
 
@@ -986,10 +1036,30 @@ def main():
         print(f"Error: {args.diagrams_dir} is not a directory")
         sys.exit(1)
 
+    # Run enrichment if requested
+    enrichments = {}
+    if args.enrich or args.confluence_url:
+        from enrich import enrich_diagrams, enrich_from_settings, scan_diagrams as _scan
+        diagrams = scan_diagrams(args.diagrams_dir)
+        if args.confluence_url:
+            enrichments = enrich_diagrams(
+                diagrams,
+                confluence_url=args.confluence_url,
+                username=args.confluence_user,
+                password=args.confluence_pass,
+                token=args.confluence_token,
+            )
+        else:
+            enrichments = enrich_from_settings(diagrams)
+
+        if enrichments:
+            print(f"Enriched {len(enrichments)} diagrams with Confluence content")
+
     if args.generate_static:
-        generate_static_site(args.diagrams_dir, args.output)
+        generate_static_site(args.diagrams_dir, args.output, enrichments=enrichments)
     else:
-        run_server(args.diagrams_dir, port=args.port, host=args.host)
+        run_server(args.diagrams_dir, port=args.port, host=args.host,
+                   enrichments=enrichments)
 
 
 if __name__ == "__main__":
