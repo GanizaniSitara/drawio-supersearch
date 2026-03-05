@@ -225,6 +225,63 @@ Lucidchart embeds can be tricky (iframes, dynamic loading, zoom issues). Use deb
 
 If diagrams aren't being captured correctly, the debug HTML files will show the actual DOM structure so you can tune the selectors.
 
+## DrawIO Diagram Server (Standalone Viewer)
+
+A separate, self-contained static site generator in `drawio-server/` that produces a **Confluence-like browsable site** from a folder of `.drawio` files. No database, no indexing — just point at a directory and go. Great for demoing DrawIO adoption or hosting an internal diagram portal.
+
+### Quick Start
+
+```bash
+# Live dev server — point at any folder of .drawio files
+python drawio-server/serve.py /path/to/diagrams
+
+# Generate a static site you can host anywhere
+python drawio-server/serve.py /path/to/diagrams --generate-static -o ./site
+
+# Then serve with anything: nginx, S3, GitHub Pages, etc.
+python -m http.server -d ./site 8080
+```
+
+### Features
+
+- **Confluence-style UI** — top nav, sidebar page tree, breadcrumbs, page metadata, page properties panel
+- **Interactive diagrams** — live rendering via diagrams.net viewer (zoom, pan, multi-page)
+- **Clickthrough navigation** — click a shape whose label matches another diagram name to navigate to it
+- **Client-side search** — search across all diagram names and extracted text content
+- **Space grouping** — subdirectories become "spaces" (like Confluence spaces)
+- **Zero runtime deps** — pure stdlib Python; generated HTML works with any static file server
+
+### Confluence Enrichment (C4 Diagrams)
+
+For diagrams that look like C4 Level 1 (System Context) architectures, the server can optionally pull application descriptions from Confluence and display them as "about" sections on each viewer page.
+
+```bash
+# Enrich using settings.ini credentials
+python drawio-server/serve.py /path/to/diagrams --enrich
+
+# Enrich with explicit Confluence URL
+python drawio-server/serve.py /path/to/diagrams \
+  --confluence-url https://confluence.example.com \
+  --confluence-user admin --confluence-pass secret
+
+# Cloud (API token)
+python drawio-server/serve.py /path/to/diagrams \
+  --confluence-url https://yoursite.atlassian.net \
+  --confluence-token your-api-token
+
+# Just detect C4 diagrams without calling Confluence
+python drawio-server/enrich.py /path/to/diagrams --detect-only
+```
+
+**How it works:**
+1. Scans diagrams for C4 L1 indicators (filename patterns like `system-context`, `architecture-overview`, or keyword density in shape text)
+2. Extracts application/system names from diagram shapes (vertex boxes, C4-styled shapes)
+3. Searches Confluence for pages matching each application name (CQL title search)
+4. Synthesizes a 1-3 sentence "about" blurb from the Confluence page body
+5. Renders an "Applications in this Diagram" panel on the viewer page with name, about text, C4 badge, and link back to Confluence
+
+See [`drawio-server/README.md`](drawio-server/README.md) for full documentation.
+
 ## Security Notes
 
 - Store Confluence credentials securely (consider environment variables for production)
